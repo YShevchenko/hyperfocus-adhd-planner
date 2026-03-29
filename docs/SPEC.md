@@ -4223,3 +4223,1137 @@ This tier structure is intentionally built to preserve emotional trust.
 Free proves the product promise.
 
 Premium expands capacity, foresight, personalization, and support.
+
+## 5. Screen-by-Screen: Onboarding Flow
+
+### 5.1 Purpose of the Onboarding Flow
+
+The onboarding flow introduces the product gently, establishes emotional safety immediately, and creates enough personalization for the planner to feel useful on day one.
+
+This flow must not feel like setup homework.
+
+It must not feel clinical, bureaucratic, or over-explanatory.
+
+It must feel:
+
+- warm
+- fast
+- clear
+- forgiving
+- lightly playful
+- emotionally intelligent
+- grounded in real ADHD experience
+
+The onboarding flow has five jobs:
+
+1. Explain that this planner works differently from traditional productivity apps.
+2. Reduce fear that the app will become another source of shame.
+3. Learn the user’s broad energy patterns and planning style.
+4. Configure a minimal personalized starting experience.
+5. Get the user to a meaningful first win quickly.
+
+Onboarding is not a one-time data collection exercise.
+
+It is a trust-building experience.
+
+The user should leave onboarding with the feeling:
+
+This app understands how my brain actually works.
+
+The user should not leave onboarding feeling:
+
+- evaluated
+- diagnosed
+- scored
+- pressured to optimize
+- guilty about their habits
+- uncertain about what happens next
+
+### 5.2 Onboarding Design Principles
+
+The onboarding flow must reflect the product philosophy, not merely describe it.
+
+#### 5.2.1 Gentle, Not Passive
+
+The tone should be kind without becoming vague.
+
+The app should guide clearly.
+
+Every screen should make the next action obvious.
+
+The user should rarely face more than one primary decision at a time.
+
+#### 5.2.2 Short Cognitive Steps
+
+Each screen should ask for one concept only.
+
+Complexity must be chunked into small interactions.
+
+No screen should contain dense paragraphs, long forms, or multiple competing calls to action.
+
+#### 5.2.3 “Good Enough” Personalization
+
+The onboarding flow should collect enough information to personalize the app meaningfully without pretending to generate a perfect system.
+
+The app should communicate that the setup can evolve.
+
+Nothing in onboarding should feel permanent or high-stakes.
+
+#### 5.2.4 Emotional Safety Before Feature Depth
+
+Before explaining advanced features, the onboarding must establish:
+
+- missed tasks are handled gently
+- energy matters
+- starting counts
+- the user can change their mind later
+
+This emotional framing is more important than feature completeness during onboarding.
+
+#### 5.2.5 Momentum Over Exhaustiveness
+
+The flow should aim for completion in approximately 2 to 4 minutes for most users.
+
+Optional detail should be progressively disclosed.
+
+If a choice is not necessary for first-use success, it should be deferred.
+
+#### 5.2.6 Visually Regulating
+
+The onboarding visual system should reduce activation rather than create hype.
+
+Transitions should feel soft and purposeful.
+
+Motion should reinforce continuity and reward, not distract.
+
+The first-time experience should feel like entering a calmer, more supportive environment than the user’s prior apps.
+
+### 5.3 Onboarding Flow Overview
+
+The onboarding flow is composed of the following screens:
+
+1. Welcome
+2. Product Promise
+3. Energy Pattern Quiz Introduction
+4. Energy Pattern Quiz: Morning
+5. Energy Pattern Quiz: Midday
+6. Energy Pattern Quiz: Evening
+7. Energy Pattern Quiz: Friction Triggers
+8. Energy Pattern Quiz: Best-Case Support Style
+9. Personalization Summary
+10. Notification Preferences
+11. First Planning Setup
+12. First Task Prompt
+13. Success Bridge Into Home
+
+This flow may be shortened adaptively for users who select quick setup.
+
+In quick setup mode, the app may compress the quiz into fewer combined screens while preserving the same conceptual steps.
+
+The default recommended path is the standard flow because it better establishes trust and difference.
+
+### 5.4 Entry Conditions
+
+The onboarding flow begins when the user opens the app for the first time after installation.
+
+The user must not be required to create an account before experiencing the core tone and setup.
+
+If authentication or backup is introduced later in the product roadmap, it must not block first-use onboarding.
+
+The user should be able to exit the app mid-onboarding and resume from the last completed step.
+
+Progress should be autosaved after every screen transition.
+
+The user should also be able to skip non-critical screens where appropriate.
+
+If skipped, the product should use safe defaults and surface gentle opportunities to refine preferences later.
+
+### 5.5 Screen 1: Welcome
+
+#### 5.5.1 Goal
+
+The first screen should lower defenses immediately.
+
+Its goal is not to impress with features.
+
+Its goal is to signal:
+
+This is not another app that will punish you for being human.
+
+#### 5.5.2 Core Message
+
+The welcome screen should introduce the app as a planner built specifically for ADHD brains.
+
+The message should be concise.
+
+Suggested content direction:
+
+- this planner is designed for ADHD
+- plans can change here
+- you do not need to be consistent to use it
+
+The copy should feel confident and plainspoken.
+
+It should not feel overly therapeutic or childish.
+
+#### 5.5.3 Layout
+
+The screen should contain:
+
+- app mark or calming hero illustration
+- short headline
+- one to three short support lines
+- primary action button
+- secondary text action for quick setup or skip if included
+
+The layout should be vertically centered or slightly top-weighted, with generous spacing.
+
+The screen must not feel crowded.
+
+#### 5.5.4 Visual Direction
+
+The hero visual should imply calm support and momentum.
+
+Examples of acceptable motifs:
+
+- soft time blocks
+- gently stacked cards
+- rounded pathways
+- abstract motion cues suggesting flow
+
+The visual should not use:
+
+- alarms
+- warning symbols
+- pressure metaphors
+- business-productivity clichés
+
+#### 5.5.5 Primary Action
+
+Primary CTA:
+
+`Set up my planner`
+
+Optional secondary CTA:
+
+`Quick setup`
+
+If quick setup is offered, it should not feel like the smarter or more efficient choice.
+
+It should simply be available for low-capacity users.
+
+#### 5.5.6 Emotional Outcome
+
+The user should feel:
+
+- seen
+- not judged
+- willing to continue
+
+### 5.6 Screen 2: Product Promise
+
+#### 5.6.1 Goal
+
+This screen establishes the core behavioral difference from traditional planners.
+
+It should convert curiosity into trust.
+
+#### 5.6.2 Core Message
+
+The screen should introduce three short promises:
+
+- missed tasks reschedule instead of turning into a guilt pile
+- starting counts as progress
+- your energy matters when planning
+
+These should be presented as simple cards, steps, or short statements.
+
+The point is not feature education.
+
+The point is emotional differentiation.
+
+#### 5.6.3 Interaction Pattern
+
+The user may tap through horizontally arranged cards or vertically stacked mini-panels.
+
+Each promise should feel skimmable in under two seconds.
+
+There should be one primary CTA at the bottom:
+
+`That sounds better`
+
+Alternative acceptable CTA:
+
+`Continue`
+
+#### 5.6.4 Microcopy Tone
+
+The voice should be warm and direct.
+
+Examples of tone qualities:
+
+- practical
+- validating
+- lightly optimistic
+- never exaggerated
+
+The app should avoid claims that imply cure, transformation, or universal success.
+
+#### 5.6.5 Emotional Outcome
+
+The user should think:
+
+This app is built around how I struggle, not around what I fail to do.
+
+### 5.7 Screen 3: Energy Pattern Quiz Introduction
+
+#### 5.7.1 Goal
+
+This screen introduces the energy pattern quiz in a way that feels helpful rather than diagnostic.
+
+#### 5.7.2 Core Message
+
+The app should explain that planning by time alone often fails for ADHD users because energy changes throughout the day.
+
+The quiz exists to help the app suggest better moments for different kinds of tasks.
+
+The copy should make clear:
+
+- there are no right answers
+- this is a starting point
+- the user can change these settings later
+
+#### 5.7.3 Layout
+
+The screen should contain:
+
+- short headline
+- 2 to 3 lines of explanation
+- small illustration or energy-band visual
+- progress indicator showing that the user is still early in the flow
+- primary CTA
+
+Recommended CTA:
+
+`Let’s map your energy`
+
+#### 5.7.4 Tone Requirements
+
+This screen must avoid sounding like a personality test.
+
+It should not imply the user must know themselves perfectly.
+
+It should explicitly reduce pressure by framing answers as approximate.
+
+#### 5.7.5 Emotional Outcome
+
+The user should feel safe answering imperfectly.
+
+### 5.8 Screen 4: Energy Pattern Quiz - Morning
+
+#### 5.8.1 Goal
+
+Capture the user’s typical morning energy and functional capacity.
+
+#### 5.8.2 Question Focus
+
+This screen asks:
+
+How do mornings usually feel for you?
+
+The wording should emphasize “usually” and “roughly.”
+
+The app should not ask for exact times or force a rigid routine.
+
+#### 5.8.3 Answer Model
+
+Recommended answer format:
+
+- card-based single selection
+- each card includes a label, a short description, and an energy icon or visual cue
+
+Example answer archetypes:
+
+- `Ready early`
+- `Slow start`
+- `Unpredictable`
+- `Low until later`
+
+The exact labels may vary, but they must be plain-language and non-judgmental.
+
+#### 5.8.4 Optional Detail
+
+An optional link may allow:
+
+`Add a usual time range`
+
+This must be optional and collapsed by default.
+
+#### 5.8.5 Adaptive Logic
+
+Based on the selection, the app begins constructing provisional morning energy slots:
+
+- high
+- medium
+- low
+- variable
+
+These are internal scaffolds for later planning suggestions.
+
+The app should not expose complexity at this stage.
+
+#### 5.8.6 UI Notes
+
+The screen should show:
+
+- question
+- four large answer cards
+- back control
+- progress indicator
+- primary continue action enabled after selection
+
+The tap targets must be generous.
+
+Selected state should use warm highlighting and subtle haptic feedback.
+
+#### 5.8.7 Emotional Outcome
+
+The user should feel:
+
+- understood
+- not analyzed
+- able to answer quickly
+
+### 5.9 Screen 5: Energy Pattern Quiz - Midday
+
+#### 5.9.1 Goal
+
+Capture how the user’s energy tends to behave during the middle of the day.
+
+#### 5.9.2 Question Focus
+
+This screen asks how midday usually feels in terms of focus, mental clarity, and task initiation.
+
+The question should recognize that midday can be:
+
+- productive
+- chaotic
+- sleepy
+- dependent on context
+
+#### 5.9.3 Answer Model
+
+Use the same answer format as the morning screen for consistency.
+
+Possible answer directions:
+
+- `Usually my best focus`
+- `Okay if I already started`
+- `Drained or distracted`
+- `Depends on what’s happening`
+
+Answers should map internally to energy confidence and scheduling flexibility.
+
+#### 5.9.4 Supporting Copy
+
+Optional subtext can clarify:
+
+We use this to suggest when heavier tasks may feel easier.
+
+This should remain secondary and unobtrusive.
+
+#### 5.9.5 Interaction Notes
+
+The selected answer should animate subtly into place.
+
+The continue action should preserve momentum.
+
+The screen transition should feel fast enough to avoid drag but soft enough to feel intentional.
+
+#### 5.9.6 Emotional Outcome
+
+The user should feel that variable energy is treated as normal data, not inconsistency.
+
+### 5.10 Screen 6: Energy Pattern Quiz - Evening
+
+#### 5.10.1 Goal
+
+Capture the user’s evening profile and uncover whether evenings are useful for planning, admin, creativity, recovery, or low-demand tasks.
+
+#### 5.10.2 Question Focus
+
+This screen asks:
+
+What do evenings tend to be good for?
+
+This framing is important.
+
+It is better than asking whether evenings are “productive.”
+
+The wording avoids a deficit frame.
+
+#### 5.10.3 Answer Model
+
+This screen may use either:
+
+- single-select cards, or
+- multi-select chips with one recommended primary choice
+
+Preferred options include:
+
+- `Planning and reset`
+- `Creative energy`
+- `Simple tasks only`
+- `Mostly recovery time`
+- `All over the place`
+
+#### 5.10.4 Product Implication
+
+Evening selections help the planner determine:
+
+- whether evening planning prompts are appropriate
+- whether low-effort suggestions should appear later in the day
+- whether reflective end-of-day interactions should be minimized
+
+#### 5.10.5 UX Notes
+
+The visual design should continue the same rhythm as prior quiz screens to reduce cognitive switching.
+
+The question should fit on one screen without scrolling on most devices.
+
+#### 5.10.6 Emotional Outcome
+
+The user should feel that rest is a valid answer.
+
+### 5.11 Screen 7: Energy Pattern Quiz - Friction Triggers
+
+#### 5.11.1 Goal
+
+Identify what most commonly stops the user from starting tasks.
+
+This is crucial because the product is designed around initiation, not only organization.
+
+#### 5.11.2 Question Focus
+
+The screen asks:
+
+What most often gets in the way when you want to start?
+
+This should be framed as a multi-select question.
+
+The user should be allowed to choose up to three common blockers.
+
+#### 5.11.3 Suggested Answer Set
+
+The options should include:
+
+- `I don’t know where to begin`
+- `The task feels too big`
+- `I forget once something interrupts me`
+- `I have energy, but not for the right kind of task`
+- `I avoid it if I already feel behind`
+- `I need more urgency or external structure`
+- `I get stuck switching between tasks`
+- `My day changes unexpectedly`
+
+Answer labels should be compact and emotionally literate.
+
+They should feel familiar rather than clinical.
+
+#### 5.11.4 Why This Matters
+
+These inputs should influence:
+
+- suggested task breakdown prompts
+- reminder tone
+- focus timer defaults
+- body doubling recommendations
+- reschedule messaging
+
+#### 5.11.5 UI Pattern
+
+Use large pill cards or rounded chips with clear selected states.
+
+A short helper line may say:
+
+Pick the ones that feel most true lately.
+
+The word “lately” reduces pressure to define identity permanently.
+
+#### 5.11.6 Emotional Outcome
+
+The user should feel accurately described without feeling reduced to symptoms.
+
+### 5.12 Screen 8: Energy Pattern Quiz - Best-Case Support Style
+
+#### 5.12.1 Goal
+
+Learn what kind of support the user prefers from the app so the product can adapt its interaction style.
+
+#### 5.12.2 Question Focus
+
+The screen asks:
+
+When you’re stuck, what kind of help usually works best?
+
+This is a high-value personalization point because ADHD users often differ sharply in what support feels useful versus irritating.
+
+#### 5.12.3 Answer Model
+
+This should be a single-select question with a clear “change later” note.
+
+Recommended options:
+
+- `Show me one tiny next step`
+- `Help me choose based on my energy`
+- `Give me a gentle nudge to begin`
+- `Start a timer with me`
+- `Keep it simple and quiet`
+
+These answer types can later influence default CTAs, suggestion modules, and nudging tone.
+
+#### 5.12.4 Personalization Impact
+
+Examples:
+
+- one tiny next step preference may prioritize task chunking prompts
+- energy-based preference may foreground energy suggestions in the home view
+- gentle nudge preference may increase reminder warmth and initiation prompts
+- timer preference may place focus actions more prominently
+- quiet preference may reduce motion, haptics, and coaching copy density
+
+#### 5.12.5 Emotional Outcome
+
+The user should feel that the app is adapting to them, not asking them to adapt to the app.
+
+### 5.13 Screen 9: Personalization Summary
+
+#### 5.13.1 Goal
+
+Reflect the user’s answers back in a reassuring, non-creepy way and confirm that the app has built an initial support profile.
+
+#### 5.13.2 Core Message
+
+This screen summarizes what the app learned.
+
+The summary should be short, readable, and human.
+
+It should not read like an assessment report.
+
+Example summary structure:
+
+- mornings may be slower
+- midday may be your best focus window
+- evenings may work better for reset or lighter tasks
+- starting is often hardest when tasks feel too big
+
+The copy should use soft qualifiers:
+
+- may
+- often
+- tends to
+- looks like
+
+#### 5.13.3 Personalization Framing
+
+Below the summary, the app should briefly explain how this will help:
+
+- suggest better task timing
+- keep planning realistic
+- support easier starts
+
+This is the moment where the value of the quiz becomes concrete.
+
+#### 5.13.4 Controls
+
+The user should be able to:
+
+- continue
+- edit answers
+
+The edit option should be visible but secondary.
+
+#### 5.13.5 Visual Design
+
+The summary may appear as a stack of rounded cards or a single warm summary panel.
+
+It should feel affirming and legible.
+
+It must not resemble a performance dashboard.
+
+#### 5.13.6 Emotional Outcome
+
+The user should feel:
+
+- accurately mirrored
+- gently supported
+- ready to move into use
+
+### 5.14 Screen 10: Notification Preferences
+
+#### 5.14.1 Goal
+
+Set expectations around reminders while preserving autonomy and avoiding early overload.
+
+#### 5.14.2 Position in Flow
+
+Notifications should be requested only after the app has already earned some trust.
+
+They should not appear as the first system permission prompt in onboarding.
+
+The product must explain the value before triggering OS permission dialogs.
+
+#### 5.14.3 Core Message
+
+The screen should frame reminders as support for re-entry and time awareness, not enforcement.
+
+Suggested message direction:
+
+- reminders can help you re-find your day
+- you can have more than one reminder
+- reminders can be gentle and adjustable
+
+#### 5.14.4 User Choices
+
+The user should be able to choose one of the following:
+
+- `Yes, help me remember`
+- `Not now`
+
+If the user opts in, a secondary preference chooser may appear before the system prompt:
+
+- gentle reminders only
+- a few nudges if I still haven’t started
+
+This secondary choice should remain simple.
+
+#### 5.14.5 System Permission Timing
+
+Only after the user expresses interest should the OS notification permission prompt appear.
+
+If permission is denied, the app should continue gracefully without guilt-framed messaging.
+
+#### 5.14.6 Emotional Outcome
+
+The user should feel in control of how much prompting they receive.
+
+### 5.15 Screen 11: First Planning Setup
+
+#### 5.15.1 Goal
+
+Configure a minimal initial planner state so the home experience feels immediately oriented rather than empty.
+
+#### 5.15.2 Core Question
+
+This screen should ask a lightweight version of:
+
+What would help most today?
+
+This is preferable to asking the user to build categories, projects, labels, or a weekly system during onboarding.
+
+#### 5.15.3 Answer Model
+
+Recommended options:
+
+- `See just today`
+- `Get help starting tasks`
+- `Plan around my energy`
+- `Keep things very simple`
+
+This choice can influence which module is emphasized on the initial home screen.
+
+#### 5.15.4 Why This Matters
+
+The first in-app state must feel curated rather than generic.
+
+Even small adaptation improves first-session trust.
+
+#### 5.15.5 UI Notes
+
+This screen should be visually lighter than the quiz screens.
+
+By this point, the user should feel like onboarding is concluding.
+
+The pacing should accelerate slightly.
+
+#### 5.15.6 Emotional Outcome
+
+The user should feel that the app is preparing a landing space for them personally.
+
+### 5.16 Screen 12: First Task Prompt
+
+#### 5.16.1 Goal
+
+Convert onboarding from abstract setup into immediate usefulness by helping the user add one task.
+
+This is the most important action in the flow.
+
+Without a first task, the app risks ending onboarding with a polished but empty experience.
+
+#### 5.16.2 Positioning
+
+The screen should frame task creation as low pressure.
+
+The app should explicitly suggest something small.
+
+Suggested framing:
+
+Add one thing you’d feel good getting support with today.
+
+Alternative copy direction:
+
+Start with something real, small, or annoying.
+
+#### 5.16.3 Input Model
+
+The task entry should be friction-light.
+
+Default input should allow:
+
+- task title
+- optional time of day or energy fit
+
+Advanced metadata must remain hidden by default.
+
+The user should not be asked for:
+
+- priority matrix
+- tags
+- subtask structure
+- project assignment
+- exact due dates beyond what is necessary
+
+#### 5.16.4 Smart Prompting
+
+The app may provide one-tap examples if the field is empty, such as:
+
+- email that person back
+- refill prescription
+- fold one load of laundry
+- review tomorrow’s plan
+
+Examples should feel like realistic adult ADHD life tasks, not generic demo data.
+
+#### 5.16.5 Energy Guidance
+
+If the user completed the energy quiz, the app may offer a subtle suggestion:
+
+- good for a high-energy slot
+- better for a lower-energy moment
+- works anytime
+
+This suggestion should be optional and editable.
+
+#### 5.16.6 Start-Celebration Introduction
+
+After task creation, the product may introduce the idea that starting counts.
+
+A brief line can explain:
+
+When you start a task here, we celebrate that too.
+
+This should be delivered lightly.
+
+It should not interrupt completion of onboarding.
+
+#### 5.16.7 Emotional Outcome
+
+The user should feel immediate usefulness and a small sense of momentum.
+
+### 5.17 Screen 13: Success Bridge Into Home
+
+#### 5.17.1 Goal
+
+Transition the user out of onboarding and into the live product with orientation, encouragement, and zero ambiguity.
+
+#### 5.17.2 Core Message
+
+This screen should affirm that setup is complete and explain what the user will see next.
+
+The message should include:
+
+- the planner is ready
+- today view is waiting
+- the user can change preferences anytime
+
+#### 5.17.3 Suggested UI Elements
+
+The success bridge may include:
+
+- short celebratory headline
+- one-line recap of personalization
+- visual preview of the home screen
+- primary CTA
+
+Recommended CTA:
+
+`Open my day`
+
+#### 5.17.4 Celebration Style
+
+The celebration should be warm and restrained.
+
+Acceptable signals:
+
+- brief confetti burst
+- soft glow
+- satisfying haptic pulse
+
+This should feel rewarding, not noisy.
+
+The emotional message is:
+
+You started.
+
+That matters.
+
+#### 5.17.5 Emotional Outcome
+
+The user should feel:
+
+- complete
+- oriented
+- encouraged
+- ready to act
+
+### 5.18 Progress Indicators and Flow Mechanics
+
+#### 5.18.1 Progress Visibility
+
+The onboarding flow should show progress throughout, but not in a way that creates pressure.
+
+Preferred formats:
+
+- soft segmented progress bar
+- step dots with current position
+- “Step X of Y” only if the total remains modest
+
+The progress indicator should reassure the user that the flow is finite.
+
+It should not dominate the screen.
+
+#### 5.18.2 Back Navigation
+
+Users should be able to go back to the previous step without losing prior answers.
+
+Back navigation must feel safe.
+
+It should not trigger discard confirmations unless user-entered content would actually be lost.
+
+#### 5.18.3 Skip Logic
+
+The app may allow skipping on:
+
+- notification preferences
+- first task creation
+- optional time-range detail
+
+The app should not encourage skipping the entire quiz by default, but it may offer quick setup for low-capacity users.
+
+#### 5.18.4 Autosave
+
+Every answer should save immediately or on transition.
+
+If the app is closed during onboarding, the user should resume near the exact point they left.
+
+#### 5.18.5 Error Handling
+
+Onboarding should have almost no opportunities for hard failure.
+
+If a save issue occurs, the app should:
+
+- retry quietly
+- keep the user’s answer visible
+- show a plain-language recovery message only if needed
+
+The tone must remain calm and non-technical.
+
+### 5.19 Personalization Outputs Created by Onboarding
+
+By the end of onboarding, the system should create an initial personalization profile containing:
+
+- broad morning energy preference
+- broad midday energy preference
+- broad evening energy preference
+- common initiation blockers
+- preferred support style
+- notification preference
+- initial home emphasis
+
+This profile should be intentionally lightweight.
+
+It is a starting scaffold, not a diagnosis or prediction engine.
+
+The system should use it to influence:
+
+- task suggestion timing
+- home screen emphasis
+- focus timer presentation
+- reminder tone
+- first-run copy variants
+
+### 5.20 Copywriting Requirements for the Onboarding Flow
+
+The onboarding copy must consistently follow these rules.
+
+#### 5.20.1 Use Approximate Language
+
+Preferred terms:
+
+- usually
+- often
+- tends to
+- lately
+- roughly
+
+Avoid rigid terms:
+
+- always
+- never
+- should
+- must
+
+#### 5.20.2 Validate Without Infantilizing
+
+The app should sound emotionally intelligent, not cute for its own sake.
+
+It should avoid:
+
+- exaggerated cheerfulness
+- therapy clichés
+- patronizing praise
+- school-like reward language
+
+#### 5.20.3 Keep Sentences Short
+
+The onboarding flow should be highly scannable.
+
+Most lines should be readable at a glance.
+
+Dense paragraph blocks should be avoided.
+
+#### 5.20.4 Avoid Shame Triggers
+
+Do not use copy that implies:
+
+- the user lacks discipline
+- the user has been doing productivity wrong
+- the user is behind
+- the app will fix them
+
+#### 5.20.5 Focus on Support, Not Optimization
+
+The app should frame personalization as support for easier action, not as life hacking.
+
+### 5.21 Accessibility Considerations Within Onboarding
+
+Because onboarding establishes the first trust relationship, accessibility requirements are especially important here.
+
+The flow should support users who are:
+
+- distracted
+- fatigued
+- overwhelmed
+- sensory-sensitive
+- using larger text
+- using screen readers
+- using one hand
+- beginning setup in a noisy or interrupted environment
+
+Specific onboarding accessibility needs include:
+
+- large touch targets for all answer cards
+- clear visual selected states beyond color alone
+- low reading burden per screen
+- support for dynamic type without broken layouts
+- motion that can be reduced or disabled
+- logical screen reader order
+- plain labels for all controls
+- sufficient contrast using warm, non-threatening color choices
+
+The onboarding flow must not rely on subtle visual cues alone to communicate choice or progress.
+
+### 5.22 ADHD-Specific UX Risks in Onboarding
+
+#### 5.22.1 Risk: Onboarding Feels Like Another Test to Fail
+
+If the quiz tone becomes diagnostic, the user may disengage.
+
+Mitigation:
+
+- emphasize no right answers
+- use approximate wording
+- keep the quiz short
+- reflect answers back supportively
+
+#### 5.22.2 Risk: Too Much Setup Before Usefulness
+
+If the user spends too long configuring preferences before seeing the planner, momentum drops.
+
+Mitigation:
+
+- defer non-essential settings
+- keep advanced options hidden
+- require only lightweight personalization
+- get to first task creation quickly
+
+#### 5.22.3 Risk: Tone Becomes Overly Gentle and Vague
+
+If the app avoids specificity, it may feel insubstantial or condescending.
+
+Mitigation:
+
+- use clear practical language
+- explain why questions matter
+- give concrete outcomes from quiz answers
+
+#### 5.22.4 Risk: Personalization Feels Prescriptive
+
+If the app presents quiz results as fixed truths, the user may feel misread or boxed in.
+
+Mitigation:
+
+- use soft qualifiers
+- allow easy editing
+- present outputs as starting assumptions
+
+#### 5.22.5 Risk: First Task Creation Feels Like Work
+
+If task entry is too complex, the onboarding loses the user at the exact moment it should produce a win.
+
+Mitigation:
+
+- keep the form extremely lightweight
+- provide examples
+- hide advanced controls
+
+### 5.23 Success Criteria for the Onboarding Flow
+
+The onboarding flow is successful when it produces the following outcomes:
+
+- users understand that the app is different from shame-based productivity tools
+- users complete setup without feeling drained
+- users provide enough energy and support preferences for meaningful personalization
+- users reach the home screen with at least one helpful orientation cue
+- users ideally create their first task during onboarding
+- users feel safe returning even if they stop midway
+
+The emotional success metric is as important as the completion metric.
+
+The user should reach the home screen feeling lighter than when they entered.
+
+### 5.24 Section Summary
+
+The onboarding flow is not a generic intro sequence.
+
+It is the first proof that the product is genuinely ADHD-native.
+
+Screen by screen, it must communicate:
+
+- this planner does not punish missed intentions
+- energy is a valid planning input
+- starting matters
+- personalization is flexible
+- support can be gentle and practical at the same time
+
+The onboarding experience should leave the user with a customized but low-pressure setup, one concrete first step, and a strong early impression that this app was built for their real life rather than an idealized version of it.
