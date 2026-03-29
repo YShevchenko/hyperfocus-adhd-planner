@@ -3109,3 +3109,1117 @@ Not a generic planner with softer branding.
 Not a supportive app without planner depth.
 
 A fundamentally different planning system that helps ADHD users begin, adapt, and return.
+
+## 4. Feature Set Overview and Free vs Premium Tier Breakdown
+
+### 4.1 Purpose of This Section
+
+This section defines the product feature set at a portfolio level.
+
+It explains:
+
+- what the product does
+- why each feature exists for ADHD users specifically
+- how the features work together as one coherent system
+- which capabilities are free
+- which capabilities are premium
+- why the monetization structure should feel fair, useful, and psychologically safe
+
+This section is intentionally focused on feature strategy and packaging.
+
+It does not replace later detailed requirements, screen specifications, data modeling, or architecture sections.
+
+Its purpose is to establish the functional promise of the product in a way that is clear enough for product, design, engineering, growth, and QA teams to align around the same boundaries.
+
+### 4.2 Feature Set Philosophy
+
+The feature set must feel like one ADHD-native support system rather than a pile of productivity tools.
+
+This distinction matters.
+
+Many planners accumulate features that are individually useful but collectively exhausting.
+
+That approach is especially dangerous for ADHD users because every extra mode, option, or conceptual model increases cognitive load and weakens trust.
+
+The feature set for this product must therefore follow five rules.
+
+#### 4.2.1 Every Feature Must Reduce Friction at a Real ADHD Pain Point
+
+No feature should exist just because it is standard in the productivity category.
+
+Every major capability must tie directly to a real ADHD struggle such as:
+
+- difficulty starting
+- time blindness
+- inconsistent energy
+- shame after missed plans
+- overwhelm from backlog growth
+- difficulty estimating what fits in a day
+- loss of momentum after interruption
+- difficulty returning to systems after a gap
+- need for external scaffolding when working alone
+
+If a feature cannot be defended in those terms, it should not be core.
+
+#### 4.2.2 The Product Must Bridge Planning and Doing
+
+Many tools are good at storing intentions.
+
+Far fewer are good at helping users turn intentions into present-tense action.
+
+This product must bridge that gap.
+
+The feature set should move the user through a practical sequence:
+
+- capture what matters
+- shape it into a realistic day
+- choose based on actual energy
+- begin with low friction
+- stay supported while doing
+- recover gracefully if interrupted
+- return without shame if the plan breaks
+
+The user should not feel that planning and execution live in different products.
+
+#### 4.2.3 The Product Must Support Imperfect Use
+
+The product cannot assume:
+
+- daily consistency
+- clean inboxes
+- stable routines
+- linear progress
+- one right schedule
+- perfect memory
+- perfect notification response
+
+The feature set must work well even when the user:
+
+- opens the app after several days away
+- skips reminders
+- half-completes a day
+- changes plans repeatedly
+- starts more tasks than they finish
+- reschedules due to low energy
+- uses some features heavily and others rarely
+
+Features that only work under ideal behavior are not core-feature quality for this product.
+
+#### 4.2.4 Core Features Must Deliver Immediate Value
+
+The first-use experience must produce relief quickly.
+
+The user should not need:
+
+- a complex setup ritual
+- a perfectly structured task system
+- a full weekly planning practice
+- high self-knowledge before beginning
+
+The feature set should provide value on day one through simple wins:
+
+- capture a task fast
+- see today clearly
+- start a focus session
+- get a supportive reminder
+- watch a missed task adapt instead of turning red
+
+Premium features may deepen value, but the free experience must still feel genuinely helpful and complete enough to build trust.
+
+#### 4.2.5 Monetization Must Protect Emotional Trust
+
+The premium model must not weaponize stress.
+
+The app must never create conversion pressure by making the user feel:
+
+- inadequate
+- lazy
+- behind
+- punished
+- manipulated by scarcity
+- trapped by hidden limits
+
+Instead, the tiering model should communicate:
+
+- the free tier is a real support tool
+- the premium tier unlocks a fuller adaptive system
+- the paid upgrade expands capacity and personalization
+- the user can choose based on fit, not guilt
+
+This is especially important for ADHD users, many of whom have long histories of paying for systems that failed them.
+
+### 4.3 Core Feature Pillars
+
+The product is organized around seven major feature pillars.
+
+Together, these pillars define the app’s core value.
+
+#### 4.3.1 Pillar 1: Adaptive Task Management
+
+Task management is the backbone of the product.
+
+However, it must not behave like a traditional backlog-first task manager.
+
+The task system must emphasize:
+
+- quick capture
+- realistic planning
+- low-friction editing
+- emotional safety
+- adaptive rescheduling
+- visible next actions
+
+Core task capabilities include:
+
+- creating tasks in seconds
+- assigning tasks to today, a future day, or flexible status
+- estimating duration in rough, usable terms
+- attaching energy expectations to tasks
+- breaking larger intentions into smaller actionable steps
+- starting a task directly from the daily flow
+- pausing and resuming without penalty
+- marking a task as done when complete
+- moving unfinished tasks forward without moral framing
+- archiving completed or inactive items so the system stays emotionally clean
+
+The task layer must not rely on overdue pressure as its main accountability mechanism.
+
+Instead, when the user does not complete something, the system should adapt by helping the user decide:
+
+- still today
+- later today
+- tomorrow
+- this week
+- not now
+
+The emotional message is:
+
+The plan changed.
+
+Let us reshape it.
+
+Not:
+
+You failed to keep up.
+
+#### 4.3.2 Pillar 2: Time Blindness Support
+
+ADHD users often need more than lists.
+
+They need help seeing the shape of time.
+
+This pillar exists to make time concrete, visible, and actionable.
+
+Core capabilities include:
+
+- visual daily time blocks
+- task durations displayed in understandable chunks
+- schedule layouts that show what fits and what does not
+- optional now/next/later framing
+- timer-linked visibility of elapsed and remaining time
+- transitions that make time movement perceptible
+- day structure that reduces the feeling of time disappearing into abstraction
+
+This pillar is not about calendar complexity for its own sake.
+
+It is about converting vague plans into visible experiences.
+
+The user should be able to glance at the app and answer:
+
+- What is happening now?
+- What is next?
+- How much can realistically fit today?
+- Where did the day go?
+- What can I still recover?
+
+#### 4.3.3 Pillar 3: Energy-Aware Planning
+
+Traditional planners treat all available time as equally usable.
+
+For ADHD users, this is often false.
+
+Energy, focus quality, emotional bandwidth, and activation difficulty vary across the day and across the week.
+
+This pillar turns fluctuating capacity into a first-class planning input.
+
+Core capabilities include:
+
+- identifying high-, medium-, and low-energy windows
+- tagging tasks by expected energy requirement
+- suggesting tasks that fit current or typical capacity
+- helping users avoid placing demanding work into depleted periods
+- allowing rescheduling based on energy rather than guilt
+- teaching the user their own patterns over time without sounding clinical
+
+The goal is not rigid optimization.
+
+The goal is compassionate realism.
+
+The planner should help users stop asking:
+
+Why can’t I just do it now?
+
+and instead ask:
+
+What kind of task matches the version of me that exists right now?
+
+#### 4.3.4 Pillar 4: Focus Support and Starting Assistance
+
+Starting is a major point of failure in ADHD productivity.
+
+This pillar exists to reduce the activation energy between intention and action.
+
+Core capabilities include:
+
+- a flexible focus timer
+- start rituals that create momentum quickly
+- supportive transitions into work mode
+- body doubling audio for companionship and external structure
+- immediate positive reinforcement when a session begins
+- low-pressure resume options after interruption
+
+This pillar must treat starting as a meaningful product moment.
+
+The planner is not finished once the user chooses a task.
+
+The planner must help the user cross the threshold into doing.
+
+#### 4.3.5 Pillar 5: Gentle Habit Support
+
+The habit system must reject shame-driven streak culture.
+
+For this audience, habits often fail not because the user lacks desire, but because life variability breaks consistency.
+
+A habit feature that emphasizes broken streaks can become actively harmful.
+
+This pillar should therefore focus on:
+
+- gentle repetition
+- flexible consistency
+- encouragement after misses
+- visible patterns without moral scoring
+- identity support through return, not perfection
+
+Core capabilities include:
+
+- habit creation
+- lightweight daily or weekly check-ins
+- completion history that shows patterns
+- re-entry messaging after gaps
+- optional celebration of participation
+- summaries that emphasize engagement rather than failure counts
+
+The product should not treat a missed day as a dramatic event.
+
+The user should never feel they have to “start over” psychologically.
+
+#### 4.3.6 Pillar 6: Supportive Reminder and Recovery System
+
+Reminders are not just notifications.
+
+For ADHD users, reminders often function as external working memory.
+
+This pillar exists to help the user:
+
+- remember at the right moment
+- reorient after missing the first cue
+- recover without shame
+- return to the app with minimal friction
+
+Core capabilities include:
+
+- multiple reminders per task
+- reminders tied to task timing and context
+- supportive follow-up nudges when the first reminder is missed
+- reminder language that is practical and non-judgmental
+- re-entry flows that reopen the task in a useful state
+- reminders that support starting, not only remembering
+
+The system should acknowledge that a single reminder is often not enough.
+
+However, escalation must feel helpful rather than aggressive.
+
+#### 4.3.7 Pillar 7: Sustainable Motivation and Positive Feedback
+
+The emotional layer of the product is not ornamental.
+
+It is functional.
+
+This pillar exists to create short, respectful reward loops that reinforce engagement.
+
+Core capabilities include:
+
+- celebration on task start
+- satisfying completion feedback
+- supportive microcopy after rescheduling
+- visible evidence of small wins
+- warm reinforcement after returning to the app
+- sensory feedback that is pleasant but not overstimulating
+
+This pillar is one of the clearest differentiators in the product.
+
+Many apps either:
+
+- ignore emotion entirely
+
+or
+
+- gamify in ways that feel childish, noisy, or manipulative
+
+This product should instead deliver adult warmth.
+
+### 4.4 Feature Inventory Overview
+
+The complete product feature set is composed of integrated capabilities across planning, execution, support, and reflection.
+
+The major features are:
+
+- onboarding and energy pattern setup
+- daily planning view
+- task capture and task detail management
+- adaptive rescheduling
+- visual time blocks
+- flexible focus timer
+- body doubling audio sessions
+- energy-aware task matching
+- weekly planning view
+- monthly planning view
+- habit tracking without punitive streak logic
+- reminders with multiple nudges
+- completion and start celebrations
+- archive and history views
+- export for user ownership and portability
+- settings for sound, haptics, accessibility, and planning preferences
+
+Not every feature should be equally emphasized in marketing or first-run experience.
+
+The product story should prioritize the capabilities that most clearly communicate ADHD-native difference:
+
+- tasks that do not become shame piles
+- planning that reflects energy
+- starting support
+- visible time
+- gentle habits
+- no-shame recovery
+
+### 4.5 How the Features Work Together in the User Journey
+
+The feature set is intentionally designed as a loop, not a stack.
+
+The canonical product journey is:
+
+1. The user captures or reviews tasks.
+2. The planner helps shape a realistic day.
+3. The system highlights options based on time and energy.
+4. The user chooses something they can actually begin.
+5. The focus layer helps them start.
+6. The reward layer reinforces that start immediately.
+7. If the task is interrupted or missed, the recovery system helps adapt the plan.
+8. The day still feels salvageable instead of ruined.
+9. Over time, habits and energy awareness improve self-understanding.
+
+This loop is strategically important.
+
+Without it, the app risks becoming one of three inferior products:
+
+- a visually nicer task list
+- a focus timer disconnected from planning
+- a habit tracker with ADHD branding
+
+The product only becomes differentiated when the features operate as one mutually reinforcing system.
+
+### 4.6 Feature-Level Strategic Priorities
+
+Not all features carry equal strategic weight.
+
+The following capabilities are category-defining and must feel excellent:
+
+- adaptive task management
+- no-shame missed-task handling
+- visual daily planning
+- start support and flexible focus timer
+- energy-aware planning
+
+The following capabilities are major differentiation amplifiers:
+
+- body doubling audio
+- habit tracking without punitive streaks
+- weekly and monthly visibility for bigger-picture planning
+- supportive reminder escalation
+
+The following capabilities are trust and retention enablers:
+
+- export
+- archive/history
+- settings personalization
+- polished feedback loops
+
+If tradeoffs become necessary, category-defining flows must be protected first.
+
+### 4.7 Free Tier Philosophy
+
+The free tier must be meaningfully useful.
+
+It should allow a user to experience the product’s emotional and functional difference before paying.
+
+The free tier should not feel like a fake product whose only purpose is to push conversion.
+
+It should feel like:
+
+- a real daily support tool
+- safe to adopt
+- sufficient for lighter users
+- strong enough to build trust
+- limited mainly by capacity and advanced scaffolding depth, not by basic dignity
+
+The free tier exists to prove the core promise:
+
+This planner behaves differently.
+
+It does not need every premium feature to demonstrate that difference.
+
+However, it must include enough of the emotional model that users can directly feel:
+
+- no-shame task handling
+- low-friction task capture
+- a supportive daily planning experience
+- some form of immediate start support
+
+### 4.8 Premium Tier Philosophy
+
+Premium should unlock a fuller operational system for users whose lives require more depth, more surface area, or more scaffolding.
+
+Premium is not just “more features.”
+
+It is deeper support for:
+
+- higher task volume
+- longer planning horizons
+- stronger execution support
+- more personalized energy-aware planning
+- better continuity across complex weeks
+
+Premium should feel like an expansion of capacity and adaptive intelligence.
+
+It should be positioned as:
+
+- more room
+- more visibility
+- more support
+- more personalization
+- more continuity
+
+not as:
+
+- pressure
+- punishment
+- gatekeeping of basic functionality
+
+### 4.9 Free Tier Feature Breakdown
+
+The free tier includes the minimum feature set required to provide a complete, trustworthy ADHD-native daily planning experience for light to moderate use.
+
+#### 4.9.1 Task Capacity
+
+Free users can manage up to 3 active tasks at a time.
+
+This limit is intentionally simple and easy to understand.
+
+An active task is any task that is currently in play rather than completed and archived away.
+
+The limit serves several purposes:
+
+- it preserves meaningful utility for users with smaller daily loads
+- it creates a clear upgrade threshold without hiding basic product behavior
+- it encourages focus and simplicity in the free experience
+
+The system should communicate this limit plainly and respectfully.
+
+It must not use alarmist or guilt-based copy.
+
+When a free user reaches the limit, the product should explain:
+
+- they can complete or archive existing tasks
+- they can upgrade for unlimited active tasks
+- the free version is intentionally lightweight
+
+The app should never imply that the user is being blocked from success.
+
+#### 4.9.2 Basic Task Creation and Editing
+
+Free users can:
+
+- create tasks
+- name tasks
+- add short notes
+- assign tasks to today or later
+- edit task details
+- mark tasks complete
+- reschedule unfinished tasks
+- archive inactive or completed tasks
+
+This is a true task workflow, not a demo.
+
+The no-shame handling model must be present in free.
+
+That is core brand behavior, not a premium luxury.
+
+#### 4.9.3 Daily View
+
+Free users have access to the daily planning view.
+
+This is the primary surface through which the product proves its value.
+
+The daily view should include:
+
+- today’s active tasks
+- visual prioritization of what matters now
+- lightweight time representation appropriate to the day
+- easy start actions
+- clear rescheduling options when plans shift
+
+The daily view is free because it is the emotional center of the app.
+
+If the daily experience were gated, the product would fail to demonstrate its core identity.
+
+#### 4.9.4 Basic Timer
+
+Free users have access to a basic focus timer.
+
+The basic timer should provide:
+
+- start
+- pause
+- resume
+- complete
+- visible time remaining
+- simple end-of-session feedback
+
+This allows free users to experience planning-to-action support.
+
+However, advanced focus support remains premium.
+
+The free timer should be functional and satisfying, but not as rich as the premium execution layer.
+
+#### 4.9.5 Supportive Rescheduling
+
+Free users must still receive the product’s core no-shame adaptive behavior.
+
+This includes:
+
+- tasks not turning into hostile overdue states
+- unfinished items being easy to move forward
+- supportive wording around missed plans
+- recovery paths that keep the day usable
+
+This behavior is not optional.
+
+It is fundamental to the product promise and must be visible in the free experience.
+
+#### 4.9.6 Core Celebration Moments
+
+Free users should experience a limited but real version of dopamine-aware reinforcement.
+
+This includes:
+
+- start celebration feedback
+- completion confirmation feedback
+- gentle positive reinforcement after re-entry or reschedule events
+
+These moments should not be held behind a paywall because they help communicate what makes the app different.
+
+#### 4.9.7 What Free Intentionally Does Not Include
+
+The free tier does not include:
+
+- unlimited active tasks
+- weekly view
+- monthly view
+- full habit support
+- body doubling audio
+- advanced energy-level-aware scheduling
+- export
+
+These exclusions define the premium value clearly while leaving the free product coherent.
+
+### 4.10 Premium Tier Feature Breakdown
+
+Premium includes all free features plus expanded capacity, broader planning surfaces, richer focus support, and more adaptive intelligence.
+
+Premium purchase options are:
+
+- $6.99 one-time
+- $3.99 per month
+
+The product should present both clearly.
+
+The one-time option should feel generous and trust-building.
+
+The monthly option should serve users who prefer lower upfront cost or want to try the premium experience more gradually.
+
+#### 4.10.1 Unlimited Tasks
+
+Premium removes the 3-active-task cap.
+
+This is the clearest capacity unlock in the product.
+
+It matters for users who manage:
+
+- dense workdays
+- family logistics
+- recurring household tasks
+- multi-project lives
+- longer planning horizons
+
+Unlimited tasks should include freedom to:
+
+- carry more active items
+- maintain a fuller backlog
+- plan with less compression
+- use the app as a primary planner rather than a minimal daily aid
+
+This feature is premium because capacity expansion is a natural monetization boundary that does not distort the core emotional model.
+
+#### 4.10.2 Weekly View
+
+Premium unlocks a weekly planning view.
+
+This feature helps users:
+
+- distribute effort across multiple days
+- avoid overloading one day
+- place tasks into more realistic windows
+- recover from disrupted plans without losing the whole week
+- understand how obligations cluster
+
+The weekly view is especially valuable for ADHD users because it bridges short-term focus with medium-horizon planning.
+
+It should make the week feel visible and editable rather than abstract and intimidating.
+
+This is premium because it expands the planning horizon beyond the core daily use case.
+
+#### 4.10.3 Monthly View
+
+Premium unlocks a monthly view for broader orientation.
+
+This feature helps users:
+
+- see patterns of load
+- anticipate high-pressure periods
+- place flexible tasks earlier
+- understand how weeks relate to one another
+- maintain context for appointments, recurring obligations, and planning cycles
+
+The monthly view must remain cognitively manageable.
+
+It should not become a dense enterprise calendar.
+
+Its role is orientation and pattern visibility, not maximal data display.
+
+This is premium because it provides advanced planning depth rather than essential daily support.
+
+#### 4.10.4 Habit Support Without Shame
+
+Premium unlocks the full gentle habit system.
+
+This includes:
+
+- creating habits
+- tracking participation over time
+- seeing engagement history
+- receiving supportive re-entry after missed days
+- viewing patterns without punitive streak-breaking framing
+
+The product should be explicit that this is not a standard streak engine.
+
+It is a repetition support system designed for inconsistent real lives.
+
+This is premium because it extends the app beyond planning into sustained behavior support.
+
+#### 4.10.5 Focus Timer With Body Doubling Audio
+
+Premium unlocks the advanced focus support layer.
+
+This includes:
+
+- richer session setup
+- more flexible focus cycles
+- body doubling audio
+- stronger transition support
+- more immersive start rituals
+- deeper execution scaffolding
+
+Body doubling audio is strategically important because it addresses a real ADHD need that generic planners usually ignore.
+
+For many users, the feeling of working alongside another presence reduces friction and loneliness.
+
+This feature is premium because it is both a differentiated support capability and a recurring-value feature that justifies monetization without taking away basic functionality from free users.
+
+#### 4.10.6 Energy-Level-Aware Scheduling
+
+Premium unlocks the full energy-aware planning system.
+
+This includes:
+
+- storing user energy patterns
+- defining high-, medium-, and low-energy periods
+- matching tasks to energy demand
+- generating more relevant task suggestions
+- helping users reshape plans based on current capacity
+
+This feature is central to the product’s long-term differentiation.
+
+However, it can be premium because:
+
+- the free tier can still be helpful without deep personalization
+- premium users receive a more adaptive and intelligent planning experience
+- the upgrade meaning is easy to understand: the app gets better at fitting the day to the user
+
+#### 4.10.7 Export
+
+Premium unlocks data export.
+
+Export supports:
+
+- trust
+- user ownership
+- portability
+- perceived seriousness of the product
+
+Export matters because ADHD users may have experienced lock-in disappointment before.
+
+Providing a clean export path signals confidence and respect.
+
+It is reasonable as a premium feature because it is an advanced ownership utility rather than a daily-use necessity.
+
+### 4.11 Free vs Premium Summary Matrix
+
+#### 4.11.1 Included by Tier
+
+| Feature | Free | Premium |
+| --- | --- | --- |
+| Active tasks | Up to 3 | Unlimited |
+| Task create/edit/reschedule/archive | Yes | Yes |
+| No-shame missed-task handling | Yes | Yes |
+| Daily view | Yes | Yes |
+| Basic timer | Yes | Yes |
+| Weekly view | No | Yes |
+| Monthly view | No | Yes |
+| Habit support without punitive streaks | No | Yes |
+| Focus timer with body doubling audio | No | Yes |
+| Energy-level-aware scheduling | No | Yes |
+| Export | No | Yes |
+
+#### 4.11.2 Strategic Reading of the Matrix
+
+The matrix is designed to create a clean division:
+
+- free proves the product’s emotional and practical thesis at the daily level
+- premium expands capacity, foresight, personalization, and execution support
+
+This division is deliberate.
+
+It avoids the common mistake of crippling the free tier so severely that users cannot feel the product difference.
+
+It also avoids the opposite mistake of putting all meaningful value into free and leaving premium too thin to justify purchase.
+
+### 4.12 Why These Features Belong in Free
+
+The following features must be free because they communicate the product’s identity:
+
+- task creation and editing
+- supportive rescheduling
+- no-shame missed-task handling
+- daily planning
+- basic timer
+- some celebration moments
+
+If these were premium-only, users could not evaluate whether the app actually understands ADHD reality.
+
+The free tier must let the user answer:
+
+- Does this planner make me feel safer than others?
+- Does this planner help me see today?
+- Does this planner make it easier to start?
+- Does this planner adapt when I miss something?
+
+That experience is essential to trust-building and acquisition.
+
+### 4.13 Why These Features Belong in Premium
+
+The following features belong in premium because they deepen support rather than define the minimum product truth:
+
+- unlimited tasks
+- weekly view
+- monthly view
+- full habit system
+- body doubling audio
+- advanced energy-aware scheduling
+- export
+
+These features are premium for strong strategic reasons.
+
+Unlimited tasks is a clean capacity boundary.
+
+Weekly and monthly views expand planning scope beyond the daily core.
+
+Habits create a new ongoing support layer.
+
+Body doubling audio adds unique execution scaffolding with obvious premium value.
+
+Energy-aware scheduling increases personalization and intelligence.
+
+Export signals serious ownership for invested users.
+
+Together, these features create a premium package that feels meaningfully more powerful without violating the emotional integrity of the free experience.
+
+### 4.14 Monetization Guardrails
+
+The tiering model must follow strict guardrails.
+
+#### 4.14.1 Do Not Put Emotional Safety Behind a Paywall
+
+The following must never be premium-only:
+
+- compassionate missed-task handling
+- non-punitive rescheduling
+- respectful reminder tone
+- supportive microcopy
+- core positive reinforcement
+
+These are product ethics, not monetization levers.
+
+#### 4.14.2 Do Not Use Shame-Based Upgrade Triggers
+
+The app must not attempt conversion through:
+
+- harsh “limit reached” moments
+- red warning walls
+- manipulative countdowns
+- guilt-laden productivity messaging
+- copy implying the user is failing because they are not premium
+
+Upgrade prompts should be contextual, calm, and benefit-led.
+
+#### 4.14.3 Do Not Hide the Tier Logic
+
+The product should make the tier structure easy to understand.
+
+Users should not have to discover limitations through frustrating trial and error.
+
+Feature boundaries must be:
+
+- visible
+- legible
+- consistent
+- easy to remember
+
+#### 4.14.4 Preserve Dignity in Upgrade Surfaces
+
+Upgrade surfaces should communicate:
+
+- what unlocks
+- why it matters
+- how it helps
+- what remains available in free
+
+They should never communicate:
+
+- deficiency
+- judgment
+- urgency theater
+
+### 4.15 Upgrade Triggers That Feel Legitimate
+
+The most legitimate premium triggers are moments when the user has already experienced real value and now needs more support.
+
+Examples include:
+
+- the user tries to add a fourth active task
+- the user wants to view the week because their days are crowding together
+- the user wants to understand the month before a busy period
+- the user wants deeper support for recurring habits
+- the user wants body doubling during focus sessions
+- the user wants energy-aware suggestions because time-based planning alone is not enough
+- the user wants to export their data
+
+In each case, the upgrade logic should feel like natural expansion.
+
+The message is:
+
+You are growing into more support.
+
+Not:
+
+You are being cut off.
+
+### 4.16 Value Narrative by User Type
+
+Different users will perceive premium value differently.
+
+#### 4.16.1 Light Daily Users
+
+These users may remain satisfied on free for a long time.
+
+That is acceptable.
+
+For them, the value is:
+
+- a calmer daily planner
+- a task list that does not shame them
+- a basic start tool
+
+The product should not punish this segment for being light users.
+
+#### 4.16.2 Busy Multi-Context Users
+
+These users are likely to value premium for:
+
+- unlimited tasks
+- weekly visibility
+- monthly orientation
+- stronger organizational continuity
+
+This segment often includes working professionals, parents, caregivers, and users managing many simultaneous responsibilities.
+
+#### 4.16.3 Users Struggling Most With Activation
+
+These users are likely to value premium for:
+
+- body doubling audio
+- richer focus support
+- energy-aware planning
+- habit scaffolding
+
+For them, premium is less about volume and more about execution support.
+
+#### 4.16.4 Users Rebuilding Self-Trust
+
+These users may value premium because it offers:
+
+- gentler long-range planning
+- pattern visibility
+- habit support without failure framing
+- adaptive scheduling that feels realistic
+
+For them, premium helps create a steadier relationship with planning over time.
+
+### 4.17 Strategic Difference From Competitor Packaging
+
+This tiering approach should feel different from both mainstream productivity tools and many wellness-style apps.
+
+Compared with mainstream planners:
+
+- this product keeps emotional safety in the free core
+- premium is about expanded support rather than unlocking basic kindness
+
+Compared with many wellness-oriented apps:
+
+- premium is tied to real functional depth, not merely cosmetic extras
+- the product remains a serious planning tool, not only a mood-support companion
+
+The packaging therefore reinforces the product’s brand position:
+
+an ADHD-native planner with both emotional intelligence and practical authority.
+
+### 4.18 Risks in Feature Packaging
+
+The feature set and tier boundaries create several risks that must be actively managed.
+
+#### 4.18.1 Risk: Free Feels Too Limited Too Early
+
+If the 3-task cap is encountered before the user understands the product, free may feel artificially constrained.
+
+Mitigation:
+
+- make early task management frictionless
+- explain the limit clearly
+- allow the user to feel no-shame behavior before monetization pressure appears
+- ensure free still feels useful for daily planning
+
+#### 4.18.2 Risk: Premium Value Feels Too Abstract
+
+If premium is described vaguely, users may not understand why they should upgrade.
+
+Mitigation:
+
+- anchor premium around concrete use cases
+- show visible differences in weekly/monthly planning
+- explain energy-aware scheduling in plain language
+- demonstrate body doubling value clearly
+
+#### 4.18.3 Risk: The Product Drifts Into Generic Feature Sprawl
+
+If more features are added without discipline, the app may lose its ADHD-native clarity.
+
+Mitigation:
+
+- require each new feature to tie back to a defined ADHD pain point
+- prioritize fewer stronger flows over broad parity chasing
+- protect cognitive simplicity
+
+#### 4.18.4 Risk: Habit Features Accidentally Reintroduce Shame
+
+Even a well-intended habit feature can drift toward punitive streak psychology.
+
+Mitigation:
+
+- avoid “streak broken” framing
+- avoid loss-heavy visuals
+- celebrate return and participation
+- design summaries around patterns, not failure
+
+### 4.19 Product Scope Boundaries for This Feature Set
+
+To protect focus, this feature set intentionally excludes several common productivity directions from the core product definition.
+
+The product is not, at this stage:
+
+- a team collaboration platform
+- a workplace project manager
+- a document system
+- a full calendar replacement
+- a social accountability network
+- a heavy habit gamification engine
+- a goal-setting dashboard obsessed with metrics
+
+These exclusions are important.
+
+They keep the product centered on ADHD-native daily functioning rather than generic productivity expansion.
+
+### 4.20 Section Summary
+
+The feature set is designed as an integrated ADHD support system, not a generic planner bundle.
+
+Its core pillars are:
+
+- adaptive task management
+- time blindness support
+- energy-aware planning
+- focus and starting assistance
+- gentle habit support
+- supportive reminders and recovery
+- sustainable motivation and positive feedback
+
+The free tier provides a real daily planning experience:
+
+- up to 3 active tasks
+- task creation and editing
+- no-shame rescheduling
+- daily view
+- basic timer
+
+The premium tier expands the system into a fuller planner and execution companion:
+
+- unlimited tasks
+- weekly and monthly views
+- habit support without punitive streaks
+- focus timer with body doubling audio
+- energy-level-aware scheduling
+- export
+
+This tier structure is intentionally built to preserve emotional trust.
+
+Free proves the product promise.
+
+Premium expands capacity, foresight, personalization, and support.
