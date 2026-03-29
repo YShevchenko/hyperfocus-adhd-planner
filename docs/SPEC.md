@@ -6242,3 +6242,1299 @@ Task cards are central to this promise.
 They should feel supportive, low-friction, and alive with small moments of encouragement.
 
 Together, the Home/Today view and its task cards should make daily planning feel less like self-surveillance and more like practical support for an ADHD brain in motion.
+
+## 7. Screen-by-Screen: Task Creation, Editing, and Auto-Rescheduling
+
+### 7.1 Purpose of the Task Creation and Editing Experience
+
+Task creation and editing are not administrative utilities.
+
+They are core therapeutic-feeling product moments where the app either lowers friction and builds trust or recreates the same burden users have felt in traditional planners.
+
+For many ADHD users, capturing a task is easy in theory and hard in practice.
+
+The difficulty is not only remembering what needs to be done.
+
+The difficulty is also:
+
+- deciding how much detail is required
+- deciding when something belongs
+- deciding whether it is worth adding at all
+- deciding how to break it down
+- deciding whether missing it later will create guilt
+- deciding whether the system is about to become another place full of evidence that they are behind
+
+The task creation and editing flow must therefore do more than collect fields.
+
+It must:
+
+- reduce capture friction
+- help the user convert vague intention into a manageable plan
+- avoid forcing premature precision
+- make rescheduling feel expected rather than corrective
+- preserve emotional safety when plans change
+- make editing feel lightweight instead of bureaucratic
+- help the user start from imperfect information
+
+This section covers the full screen-by-screen behavior for:
+
+- task creation entry points
+- quick capture
+- full task composer
+- task detail and edit mode
+- due date and time assignment
+- energy-aware scheduling options
+- repeat and habit-adjacent behavior for tasks
+- archive behavior
+- missed-task handling
+- auto-rescheduling logic as expressed in the UI
+
+The overarching product promise for this area is:
+
+The app should help the user make a task real without making it feel heavy.
+
+### 7.2 Core Design Principles for Task Creation and Editing
+
+The task creation and editing experience must follow these principles.
+
+#### 7.2.1 Capture First, Refine Second
+
+The system must allow users to create a task with minimal information.
+
+Users should never be forced to define every scheduling detail at the moment of capture.
+
+The minimum viable task should be extremely light:
+
+- task title
+- optional timing anchor or day placement
+
+Everything else should be progressively disclosed.
+
+The interface should assume that users often think in fragments:
+
+- "email landlord"
+- "call pharmacy"
+- "figure out budget"
+- "start slides"
+- "clean kitchen maybe"
+
+The product must respect fragment-first thinking.
+
+#### 7.2.2 Planning Should Feel Like Support, Not Data Entry
+
+Fields should be framed as helpful supports rather than required metadata.
+
+Instead of presenting a dense form, the composer should feel like a guided construction surface with a small number of meaningful decisions.
+
+Every additional setting should answer a real ADHD need:
+
+- when should I see this
+- how much energy does this likely need
+- do I want help breaking it down
+- how do I want reminders
+- what should happen if I miss it
+
+If a control does not reduce cognitive effort later, it should not demand effort now.
+
+#### 7.2.3 Misses Are Schedule Changes, Not Failures
+
+The app must never turn a missed planned task into a visual punishment object.
+
+Creation and editing flows should establish this expectation early.
+
+Whenever date, time, or energy placement is configured, the UI should reinforce that plans are adjustable.
+
+Examples of acceptable framing include:
+
+- "You can move this anytime."
+- "If today gets messy, we will help you place it again."
+- "Plans can flex."
+
+Examples of unacceptable framing include:
+
+- "Deadline missed"
+- "Overdue"
+- "Past due"
+- "Failed today"
+
+#### 7.2.4 The Interface Must Support Varying Levels of Capacity
+
+The same user may need radically different interaction depth depending on context.
+
+Sometimes they will want:
+
+- a two-second brain dump
+
+Other times they will want:
+
+- a detailed plan with energy fit, reminders, subtasks, and focus support
+
+The product should support both states without making either one feel wrong.
+
+#### 7.2.5 Editing Must Be Easier Than Avoidance
+
+Many users avoid opening a task because they fear confronting an outdated plan.
+
+The detail screen must therefore feel editable, forgiving, and alive.
+
+It should encourage small adjustments:
+
+- move to tomorrow
+- reduce scope
+- mark as "started"
+- convert to a smaller first step
+- move to lower-energy time
+
+The editing experience should support recovery more than perfect organization.
+
+### 7.3 Screen Architecture Overview
+
+This part of the product should be composed of the following screen and surface types:
+
+1. Quick Add entry surface
+2. Full Task Composer
+3. Scheduling picker surfaces
+4. Energy fit selector
+5. Reminder configuration surface
+6. Task Detail view
+7. Edit mode within Task Detail
+8. Auto-reschedule review surface
+9. Archive confirmation and recovery states
+
+These surfaces may be implemented as modal sheets, stacked screens, or hybrid transitions depending on platform conventions, but the emotional behavior must remain the same across implementations.
+
+The recommended structure is:
+
+- quick capture as a bottom sheet or lightweight modal
+- full composer as a full-screen modal
+- date/time/energy/reminder pickers as focused sub-sheets
+- task detail as a full screen reached from a task card
+
+This structure keeps simple actions fast while preserving room for richer planning.
+
+### 7.4 Entry Points Into Task Creation
+
+Task creation should be accessible from anywhere the user is likely to think of something.
+
+Primary entry points should include:
+
+- floating add button on Home/Today
+- inline "Add task" action within daily view
+- empty-state actions when a time block or list segment has no items
+- quick add from notification or widget entry point where supported
+- add from weekly or monthly view in premium
+- add from energy slot view
+- add from body doubling or focus timer context when the user realizes a task needs formalizing
+
+The most common entry point will be the Home/Today add button.
+
+That action must be obvious, easy to reach with one thumb, and visually inviting without feeling loud.
+
+The add action should communicate:
+
+- this is safe
+- this is easy
+- you do not need to have the whole plan figured out
+
+### 7.5 Quick Add Surface
+
+#### 7.5.1 Purpose
+
+Quick Add exists for low-friction capture.
+
+It is the fastest way to turn a thought into an object the system can support.
+
+This surface is especially important for ADHD users because delay between thought and capture often results in abandonment, distraction, or forgetting.
+
+#### 7.5.2 When Quick Add Should Be Used
+
+Quick Add should be optimized for:
+
+- sudden thought capture
+- low-energy planning moments
+- in-between transitions
+- interruption recovery
+- rapid brain dump behavior
+
+It should not require structured thinking.
+
+#### 7.5.3 Layout
+
+The Quick Add surface should contain:
+
+- a prominent title input field
+- one-line emotional helper text
+- a small set of optional fast chips
+- a clear save action
+- a subtle "More options" path into the full composer
+
+The first focus target should be the task title.
+
+The keyboard should appear immediately when the surface opens unless accessibility settings or platform conventions make this disruptive.
+
+#### 7.5.4 Title Input Behavior
+
+The title field should support natural, imperfect language.
+
+It should accept:
+
+- sentence fragments
+- lowercase input
+- emojis if the user uses them
+- vague wording
+
+The system should not aggressively "clean up" or reformat the user’s words.
+
+The app must preserve the emotional tone of how the user thinks about the task.
+
+For example:
+
+- "ugh email insurance"
+- "start laundry"
+- "text Maya back"
+- "maybe call dentist"
+
+These entries are valid.
+
+The product should not force the user into formal task language.
+
+#### 7.5.5 Suggested Quick Options
+
+Quick Add should include optional chips that apply common planning anchors in one tap.
+
+Recommended chips:
+
+- `Today`
+- `Tomorrow`
+- `This Week`
+- `High Energy`
+- `Medium Energy`
+- `Low Energy`
+- `15 min`
+- `Needs Reminder`
+
+The exact set may adapt based on context.
+
+For example, if the user opened Quick Add from a visible time block, the default chips might instead include:
+
+- `This Morning`
+- `This Afternoon`
+- `Tonight`
+
+These chips should be suggestions, not commitments that create later pressure.
+
+#### 7.5.6 Save Behavior
+
+When the user taps save from Quick Add:
+
+- the task should be created immediately
+- a subtle confirmation should appear
+- the user should be returned to the originating screen
+- the new task should appear in the most sensible placement
+
+If no date is chosen, the app should place the task in an inbox-like flexible state that still feels visible and usable, not forgotten.
+
+The confirmation tone should be encouraging and brief.
+
+Examples:
+
+- "Captured."
+- "Added for later."
+- "Saved. You can place it anytime."
+
+The product should avoid transactional or corporate-feeling copy such as "Task created successfully."
+
+#### 7.5.7 More Options Path
+
+If the user needs more structure, a clear action should open the Full Task Composer while preserving whatever they have already typed.
+
+This transition must feel like expansion, not restart.
+
+No typed data should ever be lost between quick add and full composer.
+
+### 7.6 Full Task Composer
+
+#### 7.6.1 Purpose
+
+The Full Task Composer is where the user can turn a basic task into a more supported plan.
+
+It should feel calmer and more intentional than Quick Add, but still not like a dense enterprise form.
+
+This screen is where the app demonstrates its ADHD-native philosophy most clearly.
+
+The composer should help the user answer:
+
+- what is this
+- when do I want to see it
+- what kind of energy does it need
+- how much support do I want around it
+- what should happen if today does not go to plan
+
+#### 7.6.2 Overall Layout
+
+The full composer should be organized into distinct, low-cognitive-load blocks in priority order.
+
+Recommended order:
+
+1. Task identity
+2. Timing and placement
+3. Energy fit
+4. Duration and effort
+5. Reminder support
+6. Task breakdown or notes
+7. Missed-task behavior preview
+8. Save actions
+
+Each block should be visually separate with generous spacing and concise labels.
+
+The screen should avoid presenting all inputs as equal-weight form rows.
+
+Some decisions matter more than others and the layout should make that obvious.
+
+#### 7.6.3 Task Identity Block
+
+This block should include:
+
+- task title
+- optional short note
+- optional "first tiny step" field
+
+The "first tiny step" field is especially valuable for ADHD users.
+
+It allows the user to encode the initiation move rather than only the abstract outcome.
+
+Examples:
+
+- task: "Do taxes"
+- first tiny step: "Open the tax folder"
+
+- task: "Clean bedroom"
+- first tiny step: "Pick clothes off chair"
+
+- task: "Prepare presentation"
+- first tiny step: "Open slides and title the deck"
+
+This field should be optional but encouraged gently.
+
+The interface should never imply that a task is poorly formed if the user skips it.
+
+#### 7.6.4 Timing and Placement Block
+
+The task timing area should answer a real-world ADHD need:
+
+When should this come back into view in a way that I can actually act on?
+
+This block should support:
+
+- no specific date
+- date only
+- date plus time block
+- date plus exact time
+- flexible this-week placement
+- recurring or repeating patterns where appropriate
+
+The UI should prefer planning anchors users can feel rather than requiring exact timestamps too early.
+
+Examples of useful anchors:
+
+- this morning
+- after lunch
+- this evening
+- tomorrow
+- later this week
+- next week when energy is better
+
+Exact time should be available, but not treated as the default best practice for every task.
+
+#### 7.6.5 Duration and Effort Block
+
+Users should be able to indicate rough duration or effort without precise estimation pressure.
+
+Suggested options:
+
+- 5 min
+- 15 min
+- 30 min
+- 45 min
+- 60+ min
+- not sure
+
+This helps:
+
+- place tasks visually in time blocks
+- power task suggestions
+- support realistic daily density
+- make large tasks visible as large
+
+If the user does not know duration, the system should treat uncertainty as normal.
+
+#### 7.6.6 Energy Fit Block
+
+Energy fit is one of the product’s differentiators and must be integrated naturally into the composer.
+
+The user should be able to mark the task as:
+
+- high energy
+- medium energy
+- low energy
+- flexible
+
+This control should not feel clinical.
+
+It should feel like practical self-knowledge.
+
+Helper copy may read:
+
+- "What kind of energy does this usually need?"
+- "Pick the version that feels most true most days."
+
+Energy fit affects:
+
+- suggested placement
+- reschedule recommendations
+- what the app surfaces during different parts of the day
+
+The UI must make this feel supportive rather than restrictive.
+
+There should always be a sense that the user can override later.
+
+#### 7.6.7 Reminder Support Block
+
+Reminder configuration should acknowledge that one reminder is often not enough for ADHD users.
+
+The composer should allow:
+
+- no reminder
+- one reminder
+- multiple reminders
+- escalating reminders
+
+The UI must present this as support rather than nagging.
+
+Possible language:
+
+- "How much nudging would help?"
+- "Choose one or a few check-ins."
+
+The reminder block should allow the user to configure reminders relative to:
+
+- planned time
+- day part
+- custom times
+
+The block should also permit gentle repetition before a task becomes active, especially for tasks that require preparation or transitions.
+
+#### 7.6.8 Notes and Support Details
+
+Optional supporting content may include:
+
+- notes
+- subtasks
+- links or references
+- body doubling recommendation toggle
+- focus timer suggestion toggle
+
+These should remain clearly optional.
+
+The composer must not visually punish users who leave most advanced fields empty.
+
+#### 7.6.9 Missed-Task Behavior Preview
+
+Every task with a date or planned time should show a small, reassuring preview of missed-task handling.
+
+Example patterns:
+
+- "If this does not happen today, we will help you place it again."
+- "Missed tasks move forward gently instead of piling up."
+- "You can choose a new slot later. No overdue pile."
+
+This is not decorative copy.
+
+It is part of the trust model.
+
+The composer is where the app teaches users that using the planner will not create shame debt.
+
+#### 7.6.10 Save Actions
+
+The composer should offer:
+
+- primary save
+- save and start now when relevant
+- cancel or close
+
+The save action label should adapt when useful.
+
+Examples:
+
+- `Save task`
+- `Add to today`
+- `Save and start`
+
+If the user has selected a time and current context suggests immediate action, "Save and start" can be powerful because it compresses planning and action into one loop.
+
+### 7.7 Task Creation Defaults
+
+Defaults matter disproportionately for ADHD users because many interactions will happen at low capacity.
+
+The app should provide helpful defaults without becoming presumptive.
+
+Recommended defaults:
+
+- tasks default to flexible placement unless the user explicitly chooses a date or slot
+- energy defaults to `flexible`
+- duration defaults to `not sure`
+- reminders default to off unless user preferences suggest otherwise
+- missed tasks default to auto-reschedule behavior
+
+If the user consistently creates tasks with similar settings, the app may learn gentle defaults over time, but this personalization must remain legible and easy to override.
+
+The system should never silently lock users into inferred patterns they do not understand.
+
+### 7.8 Progressive Disclosure Rules
+
+The creation flow must avoid overwhelming users with too many decisions at once.
+
+Progressive disclosure should work as follows:
+
+- show only the title input and most essential planning chips first in Quick Add
+- reveal the full set of fields only in the Full Task Composer
+- reveal advanced reminder configuration only after the user opts into reminders
+- reveal recurrence detail only after the user indicates repeating behavior
+- reveal subtasks and support features only when the user expands them
+
+The app must still make discoverability easy.
+
+Hiding complexity should reduce overwhelm, not make features feel buried.
+
+### 7.9 Suggestions Inside Task Creation
+
+The task composer may offer lightweight supportive suggestions, but these must be carefully constrained.
+
+Examples of appropriate suggestions:
+
+- "This sounds like a high-energy task. Want to label it that way?"
+- "This seems big. Add a first tiny step?"
+- "Want a reminder before this time block?"
+- "This might fit better tomorrow morning based on your usual high-energy window."
+
+Suggestions must be:
+
+- dismissible
+- nonjudgmental
+- framed as options
+- shown sparingly
+
+Suggestions must never sound like correction.
+
+The product should not imply that the user has planned "incorrectly."
+
+### 7.10 Task Detail View
+
+#### 7.10.1 Purpose
+
+The Task Detail view is where a task becomes tangible and adjustable.
+
+It must support two primary emotional jobs:
+
+1. make the task feel doable
+2. make plan changes feel safe
+
+This screen should not feel static or archival.
+
+It should feel like a living plan.
+
+#### 7.10.2 Entry Points
+
+Users may reach Task Detail from:
+
+- Home/Today task cards
+- weekly or monthly view
+- reminders
+- search results
+- archive history
+- focus timer context
+
+The screen must preserve enough context to help the user remember why they are there.
+
+If opened from a reminder, the top of the screen should make the task immediately recognizable without requiring scroll.
+
+#### 7.10.3 Layout Overview
+
+The Task Detail screen should present information in action-first order.
+
+Recommended layout:
+
+1. task identity and current status
+2. primary actions
+3. timing and energy context
+4. first tiny step or subtasks
+5. notes and support tools
+6. history or adaptive behavior summary
+
+The screen should prioritize actions the user is likely to need right now:
+
+- start
+- mark done
+- move
+- reduce scope
+- edit
+- archive
+
+#### 7.10.4 Top Summary Area
+
+The top area should show:
+
+- title
+- optional note snippet
+- planned day or time block
+- current energy fit
+- duration estimate if set
+- current state such as `Not started`, `Started`, `Paused`, `Moved`, or `Completed`
+
+The state language should remain humane.
+
+Avoid labels like:
+
+- delinquent
+- overdue
+- expired
+
+#### 7.10.5 Primary Actions
+
+The Task Detail screen should expose the most common actions as large, easy-to-hit buttons or pills.
+
+Required primary actions:
+
+- `Start now`
+- `Done`
+- `Move`
+- `Edit`
+
+Secondary actions may include:
+
+- `Break into steps`
+- `Lower the effort`
+- `Archive`
+- `Add reminder`
+- `Start focus timer`
+
+The `Move` action is especially important.
+
+It should be treated as a normal path, not as an admission of failure.
+
+### 7.11 Edit Mode
+
+#### 7.11.1 Philosophy
+
+Editing must feel lightweight, reversible, and emotionally neutral.
+
+Users should not hesitate to edit because editing is how the app stays in sync with real life.
+
+The product should normalize small plan corrections as healthy planner use.
+
+#### 7.11.2 Entering Edit Mode
+
+Users should be able to edit from:
+
+- a dedicated edit button in Task Detail
+- inline tap targets on editable fields
+- long-press or quick actions from task cards where appropriate
+
+Inline editing is valuable for speed, but full edit mode is important for clarity and accessibility.
+
+#### 7.11.3 Editable Fields
+
+The user should be able to change:
+
+- title
+- note
+- first tiny step
+- date
+- day part
+- exact time
+- duration
+- energy fit
+- reminders
+- subtasks
+- support toggles
+- archive state
+
+Changes should autosave where safe, or save with a clear explicit action if the platform interaction model makes autosave ambiguous.
+
+The user must not lose edits due to accidental dismissal.
+
+#### 7.11.4 Microcopy Around Edits
+
+Edits should be framed as planning updates, not corrections.
+
+Preferred language:
+
+- "Update plan"
+- "Move to tomorrow"
+- "Try a smaller version"
+- "Shift to low-energy time"
+
+Avoid language that implies the original plan was a mistake.
+
+#### 7.11.5 Scope Reduction as an Edit Pattern
+
+An important ADHD-specific edit behavior is reducing scope without deleting the task.
+
+Examples:
+
+- changing "clean apartment" to "clear kitchen counters"
+- changing "write report" to "open report doc and outline sections"
+- changing "go through all email" to "reply to top three urgent messages"
+
+The product should support this kind of edit explicitly because many users freeze when a task becomes too large or emotionally loaded.
+
+The interface may offer supportive pathways such as:
+
+- `Make this smaller`
+- `Pick a first step`
+- `Reduce effort for today`
+
+These actions help preserve momentum while respecting actual capacity.
+
+### 7.12 Scheduling and Rescheduling Surfaces
+
+#### 7.12.1 Scheduling as Placement, Not Commitment Theater
+
+The scheduling UI must communicate that time placement is a useful guess, not a rigid contract.
+
+This is especially important for ADHD users who may have been harmed by planning systems that treat every deviation as noncompliance.
+
+The scheduling surface should therefore emphasize:
+
+- visible day parts
+- energy fit
+- realistic duration
+- ease of moving
+
+It should not center guilt-inducing constructs like lateness penalties.
+
+#### 7.12.2 Scheduling Modes
+
+Users should be able to schedule a task using:
+
+- date only
+- date plus morning/afternoon/evening
+- date plus exact time
+- this week / next week flexible placement
+- energy-slot placement
+
+The app should recommend the lowest-precision mode that still helps.
+
+For many tasks, day part is better than exact time.
+
+#### 7.12.3 Move / Reschedule Sheet
+
+When the user taps `Move`, the app should open a focused reschedule sheet rather than a generic edit form.
+
+This sheet should be optimized for speed.
+
+Recommended quick actions:
+
+- later today
+- tonight
+- tomorrow morning
+- tomorrow afternoon
+- this weekend
+- next week
+- when I have high energy
+- unschedule but keep visible
+
+There should also be an option for custom date and time.
+
+The move sheet should make the humane path the easy path.
+
+#### 7.12.4 Reschedule Copy
+
+The move sheet should use neutral or supportive copy.
+
+Acceptable examples:
+
+- "Pick a better time."
+- "Let us move this."
+- "What would make this easier?"
+- "Still matters, just not now?"
+
+Avoid copy that implies failure:
+
+- "You missed this"
+- "This is overdue"
+- "Fix lateness"
+
+#### 7.12.5 Energy-Aware Reschedule Options
+
+If the task is marked high energy and the user is currently in a low-energy period, the move sheet may suggest:
+
+- tomorrow morning
+- next high-energy block
+- split into smaller step
+
+If the task is low energy, the app may suggest:
+
+- keep for tonight
+- slot into current low-energy block
+
+These suggestions must be clearly labeled as optional recommendations.
+
+### 7.13 Auto-Rescheduling Philosophy
+
+Auto-rescheduling is one of the most differentiating behaviors in the product.
+
+It is not a background convenience feature.
+
+It is an explicit rejection of the standard backlog punishment model.
+
+Traditional task apps often let missed items accumulate in place, usually with red badges, dated labels, and a growing emotional signal that the user is behind.
+
+This product must behave differently.
+
+When a planned task is not completed, the system should preserve the task’s importance while changing its placement so the user can re-engage without shame.
+
+The product belief is:
+
+A missed plan is not evidence that the user failed.
+
+It is evidence that the plan needs adaptation.
+
+### 7.14 What Auto-Rescheduling Means in Practice
+
+Auto-rescheduling means the app should:
+
+- detect that a planned slot has passed without completion
+- avoid visually marking the task as overdue in red or piling it into a punitive backlog
+- move the task into an appropriate future context or recovery queue
+- maintain clear visibility without harshness
+- offer the user easy review and override
+
+Auto-rescheduling does not mean silently hiding tasks.
+
+It does not mean pretending nothing happened.
+
+It means converting failed plan-state into adaptive plan-state.
+
+### 7.15 When Auto-Rescheduling Should Trigger
+
+Auto-rescheduling should apply to tasks that were intentionally placed in time and not completed or consciously dismissed.
+
+Trigger cases include:
+
+- date-only task reaches end of day
+- time-block task passes its block window
+- exact-time task passes a reasonable grace period
+- task remains unstarted after all reminders and the day closes
+
+The system should use humane timing rules.
+
+For example:
+
+- a morning task should not auto-reschedule at 10:01 AM if the user might still reasonably do it at noon
+- an evening task should not remain floating in uncertainty for multiple days without surfacing a new placement
+
+The exact thresholds may vary by task type and user settings, but the emotional behavior must remain consistent.
+
+### 7.16 Auto-Rescheduling Outcomes
+
+When auto-rescheduling occurs, the system should choose among several outcomes:
+
+1. move to a likely better slot
+2. move to tomorrow by default
+3. move to next appropriate energy window
+4. convert to flexible unscheduled visibility
+5. queue for morning review if confidence is low
+
+The chosen behavior should be legible.
+
+The user should understand:
+
+- that the task still exists
+- that it was moved to reduce pressure
+- where it can now be found
+
+### 7.17 User-Facing Auto-Reschedule Patterns
+
+The UI should make auto-rescheduling visible in calm, brief ways.
+
+Examples:
+
+- small banner on Home/Today: "We moved 2 tasks forward so today starts clean."
+- task chip label: "Moved from yesterday"
+- morning review card: "A few things need a better spot."
+
+These patterns acknowledge continuity without turning yesterday into a scarlet letter.
+
+The app must never transform the screen into a sea of old dates.
+
+### 7.18 Auto-Reschedule Decision Factors
+
+Auto-rescheduling should consider:
+
+- original day and time placement
+- task energy fit
+- duration
+- whether the task was started
+- user’s historical completion patterns
+- current upcoming calendar density if integrated
+- quiet hours and notification settings
+- whether the task was manually moved recently
+- whether the task is repeating
+
+From a product perspective, these factors should be used to make the system feel thoughtful, not spooky.
+
+The user does not need to see every variable.
+
+They need to feel that the next suggested placement is sensible.
+
+### 7.19 Started but Unfinished Tasks
+
+The app must distinguish between:
+
+- never started
+- started but interrupted
+- intentionally paused
+
+Started tasks deserve different handling because starting is itself meaningful.
+
+If a task was started but not completed, the auto-reschedule treatment should reflect that progress.
+
+Appropriate patterns:
+
+- show `Started yesterday`
+- preserve the current step or timer history
+- suggest a re-entry slot rather than treating it as untouched
+- celebrate continuation, not just fresh starts
+
+This supports the product principle that initiation counts.
+
+### 7.20 Reschedule Review Surface
+
+#### 7.20.1 Purpose
+
+Some auto-reschedules should be surfaced in a lightweight review area so the user maintains trust and agency.
+
+This review should feel like a supportive morning reset, not a debt reconciliation screen.
+
+#### 7.20.2 When Review Is Needed
+
+Review is especially useful when:
+
+- several tasks were moved
+- the system is uncertain about best future placement
+- the user has conflicting high-energy tasks
+- tasks have been moved multiple times
+- a repeating task pattern may need adjustment
+
+#### 7.20.3 Layout
+
+The review surface should group moved tasks into manageable cards.
+
+Each card should show:
+
+- task title
+- original placement in muted form
+- new suggested placement
+- one-tap alternatives
+- tiny-step or scope reduction option when relevant
+
+The review should never feel like the user is forced to triage a giant backlog.
+
+If there are many moved tasks, the interface should batch and simplify.
+
+#### 7.20.4 Review Actions
+
+Recommended actions:
+
+- `Keep this plan`
+- `Move again`
+- `Make smaller`
+- `Unschedule`
+- `Archive`
+
+The app should not require all items to be reviewed before the user can continue using the product.
+
+### 7.21 Archive Instead of Delete
+
+The product requirement is archive rather than delete as the standard task removal path.
+
+This is important for several reasons:
+
+- it reduces fear of losing information
+- it preserves continuity and reflection value
+- it avoids accidental deletion in low-attention moments
+- it supports a softer relationship to incomplete tasks
+
+Within task creation and editing, archive should be available but de-emphasized relative to start, move, and edit.
+
+Archive should feel like:
+
+- "not active right now"
+
+not:
+
+- "erase evidence"
+
+If the user archives an incomplete task, the app may optionally ask a brief supportive question:
+
+- "Archive for now, or move it to a better time?"
+
+This should be optional and non-blocking.
+
+### 7.22 Repeating Tasks Within the Task Model
+
+Some users will create repeating tasks that are not formal habits.
+
+Examples:
+
+- refill prescription monthly
+- send invoice every Friday
+- water plants every Sunday
+
+For repeating tasks, the creation and edit flow should make recurrence easy without forcing streak pressure.
+
+The UI should separate:
+
+- repeating tasks
+- habits
+
+Repeating tasks are obligation or maintenance items with recurrence logic.
+
+Habits are behavior-building tools with gentler tracking models described elsewhere.
+
+The task composer should therefore support repeat patterns without importing shame-driven streak logic.
+
+### 7.23 State Changes After Completion
+
+Although this section centers on creation and editing, completion behavior affects how the user perceives the task model.
+
+When the user marks a task complete from detail or edit contexts:
+
+- completion should feel satisfying but not overwhelming
+- the task should leave the active plan gracefully
+- repeating tasks should generate the next instance in a calm, expected way
+- the user should not be dropped into a dead-end state
+
+If the task was difficult to start, completion may include a warmer celebration.
+
+If the task was routine, the feedback should be simpler.
+
+The app should preserve emotional pacing.
+
+### 7.24 Motion and Microfeedback in Task Creation and Editing
+
+This area should use motion to reduce friction and reinforce progress.
+
+Recommended behaviors:
+
+- quick add sheet rises smoothly and focuses title immediately
+- selecting chips gives subtle tactile and visual confirmation
+- expanding from Quick Add to Full Composer feels like unfolding the same object
+- moving a task animates the updated placement rather than making the item disappear abruptly
+- auto-rescheduled tasks reappear with calm continuity cues
+
+Motion should suggest:
+
+- continuity
+- support
+- softness
+
+It should not feel like error correction.
+
+### 7.25 Haptics and Sound in These Flows
+
+Haptics should reward commitment and clarity.
+
+Useful moments include:
+
+- saving a task
+- applying a schedule
+- confirming a move
+- starting a task
+- completing a task
+
+Haptic intensity should remain light by default.
+
+Sound should be optional and subtle.
+
+No sound or haptic should resemble an alarm, punishment cue, or system warning unless there is a true error or an explicit timer event.
+
+### 7.26 Empty, Draft, and Interrupted States
+
+The product must handle partial planning states gracefully.
+
+#### 7.26.1 Empty Title Draft
+
+If the user opens creation and closes it without entering anything, no draft should be saved.
+
+The exit should be silent and forgiving.
+
+#### 7.26.2 Partial Draft
+
+If the user has entered meaningful text and is interrupted, the app should preserve the draft locally and make return easy.
+
+The restore pattern should be calm:
+
+- "Continue your draft?"
+
+not:
+
+- "Unsaved changes will be lost!"
+
+#### 7.26.3 Interrupted While Editing
+
+If the user is editing a task and receives a call, locks the phone, or switches apps, their work should persist safely.
+
+ADHD users are especially vulnerable to interruption-driven loss.
+
+This part of the product must be resilient.
+
+### 7.27 Error Handling
+
+Errors in task creation and editing should be rare, specific, and emotionally neutral.
+
+If an error occurs:
+
+- explain what happened plainly
+- preserve user input
+- offer a clear retry path
+
+Examples:
+
+- local save failed due to storage issue
+- reminder permission not granted
+- notification scheduling failed for a specific reminder
+
+The app must never use blame-oriented phrasing.
+
+Avoid:
+
+- "You entered an invalid task"
+- "Task failed because required values were missing"
+
+Prefer:
+
+- "We could not save this yet."
+- "Your text is still here."
+- "Try again in a moment."
+
+### 7.28 Accessibility Requirements for Task Creation and Editing
+
+This part of the app has elevated accessibility importance because it contains multiple decision points and potential attention traps.
+
+Required accessibility behaviors include:
+
+- large tap targets for chips and action buttons
+- clear focus order for keyboard and screen reader users
+- concise labels for all controls
+- non-color indicators for moved, started, or rescheduled states
+- support for dynamic type without collapsing layout hierarchy
+- voiceover and talkback announcements for save, move, and start actions
+- reduced motion alternatives for celebratory or transition effects
+
+The interface must also minimize cognitive overload.
+
+That means:
+
+- avoiding dense forms
+- avoiding crowded side-by-side controls
+- avoiding hidden consequences
+- avoiding ambiguous state changes
+
+Accessibility here is not only about technical compliance.
+
+It is about helping users hold the planning thread.
+
+### 7.29 ADHD-Specific UX Risks in Task Creation and Editing
+
+#### 7.29.1 Risk: The Composer Feels Like Homework
+
+If the task composer is too form-heavy, users will default to vague capture only or abandon the flow entirely.
+
+Mitigation:
+
+- prioritize Quick Add
+- use progressive disclosure
+- make optional fields clearly optional
+- privilege timing and energy over excessive metadata
+
+#### 7.29.2 Risk: Auto-Rescheduling Feels Like Loss of Control
+
+If tasks move without explanation, users may feel disoriented or mistrust the system.
+
+Mitigation:
+
+- show calm visibility cues
+- provide review states when needed
+- preserve move history in lightweight form
+- allow easy manual override
+
+#### 7.29.3 Risk: Energy Labels Feel Prescriptive
+
+If energy fit reads like a judgment about the user’s capabilities, the feature will backfire.
+
+Mitigation:
+
+- use suggestive rather than deterministic copy
+- allow flexible and override states
+- frame energy as planning support
+
+#### 7.29.4 Risk: Rescheduling Becomes Another Avoidance Ritual
+
+If moving a task is too easy without any reflective support, users may endlessly bounce tasks without progress.
+
+Mitigation:
+
+- keep move easy
+- but suggest `make smaller` when repeated moves occur
+- surface first tiny step suggestions
+- offer start-now paths when appropriate
+
+The product should reduce shame without enabling total disengagement from reality.
+
+#### 7.29.5 Risk: Editing Old Tasks Triggers Shame
+
+If the detail screen foregrounds age and old dates too strongly, users may avoid opening tasks altogether.
+
+Mitigation:
+
+- minimize harsh historical emphasis
+- focus the screen on what can happen next
+- present old placement as muted context, not accusation
+
+### 7.30 Success Criteria for Task Creation, Editing, and Auto-Rescheduling
+
+This section is successful when the product consistently produces the following outcomes:
+
+- users can capture a task in seconds without cognitive friction
+- users feel safe adding imperfect tasks
+- editing a task feels normal and lightweight
+- users understand that missed plans will adapt rather than become punishments
+- rescheduling is fast and emotionally neutral
+- auto-rescheduling reduces backlog shame without reducing trust
+- energy fit improves placement quality
+- started tasks retain their sense of momentum even if interrupted
+- task detail helps users act, not just review
+- the system preserves drafts and edits reliably under interruption
+
+The emotional success metric is:
+
+the user feels that the app helps them keep going, even when the original plan did not hold
+
+### 7.31 Section Summary
+
+Task creation, editing, and auto-rescheduling form the product’s practical trust engine.
+
+This is where the app proves that it does not believe a plan is only valid if it is followed perfectly.
+
+The experience must help users:
+
+- capture quickly
+- plan with just enough structure
+- revise without shame
+- move tasks easily
+- recover after missed intentions
+- keep momentum visible
+
+If this section is executed well, the app will feel fundamentally different from traditional planners not because it is less structured, but because its structure is adaptive, emotionally safe, and designed for the realities of ADHD life.
