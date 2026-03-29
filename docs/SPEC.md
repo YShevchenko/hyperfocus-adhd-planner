@@ -11125,3 +11125,1772 @@ If this section is executed well, the user will experience habits as:
 - supportive of identity without demanding perfection
 
 This is where the app proves that long-term behavior support does not need guilt to be effective.
+
+## 11. Screen-by-Screen: Weekly/Monthly Views, Settings, and Paywall
+
+### 11.1 Section Intent
+
+This section defines the planning surfaces that expand beyond the Today view, the control surfaces that help users make the app fit their real life, and the monetization surfaces that must convert without violating trust.
+
+These screens are especially sensitive because they can easily drift into neurotypical productivity patterns:
+
+- dense calendar overload
+- backlog anxiety
+- overly managerial settings architecture
+- manipulative upgrade pressure
+- shame-inducing locked states
+
+In this product, weekly and monthly views must make time more visible without making the future feel crushing.
+
+Settings must increase user control without forcing them through an exhausting labyrinth of configuration.
+
+The paywall must present premium value clearly while preserving dignity, emotional safety, and product credibility.
+
+Every screen in this section should reinforce one message:
+
+the app adapts to the user rather than demanding that the user adapt to the app
+
+### 11.2 Design Goals Across These Screens
+
+The weekly view, monthly view, settings, and paywall should collectively achieve the following:
+
+- extend planning horizon without increasing shame
+- help the user orient in time visually
+- prevent large spans of time from feeling like a failure dashboard
+- make premium features feel meaningfully supportive rather than decorative
+- allow users to tune stimulation, reminders, audio, haptics, and accessibility without friction
+- preserve a warm, ADHD-native voice even in administrative or monetization contexts
+
+These screens should feel calmer and more spacious than most planning apps.
+
+They should not look like enterprise calendar software miniaturized for mobile.
+
+They should not feel like hidden “advanced mode” areas only for highly organized users.
+
+They should feel like natural extensions of the app’s emotional promise:
+
+you can look ahead, adjust, recover, and choose support without being judged
+
+### 11.3 Information Architecture in Context
+
+These screens sit adjacent to the daily core, not above it.
+
+That matters.
+
+The app is still fundamentally anchored in helping the user answer:
+
+- what matters now
+- what can I start
+- what fits my current energy
+- how do I recover when things move
+
+Weekly and monthly views exist to support orientation, balancing, and future planning.
+
+They do not replace the Today view as the primary interaction surface.
+
+Settings exist to personalize support.
+
+They do not become a burden that users must “set up correctly” before the product becomes useful.
+
+The paywall exists to fund ongoing support and unlock meaningful additional scaffolding.
+
+It must never make the free experience feel like a bait-and-switch.
+
+### 11.4 Weekly View Overview
+
+The weekly view is the first horizon-expansion screen.
+
+Its purpose is to help the user:
+
+- see the shape of the week
+- place tasks into visible time containers
+- notice overload before it becomes paralysis
+- redistribute plans based on energy
+- recover from drift without manually cleaning up a punitive backlog
+
+This screen should feel like a compassionate planning canvas.
+
+It should not feel like a performance review.
+
+### 11.5 Weekly View Core User Jobs
+
+The weekly view supports several distinct jobs:
+
+1. See where the week is already heavy.
+2. Find realistic placement for tasks not yet anchored.
+3. Notice which days align with high-, medium-, or low-energy expectations.
+4. Move tasks quickly when plans change.
+5. Reduce “I have too much somewhere in the future” into a visible, manageable pattern.
+
+The weekly view is not mainly for precision scheduling down to the minute.
+
+It is for time visibility, load balancing, and emotionally safe planning.
+
+### 11.6 Weekly View Layout
+
+The weekly view should use a horizontally or vertically legible seven-day structure that remains readable on small screens.
+
+The layout should prioritize:
+
+- day clarity
+- time block visibility
+- low visual noise
+- easy drag or reassignment
+- simple scanning of task density
+
+The screen should generally include:
+
+- top navigation header
+- week range label
+- quick return to today
+- week summary strip
+- seven day columns or cards
+- visible energy cues for each day
+- lightly grouped tasks within each day
+- overflow handling that does not create clutter
+- action affordance for adding or placing a task
+
+Recommended top header elements:
+
+- current week label, for example `Apr 1 - Apr 7`
+- previous week and next week controls
+- `Today` jump button
+- view switcher back to daily or forward to monthly
+
+The week label should be large enough to anchor orientation.
+
+Users with ADHD often lose context quickly when navigating in time.
+
+The header must make it obvious:
+
+- which week is being viewed
+- whether it includes today
+- how far from the current date the user has moved
+
+### 11.7 Weekly View Visual Model
+
+The weekly view should blend list clarity with calendar visibility.
+
+A pure event-grid calendar may become too dense.
+
+A pure list loses time-blindness support.
+
+The best pattern is a hybrid structure:
+
+- each day has a visible container
+- scheduled tasks appear in approximate time zones or named blocks
+- unscheduled tasks appear in a softer “not placed yet” area for that day
+- visual height or grouping helps users sense density
+
+The visual system should communicate:
+
+- morning / afternoon / evening structure
+- relative busyness
+- energy fit
+- movement flexibility
+
+It should not communicate:
+
+- punishment for unfinished work
+- exactness where exactness is not useful
+- pressure to fill every slot
+
+### 11.8 Weekly View Day Card Anatomy
+
+Each day in the weekly view should have a consistent anatomy.
+
+Recommended structure:
+
+1. Day name and date.
+2. Today indicator if applicable.
+3. Energy forecast or typical energy marker.
+4. Optional gentle load summary.
+5. Scheduled blocks or grouped tasks.
+6. Unplaced task bucket.
+7. Add action.
+
+Example labels:
+
+- `Wed 1`
+- `Today`
+- `Higher energy morning`
+- `Light day`
+- `2 planned blocks`
+- `1 flexible task`
+
+The day card should feel readable at a glance.
+
+The user should not need to open each day to understand its rough demand profile.
+
+### 11.9 Weekly View Time Representation
+
+Time representation must support ADHD users with time blindness.
+
+This means time should be made visible, not merely named.
+
+Possible patterns include:
+
+- soft segmented blocks for morning, midday, afternoon, evening
+- vertical mini-timelines with broad time anchors
+- shaded block regions instead of thin appointment rows
+
+The goal is not precise calendaring.
+
+The goal is externalized temporal scaffolding.
+
+A user should be able to see:
+
+- where the day has breathing room
+- where deep work might fit
+- where transitions are already crowded
+- where low-energy tasks belong
+
+Visual time blocks should be forgiving and somewhat abstracted.
+
+They should not imply that every task must have a perfectly exact start minute.
+
+### 11.10 Weekly View Task Cards
+
+Tasks in weekly view should use smaller card variants than Today view cards while preserving emotional tone.
+
+Each task card should show only the most decision-relevant information:
+
+- title
+- estimated effort or size cue
+- energy fit
+- task state
+- optional scheduled block
+
+Possible secondary metadata:
+
+- `15 min`
+- `low energy`
+- `started`
+- `moved here`
+- `body doubling available`
+
+Avoid cramming cards with:
+
+- long notes
+- multiple tags
+- dense icons
+- excessive deadlines
+- punitive status badges
+
+Overdue styling should never appear as red alarm language.
+
+If a task rolled from a prior day, the card may instead use calm descriptive language such as:
+
+- `carried forward`
+- `still open`
+- `moved to fit this week`
+
+### 11.11 Weekly View Load Balancing Aids
+
+The weekly view should actively help users notice imbalance.
+
+This is one of the most important differentiators from standard planners.
+
+The system should surface gentle observations like:
+
+- `Thursday looks heavy`
+- `Tuesday has room for one more medium task`
+- `Three high-energy tasks are clustered on one day`
+- `This week has very little recovery space`
+
+These aids should appear as optional micro-guidance, not intrusive warnings.
+
+The product should feel like it is helping the user reduce friction, not evaluating their planning skill.
+
+Suggested load signals:
+
+- visual density meter per day
+- energy mismatch indicators
+- recovery-space cues
+- suggestions to spread large tasks
+
+The language must remain neutral and practical.
+
+Avoid:
+
+- `overbooked`
+- `too much`
+- `unrealistic`
+- `bad planning`
+
+Prefer:
+
+- `heavy`
+- `stacked`
+- `full`
+- `might feel easier if spread out`
+
+### 11.12 Weekly View Energy Integration
+
+The weekly view should prominently integrate energy-aware planning.
+
+Each day may reflect:
+
+- typical energy pattern for that weekday
+- user-selected energy forecast
+- current confidence level
+- time-of-day energy shifts
+
+This allows the planner to visually connect tasks with the user’s actual functioning patterns.
+
+Examples:
+
+- a day strip indicating `high focus morning, lower afternoon`
+- subtle background tone differences across day segments
+- a note such as `better for admin, errands, reset tasks`
+
+When a task’s required energy mismatches the chosen slot, the UI may gently indicate:
+
+- `high-energy task placed in low-energy block`
+- `might be easier earlier`
+- `consider splitting this`
+
+These prompts should never block scheduling.
+
+The user must remain in control.
+
+### 11.13 Weekly View Interactions
+
+Core interactions should include:
+
+- tap day to expand details
+- drag task between days or blocks
+- tap task for quick actions
+- long-press task for move/split/reschedule menu
+- tap empty block to place or create task
+- swipe or button navigation between weeks
+
+Quick actions should emphasize low-friction planning:
+
+- `Move`
+- `Split`
+- `Make smaller`
+- `Start when time comes`
+- `Keep flexible`
+
+The interaction design should optimize for one-handed use and rapid correction.
+
+Users should be able to repair a messy week in under a minute.
+
+### 11.14 Weekly View Expand and Collapse Behavior
+
+Because seven days can become visually dense, the screen should support progressive disclosure.
+
+Examples:
+
+- a compact week overview by default
+- tap a day to expand into a larger detail sheet
+- collapse secondary metadata until needed
+- hide completed tasks behind a simple count
+
+The default state should emphasize planning clarity over historical completeness.
+
+Users should not be forced to stare at everything that already happened in the week.
+
+Completed tasks can remain visible in a softened, celebratory, low-noise state or be tucked behind a summary like:
+
+- `3 completed today`
+- `2 wins earlier this week`
+
+### 11.15 Weekly View Start-State Behavior
+
+The weekly view should support quick activation of tasks directly from future days.
+
+If the user looks ahead and decides to begin something now, the interface should make that easy.
+
+Possible actions:
+
+- `Start now`
+- `Pull into today`
+- `Start a 10-minute focus burst`
+- `Open with body doubling`
+
+This matters because ADHD planning is non-linear.
+
+A task placed on Thursday may suddenly become doable on Tuesday.
+
+The app should support that momentum instead of enforcing calendar purity.
+
+### 11.16 Weekly View Recovery Behavior
+
+If several tasks were not completed earlier in the week, the weekly view should show adaptive recovery rather than failure accumulation.
+
+Behavior principles:
+
+- previously missed items roll forward gracefully
+- days do not become red backlog dumps
+- the system may redistribute flexible tasks automatically
+- the user can review recovered placements with minimal friction
+
+Example summaries:
+
+- `A few tasks were re-placed to keep the week usable`
+- `We kept only what still fits`
+- `Some flexible items moved forward`
+
+The weekly view is a critical place where the app proves that missed plans do not equal moral failure.
+
+### 11.17 Weekly View Empty and Light States
+
+A week with little planned should feel spacious, not empty in a discouraging way.
+
+Possible empty-state framing:
+
+- `This week has room to breathe`
+- `Start with one anchor and let the rest stay flexible`
+- `You do not need to plan everything to use this week well`
+
+Suggested actions:
+
+- add one important task
+- place a routine
+- block a focus session
+- preview your energy pattern
+
+The screen should avoid implying that an unfilled week is a missed opportunity.
+
+For many users, overplanning is the bigger risk.
+
+### 11.18 Weekly View Heavy-Load States
+
+When the week is highly loaded, the screen should shift into support mode.
+
+Potential behaviors:
+
+- compress lower-priority items behind counts
+- offer a `lighten this week` assistant action
+- suggest moving low-urgency items forward
+- suggest splitting large tasks
+- highlight protected recovery space
+
+Supportive microcopy examples:
+
+- `This week is carrying a lot`
+- `Want help spreading the load?`
+- `You can keep the essentials visible and soften the rest`
+
+The interface should not become louder as the week becomes harder.
+
+It should become calmer.
+
+### 11.19 Weekly View Completed State Handling
+
+Completed tasks in the weekly screen should contribute to momentum without taking over the canvas.
+
+Recommended treatment:
+
+- softened cards
+- light celebratory mark
+- grouped under a small expandable summary
+- optionally visible within the current day
+- collapsed by default on past days
+
+The purpose is to preserve a sense of progress while prioritizing what still matters.
+
+### 11.20 Weekly View Free vs Premium Role
+
+The weekly view is a premium feature in the monetization model.
+
+That means its locked preview matters.
+
+The free user should understand that weekly view is not merely “more calendar.”
+
+It is a support feature that helps with:
+
+- seeing overload earlier
+- balancing energy across days
+- redistributing plans compassionately
+- making time visible beyond today
+
+The preview should show value through explained support, not generic upgrade pressure.
+
+### 11.21 Weekly View Locked Preview
+
+If a free user navigates toward weekly view, the locked state should show a partial, static, or lightly interactive preview.
+
+It should communicate:
+
+- your week can be seen as a shape
+- tasks can be spread instead of piled
+- your energy pattern can guide placement
+- recovery can happen at the week level, not only daily
+
+Possible preview copy:
+
+- `See the whole week without the overwhelm`
+- `Spread tasks around your real energy, not idealized time`
+- `Plan ahead without building a guilt pile`
+
+The preview should never say or imply:
+
+- `Unlock advanced productivity`
+- `Upgrade for better discipline`
+- `Pro users plan smarter`
+
+### 11.22 Monthly View Overview
+
+The monthly view expands the horizon further.
+
+Its purpose is not fine-grained daily planning.
+
+Its purpose is to support:
+
+- temporal orientation
+- future awareness
+- anticipation of heavy periods
+- planning around recurring realities
+- prevention of surprise overload
+
+For ADHD users, a monthly view can be helpful or harmful.
+
+It is helpful when it makes time concrete.
+
+It is harmful when it becomes a tiny-box guilt grid.
+
+This product’s monthly view must be explicitly designed to avoid the latter.
+
+### 11.23 Monthly View Core User Jobs
+
+The monthly view should help users:
+
+1. See where major tasks or commitments cluster.
+2. Notice upcoming busy weeks before they arrive.
+3. Place rough anchors without micromanaging every day.
+4. Understand cycles, routines, and repeating load patterns.
+5. Enter future planning without emotionally drowning in the entire month.
+
+The monthly view is about shape, rhythm, and anticipation.
+
+It is not primarily a completion board.
+
+### 11.24 Monthly View Layout
+
+The screen should use a familiar month grid because that structure supports orientation.
+
+However, the implementation must soften the typical harshness of calendar grids.
+
+Recommended elements:
+
+- month and year header
+- swipe or arrow navigation
+- `Today` jump action
+- month summary strip
+- week row structure
+- day cells with limited visible content
+- soft indicators for density, anchors, and energy themes
+- optional lower detail tray for selected day
+
+The header should make time position obvious:
+
+- `April 2026`
+- whether the displayed month is current, past, or future
+- any notable month-level summary
+
+Example summary:
+
+- `A lighter month overall`
+- `Two heavier weeks ahead`
+- `Good month for protecting low-energy recovery blocks`
+
+### 11.25 Monthly View Day Cell Design
+
+Each month cell must remain simple.
+
+It should not attempt to show full task lists.
+
+Instead, each day cell may show:
+
+- day number
+- today marker
+- one primary anchor if present
+- small count or dot indicators
+- optional energy tint
+- completion or activity summary in subdued form
+
+The user should be able to tell:
+
+- empty day
+- lightly planned day
+- packed day
+- day with routine anchors
+- day affected by carry-forward clustering
+
+But the cell must not become visually busy.
+
+When more detail is needed, selecting the day should open a lower tray, sheet, or detail panel.
+
+### 11.26 Monthly View Visual Language
+
+The monthly view should use visual density carefully.
+
+Potential signals:
+
+- soft fill intensity for load
+- tiny stacked dots for task categories or energy demand
+- calm badges for major anchors
+- subtle ring around today
+
+Avoid:
+
+- red day boxes
+- aggressive overdue counts
+- tiny unreadable labels
+- loud holiday-style icons competing with planning information
+
+This screen should feel breathable, even when the month is busy.
+
+### 11.27 Monthly View Detail Tray
+
+Tapping a day in monthly view should reveal a focused detail surface.
+
+This may appear as:
+
+- bottom sheet
+- side panel on tablet
+- expanding in-place section
+
+The tray should include:
+
+- full date
+- energy expectation for that day
+- key planned items
+- quick add
+- move to daily or weekly view
+- suggestion if the day is overloaded or empty
+
+Examples:
+
+- `Friday, April 10`
+- `Lower-energy afternoon expected`
+- `2 anchored tasks, 1 flexible task`
+- `Jump to week`
+- `Open today-style view for this date`
+
+This detail pattern lets the monthly view stay simple while still supporting meaningful interaction.
+
+### 11.28 Monthly View Planning Behavior
+
+The monthly view should support rough planning rather than strict scheduling.
+
+Good uses include:
+
+- placing a big task sometime next week
+- protecting rest before a demanding event
+- seeing where habits or recurring obligations cluster
+- roughing in admin days
+- identifying realistic windows for larger projects
+
+The interface should encourage broad placement language such as:
+
+- `early week`
+- `this weekend`
+- `sometime Thursday`
+- `high-energy morning slot`
+
+This supports users who benefit from planning ahead without overcommitting to precise times.
+
+### 11.29 Monthly View Relationship to Time Blindness
+
+The monthly view is one of the strongest tools for counteracting time blindness when designed well.
+
+It should help answer:
+
+- how soon is that thing, actually
+- what else is around that date
+- where does this week sit in the month
+- how many days are left before a major commitment
+
+Helpful supports include:
+
+- highlighted current week
+- countdown language for major anchors
+- clear today location
+- visual spacing that makes near-term versus far-term obvious
+
+The monthly view must prevent the common ADHD experience of discovering a commitment “suddenly” because abstract future dates were never cognitively real.
+
+### 11.30 Monthly View Recovery and Drift Handling
+
+If plans moved across days during the month, the monthly view should absorb that motion gracefully.
+
+It should not become littered with symbols of failure.
+
+Behaviors may include:
+
+- moved tasks represented only in their current destination
+- soft indicators of active rescheduling, not overdue counts
+- summary language such as `a flexible week` instead of punitive labels
+
+The monthly surface should communicate that plans are allowed to adapt.
+
+### 11.31 Monthly View Patterns and Reflection
+
+This view can gently surface patterns without becoming an analytics dashboard.
+
+Examples:
+
+- `Mondays tend to fill quickly`
+- `Mid-month energy looks lower`
+- `You often protect less recovery time in the third week`
+- `Weekend reset blocks seem helpful here`
+
+These observations should remain optional and lightweight.
+
+The purpose is to aid self-understanding, not surveillance.
+
+### 11.32 Monthly View Heavy Month State
+
+When the month contains many anchors, the screen should prioritize clarity and triage.
+
+It may:
+
+- simplify day cells further
+- emphasize week-level density more than individual tasks
+- highlight major pressure points
+- offer a `review heavy weeks` entry point
+
+Microcopy examples:
+
+- `This month has a few crowded pockets`
+- `You may want to protect some lighter days now`
+- `Want help spreading what can move?`
+
+### 11.33 Monthly View Light Month State
+
+A light month should feel open and promising.
+
+It should not feel blank in a way that invites guilt for not planning enough.
+
+Examples:
+
+- `This month has room`
+- `Keep it simple and add anchors as they become real`
+- `You do not need to map the whole month today`
+
+This supports users who may otherwise over-plan in response to anxiety.
+
+### 11.34 Monthly View Free vs Premium Role
+
+The monthly view is also premium.
+
+Its locked positioning should make the value obvious:
+
+- broader time orientation
+- early overload detection
+- rough future planning
+- calmer anticipation of upcoming commitments
+
+The app should communicate that monthly view helps users see time before time becomes a problem.
+
+That framing is much more aligned than generic `unlock more calendar views`.
+
+### 11.35 Monthly View Locked Preview
+
+The monthly locked preview should show the screen’s emotional function.
+
+Possible copy:
+
+- `See the month as a shape, not a surprise`
+- `Catch crowded weeks before they hit`
+- `Plan lightly ahead without turning life into a grid of pressure`
+
+The preview may show:
+
+- a softly blurred month grid
+- highlighted busy versus light weeks
+- an example day detail tray
+- energy pattern hints across the month
+
+The locked state should feel aspirational but grounded in real support.
+
+### 11.36 Cross-View Navigation
+
+Daily, weekly, and monthly views should feel like one coherent system rather than separate products.
+
+Navigation should support:
+
+- moving from day to week to month without losing context
+- selecting a date in monthly view and opening the weekly view around it
+- selecting a week day and drilling into a today-style detail screen
+- quick return to actual today from any future or past date
+
+This continuity matters because ADHD users can lose orientation if each screen resets mental context.
+
+The system should maintain:
+
+- selected date
+- surrounding week or month
+- current filter state where appropriate
+- clear signposting of temporal movement
+
+### 11.37 Shared Date Orientation Rules
+
+Across weekly and monthly views, the app should always clarify:
+
+- what date is selected
+- whether the selected range includes today
+- how far away a future date is
+- what happens if tasks move
+
+Helpful labels include:
+
+- `Today`
+- `Tomorrow`
+- `In 3 days`
+- `Next week`
+- `Later this month`
+
+The app should not assume the user will naturally calculate time distance from raw dates alone.
+
+### 11.38 Shared Motion Principles for Calendar Views
+
+Transitions between planning views should feel smooth and grounding.
+
+Recommended patterns:
+
+- horizontal slide when changing week or month
+- zoom or expand when drilling into a day
+- soft settle when tasks move between days
+- gentle highlight pulse for newly selected date
+
+Motion should reinforce spatial and temporal orientation.
+
+It should not create spectacle.
+
+Reduced motion mode should simplify:
+
+- slides into fades
+- confetti into quiet confirmation
+- drag settle animations into instant state updates
+
+### 11.39 Settings Overview
+
+Settings is where the user configures how the app supports their nervous system.
+
+This screen is not merely administrative.
+
+For this product, settings is a care surface.
+
+It should help the user tune:
+
+- stimulation
+- reminders
+- visual density
+- sound and haptics
+- energy planning preferences
+- recovery preferences
+- subscriptions and export
+
+The settings experience should feel calm, clear, and low-cognitive-load.
+
+It should not resemble a dense technical control panel.
+
+### 11.40 Settings Core Design Principles
+
+The settings screen must be:
+
+- easy to scan
+- grouped around real user intentions
+- supportive rather than bureaucratic
+- reversible
+- explicit about impact
+
+Instead of organizing settings only by engineering categories, the information architecture should reflect user needs.
+
+Good grouping examples:
+
+- `How the app feels`
+- `Reminders and nudges`
+- `Focus and audio`
+- `Planning preferences`
+- `Accessibility and calm mode`
+- `Account and premium`
+- `Data and export`
+
+This reduces the burden of translating internal system terminology into user meaning.
+
+### 11.41 Settings Landing Layout
+
+The settings landing screen should include:
+
+- top title
+- brief supportive subtext
+- grouped cards or list sections
+- account and premium state
+- current plan summary
+- small status indicators for key modes
+
+Example subtext:
+
+- `Make the app fit your brain, energy, and environment`
+- `Adjust support, not your personality`
+
+Key modes that may appear at a glance:
+
+- reduced motion on/off
+- calm mode on/off
+- reminder intensity
+- body doubling audio enabled
+- premium active or locked
+
+### 11.42 Settings Section: Profile and Identity
+
+This area should remain minimal.
+
+The product should not over-index on account complexity.
+
+Possible contents:
+
+- display name
+- optional pronouns
+- sign-in method
+- restore purchases
+- sync status if applicable in future architecture
+
+If profile details are sparse, that is acceptable.
+
+The app’s value comes from support, not social identity features.
+
+### 11.43 Settings Section: Planning Preferences
+
+This section lets users shape how planning behaves.
+
+Settings may include:
+
+- default view on app open
+- first day of week
+- preferred planning horizon
+- task auto-reschedule behavior
+- whether completed tasks stay visible in day/week views
+- preferred time block format
+- time estimate display style
+
+Important settings related to adaptive planning:
+
+- `Auto-move missed flexible tasks`
+- `Ask before moving anchored tasks`
+- `Show gentle suggestions for heavy days`
+- `Prefer simpler daily plans`
+
+These controls must be explained in plain language.
+
+Avoid cryptic labels like:
+
+- `Smart task migration`
+- `Adaptive engine mode`
+
+Prefer descriptive labels:
+
+- `Move flexible tasks forward when a day gets missed`
+- `Keep past days visually quiet after tasks are moved`
+
+### 11.44 Settings Section: Energy Preferences
+
+Because energy-aware planning is core to the product, users need control here.
+
+Possible settings:
+
+- edit weekly energy pattern
+- set morning/afternoon/evening tendencies
+- enable energy-based task suggestions
+- choose how strongly the app surfaces energy mismatch prompts
+- mark medication-sensitive times
+- note common low-capacity windows
+
+The section should also allow easy revision because user energy patterns are not static.
+
+Helpful copy:
+
+- `Your energy map can change. Update it anytime.`
+- `This helps the app suggest better-fitting times, not judge your choices.`
+
+### 11.45 Settings Section: Reminders and Nudges
+
+Reminder controls are especially important for ADHD users because notification support can be essential one week and intolerable the next.
+
+This section should allow:
+
+- global reminders on/off
+- reminder sound selection or mute
+- haptic intensity
+- default task reminder count
+- escalating reminder behavior
+- quiet hours
+- habit reminder tone
+- focus session interruption handling
+
+Users should be able to tune reminder intensity with meaningful language.
+
+Example levels:
+
+- `Quiet`
+- `Balanced`
+- `Persistent`
+
+Descriptions:
+
+- `Quiet`: one reminder, gentle follow-up
+- `Balanced`: a few timed nudges with calm language
+- `Persistent`: more support for tasks that are easy to lose track of
+
+Avoid language that implies moral superiority for tolerating more reminders.
+
+### 11.46 Settings Section: Sound, Haptics, and Body Double Audio
+
+This section manages sensory support.
+
+Possible controls:
+
+- task start celebration sound on/off
+- completion sound on/off
+- haptic intensity
+- body doubling voice or soundscape preference
+- auto-play body doubling intro on timer start
+- volume defaults
+- headphone behavior prompts
+
+The user should understand that sound and haptics are optional support, not required parts of the experience.
+
+Helpful copy:
+
+- `Choose what feels motivating, not distracting`
+- `You can keep feedback tactile, audible, both, or neither`
+
+### 11.47 Settings Section: Accessibility and Calm Mode
+
+This is one of the most important settings areas.
+
+It should be prominent, not buried.
+
+Controls may include:
+
+- reduce motion
+- reduce celebration intensity
+- high-clarity mode
+- larger touch targets
+- larger text support
+- lower visual density
+- simplify color cues
+- mute non-essential sounds
+- screen reader optimization hints
+- calm mode preset
+
+`Calm mode` can be a bundled preset for low-capacity or overstimulated periods.
+
+It may:
+
+- reduce animation
+- reduce confetti
+- simplify backgrounds
+- lower notification intensity
+- collapse extra guidance
+
+This feature should communicate deep empathy for fluctuating sensory tolerance.
+
+### 11.48 Settings Section: Focus Preferences
+
+Users should be able to configure:
+
+- default focus session length
+- break length
+- flexible Pomodoro mode
+- pause behavior
+- interruption recovery
+- auto-start breaks or next sessions
+- body doubling defaults
+- post-session celebration intensity
+
+The framing should remain flexible.
+
+Avoid presenting the focus system as a rigid productivity doctrine.
+
+Prefer:
+
+- `Default starting point`
+- `Use when helpful`
+- `Pause and return without penalty`
+
+### 11.49 Settings Section: Habits Preferences
+
+Because habits are intentionally non-streak-based, users may need reassurance and control here.
+
+Settings could include:
+
+- show gentle participation summaries
+- hide pattern visualizations
+- reminder defaults for habits
+- choose partial completion language
+- archived habit visibility
+
+This section should never include a streak toggle or chain-preservation mechanic.
+
+### 11.50 Settings Section: Data, Export, and Privacy
+
+This area should cover:
+
+- export data
+- local data explanation
+- backup or sync status if offered
+- privacy policy access
+- notification permissions
+- audio download management
+- storage use
+
+Because users may be sensitive to whether intimate productivity data is being tracked, this area should use very plain language.
+
+Examples:
+
+- `Your planning data stays on your device unless you choose to export or sync`
+- `Downloaded body doubling audio uses device storage`
+
+### 11.51 Settings Section: Premium and Billing
+
+This section should make monetization transparent and low-friction.
+
+It should include:
+
+- current plan
+- premium feature summary
+- manage subscription
+- restore purchases
+- one-time purchase status if owned
+- terms access
+
+If the user is free-tier, this section may gently show what premium unlocks.
+
+If the user already pays, the section should feel reassuring and service-oriented rather than upsell-oriented.
+
+### 11.52 Settings Search and Discoverability
+
+If settings grow large, a lightweight search function may be appropriate.
+
+However, the screen should remain usable without search.
+
+The product should avoid requiring memory of exact terminology.
+
+Search terms should match user language such as:
+
+- reminders
+- sound
+- calmer
+- animation
+- export
+- weekly view
+- billing
+
+### 11.53 Settings Copywriting
+
+Settings copy must remain:
+
+- concise
+- human
+- practical
+- non-technical where possible
+- emotionally safe
+
+Examples of good labels:
+
+- `Show fewer moving parts on hard days`
+- `Keep missed tasks from piling up visually`
+- `Use gentler reminders`
+- `Make touch targets larger`
+
+Examples to avoid:
+
+- `Enable productivity boosts`
+- `Failure prevention mode`
+- `Optimization settings`
+- `Behavior correction`
+
+### 11.54 Settings Empty and Permission States
+
+Some settings depend on OS permissions or downloaded assets.
+
+These states should remain calm and instructional.
+
+Examples:
+
+- notifications disabled at OS level
+- sound pack not downloaded
+- no headphones connected for body doubling audio
+- export unavailable offline if a cloud provider is chosen in future versions
+
+Copy examples:
+
+- `Notifications are off at the device level`
+- `Turn them on in system settings if you want reminders`
+- `Body doubling audio works best with headphones, but they are optional`
+
+### 11.55 Settings Emotional Role
+
+The settings screen should reassure the user that support can be tuned.
+
+This is especially important for ADHD users who may blame themselves when a system stops working.
+
+The app should subtly communicate:
+
+- if the app feels too loud, quiet it
+- if the app feels too quiet, add support
+- if your energy changed, update your map
+- if reminders are irritating now, change them
+
+The deeper message is:
+
+the system is adjustable because your needs are variable, not because you are using it wrong
+
+### 11.56 Paywall Overview
+
+The paywall is one of the highest-risk surfaces in the product.
+
+If executed poorly, it can instantly undermine the app’s credibility.
+
+This is especially true for ADHD users who are often highly sensitive to:
+
+- shame-based persuasion
+- manipulative urgency
+- hidden pricing
+- bait-and-switch onboarding
+- exploitative monetization of distress
+
+Therefore the paywall must be:
+
+- transparent
+- concrete
+- calm
+- respectful
+- emotionally aligned with the rest of the product
+
+### 11.57 Paywall Strategic Role
+
+The paywall must do three things well:
+
+1. Explain what premium changes in day-to-day life.
+2. Make pricing and plan options immediately clear.
+3. Preserve goodwill even if the user declines.
+
+It should not try to win conversion by making free users feel deficient.
+
+It should not use guilt, scarcity pressure, or fear of failure.
+
+The strongest conversion lever for this product is not aggressive sales language.
+
+It is resonance.
+
+The user should feel:
+
+this app understands me, and premium adds meaningful support I may genuinely want
+
+### 11.58 Paywall Trigger Moments
+
+The paywall may appear from several entry points:
+
+- attempting to access weekly view
+- attempting to access monthly view
+- attempting to exceed free task cap
+- trying to use premium focus audio
+- trying to use export
+- premium upsell entry from settings
+
+Each trigger should preserve context.
+
+The paywall should reflect what the user was trying to do.
+
+Examples:
+
+- from weekly view: emphasize seeing and balancing the whole week
+- from task cap: emphasize unlimited tasks and reduced backlog triage stress
+- from body doubling audio: emphasize supported focus sessions
+
+This contextual relevance is critical.
+
+A generic paywall wastes the emotional setup created by the preceding moment.
+
+### 11.59 Paywall Layout
+
+The paywall should likely use a scrollable but concise vertical layout.
+
+Recommended structure:
+
+1. Warm headline.
+2. Short emotional-value subhead.
+3. Visual feature preview tied to the trigger.
+4. Premium benefits list.
+5. Pricing options.
+6. Restore purchases.
+7. Terms and cancelation clarity.
+8. Continue free option or close affordance.
+
+The screen should not feel cluttered or sales-heavy.
+
+Whitespace matters here.
+
+The user must be able to think, not just react.
+
+### 11.60 Paywall Headline and Tone
+
+The headline should articulate support, not superiority.
+
+Good patterns:
+
+- `Get more room to plan the way your brain works`
+- `Unlock support for the whole week, not just today`
+- `Add deeper ADHD-friendly scaffolding when you need it`
+
+Subhead examples:
+
+- `Premium expands planning, focus, and recovery tools without changing the no-shame core`
+- `Free stays useful. Premium adds more space, more visibility, and more support`
+
+Avoid:
+
+- `Become your best self`
+- `Finally get disciplined`
+- `Stop procrastinating now`
+- `Serious users go premium`
+
+### 11.61 Pricing Presentation
+
+Pricing must be visible immediately and in plain language.
+
+The monetization model is:
+
+- free tier
+- premium one-time purchase: `$6.99`
+- premium subscription: `$3.99/month`
+
+The paywall should explain both premium options clearly.
+
+Potential presentation:
+
+- `One-time unlock` — `$6.99`
+- `Monthly support` — `$3.99/month`
+
+Important clarifications:
+
+- what each option includes
+- whether they unlock the same premium features
+- whether the monthly option auto-renews
+- how to cancel
+
+If both options unlock the same features, state that directly.
+
+Do not force users to infer value from pricing layout tricks.
+
+### 11.62 Premium Benefits Hierarchy
+
+Premium benefits should be listed in order of felt value for ADHD users.
+
+Recommended hierarchy:
+
+1. Unlimited tasks.
+2. Weekly and monthly planning views.
+3. Habit support without shame.
+4. Focus timer with body doubling audio.
+5. Energy-level-aware scheduling.
+6. Export.
+
+The list should explain emotional and functional value together.
+
+Examples:
+
+- `Unlimited tasks so you can stop trimming your life down to fit a cap`
+- `Weekly and monthly views to see overload before it hits`
+- `Habit support that tracks gently without streak punishment`
+- `Focus timer with body doubling audio for easier task starts`
+- `Energy-level-aware scheduling that fits work to real capacity`
+- `Export your data whenever you want`
+
+### 11.63 Free Tier Respect
+
+The paywall must explicitly respect the free tier.
+
+This is important for trust.
+
+Free users should know they still keep:
+
+- up to 3 tasks
+- basic timer
+- daily view
+
+The language should make clear that free is a legitimate mode, not merely a teaser.
+
+Example:
+
+- `Free remains a real daily planner. Premium adds more planning range and support depth.`
+
+This product’s ethics require that monetization never weaponize scarcity against vulnerable users.
+
+### 11.64 Paywall Visual Design
+
+The paywall should feel consistent with the design system:
+
+- warm palette
+- rounded surfaces
+- spacious layout
+- soft motion
+- supportive illustration or abstract planning visuals
+
+It should not adopt the standard “dark flashy premium card” trope unless consistent with the overall product identity.
+
+The visual tone should communicate:
+
+- trust
+- calm value
+- emotional safety
+- practical support
+
+Not:
+
+- luxury status
+- hustle culture
+- hard conversion pressure
+
+### 11.65 Feature Previews on Paywall
+
+Feature previews should be concrete and tied to real user benefit.
+
+Examples:
+
+- a weekly view mock showing a heavy day being softened
+- a monthly preview showing busy weeks ahead
+- body doubling audio focus card
+- energy scheduling card matching high-focus tasks to morning
+- habit card showing `showed up 3 times this week` rather than a streak count
+
+These previews should visually differentiate the app from generic productivity software.
+
+### 11.66 Paywall CTA Design
+
+The primary CTA should be clear and specific.
+
+Examples:
+
+- `Unlock Premium`
+- `Choose Premium`
+- `Get Weekly and Monthly Planning`
+
+If plan selection occurs first, the CTA can reflect the selected option:
+
+- `Unlock for $6.99`
+- `Start monthly for $3.99`
+
+Secondary actions must remain visible:
+
+- `Restore purchases`
+- `Maybe later`
+- `Keep using free`
+
+The user should never feel trapped in the paywall.
+
+### 11.67 Paywall Close Behavior
+
+Users must be able to close or dismiss the paywall unless the platform or purchase flow requires otherwise.
+
+The dismissal affordance should be obvious.
+
+A hidden close button would be especially damaging in this product because it signals coercion.
+
+If the paywall was triggered by a locked feature, the app should return the user gracefully to the prior context.
+
+### 11.68 Contextual Paywall Variants
+
+Different premium triggers should slightly adjust the hero copy and preview modules.
+
+Examples:
+
+#### 11.68.1 Weekly View Trigger
+
+- `Plan the whole week without building a guilt pile`
+- preview of load balancing and energy-aware placement
+
+#### 11.68.2 Monthly View Trigger
+
+- `See the month before it sneaks up on you`
+- preview of heavy-week detection and future anchors
+
+#### 11.68.3 Task Limit Trigger
+
+- `Stop compressing your life into three slots`
+- preview of unlimited tasks and calmer capture
+
+#### 11.68.4 Focus Audio Trigger
+
+- `Start with support in your ear, not pressure in your head`
+- preview of body doubling sessions
+
+#### 11.68.5 Export Trigger
+
+- `Take your plans with you whenever you need`
+- preview of export control and ownership
+
+These variants improve relevance without creating entirely separate systems.
+
+### 11.69 Paywall Copywriting Requirements
+
+The paywall copy must be:
+
+- adult
+- direct
+- transparent
+- emotionally intelligent
+- non-manipulative
+
+Preferred language:
+
+- `support`
+- `more room`
+- `see ahead`
+- `plan gently`
+- `fit your energy`
+- `keep using free`
+
+Avoid:
+
+- `crush your goals`
+- `unlock your potential`
+- `stop procrastinating`
+- `limited time`
+- `don’t miss out`
+- `exclusive`
+
+### 11.70 Paywall Urgency and Scarcity Rules
+
+This product should not rely on fake urgency.
+
+No:
+
+- countdown timers
+- expiring pseudo-discounts
+- flashing limited offers
+- guilt language after dismissing
+
+If a genuine launch or seasonal offer ever exists in the future, it must be disclosed plainly and sparingly.
+
+But the default product should convert on alignment and usefulness, not pressure.
+
+### 11.71 Paywall Trust Requirements
+
+Trust signals should include:
+
+- clear pricing
+- simple restore purchase path
+- access to terms and privacy
+- no ambiguous trial language
+- no hidden auto-renew details
+- honest free-tier description
+
+If using RevenueCat-based purchase flows, the UI should still keep wording human and product-aligned rather than exposing platform jargon unnecessarily.
+
+### 11.72 Paywall for Already Overwhelmed Users
+
+The app must consider that many users will hit the paywall in a moment of cognitive strain.
+
+Therefore:
+
+- keep copy short
+- keep plan choice simple
+- avoid too many comparison rows
+- reduce decorative motion
+- maintain strong visual hierarchy
+
+The paywall should be understandable in under ten seconds.
+
+### 11.73 Paywall for Returning Free Users
+
+If a user dismisses the paywall repeatedly, the app should not become naggy.
+
+Rules:
+
+- do not force repeated immediate re-prompts
+- do not guilt the user later
+- do not dark-pattern locked features with ambiguity
+
+Instead, the app can allow discovery through:
+
+- settings premium area
+- feature previews
+- contextual lock states
+
+This preserves trust and reduces avoidance.
+
+### 11.74 Post-Purchase Experience
+
+The moment after purchase should feel warm, clear, and oriented.
+
+Recommended flow:
+
+- brief celebration
+- confirmation that premium is active
+- immediate return to the feature the user wanted
+- optional one-line explanation of newly available support
+
+Examples:
+
+- `Premium is on. Your week is ready.`
+- `You now have unlimited tasks and deeper planning views.`
+
+The app should not dump the user into a generic account screen after purchase.
+
+It should return them to momentum.
+
+### 11.75 Restore Purchase Experience
+
+Restore purchase should be easy to find and emotionally neutral.
+
+The copy should avoid implying user error.
+
+Preferred:
+
+- `Restore purchases`
+- `Already unlocked premium? Bring it back here.`
+
+Avoid:
+
+- `Having trouble?`
+- `Purchased incorrectly?`
+
+### 11.76 Subscription Management Transparency
+
+If the user chooses the monthly plan, the app must state:
+
+- that billing recurs monthly
+- where subscription management happens
+- how cancellation works
+
+This should be written plainly and placed near the plan selection or legal footer.
+
+Transparency here is essential for trust.
+
+### 11.77 Paywall Accessibility Requirements
+
+The paywall must be fully accessible.
+
+Requirements include:
+
+- screen reader readable pricing and plan labels
+- no pricing conveyed by visual emphasis alone
+- large tap targets for plan selection
+- legal text readable without microscopic scaling
+- reduced motion support
+- clear focus order
+- dismiss action discoverable by assistive tech
+
+If feature previews use illustrations or mock screens, they should have useful accessibility descriptions or be hidden from screen readers when decorative.
+
+### 11.78 Weekly/Monthly/Paywall Integration with Free Tier Messaging
+
+Across locked weekly view, locked monthly view, and the paywall, the message must remain consistent:
+
+- free is still useful
+- premium expands support
+- premium is not a moral upgrade
+
+This consistency matters because users are extremely sensitive to tone mismatch.
+
+One manipulative screen would contaminate trust across the whole product.
+
+### 11.79 ADHD-Specific UX Risks in This Section
+
+#### 11.79.1 Risk: Weekly and Monthly Views Become Overwhelming
+
+If these screens show too much detail, users will avoid them entirely.
+
+Mitigation:
+
+- prioritize shape over completeness
+- use progressive disclosure
+- keep cell/card content minimal
+- support drill-down instead of stuffing information into overview surfaces
+
+#### 11.79.2 Risk: Calendar Views Reintroduce Shame Through Density and Overdue Signals
+
+If missed tasks accumulate visually, the app breaks its core promise.
+
+Mitigation:
+
+- move tasks gracefully
+- avoid red overdue states
+- surface current placement rather than failure history
+- emphasize adaptability
+
+#### 11.79.3 Risk: Settings Become an Exhausting Maze
+
+If personalization requires too much reading or configuration, users will abandon it.
+
+Mitigation:
+
+- group by user intent
+- keep defaults strong
+- provide presets like calm mode
+- use plain-language explanations
+
+#### 11.79.4 Risk: The Paywall Feels Manipulative
+
+If premium conversion uses pressure tactics, users may distrust the whole product.
+
+Mitigation:
+
+- clear pricing
+- no fake urgency
+- respectful dismissal
+- contextual value explanation
+- honest free-tier framing
+
+#### 11.79.5 Risk: Premium Feature Boundaries Feel Arbitrary
+
+If locked features seem random or decorative, the paywall will feel unfair.
+
+Mitigation:
+
+- keep free tier coherent
+- lock deeper planning depth rather than basic dignity
+- explain premium through user outcomes
+- ensure premium features are genuinely additive
+
+#### 11.79.6 Risk: Monthly View Encourages Overplanning
+
+If the monthly screen rewards filling every day, users may create unrealistic plans and later crash.
+
+Mitigation:
+
+- emphasize anchors, not full saturation
+- celebrate open space
+- use light planning language
+- avoid “empty month” pressure
+
+### 11.80 Success Criteria for This Section
+
+This section is successful when:
+
+- weekly view helps users rebalance plans quickly and without shame
+- monthly view improves time awareness without becoming a tiny backlog grid
+- settings make support feel adjustable and personalized
+- premium value is understood in functional and emotional terms
+- free users do not feel tricked or insulted by monetization
+- locked states explain real support rather than generic exclusivity
+- users can move fluidly between day, week, and month contexts without losing orientation
+
+The emotional success metric is:
+
+the user feels more held, more oriented, and more respected after using these screens, not more pressured
+
+### 11.81 Section Summary
+
+Weekly and monthly views extend the planner’s reach across time.
+
+Settings extend the planner’s fit across different brains, days, and sensory states.
+
+The paywall extends the business model without breaking the emotional contract.
+
+If this section is executed well:
+
+- the future becomes visible without becoming threatening
+- personalization feels supportive instead of burdensome
+- premium feels like added scaffolding, not extracted vulnerability
+
+This is where the app proves that planning horizons, configuration, and monetization can all remain ADHD-native when designed with emotional safety as a first principle.
