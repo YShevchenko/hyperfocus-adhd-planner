@@ -8538,3 +8538,1173 @@ It should translate planning into motion by giving the user:
 If this screen is executed well, the app will feel fundamentally different from traditional timers because it does not treat focus as obedience to a clock.
 
 It treats focus as a supported state transition for an ADHD brain that often needs help getting over the starting line and staying connected to the task once it begins.
+
+## 9. Screen-by-Screen: Energy Scheduling and Time Block Views
+
+### 9.1 Section Intent
+
+This section defines the screens and interactions that help users plan around fluctuating energy and visually understand the shape of time.
+
+In this product, energy scheduling and time block views are not secondary planning tools.
+
+They are central ADHD supports.
+
+Traditional planners typically organize around deadlines, priorities, and chronological lists.
+
+This product must also organize around capacity.
+
+The screen family described here should help the user answer questions that matter in actual ADHD daily life:
+
+- what kind of energy do I realistically have right now
+- what kind of task fits that energy
+- where did my day go
+- what still fits today without forcing it
+- how can I place tasks into visible time so they feel real
+- how can I plan tomorrow without creating guilt
+
+These screens must convert abstract intention into concrete visual structure.
+
+They must make time feel less slippery.
+
+They must help the user plan a day that is survivable, not idealized.
+
+They must also protect the user from a common failure mode in productivity tools:
+
+creating a schedule that looks beautiful at planning time and impossible at execution time.
+
+Energy scheduling and time block views should therefore behave less like a rigid calendar and more like a compassionate planning surface that adapts to ADHD variability.
+
+### 9.2 Core User Needs These Screens Must Solve
+
+#### 9.2.1 Variable Capacity Across the Day
+
+Many users do not experience motivation or executive function as stable from morning to night.
+
+The product must help them plan based on likely capacity windows rather than the fantasy of constant availability.
+
+#### 9.2.2 Time Blindness and Day Shape Awareness
+
+Users often know they have `time somewhere` but cannot feel the actual size, sequence, or boundaries of the day.
+
+These screens must make time visible as chunks, transitions, and occupied versus open space.
+
+#### 9.2.3 Overplanning Under Optimism
+
+ADHD users may overestimate what fits into a day, especially during planning moments with temporary motivation spikes.
+
+The interface must gently slow that tendency without feeling restrictive.
+
+#### 9.2.4 Re-Planning After Drift or Disruption
+
+When the day goes off track, users need an easy way to re-place tasks into new blocks without a shame-heavy rescheduling ritual.
+
+#### 9.2.5 Translating Tasks Into Placeable Units
+
+A task title alone is often not enough to prompt action.
+
+Placing a task into a visual time block makes it feel more real, more bounded, and easier to begin.
+
+#### 9.2.6 Matching Task Demands to Real Energy
+
+The user should not need to mentally review every task and evaluate effort from scratch each time.
+
+The system should surface tasks that fit high, medium, or low energy windows in a way that feels helpful rather than controlling.
+
+### 9.3 Product Role in the Overall App
+
+The energy scheduling and time block experience sits between task capture and task execution.
+
+It is the translation layer that turns:
+
+- `I should do this`
+
+into:
+
+- `this fits here`
+
+and then:
+
+- `I can start this now`
+
+This section’s screens are therefore responsible for:
+
+- reducing decision fatigue when planning
+- externalizing day structure visually
+- normalizing energy-aware choices
+- improving start likelihood by clarifying time placement
+- supporting gentle replanning after interruption
+- making premium value concrete through richer week and month planning
+
+The screen family must feel tightly integrated with:
+
+- Home/Today view
+- task creation and editing
+- auto-rescheduling
+- reminders
+- focus timer
+
+These are not standalone views for power users.
+
+They are core behavioral scaffolds for ordinary daily use.
+
+### 9.4 Experience Principles
+
+#### 9.4.1 Capacity Before Ambition
+
+The interface should begin with what the user can probably carry, not what an ideal self might schedule.
+
+#### 9.4.2 Visible Time Beats Abstract Priority
+
+Seeing where a task lives in the day is more actionable than ranking it in a list.
+
+#### 9.4.3 Planning Must Stay Soft
+
+A time block is a proposal, not a promise.
+
+The UI must communicate flexibility explicitly.
+
+#### 9.4.4 Energy Language Must Guide, Not Label the User
+
+Energy categories describe fit between a task and a moment.
+
+They must never imply fixed identity or moral worth.
+
+#### 9.4.5 Replanning Must Feel Like Normal Maintenance
+
+Moving a block should feel as emotionally neutral as adjusting a sticky note.
+
+#### 9.4.6 Visual Calm Is Required
+
+Because these screens represent time, density, and choices, they can become overwhelming quickly.
+
+The design must maintain simplicity, spacing, and strong hierarchy at all times.
+
+### 9.5 Screen Inventory
+
+This section covers the following primary screens and surfaces:
+
+- Energy Schedule Overview
+- Day Time Block View
+- Week Energy Planning View
+- Month Planning View
+- Block Placement Sheet
+- Energy Match Suggestions Sheet
+- Replan / Drift Recovery View
+- Empty and edge states specific to these views
+
+Each screen should share a consistent visual language:
+
+- warm, soft time blocks
+- clear segmentation by day part
+- energy markers that are visible but not loud
+- rounded containers
+- sparse but helpful copy
+- large placement and movement touch targets
+
+### 9.6 Screen 1: Energy Schedule Overview
+
+#### 9.6.1 Purpose
+
+The Energy Schedule Overview is the user’s primary planning entry point for capacity-aware scheduling.
+
+It provides a bird’s-eye view of:
+
+- the current day’s energy windows
+- planned blocks already placed
+- suggested tasks by energy fit
+- opportunities to rebalance the day
+
+It should feel like a calm command center, not a dense scheduler.
+
+#### 9.6.2 Primary User Questions
+
+This screen must answer:
+
+- what kind of day am I having
+- when do I usually do best with demanding tasks
+- what is already occupying my day
+- what still fits
+- what should move if my energy is lower than expected
+
+#### 9.6.3 Entry Points
+
+Users may reach this screen from:
+
+- Home/Today `Plan with energy`
+- a task card action such as `Place in day`
+- onboarding completion when energy patterns are available
+- a notification or reminder prompting a replan
+- weekly planning flow for premium users
+
+#### 9.6.4 Top Region
+
+The top region should contain:
+
+- current date
+- optional day label such as `Tuesday`
+- current energy check-in state
+- one-line supportive framing
+- a compact summary of how full the day is
+
+Example summary patterns:
+
+- `Your day has room for 2 medium tasks`
+- `This morning looks full. Afternoon has breathing room`
+- `Low-energy day so far. Let’s keep it lighter`
+
+This top region should orient rather than overwhelm.
+
+#### 9.6.5 Energy Band Summary
+
+Below the top region, the screen should present the day as energy bands rather than only hours.
+
+Example structure:
+
+- morning: medium
+- midday: high
+- afternoon: low
+- evening: low
+
+Each band should show:
+
+- approximate time range
+- energy level
+- a short descriptor
+- number of planned blocks inside it
+- available space indicator if relevant
+
+Descriptors should use adult, practical language.
+
+Examples:
+
+- `clear-headed`
+- `steady`
+- `foggy`
+- `winding down`
+- `good for admin`
+- `good for deeper thinking`
+
+The system may infer defaults from onboarding and learned behavior, but the user must be able to override for the current day.
+
+#### 9.6.6 Current-Day Override Control
+
+Users should be able to tap an energy band and say:
+
+- `more energy than usual`
+- `about right`
+- `less energy than usual`
+- `skip energy for today`
+
+This matters because a user’s actual capacity may differ due to:
+
+- sleep
+- medication timing
+- stress
+- illness
+- menstrual cycle
+- work context
+- emotional load
+
+The app should react to the override immediately by changing suggestions and softness of schedule recommendations.
+
+#### 9.6.7 Planned Blocks Preview
+
+Each energy band should show a compact preview of planned blocks inside that band.
+
+Preview rules:
+
+- show up to three visible block chips before collapsing
+- include short task title
+- show approximate duration visually
+- indicate if a block is flexible versus anchored
+- indicate if a block is already in progress
+
+Anchored means tied to a real constraint such as an appointment.
+
+Flexible means movable within the day.
+
+This distinction is important because ADHD users often need help seeing what can move safely.
+
+#### 9.6.8 Suggested Matches Strip
+
+The screen should include a horizontally scrollable or vertically stacked suggestion area titled with plain language such as:
+
+- `Good fits for this energy`
+- `Fits your current capacity`
+- `Lighter options for right now`
+
+Each suggestion card should show:
+
+- task title
+- estimated duration
+- energy fit label
+- reason for suggestion
+- one-tap `Place now`
+- one-tap `Start instead`
+
+Reason examples:
+
+- `short and low effort`
+- `matches your higher-focus window`
+- `already partly started`
+- `good before your 3 PM meeting`
+
+#### 9.6.9 Density Guardrails
+
+This screen must guard against false confidence.
+
+If a user attempts to place too many medium or high-demand tasks into the same band, the UI should gently flag overload.
+
+It must not use red punitive warnings.
+
+Instead it should say things like:
+
+- `This block of the day is getting crowded`
+- `You may want to leave recovery room here`
+- `Two demanding tasks already live in this window`
+
+The goal is reflective friction, not prohibition.
+
+#### 9.6.10 Primary Actions
+
+Primary actions on the overview screen include:
+
+- add block
+- auto-fill suggestions
+- adjust today’s energy
+- open day view
+- open week view
+- replan after drift
+
+These should remain few in number and visually clear.
+
+#### 9.6.11 Emotional Outcome
+
+The user should feel:
+
+- understood by the system
+- less pressured to force an unrealistic day
+- more able to choose a next step
+- safer making a lighter plan when needed
+
+### 9.7 Screen 2: Day Time Block View
+
+#### 9.7.1 Purpose
+
+The Day Time Block View is the most concrete visual representation of the day.
+
+It translates tasks and commitments into visible blocks on a timeline-like surface.
+
+This view is not intended to mimic a rigid enterprise calendar.
+
+It should feel softer, clearer, and more ADHD-friendly than a conventional agenda.
+
+#### 9.7.2 Core Function
+
+The screen must help the user:
+
+- see the shape of the day
+- place tasks into actual time windows
+- understand how long things likely take
+- identify open spaces
+- drag, stretch, shrink, or move flexible blocks
+- recover when the day changes
+
+#### 9.7.3 Layout Structure
+
+The day view should be divided into:
+
+- top header and date navigation
+- optional current energy status row
+- vertical time block canvas
+- bottom quick actions tray
+
+The time block canvas is the primary focus.
+
+#### 9.7.4 Time Canvas Philosophy
+
+The canvas must favor readability over strict minute-level precision.
+
+Users with ADHD usually need:
+
+- approximate placement
+- visible duration
+- a feeling of day flow
+
+They do not always need:
+
+- exact quarter-hour perfection
+- dense calendar controls
+- highly technical scheduling detail
+
+This means the timeline may support approximate placement in larger increments by default, with more precise control available only when necessary.
+
+#### 9.7.5 Day Segmentation
+
+The day should be visually segmented into meaningful chunks.
+
+Possible segmentation:
+
+- early morning
+- morning
+- midday
+- afternoon
+- evening
+- night
+
+These chunks may align to hourly spans, but the labels should remain human-readable.
+
+Each segment should include:
+
+- time labels
+- a subtle energy tint
+- enough whitespace to reduce clutter
+
+The tint must remain soft and low-contrast enough not to become visually noisy.
+
+#### 9.7.6 Time Block Anatomy
+
+A standard block in day view should contain:
+
+- task title
+- optional icon or category marker
+- approximate duration
+- energy fit indicator
+- block type marker: flexible or anchored
+- state marker: planned, started, paused, completed, moved
+
+If there is insufficient vertical room, the block should preserve title and state first, then collapse secondary details.
+
+#### 9.7.7 Block Color and Meaning
+
+Colors should communicate state gently.
+
+Examples:
+
+- calm amber or peach for flexible planned blocks
+- warmer gold or coral accent for in-progress blocks
+- muted teal or moss for completed blocks
+- soft stone or cloud tone for moved or deferred blocks
+- neutral warm gray for anchored external events
+
+No block state should imply punishment through harsh red.
+
+Missed or moved tasks should appear adaptive, not delinquent.
+
+#### 9.7.8 Now Marker
+
+The current time marker is critical for time blindness support.
+
+It should be:
+
+- clearly visible
+- visually distinct from ordinary dividers
+- easy to spot at a glance
+- paired with a subtle `Now` label
+
+The marker should help the user orient quickly without dominating the screen.
+
+#### 9.7.9 Current Window Highlight
+
+The current active time window should be softly highlighted.
+
+This reduces the cognitive cost of locating oneself in the day.
+
+The highlight should be more atmospheric than alerting.
+
+#### 9.7.10 Open Space Representation
+
+Unscheduled time is a feature, not an emptiness problem.
+
+Open space should be visibly represented so users can feel:
+
+- available room
+- transition buffers
+- recovery pockets
+
+Open space may contain suggestions such as:
+
+- `good spot for a short task`
+- `leave this open`
+- `possible admin window`
+
+These suggestions must remain subtle and dismissible.
+
+#### 9.7.11 Block Interaction Model
+
+Users should be able to:
+
+- tap a block to open detail
+- drag a flexible block to another time
+- resize a block duration using handles or simple controls
+- convert a block from flexible to anchored
+- split a block into smaller parts
+- mark `start now`
+- mark `not happening today`
+
+Direct manipulation matters here because it lowers the friction of replanning.
+
+#### 9.7.12 Drag and Drop Behavior
+
+Drag and drop must feel forgiving.
+
+Rules:
+
+- snap to sensible intervals
+- show ghost placement before drop
+- preview energy fit in destination area
+- reveal overload warning only if placement truly creates crowding
+- allow cancellation without penalty
+
+If the destination has lower energy compatibility, the system may say:
+
+- `Still possible, but this may feel heavy here`
+
+This is guidance, not rejection.
+
+#### 9.7.13 Placement Feedback
+
+When a block is successfully placed or moved, the app should provide:
+
+- brief haptic confirmation
+- a small visual settle animation
+- concise copy if needed
+
+Example:
+
+- `Moved to your steadier afternoon window`
+
+This creates confidence without interrupting flow.
+
+#### 9.7.14 Starting From Day View
+
+Users should be able to start a task directly from its placed block.
+
+Starting a task should:
+
+- change the block state immediately
+- trigger light celebration
+- optionally open the focus timer if duration suggests it
+- preserve the time context of the day
+
+#### 9.7.15 Planning From Empty Space
+
+Tapping an open area in the time canvas should open a lightweight add flow.
+
+That flow should prefill:
+
+- time range
+- day
+- energy level of the selected window
+
+It may also suggest tasks that fit the selected space.
+
+#### 9.7.16 Contextual Suggestions Inside the Day View
+
+The day view can show context-sensitive recommendations such as:
+
+- `This 20-minute gap fits 2 low-energy tasks`
+- `You usually fade after 4 PM`
+- `Move this to tomorrow’s high-energy window?`
+
+These must remain sparse.
+
+Over-advice will create noise and reduce trust.
+
+#### 9.7.17 Anchored Events Versus Self-Planned Blocks
+
+The day view must visually distinguish:
+
+- fixed appointments
+- semi-fixed commitments
+- self-planned tasks
+
+This helps users understand what is truly movable.
+
+Anchored events should look stable and subdued.
+
+Self-planned blocks should feel editable and alive.
+
+#### 9.7.18 Recovery Buffer Logic
+
+The system should encourage buffers between demanding blocks.
+
+If the user creates back-to-back high-energy placements, the app may offer:
+
+- `Add a 10-minute reset buffer`
+- `Leave a breather here`
+
+This is especially important for ADHD users who underestimate transition costs.
+
+#### 9.7.19 Compression and Overflow Handling
+
+If the day becomes crowded, the screen must not collapse into unreadable density.
+
+Overflow behaviors may include:
+
+- stack summary chips
+- collapse secondary details
+- suggest moving lower-priority flexible blocks
+- switch to a compressed card list below the timeline for overflow items
+
+The product must preserve legibility over completeness.
+
+#### 9.7.20 Emotional Outcome
+
+The user should feel:
+
+- able to see the day instead of guessing at it
+- less likely to overpack time blindly
+- more comfortable moving blocks when reality changes
+- less afraid of the planner after disruption
+
+### 9.8 Screen 3: Week Energy Planning View
+
+#### 9.8.1 Purpose
+
+The week view is a premium planning surface that helps the user see patterns across multiple days without demanding rigid weekly optimization.
+
+Its purpose is not to create a perfect weekly plan.
+
+Its purpose is to help users place a few meaningful things into plausible windows and protect bandwidth across the week.
+
+#### 9.8.2 Core Questions
+
+The screen should answer:
+
+- where are my strongest windows this week
+- which days already look heavy
+- what can I spread out instead of stacking
+- where should bigger tasks probably live
+
+#### 9.8.3 Layout Options
+
+The preferred layout is a horizontally navigable week grid or stacked day cards.
+
+Each day should display:
+
+- day name and date
+- energy forecast by major band
+- anchored commitments summary
+- placed blocks summary
+- open capacity signal
+
+The week view must remain readable on mobile without requiring tiny tap targets.
+
+#### 9.8.4 Day Card Composition
+
+Each day card should show:
+
+- a compact energy profile
+- number of flexible blocks
+- one to three major planned items
+- overload or breathing-room cue
+
+Examples:
+
+- `Wednesday: high early, low late`
+- `Friday: mostly full`
+- `Sunday: light and flexible`
+
+#### 9.8.5 Weekly Placement Interaction
+
+Users should be able to move tasks across days with low friction.
+
+Possible interactions:
+
+- drag a task chip between day cards
+- tap `Move to another day`
+- auto-suggest best days for a task based on duration and energy fit
+
+#### 9.8.6 Weekly Balancing Guidance
+
+The system should support load balancing across the week.
+
+Examples:
+
+- `Two deep-focus tasks are already on Thursday`
+- `Tuesday has a better high-energy window`
+- `Saturday is mostly open if you want to move this out of the workweek`
+
+This guidance should help the user avoid piling all hard tasks onto the same imagined super-productive day.
+
+#### 9.8.7 Week Planning Ritual Support
+
+The screen should support a gentle weekly reset ritual.
+
+The app may frame this as:
+
+- `Place a few anchors for the week`
+- `Give future you a softer start`
+- `Spread the heavy stuff`
+
+The ritual should encourage light structure, not administrative burden.
+
+#### 9.8.8 Partial Planning Is Valid
+
+The week view must not imply that every day needs full blocks.
+
+A successful weekly plan may include:
+
+- only major commitments
+- only likely focus windows
+- only two or three pre-placed tasks
+
+The UI should explicitly validate partial planning.
+
+#### 9.8.9 Emotional Outcome
+
+The user should feel:
+
+- less trapped in a single overloaded day
+- more realistic about the week’s energy terrain
+- more able to spread effort without overcommitting
+
+### 9.9 Screen 4: Month Planning View
+
+#### 9.9.1 Purpose
+
+The month view is a premium zoomed-out planning surface for orientation, not detailed scheduling.
+
+It helps users understand larger patterns without turning the app into a strict calendar system.
+
+#### 9.9.2 Primary Use Cases
+
+Users may use month view to:
+
+- see major appointments and deadlines
+- spot heavy clusters
+- plan around travel or life events
+- identify likely recovery weekends
+- place broad intentions into future weeks
+
+#### 9.9.3 Information Density Rules
+
+Month view must remain intentionally light.
+
+Each date cell should show only the most important signals:
+
+- anchored event dots or markers
+- overload shading if a day is unusually packed
+- energy tendency hint if relevant
+- count of planned blocks if helpful
+
+It should not attempt to display full task titles for many items inside tiny cells.
+
+#### 9.9.4 Tap-Through Behavior
+
+Tapping a day should open:
+
+- day detail
+- quick add
+- place task
+- view commitments
+
+Tapping a week may optionally open the week energy planning view.
+
+#### 9.9.5 Emotional Framing
+
+Month view should help users feel oriented, not trapped by a wall of obligations.
+
+The calendar should avoid alarmist coloring and backlog-heavy visual language.
+
+It should look breathable even when the month is busy.
+
+#### 9.9.6 Emotional Outcome
+
+The user should feel:
+
+- able to look ahead without panic
+- more prepared for upcoming crunch points
+- more aware of where recovery room is needed
+
+### 9.10 Screen 5: Block Placement Sheet
+
+#### 9.10.1 Purpose
+
+The Block Placement Sheet is the lightweight surface that appears when the user chooses to place a task into time.
+
+It must be fast enough to support momentum.
+
+It should feel much lighter than full task editing.
+
+#### 9.10.2 Entry Points
+
+This sheet may open from:
+
+- task detail
+- task card quick actions
+- energy overview suggestions
+- empty space tap in day view
+- reminder follow-up action
+
+#### 9.10.3 Sheet Content
+
+The placement sheet should include:
+
+- task title
+- current duration estimate
+- energy fit summary
+- suggested windows
+- manual day and time selection
+- flexible versus anchored toggle
+- save action
+
+#### 9.10.4 Suggested Window List
+
+Suggested windows should rank options by:
+
+- energy fit
+- available duration
+- current day load
+- urgency
+- user preferences
+- whether the task has already been deferred several times
+
+Each suggestion row should say why it is suggested.
+
+Examples:
+
+- `Today, 2:30 PM. Good match for medium effort`
+- `Tomorrow morning. Your strongest window`
+- `Friday evening. Short and low-pressure slot`
+
+#### 9.10.5 Fast Placement Patterns
+
+The sheet should support one-tap actions such as:
+
+- `Place in best slot`
+- `Place this afternoon`
+- `Move to tomorrow`
+- `Split into two blocks`
+
+These are especially important when the user has low capacity.
+
+#### 9.10.6 Flexible Duration Adjustment
+
+If the selected window is smaller than the current estimate, the sheet may offer:
+
+- `Shrink to 15 minutes`
+- `Make this a starter block`
+- `Split the rest later`
+
+This aligns with the product philosophy of celebrating starting and lowering the barrier to entry.
+
+#### 9.10.7 Save Behavior
+
+After placement, the sheet should close quickly and return the user to context.
+
+The user should immediately see the task in its new time location.
+
+### 9.11 Screen 6: Energy Match Suggestions Sheet
+
+#### 9.11.1 Purpose
+
+This sheet appears when the product proactively helps the user choose tasks that fit a specific energy state or time window.
+
+It is a decision-reduction tool.
+
+#### 9.11.2 Trigger Conditions
+
+It may appear when:
+
+- the user taps an energy band
+- the user taps open time in the day view
+- the user requests `what fits now`
+- a planned block becomes impossible after a low-energy override
+
+#### 9.11.3 Suggestion Ranking Logic
+
+Suggested tasks should be ranked using:
+
+- energy fit
+- duration fit
+- urgency without punitive weighting
+- partial progress already made
+- emotional difficulty
+- recent postponement history
+- whether the task unlocks other tasks
+
+The ranking should prefer achievable momentum over theoretical importance alone.
+
+#### 9.11.4 Card Anatomy
+
+Each task suggestion card should include:
+
+- title
+- estimated duration
+- effort or energy fit
+- supportive reason
+- one-tap start
+- one-tap place
+- one-tap skip for now
+
+#### 9.11.5 Tone Rules
+
+The sheet should never say:
+
+- `You should be doing`
+- `Best use of your time`
+- `Productive choice`
+
+It should instead use:
+
+- `might fit`
+- `could work here`
+- `lighter option`
+- `good for your current energy`
+
+#### 9.11.6 Decline Path
+
+Users must be able to dismiss suggestions without penalty.
+
+The sheet should never behave as though rejecting a suggestion is a mistake.
+
+### 9.12 Screen 7: Replan / Drift Recovery View
+
+#### 9.12.1 Purpose
+
+This view supports users after the day has drifted away from the original plan.
+
+It is one of the most strategically important surfaces in the product because ADHD users often abandon planners at the moment a plan stops matching reality.
+
+This screen must make re-entry feel normal.
+
+#### 9.12.2 Trigger Conditions
+
+The view may be offered when:
+
+- several planned blocks have passed untouched
+- current energy is far below the planned demand
+- the user opens the app after a long gap
+- a focus session ended much later than planned
+- the user manually taps `Replan`
+
+#### 9.12.3 Core Message
+
+The screen should frame the situation as a plan update, not a failure event.
+
+Examples:
+
+- `Your day changed. Let’s adjust it`
+- `This plan can flex`
+- `Want help reshaping the rest of today?`
+
+#### 9.12.4 Layout
+
+The recovery view should show:
+
+- where the day currently stands
+- what blocks were missed or no longer fit
+- remaining open windows
+- current or updated energy context
+- a few clear actions
+
+#### 9.12.5 Recovery Actions
+
+Primary actions should include:
+
+- move to later today
+- move to tomorrow
+- shrink into starter block
+- mark not for today
+- start now anyway
+- auto-rebalance remaining blocks
+
+#### 9.12.6 Auto-Rebalance Behavior
+
+If the user chooses automatic help, the app may:
+
+- keep anchored commitments fixed
+- move flexible blocks into remaining windows
+- reduce or split blocks that no longer fit
+- suggest carrying low-priority items forward
+
+The system must explain the adjustment in plain language.
+
+Example:
+
+- `We moved two flexible tasks to tomorrow and left one short task for tonight`
+
+#### 9.12.7 Emotional Safeguards
+
+This view must not:
+
+- show large counts of missed work as a guilt signal
+- color missed blocks aggressively
+- compare plan versus performance in a judgmental way
+- ask reflective questions that feel like homework in the moment
+
+Its job is operational recovery.
+
+#### 9.12.8 Emotional Outcome
+
+The user should feel:
+
+- relief
+- clarity
+- permission to continue the day
+- confidence that the system adapts instead of accusing
+
+### 9.13 Motion, Haptics, and Microfeedback
+
+These screens involve movement, placement, and reconfiguration.
+
+Feedback should help the user trust changes without overstimulation.
+
+Required patterns:
+
+- soft snap animation on block placement
+- subtle haptic on successful move
+- gentle pulse or glow for current time area
+- brief celebratory response when a placed block is started
+- calm fade transition when switching between day, week, and month views
+
+Motion must clarify state change.
+
+It must never become decorative chaos.
+
+### 9.14 Copywriting Requirements
+
+Copy across these screens must remain:
+
+- short
+- concrete
+- supportive
+- non-judgmental
+
+Preferred language patterns:
+
+- `fits here`
+- `move this`
+- `lighter option`
+- `good window`
+- `leave room`
+- `start small`
+- `try later`
+- `not for today`
+
+Avoid:
+
+- `failed`
+- `overdue`
+- `behind`
+- `missed goal`
+- `best practice`
+- `optimize`
+- `wasted time`
+
+### 9.15 Accessibility Requirements for Energy Scheduling and Time Block Views
+
+These screens have unusually high accessibility importance because they combine:
+
+- visual timelines
+- color-coded energy states
+- drag interactions
+- dense temporal information
+
+Required behaviors include:
+
+- all color meanings must have text or icon reinforcement
+- screen reader access to every block, time range, and state
+- non-drag alternatives for moving blocks
+- large touch targets for block controls
+- reduced motion mode for all placement and transition animations
+- dynamic type support without destroying core hierarchy
+- strong contrast for time labels and current position indicators
+- plain-language labels for energy states
+
+Screen reader examples should expose information such as:
+
+- task title
+- scheduled time
+- duration
+- energy fit
+- movable or anchored status
+- completion or progress state
+
+### 9.16 ADHD-Specific UX Risks
+
+#### 9.16.1 Risk: The View Becomes a Fancy Calendar Rather Than an ADHD Tool
+
+If the screen copies mainstream calendar patterns too closely, it will inherit their rigidity and intimidation.
+
+Mitigation:
+
+- emphasize softness and editability
+- keep precision optional
+- foreground energy and recoverability
+
+#### 9.16.2 Risk: Too Many Visible Blocks Create Overwhelm
+
+If every detail is shown at once, the screen becomes cognitively unusable.
+
+Mitigation:
+
+- collapse nonessential details
+- use progressive disclosure
+- preserve whitespace aggressively
+
+#### 9.16.3 Risk: Energy Guidance Feels Patronizing or Deterministic
+
+If the app seems to tell the user what they are capable of, trust will break.
+
+Mitigation:
+
+- frame energy as a suggestion layer
+- allow instant override
+- avoid identity language
+
+#### 9.16.4 Risk: Replanning Feels Like Admitting Defeat
+
+If moving blocks carries emotional weight, users will avoid the screen when they need it most.
+
+Mitigation:
+
+- normalize movement
+- use soft states
+- make relocation visually easy and emotionally neutral
+
+#### 9.16.5 Risk: The Screen Encourages Over-Scheduling
+
+A visually placeable day can tempt users to fill every open gap.
+
+Mitigation:
+
+- visibly honor buffers and empty space
+- gently flag crowding
+- validate leaving room
+
+### 9.17 Success Criteria for Energy Scheduling and Time Block Views
+
+This section is successful when the experience reliably produces the following outcomes:
+
+- users can place a task into time with very low friction
+- users better understand the actual shape of their day
+- users make more realistic plans when energy is low
+- replanning after disruption feels safe and fast
+- open time and recovery buffers remain visible and valued
+- week and month views help orientation without creating calendar anxiety
+- premium planning value feels tangible and behaviorally useful
+- energy-aware suggestions help users start rather than freeze
+
+The emotional success metric is:
+
+the user feels guided toward a doable day, not pressured into performing an imaginary one
+
+### 9.18 Section Summary
+
+Energy scheduling and time block views are the product’s main tools for turning ADHD reality into workable daily structure.
+
+They should make time visible, capacity legible, and replanning emotionally safe.
+
+If these screens are executed well, the user will experience something most planners fail to provide:
+
+- a day that feels placeable
+- a plan that can flex without shame
+- support that respects energy as real
+- a visual system that helps action happen sooner
+
+These screens are where the app proves it is not merely kinder in tone than other planners.
+
+They are where it becomes structurally different.
