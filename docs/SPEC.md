@@ -5357,3 +5357,888 @@ Screen by screen, it must communicate:
 - support can be gentle and practical at the same time
 
 The onboarding experience should leave the user with a customized but low-pressure setup, one concrete first step, and a strong early impression that this app was built for their real life rather than an idealized version of it.
+
+## 6. Screen-by-Screen: Home/Today View and Task Cards
+
+### 6.1 Purpose of the Home/Today View
+
+The Home/Today view is the emotional center of the product.
+
+It is the screen users will open most often.
+
+It must immediately answer:
+
+- what matters right now
+- what feels possible right now
+- how to restart if the day already drifted
+
+This screen is not a traditional daily agenda.
+
+It is not a backlog dump.
+
+It is not a guilt dashboard.
+
+It is a re-entry surface.
+
+Its primary job is to help the user begin again, whether they are opening the app:
+
+- first thing in the morning
+- after missing half the day
+- after ignoring reminders
+- while overwhelmed
+- while low-energy
+- while trying to salvage a messy afternoon
+
+The screen should feel usable within seconds.
+
+The user should not need to “process the whole day” before they can act.
+
+The Home/Today view has six jobs:
+
+1. Orient the user to today without information overload.
+2. Show a small, supportive set of tasks that feel actionable now.
+3. Translate time and energy into visible, practical planning cues.
+4. Reduce shame by handling missed or delayed tasks gently.
+5. Provide fast access to task start, timer start, and reschedule actions.
+6. Create small dopamine wins for re-engagement throughout the day.
+
+The emotional promise of this screen is:
+
+You are not behind.
+
+You are just here now, and we can start from here.
+
+### 6.2 Home/Today Design Principles
+
+The Home/Today view must embody the product philosophy in daily use.
+
+#### 6.2.1 Re-Entry Is More Important Than Perfect Planning
+
+Most users will not interact with the app from an ideal, calm, fully intentional state.
+
+The screen must assume interruption, delay, indecision, and context switching as normal conditions.
+
+The UI should privilege “start now,” “choose for me,” and “move this gently” over organizational depth.
+
+#### 6.2.2 One Screen, One Felt Next Step
+
+The user should be able to identify at least one reasonable next action within three to five seconds of landing.
+
+If the screen demands scanning too many modules, it has failed.
+
+#### 6.2.3 Visual Time Must Be Concrete
+
+ADHD users often struggle with time abstraction.
+
+The Home/Today screen must make time visible through blocks, zones, progress bands, or other spatial cues rather than relying only on timestamps and lists.
+
+#### 6.2.4 Energy Is a First-Class Planning Signal
+
+The screen should reflect the user’s current or typical energy state and connect it to task suggestions.
+
+The app must help the user answer:
+
+What kind of task fits me right now?
+
+Not just:
+
+What is due?
+
+#### 6.2.5 Missed Intentions Must Stay Emotionally Safe
+
+Tasks that were not done earlier today must not become visually accusatory.
+
+No harsh red overdue states.
+
+No “late” badges dominating the screen.
+
+No copy that implies failure.
+
+The screen should convert stale intent into fresh options:
+
+- do now
+- do later today
+- move to another day
+- shrink the task
+
+#### 6.2.6 Starting Deserves Reward
+
+Task initiation is one of the hardest parts of ADHD productivity.
+
+The Home/Today view must treat starting as an event worth noticing.
+
+This screen should support:
+
+- start buttons that are more prominent than completion checkmarks in some contexts
+- fast transitions into focus mode
+- micro-celebrations for initiation
+
+#### 6.2.7 Calm by Default, Encouraging by Detail
+
+The screen should feel visually calm at first glance.
+
+Encouragement should appear in small contextual moments, not as relentless cheerfulness.
+
+### 6.3 Primary User Questions the Screen Must Answer
+
+When a user opens Home/Today, the screen must quickly answer the following:
+
+1. What part of the day am I in?
+2. How am I likely to feel right now, or what energy mode am I in?
+3. What is the best task to start next?
+4. What else is on my plate today?
+5. What happened to anything I missed?
+6. How do I change the plan without feeling like I ruined it?
+
+If any of these questions require deep scrolling, dense reading, or menu-hunting, the screen is not meeting its core purpose.
+
+### 6.4 Home/Today View Information Architecture
+
+The Home/Today view should be structured in priority order from immediate orientation to immediate action to supporting context.
+
+Recommended top-to-bottom structure:
+
+1. top status and greeting region
+2. current day timeline or visual time-block strip
+3. primary “Now” or “Next Best Step” module
+4. today task stack
+5. gentle carryover or reschedule area
+6. secondary tools such as focus timer, body doubling, or quick add
+
+The default viewport should show the highest-value content without requiring scroll:
+
+- day orientation
+- one primary actionable task or suggestion
+- at least one additional task card
+
+Lower-priority modules should not displace the primary action zone.
+
+### 6.5 Screen Entry States
+
+The Home/Today view must adapt meaningfully based on context.
+
+It is not one static screen.
+
+#### 6.5.1 First Entry After Onboarding
+
+When arriving from onboarding, the screen should feel prepared rather than empty.
+
+It should show:
+
+- the task created during onboarding if one exists
+- one short orientation cue
+- a clear invitation to start or add another task
+
+The first arrival should validate setup work immediately.
+
+#### 6.5.2 Morning Entry
+
+In the morning, the screen should emphasize:
+
+- today’s shape
+- available energy window
+- one or two recommended starting tasks
+- simple planning support
+
+The tone should feel settling, not demanding.
+
+#### 6.5.3 Midday Re-Entry
+
+During midday, the screen should assume the plan may already have changed.
+
+It should emphasize:
+
+- what still makes sense now
+- what can be shifted without penalty
+- the fastest path back into action
+
+Midday re-entry is a critical ADHD use case and must feel especially forgiving.
+
+#### 6.5.4 Late-Day Entry
+
+In the evening, the screen should adapt toward:
+
+- lighter tasks
+- planning/reset actions
+- closure without self-criticism
+
+If the user has low remaining capacity, the interface should not keep pushing high-effort items.
+
+#### 6.5.5 High-Disruption Entry
+
+If multiple reminders were ignored, a timer was interrupted, or several tasks rolled forward, the app should reduce intensity.
+
+The screen should present a calm reset state:
+
+- one grounding message
+- one recommended task
+- one reschedule path
+
+It must not visually amplify the chaos.
+
+### 6.6 Top Region: Header, Greeting, and Day Orientation
+
+The top region establishes context without wasting space.
+
+It should contain:
+
+- day label such as `Today`
+- date
+- optional soft greeting or contextual phrase
+- quick access to settings, streak-free habits, or profile only if lightweight
+
+The greeting should be variable and situational, not generic motivation.
+
+Examples of acceptable tone direction:
+
+- steady and practical
+- warm but restrained
+- grounded in the current part of day
+
+Examples of acceptable message types:
+
+- orientation: `Tuesday, March 29`
+- energy framing: `Low-energy mornings are valid. Let’s keep it light.`
+- re-entry framing: `Plans changed. Want to reset today in one tap?`
+
+The header should never dominate vertical space.
+
+It exists to orient, not decorate.
+
+### 6.7 Visual Time Block Strip
+
+The Home/Today view should include a visual time representation near the top of the screen.
+
+This is a core differentiator.
+
+It should help users perceive the day spatially rather than only conceptually.
+
+#### 6.7.1 Purpose
+
+The visual time strip helps reduce time blindness by making today feel tangible.
+
+It should communicate:
+
+- current part of day
+- upcoming time blocks
+- approximate placement of planned tasks
+- open space versus crowded space
+
+#### 6.7.2 Representation
+
+The strip may be horizontal or vertically compressed, but it should use visible segments for:
+
+- morning
+- midday
+- afternoon
+- evening
+
+Segments may also reflect the user’s energy profile through soft tonal differences or iconography.
+
+The current moment should be indicated subtly.
+
+It must not mimic a stressful calendar ruler.
+
+#### 6.7.3 Behavior
+
+Tapping a block should optionally filter or jump the task stack to that period.
+
+The strip should remain lightweight.
+
+It is not intended to replace full weekly or monthly planning views.
+
+#### 6.7.4 Emotional Role
+
+The strip should help the user feel:
+
+- the day is finite
+- there is still room
+- time can be worked with visually
+
+### 6.8 Primary Action Module: Now / Next Best Step
+
+This module is the most important interactive area on the Home/Today screen.
+
+It should appear high on the screen and adapt based on context.
+
+#### 6.8.1 Purpose
+
+The module reduces the burden of choosing what to do next.
+
+It should not simply repeat the first task in a list.
+
+It should synthesize:
+
+- timing
+- energy fit
+- urgency
+- task size
+- user support preferences
+
+#### 6.8.2 Default States
+
+Possible primary states include:
+
+- `Start this now`
+- `Good fit for your energy`
+- `Tiny step to restart`
+- `Quick win before your next block`
+- `Would body doubling help?`
+
+The app should choose only one primary framing at a time.
+
+#### 6.8.3 Actions
+
+The module should support direct actions such as:
+
+- start task
+- start focus timer
+- break task into smaller step
+- move to later
+- swap for an easier task
+
+These actions should be available without entering a detail screen.
+
+#### 6.8.4 Presentation
+
+The module may use a larger featured card style than standard task cards.
+
+It should contain:
+
+- task name
+- supporting reason
+- optional energy match label
+- one primary CTA
+- one or two secondary actions only
+
+Too many choices will undermine the point of the module.
+
+#### 6.8.5 ADHD-Specific Value
+
+This module should feel like helpful triage.
+
+It should answer:
+
+You do not need to optimize the whole day.
+
+Here is a reasonable place to begin.
+
+### 6.9 Today Task Stack Overview
+
+Below the primary module, the user should see a curated stack of task cards for today.
+
+This area must balance visibility with restraint.
+
+The screen should not expose the entire backlog by default.
+
+Recommended ordering logic:
+
+1. currently relevant tasks
+2. suggested next tasks
+3. flexible later-today tasks
+4. gently carried-over items
+
+The stack should support light scroll, but the first few cards matter most.
+
+The stack must always feel editable.
+
+Nothing should look locked in.
+
+### 6.10 Task Card Philosophy
+
+Task cards are not merely containers for task data.
+
+They are the primary behavioral surface of the product.
+
+Each card must balance:
+
+- clarity
+- low reading burden
+- fast interaction
+- emotional safety
+- motivating affordances
+
+The task card should make a task feel approachable.
+
+It should reduce dread where possible.
+
+It should surface enough context to help with initiation, but not so much metadata that the card feels managerial.
+
+### 6.11 Standard Task Card Anatomy
+
+Each task card in the Home/Today view should be composed of a consistent set of elements.
+
+Required elements:
+
+- task title
+- current status or state cue
+- suggested time block or timing context
+- energy fit cue when relevant
+- primary action
+
+Optional elements:
+
+- estimated duration
+- tiny-step prompt
+- reminder indicator
+- body doubling availability
+- habit or routine association
+- carryover explanation
+
+The visual hierarchy should strongly prioritize the task title and the next action.
+
+Metadata should stay secondary.
+
+### 6.12 Task Card States
+
+Task cards should have distinct but gentle states.
+
+These states must be easy to scan without relying on punitive visual language.
+
+#### 6.12.1 Ready-to-Start
+
+This is the default active state.
+
+The card should visually communicate readiness and possibility.
+
+Primary CTA:
+
+`Start`
+
+Secondary options may include:
+
+- `Later`
+- `Break it down`
+
+#### 6.12.2 In Progress
+
+When a task has been started, the card should reflect momentum.
+
+This state should show:
+
+- in-progress styling
+- elapsed timer or session association if active
+- option to resume or continue
+
+Completion should still be possible, but the UI should visibly acknowledge that starting already counted.
+
+#### 6.12.3 Paused
+
+If a task was started and then interrupted, the card should show a safe re-entry state.
+
+Suggested tone:
+
+- `Paused earlier`
+- `Ready when you are`
+
+This state is especially important for interrupted focus sessions.
+
+#### 6.12.4 Completed
+
+Completed tasks should feel satisfying but not disappear so quickly that the user loses the reward.
+
+For the current day, completed items may collapse into a softer, lower-emphasis section after a short dwell period.
+
+#### 6.12.5 Auto-Rescheduled
+
+If a task was not completed in its prior slot, the card should not show as failed.
+
+Instead, it may display language such as:
+
+- `Moved forward`
+- `Still available today`
+- `Let’s place this somewhere better`
+
+This is a signature product behavior and must feel humane.
+
+#### 6.12.6 Waiting / Not for Now
+
+Some tasks may be visible but intentionally deferred.
+
+They should look quiet and low-pressure rather than neglected.
+
+### 6.13 Required Content Rules for Task Cards
+
+Task cards should follow these content constraints:
+
+- titles should be plain-language and user-authored
+- dense metadata rows should be avoided
+- priority labels should not dominate
+- hard due-date stress should not be the default visual cue
+- copy should focus on actionability, not evaluation
+
+If the card needs too many labels to explain itself, the task model or view logic should be simplified.
+
+### 6.14 Start Interaction and Initiation Reward
+
+The start action is one of the defining interactions of the app.
+
+#### 6.14.1 Start Button Placement
+
+On ready-to-start cards, the `Start` action should be prominent and thumb-reachable.
+
+It should often be visually more inviting than the completion control.
+
+#### 6.14.2 Immediate Response
+
+When the user taps `Start`, the app should respond instantly with:
+
+- tactile confirmation
+- small visual celebration
+- state transition to in-progress
+
+Optional celebration patterns:
+
+- brief confetti burst
+- glow ripple
+- cheerful card lift
+
+This reward must be short and non-disruptive.
+
+It should reinforce:
+
+Starting happened.
+
+That counts.
+
+#### 6.14.3 Post-Start Branches
+
+After start, the system may:
+
+- open the focus timer
+- keep the user on Home with the task marked active
+- prompt for body doubling if enabled
+
+The exact branch should depend on task type, preference settings, and whether the user tends to prefer low-friction starts or structured sessions.
+
+### 6.15 Completion Interaction
+
+Completion should feel good, but not like the only valid success state.
+
+When a user marks a task complete:
+
+- provide warm positive feedback
+- keep animation shorter than initiation celebration or equal in intensity, but not dramatically larger
+- optionally move the card to a completed area after a short delay
+
+The emotional model is:
+
+completion is great
+
+starting also mattered
+
+### 6.16 Gentle Reschedule Interaction
+
+Rescheduling must be a first-class task-card interaction.
+
+It should never feel like punishment or admission of failure.
+
+#### 6.16.1 Entry Points
+
+The user should be able to reschedule from:
+
+- swipe action
+- card overflow menu
+- inline `Later` action
+- carryover prompt
+
+#### 6.16.2 Reschedule Choices
+
+Reschedule choices should emphasize low-friction decisions:
+
+- later today
+- tomorrow
+- this weekend
+- next week
+- when energy is higher
+- choose a time
+
+The app should allow energy-based rescheduling as a meaningful option.
+
+#### 6.16.3 Copy Requirements
+
+Avoid phrasing like:
+
+- overdue
+- missed deadline
+- failed
+- ignored
+
+Prefer phrasing like:
+
+- move it
+- try a better slot
+- not today
+- save for later
+
+### 6.17 Carryover Area
+
+Tasks that originated earlier but are still relevant should not be mixed indistinguishably with fresh tasks.
+
+They should live in a soft carryover area or appear with a clear gentle label.
+
+This area exists to reduce ambiguity without creating guilt.
+
+Recommended labels:
+
+- `Still open`
+- `Carried into today`
+- `Needs a new spot`
+
+The area should:
+
+- remain visually calm
+- support bulk gentle actions
+- avoid a backlog-pile feeling
+
+Possible actions:
+
+- review one by one
+- place all later
+- pick one to start now
+
+### 6.18 Energy-Aware Presentation in Home/Today
+
+The Home/Today view must translate energy-aware planning into visible behavior.
+
+This should be one of the clearest differences from conventional task apps.
+
+#### 6.18.1 Current Energy Context
+
+The screen may infer or ask for a current energy level.
+
+It should present this lightly, such as:
+
+- `High focus window`
+- `Medium energy`
+- `Low-capacity mode`
+
+The user must be able to change it quickly.
+
+#### 6.18.2 Card-Level Energy Fit
+
+When helpful, task cards may include cues like:
+
+- `Good for low energy`
+- `Best in a focused block`
+- `Flexible`
+
+These labels must help decision-making, not clutter the UI.
+
+#### 6.18.3 Suggestion Logic
+
+If the user is in low-energy mode, the Home screen should elevate:
+
+- smaller tasks
+- admin tasks
+- maintenance tasks
+- recovery-compatible tasks
+
+If the user is in high-energy mode, it may elevate:
+
+- deep work
+- complex tasks
+- planning-heavy items
+
+The app should never make energy feel prescriptive.
+
+It should feel like support, not limitation.
+
+### 6.19 Focus Timer and Body Doubling Affordances
+
+The Home/Today view should provide direct access to support tools without overpowering the task experience.
+
+#### 6.19.1 Focus Timer Entry
+
+If a task is started, the card or primary module should offer:
+
+- `Start focus session`
+- `25 min`
+- `Flexible timer`
+
+If the user frequently uses timers, this action may be elevated.
+
+#### 6.19.2 Body Doubling Entry
+
+For users who selected external-structure preferences, relevant cards may show a body doubling affordance such as:
+
+- `Work with audio`
+- `Need company to start?`
+
+This should be suggestive, not intrusive.
+
+#### 6.19.3 Integration Rule
+
+These support tools must feel attached to the task the user is trying to begin.
+
+They should not feel like parallel productivity gadgets.
+
+### 6.20 Empty, Light, and Overloaded States
+
+The Home/Today view must handle different density states gracefully.
+
+#### 6.20.1 Empty Day
+
+If there are no tasks for today, the screen should feel calm and invitational rather than blank.
+
+It should offer:
+
+- quick add
+- suggested planning prompt
+- optional habit or reset action
+
+The message should imply possibility, not emptiness.
+
+#### 6.20.2 Very Light Day
+
+If only one or two tasks exist, the screen should avoid looking underbuilt.
+
+It may use larger cards, more breathing room, and supporting prompts.
+
+#### 6.20.3 Overloaded Day
+
+If many tasks exist, the screen should still protect the user from overwhelm.
+
+It should:
+
+- surface only the most relevant items first
+- allow grouping by time or energy
+- compress lower-priority items
+- offer gentle bulk reschedule or simplify actions
+
+The overloaded state must not become a wall of demands.
+
+### 6.21 Motion, Haptics, and Microfeedback in Home/Today
+
+The Home/Today view should feel alive in a regulating way.
+
+Motion should support comprehension and reward, not novelty for its own sake.
+
+Recommended interaction feedback:
+
+- soft card lift on press
+- subtle slide on reschedule
+- warm pulse on start
+- low-intensity confetti on initiation
+- satisfying collapse into completed state
+
+Haptics should be:
+
+- noticeable
+- brief
+- adjustable
+- never aggressive
+
+Users with reduced motion or sensory sensitivity settings must receive calmer alternatives.
+
+### 6.22 Accessibility Requirements for Home/Today and Task Cards
+
+This screen has elevated accessibility importance because it is repeatedly used in low-capacity moments.
+
+Requirements include:
+
+- large touch targets for all primary task actions
+- screen reader labels that describe task title, state, and next action clearly
+- no information conveyed by color alone
+- strong contrast while maintaining warm non-threatening palette choices
+- support for large text without task cards becoming unusable
+- predictable reading order
+- swipe actions with accessible equivalents
+- reduced-motion support for all celebrations and transitions
+
+The cognitive accessibility standard is especially important.
+
+The screen must remain understandable when the user is:
+
+- tired
+- stressed
+- distracted
+- using one hand
+- returning after avoidance
+
+### 6.23 ADHD-Specific UX Risks in Home/Today
+
+#### 6.23.1 Risk: The Screen Feels Like a Failure Report
+
+If carryover items, delayed tasks, and missed reminders dominate visually, the user may avoid the app.
+
+Mitigation:
+
+- keep missed-task language gentle
+- elevate what is possible now
+- separate carryover from active now items
+
+#### 6.23.2 Risk: Too Many Choices Cause Paralysis
+
+If the user sees a long undifferentiated task list, they may do nothing.
+
+Mitigation:
+
+- featured next-step module
+- limited visible top items
+- energy-aware sorting
+
+#### 6.23.3 Risk: Time Blindness Support Is Too Abstract
+
+If time is shown only as text metadata, the app loses one of its biggest differentiators.
+
+Mitigation:
+
+- use spatial time blocks
+- anchor tasks to visible day segments
+- indicate the current part of the day clearly
+
+#### 6.23.4 Risk: Start Celebration Becomes Distracting
+
+If initiation rewards are noisy, the screen may feel childish or overstimulating.
+
+Mitigation:
+
+- keep celebration brief
+- tune intensity by user preference
+- prioritize tactile and subtle visual feedback over spectacle
+
+#### 6.23.5 Risk: Energy Labels Feel Limiting
+
+If the app appears to decide what the user can or cannot do, trust will drop.
+
+Mitigation:
+
+- frame energy as suggestion
+- allow easy override
+- avoid deterministic wording
+
+### 6.24 Success Criteria for the Home/Today View
+
+The Home/Today view is successful when it produces the following outcomes:
+
+- users can identify a next step within seconds
+- missed tasks do not create a shame response
+- task cards make initiation feel easier, not heavier
+- visual time aids improve day orientation
+- energy-aware suggestions feel relevant and humane
+- starting a task feels meaningfully rewarded
+- rescheduling feels safe and normal
+- the screen remains usable under interruption and low capacity
+
+The emotional success metric is:
+
+the user feels more able to begin than they did before opening the app
+
+### 6.25 Section Summary
+
+The Home/Today view is where the product proves, day after day, that it is not a neurotypical planner with softer colors.
+
+It must help users:
+
+- re-enter without shame
+- see time more concretely
+- choose based on energy, not only obligation
+- start quickly
+- adjust plans gently
+
+Task cards are central to this promise.
+
+They should feel supportive, low-friction, and alive with small moments of encouragement.
+
+Together, the Home/Today view and its task cards should make daily planning feel less like self-surveillance and more like practical support for an ADHD brain in motion.
