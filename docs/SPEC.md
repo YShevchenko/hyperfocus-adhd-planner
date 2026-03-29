@@ -1,0 +1,12896 @@
+# SPEC.md
+
+## 1. Vision Statement, Mission, and Core Philosophy
+
+### 1.1 Product Identity
+
+This product is an ADHD-native planner.
+
+It is not a standard productivity app with a few accessibility options added on top.
+
+It is not a stricter to-do list with softer colors.
+
+It is not a planner that assumes consistency, linear motivation, perfect recall, or a stable energy profile.
+
+It is a planning system designed from the ground up for adults with ADHD who want help moving through real life without being judged by their tools.
+
+The app exists for people whose days are shaped by:
+
+- fluctuating energy
+- time blindness
+- initiation paralysis
+- overwhelm from cluttered systems
+- all-or-nothing thinking
+- shame spirals after missed plans
+- inconsistent motivation
+- difficulty translating intention into action
+- sensitivity to friction, noise, and visual overload
+- a need for encouragement that feels genuine rather than patronizing
+
+The product point of view is explicit:
+
+Most productivity software is built around compliance, consistency, and backlog pressure.
+
+This product is built around momentum, emotional safety, and re-entry.
+
+The user should feel, at every touchpoint, that the app is on their side.
+
+The app should feel like a supportive external nervous system:
+
+- helping the user begin
+- helping the user recover
+- helping the user see time
+- helping the user choose what matters now
+- helping the user feel progress before completion
+
+The app should never feel like a digital authority figure.
+
+It should feel like a calm, warm, practical companion that understands ADHD reality without reducing the user to their struggles.
+
+### 1.2 Vision Statement
+
+To become the planner people with ADHD trust because it helps them move forward without making them feel broken, behind, or ashamed.
+
+More specifically:
+
+The vision is to create the default planning experience for adults with ADHD who have repeatedly bounced off traditional productivity systems because those systems confuse inconsistency with failure.
+
+This product should redefine what “organized” feels like for ADHD users.
+
+Instead of discipline-first productivity, the app should normalize adaptive productivity:
+
+- plans can change
+- energy matters
+- missed tasks are information, not moral failure
+- starting is a meaningful win
+- small actions deserve immediate reinforcement
+- visible time is more useful than abstract lists
+
+The app’s long-term vision is not merely to help users capture tasks.
+
+It is to help users trust themselves again.
+
+That trust comes from repeated experiences where the app:
+
+- reduces friction instead of adding it
+- makes next steps obvious
+- protects users from backlog shame
+- provides structure without rigidity
+- translates good intentions into doable actions
+- supports recovery after interruption
+- rewards engagement before the end result
+
+The product should become known for one central emotional promise:
+
+You can come back at any time, exactly as you are, and the app will help you restart.
+
+### 1.3 Mission Statement
+
+The mission of the product is to help adults with ADHD plan, start, and sustain daily life with less shame, less friction, and more momentum.
+
+This mission has practical meaning.
+
+The app must help users do four things reliably:
+
+1. See what matters now.
+2. Start more easily.
+3. Recover quickly after disruption.
+4. Experience progress in short, motivating loops.
+
+The mission is not to maximize output at all costs.
+
+The mission is not to force users into a rigid productivity identity.
+
+The mission is not to build the most powerful planner in abstract terms.
+
+The mission is to create the most usable, emotionally sustainable, ADHD-aligned planning system in everyday life.
+
+This means the product must respect the difference between what users intend, what users can do right now, and what the environment currently allows.
+
+The app should bridge that gap with design choices that reduce activation energy.
+
+The app should make action easier without making the user feel managed.
+
+The app should create enough structure to support follow-through while remaining flexible enough to survive real ADHD patterns:
+
+- hyperfocus
+- task avoidance
+- shifting priorities
+- low-sleep days
+- sensory overload
+- interruptions
+- emotional exhaustion
+- medication variability
+- work-life spillover
+- “I lost the thread of the day” moments
+
+The mission can be summarized in one sentence:
+
+Help the user begin again, as many times as necessary.
+
+### 1.4 Core Product Promise
+
+The core promise of the product is:
+
+This planner will help you function without using guilt as its operating system.
+
+That promise has direct product implications.
+
+The app must never rely on:
+
+- red overdue piles
+- escalating visual punishment
+- streak-break grief mechanics
+- passive-aggressive language
+- metrics that emphasize failure more than effort
+- interfaces that grow harsher as the user falls behind
+- completion systems that ignore the emotional difficulty of getting started
+
+Instead, the product must rely on:
+
+- graceful recovery
+- emotionally safe defaults
+- adaptive scheduling
+- visible time scaffolding
+- low-friction interaction patterns
+- celebratory reinforcement for initiation
+- compassionate language that still remains practical
+
+The planner should communicate:
+
+You are not failing the system.
+
+The system is adapting to support you.
+
+### 1.5 Core Philosophy
+
+#### 1.5.1 ADHD-Native, Not Neurotypical-by-Default
+
+The app is designed specifically for ADHD users from the first principle outward.
+
+This distinction is foundational.
+
+A neurotypical-by-default planner usually assumes:
+
+- time is perceived reliably
+- urgency increases action
+- overdue indicators improve accountability
+- consistency is the primary sign of success
+- users will review large task backlogs rationally
+- complex setup is acceptable if power users benefit later
+- completion is the only moment worth celebrating
+
+For many ADHD users, these assumptions fail.
+
+Urgency may freeze rather than activate.
+
+Backlogs can become visually and emotionally unusable.
+
+Setup friction can kill adoption before trust is formed.
+
+Overdue signals can trigger avoidance instead of action.
+
+Rigid routines can collapse after one disrupted day.
+
+The app therefore starts from ADHD realities rather than retrofitting them later.
+
+This means the planner must be opinionated in ways that support ADHD cognition:
+
+- fewer decisions at moments of low capacity
+- visible structure instead of abstract organization
+- flexible recovery instead of punishment for drift
+- immediate positive reinforcement for engagement
+- cues that help users locate themselves in time
+- interfaces that reduce overwhelm before asking for effort
+
+The app should never feel like it was designed for another user and then softened for ADHD.
+
+It should feel native, intentional, and deeply familiar to the user’s lived experience.
+
+#### 1.5.2 Dopamine-Aware Design
+
+The product is built on dopamine-aware design principles.
+
+This does not mean manipulative gamification.
+
+It means understanding that motivation, initiation, and sustained attention are strongly affected by reward timing, novelty, emotional tone, and perceived effort.
+
+The app should use short, healthy motivational loops that support action without turning the product into a slot machine.
+
+Dopamine-aware design in this product means:
+
+- rewarding starts, not only finishes
+- creating immediate feedback for small actions
+- making progress visible quickly
+- reducing dead moments between intent and action
+- using delight sparingly but meaningfully
+- avoiding long stretches of effort with no emotional reinforcement
+
+The app should recognize that “task started” may represent a larger internal victory than “task completed.”
+
+For many ADHD users, starting is the hardest part.
+
+Therefore the product must treat initiation as a first-class success state.
+
+Examples of dopamine-aware product thinking include:
+
+- a brief celebration when a task is started
+- visual confirmation when a plan becomes concrete
+- satisfying timer transitions
+- encouraging micro-copy after re-entry
+- positive sensory feedback for tiny wins
+- fast task capture that preserves momentum
+
+Dopamine-aware design also requires restraint.
+
+The app must not become noisy, chaotic, infantilizing, or overstimulating.
+
+It should feel energizing without becoming distracting.
+
+The product should provide emotional lift, not sensory clutter.
+
+The governing principle is:
+
+Deliver motivation in small, timely, respectful doses.
+
+#### 1.5.3 No-Shame Design
+
+No-shame design is a non-negotiable product principle.
+
+Many ADHD users have a long history of feeling morally judged for inconsistency, lateness, forgetfulness, unfinished tasks, or difficulty maintaining systems.
+
+A planner can easily reactivate those experiences.
+
+This product must not.
+
+No-shame design means the app never frames missed actions as personal failure.
+
+It never suggests the user “fell off the wagon.”
+
+It never turns backlog accumulation into a visual indictment.
+
+It never makes the user afraid to reopen the app after a hard day or week.
+
+This principle affects language, color, motion, defaults, reminders, and data rules.
+
+The app should treat missed plans as neutral signals.
+
+If something was not done, the app should help the user decide:
+
+- still relevant
+- move to later
+- break it down
+- drop for now
+- convert into something easier
+
+The app should avoid creating a binary success/failure story around each day.
+
+A difficult day is still a valid day.
+
+Re-entry should always feel safe.
+
+The user should be able to open the app after missed tasks and feel:
+
+- oriented
+- invited
+- supported
+- unpunished
+- capable of taking one next step
+
+The app’s emotional posture should be:
+
+Compassionate, but not vague.
+
+Gentle, but not passive.
+
+Supportive, but not condescending.
+
+#### 1.5.4 Celebrate Starting, Not Just Finishing
+
+Traditional productivity systems reserve reward for completion.
+
+This product deliberately broadens the definition of progress.
+
+For ADHD users, meaningful progress often includes:
+
+- opening the task
+- deciding the next step
+- beginning a timer
+- preparing materials
+- transitioning into work mode
+- doing two minutes instead of zero
+- returning after interruption
+- rescheduling thoughtfully instead of avoiding the task
+
+The app must encode this reality into the experience.
+
+Completion still matters, but it is not the only valuable event.
+
+The product should give users credit for activation, momentum, and recovery.
+
+This changes the emotional rhythm of the app.
+
+Instead of:
+
+“Nothing counts until you finish.”
+
+The product says:
+
+“Beginning counts. Re-beginning counts. Tiny forward movement counts.”
+
+This principle reduces all-or-nothing thinking.
+
+It also makes the app more resilient on difficult days, when full completion may be unrealistic but engagement is still possible.
+
+#### 1.5.5 Time Blindness Is a Design Constraint
+
+The app must assume that time is often hard to sense, not just hard to manage.
+
+This is a crucial distinction.
+
+Text lists alone are insufficient for many ADHD users because they do not externalize time in a concrete enough way.
+
+The planner must therefore act as a visual translator of time.
+
+It should help users answer:
+
+- what is happening now
+- what comes next
+- how long something may take
+- where the day has room
+- when energy is likely to be higher or lower
+- how far away a commitment actually is
+
+Time blindness support is not an advanced feature.
+
+It is part of the core philosophy of the product.
+
+The system should prefer representations that make time feel visible and tangible.
+
+This includes:
+
+- time blocks
+- day structure visualization
+- duration cues
+- countdown and elapsed-time feedback
+- gentle transitions between states
+- reminders that anchor the user in the current moment
+
+The product should help users build an external sense of time without requiring constant self-monitoring.
+
+#### 1.5.6 Flexibility Over Rigidity
+
+ADHD users often need structure, but structure that is too rigid can become unusable after the first disruption.
+
+The app should therefore optimize for adaptive structure.
+
+Adaptive structure means:
+
+- plans can move without becoming failures
+- tasks can be reframed when capacity changes
+- the system remains usable after missed days
+- user effort is preserved even when schedules shift
+- routines bend rather than snap
+
+Rigidity often creates abandonment.
+
+Flexibility creates re-entry.
+
+The app should prefer systems that survive real life:
+
+- late starts
+- low-energy mornings
+- unexpected errands
+- emotional crashes
+- hyperfocus detours
+- forgotten tasks
+- appointments that consume the day
+- sleep disruption
+
+The product should not ask:
+
+“How do we make the user obey the plan?”
+
+It should ask:
+
+“How do we help the plan remain useful when life stops matching it?”
+
+#### 1.5.7 Lower the Activation Energy
+
+The distance between intention and action must be as short as possible.
+
+Every additional decision, field, tap, and interpretation step increases the chance of drop-off.
+
+For ADHD users, this cost is often much higher than product teams assume.
+
+The app must be designed to reduce activation energy across the full experience.
+
+This includes:
+
+- fast capture
+- sensible defaults
+- low-friction editing
+- limited text density
+- clear calls to action
+- predictable interactions
+- minimal setup before first value
+- visible next steps
+
+The app should minimize states where the user has to pause and figure out what the system wants from them.
+
+The product should regularly answer:
+
+- what should I do here
+- what happens if I tap this
+- what is the smallest next move
+- how do I restart without dealing with everything
+
+Activation energy is not only about speed.
+
+It is also about emotional cost.
+
+A screen can be technically simple yet emotionally heavy.
+
+The app must reduce both.
+
+#### 1.5.8 Reduce Cognitive Load Aggressively
+
+Cognitive load is a core product concern, not a polish concern.
+
+Users should not have to mentally sort, compare, decode, or remember more than necessary.
+
+The app should do more of that work for them.
+
+This means:
+
+- limiting competing visual signals
+- avoiding cluttered backlogs
+- grouping information meaningfully
+- keeping key actions obvious
+- using progressive disclosure for complexity
+- preserving context across interruptions
+- reducing the need to remember invisible system rules
+
+When in doubt, the product should prefer:
+
+- clarity over density
+- recognition over recall
+- guidance over blank-slate complexity
+- one good choice over five equivalent choices
+
+The app should feel cognitively breathable.
+
+It should create the sensation of exhale, not compression.
+
+#### 1.5.9 Emotional Safety Is a Functional Requirement
+
+Emotional safety is not “nice to have.”
+
+For this product, emotional safety directly affects retention, task engagement, willingness to reopen the app, and ability to trust recommendations.
+
+If the interface makes users feel accused, behind, or helpless, it has failed functionally, not just aesthetically.
+
+The planner must be safe to return to after:
+
+- a missed day
+- a missed week
+- a missed habit
+- a half-finished task
+- a broken routine
+- notification fatigue
+- burnout
+- depression-related slowdown
+- a chaotic life event
+
+The app should communicate:
+
+There is no penalty for coming back late.
+
+The user should never need to “clean up the mess” before the app becomes usable again.
+
+The system should absorb mess gracefully and convert it into a manageable present moment.
+
+#### 1.5.10 Support Identity Repair, Not Just Task Completion
+
+Many users will not only be trying to get things done.
+
+They will also be carrying a damaged self-story:
+
+- “I can’t stick to anything.”
+- “I’m always behind.”
+- “I ruin systems.”
+- “I’m lazy unless pressured.”
+- “If I miss one day, it’s over.”
+
+A planner can reinforce those beliefs or gently weaken them.
+
+This product should weaken them.
+
+It does so not through affirmations alone, but through repeated lived evidence:
+
+- the app remains usable after disruption
+- the app makes next steps smaller
+- the app notices effort
+- the app avoids framing inconsistency as failure
+- the app helps the user succeed in imperfect conditions
+
+Over time, the desired outcome is not merely higher productivity.
+
+It is a healthier internal narrative:
+
+“I can work with my brain.”
+
+### 1.6 Product Principles
+
+The following principles guide all product decisions in this spec.
+
+If a future feature conflicts with these principles, the feature should be redesigned or rejected.
+
+#### 1.6.1 Compassion Before Compliance
+
+The product should prioritize user support over rule enforcement.
+
+Systems that maximize compliance by increasing pressure are misaligned with the app’s mission.
+
+The planner can encourage.
+
+It can guide.
+
+It can suggest.
+
+It should not coerce.
+
+#### 1.6.2 Progress Over Perfection
+
+The product should reward forward movement in any meaningful size.
+
+Users should not have to complete an idealized version of the plan for the day to feel successful.
+
+#### 1.6.3 Re-Entry Over Streak Preservation
+
+Any mechanic that makes users afraid to break a streak is suspect.
+
+The product should favor systems that welcome return rather than punish interruption.
+
+#### 1.6.4 Visibility Over Abstraction
+
+When users struggle to act, the app should make time, effort, and next steps more visible.
+
+It should not hide critical information behind abstract labels or dense list structures.
+
+#### 1.6.5 Guidance Over Blankness
+
+A blank page can be cognitively expensive.
+
+The app should provide enough structure and suggestion to help users get started without feeling controlled.
+
+#### 1.6.6 Adaptation Over Punishment
+
+When plans fail, the system should adapt.
+
+It should not intensify pressure as the default response.
+
+#### 1.6.7 Warmth Over Severity
+
+The emotional tone of the product should feel warm, steady, and human.
+
+This does not mean childish.
+
+It means supportive, clear, and non-hostile.
+
+#### 1.6.8 Momentum Over Volume
+
+The planner should optimize for helping users do the next thing, not for displaying the largest possible amount of data at once.
+
+#### 1.6.9 Clarity Over Feature Density
+
+A powerful product that overwhelms the user is weaker than a focused product that gets them into motion.
+
+The app should resist complexity that does not produce immediate practical value.
+
+#### 1.6.10 Respect Over Manipulation
+
+Motivational design should help users act.
+
+It should not exploit insecurity, create dependency through anxiety, or use variable reward in a predatory way.
+
+### 1.7 What the Product Must Feel Like
+
+The intended emotional experience of the product can be described through a set of target feelings.
+
+When the app is working well, users should feel:
+
+- understood
+- less alone
+- calmer
+- less behind
+- less intimidated by the day
+- more able to begin
+- gently guided
+- pleasantly rewarded
+- free to recover from disruption
+- capable of making progress even on uneven days
+
+The app should feel:
+
+- warm
+- visually clear
+- lightweight
+- encouraging
+- forgiving
+- practical
+- energizing in small doses
+- structured without being strict
+- playful without being childish
+- supportive without becoming sentimental
+
+The app should not feel:
+
+- clinical
+- punitive
+- cold
+- corporate
+- hyper-optimized for maximum output
+- overloaded with metrics
+- obsessed with perfection
+- visually loud
+- guilt-driven
+- demanding when the user has low capacity
+
+### 1.8 What the Product Is Not
+
+Defining what the product is not is essential to preserving focus.
+
+The app is not:
+
+- a generic to-do list with an ADHD marketing layer
+- a productivity tool built around overdue anxiety
+- a streak-obsessed habit coach
+- a system that equates missed tasks with lack of discipline
+- a planner that requires perfect maintenance to remain useful
+- a life optimization dashboard for high-control users
+- a gamified shame loop disguised as motivation
+- a minimalist tool that is emotionally neutral but cognitively demanding
+- a therapy substitute
+- a medical device
+
+The app should avoid drifting toward neurotypical norms that are often treated as universal:
+
+- strict consistency as the ideal
+- early completion as the main virtue
+- backlog visibility as accountability
+- pressure escalation as motivation
+- discipline as the answer to all friction
+
+### 1.9 Success Criteria for This Philosophy
+
+The philosophy is successful only if it changes user experience in measurable and observable ways.
+
+At a product level, this philosophy should lead to outcomes such as:
+
+- users return after missed days instead of abandoning the app
+- users start tasks more often because initiation feels smaller
+- users report feeling less judged by the tool
+- users understand their day faster
+- users experience fewer backlog-shame moments
+- users can recover from interruptions without losing the thread
+- users perceive planning as supportive rather than corrective
+
+At an experiential level, the philosophy is successful if users can honestly say:
+
+- “This app doesn’t make me feel bad for being human.”
+- “I can open it even when I’m behind.”
+- “It helps me start.”
+- “It understands that my energy changes.”
+- “It gives me structure without making me panic.”
+- “It feels different from every other planner.”
+
+### 1.10 Design and Product Implications
+
+This philosophy creates concrete product obligations.
+
+Every future feature in this specification should be evaluated against the following implications.
+
+#### 1.10.1 The Product Must Reward Engagement Early
+
+Users should encounter useful feedback and emotional reinforcement quickly.
+
+Value should appear within the first moments of use and within the first moments of re-entry.
+
+#### 1.10.2 The Product Must Treat Missed Plans as Normal
+
+The system must assume that plans will sometimes fail.
+
+Recovery must therefore be designed into the default flow rather than handled as an exception.
+
+#### 1.10.3 The Product Must Externalize Time
+
+The product must use visual and interaction patterns that make time more concrete than a plain list can.
+
+#### 1.10.4 The Product Must Prioritize the Next Action
+
+When a user is overwhelmed, the system should shrink focus toward a manageable now.
+
+#### 1.10.5 The Product Must Preserve User Dignity
+
+Language, visuals, notifications, and states must protect the user from feeling scolded, exposed, or diminished.
+
+#### 1.10.6 The Product Must Support Imperfect Use
+
+The system must remain useful even when used inconsistently.
+
+The user should receive benefit without needing ideal habits first.
+
+#### 1.10.7 The Product Must Build Trust Through Behavior
+
+Trust is not created by branding alone.
+
+It is created when the app repeatedly behaves in ways that are adaptive, safe, helpful, and unsurprised by ADHD reality.
+
+### 1.11 Guiding Product Questions
+
+When making design, product, or engineering decisions, the team should test choices against these questions:
+
+- Does this reduce shame or accidentally increase it?
+- Does this make it easier to start?
+- Does this help after interruption?
+- Does this lower cognitive load?
+- Does this make time more visible?
+- Does this preserve flexibility under changing energy?
+- Does this reward progress before completion?
+- Does this keep the app safe to reopen after difficult days?
+- Does this feel ADHD-native rather than merely tolerant of ADHD?
+- Does this help the user trust themselves more?
+
+If the answer to several of these questions is no, the decision is likely misaligned with the product.
+
+### 1.12 Summary
+
+This planner is built on a simple but demanding belief:
+
+People with ADHD do not need more pressure.
+
+They need a system that understands motivation, protects dignity, and makes action easier to begin.
+
+The vision is to create the planner that ADHD users trust most because it helps them function without shame.
+
+The mission is to help adults with ADHD plan, start, and sustain daily life with less friction and more momentum.
+
+The core philosophy is dopamine-aware, no-shame, time-visible, flexible, and emotionally safe by design.
+
+Everything that follows in this specification must preserve that foundation.
+
+## 2. Target Audience Personas and User Research Synthesis
+
+### 2.1 Purpose of This Section
+
+This section defines who the product is for, what patterns are common across that audience, and how those patterns should shape product direction.
+
+The goal is not to create generic marketing segments.
+
+The goal is to provide a grounded, usable model for product, design, engineering, QA, growth, and support teams so the app remains aligned with ADHD reality as the product expands.
+
+This section focuses on:
+
+- primary and secondary target audiences
+- shared user needs and pain patterns
+- representative personas
+- jobs to be done
+- emotional and functional barriers to adoption
+- research-informed product implications
+
+This section does not define feature requirements in detail.
+
+It defines the people and lived conditions those requirements must serve.
+
+### 2.2 Core Audience Definition
+
+The primary audience is adults with ADHD, typically ages 25 to 45, who are trying to manage daily life, work, home responsibilities, health, and personal goals with a brain that does not respond well to conventional productivity systems.
+
+This includes:
+
+- people with formal ADHD diagnoses
+- people who are self-identified and strongly resonate with ADHD patterns
+- people newly diagnosed in adulthood
+- people diagnosed earlier in life but unsupported by existing systems
+- people with inattentive, hyperactive-impulsive, or combined presentations
+- people whose ADHD traits are affected by burnout, anxiety, depression, hormonal shifts, sleep quality, caregiving load, or work stress
+
+The product is specifically optimized for adults who have already tried at least some combination of:
+
+- paper planners
+- calendar blocking
+- habit trackers
+- to-do list apps
+- task managers built for teams
+- rigid self-improvement routines
+- “just be more disciplined” advice
+- productivity content designed around consistency and willpower
+
+Most target users are not new to trying.
+
+They are new to being served properly.
+
+### 2.3 Audience Philosophy
+
+The audience should not be framed as “bad at productivity.”
+
+That framing is inaccurate and harmful.
+
+A more accurate framing is:
+
+These users often have high intent, real ambition, and meaningful responsibilities, but they face repeated friction in initiation, prioritization, time perception, sustained follow-through, recovery after interruption, and emotionally safe re-entry after plans break down.
+
+Many users in this audience are capable, insightful, and self-aware.
+
+They often know what needs to be done.
+
+The difficulty is not always knowledge.
+
+The difficulty is converting intention into action under fluctuating motivation, attention, energy, context, and emotion.
+
+This audience is therefore not asking for stronger pressure.
+
+They are asking, whether explicitly or not, for:
+
+- lower activation energy
+- clearer now/next guidance
+- visible time scaffolding
+- recovery without humiliation
+- systems that survive inconsistency
+- progress signals that arrive before the finish line
+
+### 2.4 Inclusion Criteria for Product Fit
+
+The product is a strong fit for users who consistently experience several of the following:
+
+- time blindness
+- difficulty estimating task duration
+- avoidance triggered by large or stale backlogs
+- friction around getting started
+- task paralysis when faced with multiple priorities
+- oscillation between overcommitting and disengaging
+- low trust in their own planning systems
+- guilt after missed reminders or missed routines
+- desire for a planner that feels supportive rather than disciplinary
+- need for visual structure over text-heavy systems
+- better response to immediate, lightweight reward than distant outcome-based reward
+- inconsistency in energy from day to day or hour to hour
+
+The product is not primarily designed for users who want:
+
+- complex project management with heavy collaboration
+- enterprise workflow automation
+- deeply nested organizational systems
+- rigid streak enforcement
+- hard-edged accountability mechanics based on backlog pressure
+
+Those users may still derive value from the app, but they are not the center of product decision-making.
+
+### 2.5 Primary Audience Segments
+
+#### 2.5.1 Segment A: Overwhelmed Working Adults
+
+These users are employed full-time or near full-time and are trying to manage work tasks alongside life admin, appointments, chores, and personal commitments.
+
+Common conditions:
+
+- frequent context switching
+- meeting-heavy schedules
+- unfinished personal tasks piling up outside work
+- tendency to use work urgency to compensate for planning difficulty
+- evening crash that prevents life-admin follow-through
+
+Common emotional themes:
+
+- “I can function at work but my life falls apart around it.”
+- “I spend all day reacting and then avoid my own priorities.”
+- “I look organized from the outside, but it takes too much effort.”
+
+Why they need this product:
+
+- they need low-friction capture before tasks disappear
+- they need daily structure that survives interruptions
+- they need support choosing what is realistic at current energy
+- they need a planner they can reopen after a hard week without shame
+
+#### 2.5.2 Segment B: Late-Diagnosed Adults Rebuilding Self-Trust
+
+These users were diagnosed in adulthood or only recently recognized that ADHD explains long-standing struggles.
+
+They are often in a reframing phase.
+
+They are reconsidering years of self-criticism through a neurodivergent lens.
+
+Common conditions:
+
+- history of trying and abandoning planners
+- grief, relief, or anger after diagnosis
+- hyper-consumption of ADHD advice but difficulty implementing it
+- suspicion toward any tool that resembles a compliance system
+- desire for practical support without being treated like a child
+
+Common emotional themes:
+
+- “I need a system that doesn’t make me feel defective.”
+- “I am tired of tools that prove I failed them.”
+- “I want support that matches how my brain actually works.”
+
+Why they need this product:
+
+- they need emotionally safe onboarding
+- they need immediate wins to build trust
+- they need visible proof that adaptive planning is legitimate
+- they need a product language that does not pathologize normal ADHD patterns
+
+#### 2.5.3 Segment C: Caregivers and Household Load Managers
+
+These users are balancing home management, caregiving, parenting, partner coordination, health needs, and fragmented schedules.
+
+Paid work may be full-time, part-time, freelance, or paused.
+
+Their days are often externally interrupted and structurally unpredictable.
+
+Common conditions:
+
+- many short tasks rather than a few deep-work tasks
+- chronic interruption
+- invisible labor and recurring household work
+- emotional weight tied to forgetting, lateness, and dropped balls
+- difficulty sustaining routines because no two days look the same
+
+Common emotional themes:
+
+- “I cannot build my day around ideal uninterrupted time.”
+- “I need help seeing what matters without everything screaming.”
+- “I need a planner that expects interruption.”
+
+Why they need this product:
+
+- they need visual planning for fragmented days
+- they need compassionate handling of recurring, partially complete, or deferred tasks
+- they need body-doubling and start support more than long-term optimization dashboards
+
+#### 2.5.4 Segment D: Burnout-Prone High Achievers
+
+These users are often externally successful.
+
+They may be ambitious, creative, entrepreneurial, academically strong, or highly competent in visible performance domains.
+
+They often compensate through urgency, adrenaline, last-minute bursts, and perfectionism.
+
+Common conditions:
+
+- intense start-stop productivity patterns
+- overplanning during high-motivation windows
+- collapse after periods of compensation
+- shame amplified by the gap between external image and internal effort
+- attraction to advanced tools followed by abandonment
+
+Common emotional themes:
+
+- “I can do impressive things, but I cannot do them consistently.”
+- “The problem is not intelligence. The problem is sustaining the boring middle.”
+- “I need a system that helps before the crash.”
+
+Why they need this product:
+
+- they need energy-aware planning that normalizes uneven capacity
+- they need guardrails against overloaded days
+- they need reinforcement for small beginnings, not only big outcomes
+
+### 2.6 Secondary Audience Segments
+
+#### 2.6.1 Secondary Segment A: Students and Career Transition Users
+
+These users may be outside the core 25 to 45 range but still align closely with the product.
+
+They often face unstable routines, open-ended deadlines, and executive-function-heavy self-management demands.
+
+The product may fit well if it remains simple enough to support:
+
+- assignment planning
+- portfolio or job search tasks
+- routine building during unstable schedules
+- flexible focus sessions
+
+#### 2.6.2 Secondary Segment B: Users with Overlapping Neurodivergence or Mental Load Factors
+
+Many users will have ADHD traits shaped by or coexisting with:
+
+- autism
+- anxiety
+- depression
+- PMDD or menstrual-cycle-related energy shifts
+- chronic illness
+- sleep disorders
+- trauma-related attentional strain
+- postpartum cognitive overload
+
+The product should not claim to clinically solve these conditions.
+
+However, it must acknowledge that ADHD rarely appears in isolation in everyday product use.
+
+This matters because users may need:
+
+- lower sensory intensity
+- more forgiving defaults
+- stronger predictability
+- reduced decision count
+- greater control over notifications, sound, and motion
+
+### 2.7 Users Explicitly Prioritized
+
+Among all possible audiences, the following users should be treated as decision-making anchors:
+
+1. The user who avoids opening planners because stale tasks trigger shame.
+2. The user who wants help deciding what is realistic at their current energy.
+3. The user who struggles more with starting than with knowing what to do.
+4. The user who needs to re-enter after disruption without reprocessing a failure narrative.
+5. The user who responds better to visible time and guided action than to long lists.
+
+If a product choice serves advanced organizational power but harms one of these users, the choice should be reconsidered.
+
+### 2.8 Users Explicitly Not Centered
+
+The following users are not the center of the design, even if the product remains usable for them:
+
+- users seeking a strict accountability app that leverages pressure, guilt, or public commitment
+- users whose primary need is team coordination across large projects
+- users who enjoy highly dense information dashboards
+- users who want sophisticated nested tagging, metadata, and automation before they want clarity
+- users who define productivity success mainly as never missing a streak
+
+This is important because many productivity products drift toward power-user complexity over time.
+
+That drift would likely erode product fit for the core ADHD audience.
+
+### 2.9 Behavioral Patterns Common Across the Target Audience
+
+The following patterns are expected to recur across personas and should be treated as normal design inputs rather than edge cases.
+
+#### 2.9.1 Intent Exceeds Execution Reliability
+
+Users often care deeply about what they need to do.
+
+The failure point is not lack of values.
+
+The failure point is often task initiation, sequencing, time translation, interruption recovery, or emotional activation.
+
+#### 2.9.2 Planning Confidence Is Fragile
+
+Many users have a history of systems collapse.
+
+They may approach a new planner with hope and suspicion at the same time.
+
+Initial trust is therefore low and easy to lose.
+
+#### 2.9.3 Re-entry Is More Important Than Perfect Adherence
+
+The app will often be judged not by the best day but by the first day after avoidance, overwhelm, travel, illness, missed tasks, or routine disruption.
+
+#### 2.9.4 Emotional Safety Affects Functional Use
+
+Shame, dread, and anticipatory guilt are not secondary emotional states.
+
+They directly affect whether the user opens the app, captures tasks, responds to reminders, or trusts recommendations.
+
+#### 2.9.5 Users Need Help Seeing Time, Not Only Naming Tasks
+
+A plain list frequently fails because it does not answer:
+
+- when will this happen
+- how long will this take
+- what fits right now
+- what can I realistically begin in this energy state
+
+#### 2.9.6 Users May Swing Between Underload and Overload
+
+Some days the user has almost no activation energy.
+
+Other days the user overcommits during a motivation spike.
+
+The product must support both without treating either as the stable norm.
+
+### 2.10 Research Synthesis Methodology Assumption
+
+This section synthesizes well-established ADHD behavioral patterns, digital-product pain points commonly reported by adults with ADHD, observed issues in mainstream productivity tooling, and community-level qualitative themes around planning, shame, time blindness, and inconsistency.
+
+The synthesis is intended as a product research foundation rather than a clinical literature review.
+
+The assumptions represented here should later be validated with:
+
+- generative user interviews
+- diary studies
+- usability testing with diagnosed and self-identified ADHD adults
+- onboarding funnel analysis
+- reminder and re-engagement behavior metrics
+- feature adoption data by user segment
+
+Until that validation exists, the product should still act on these patterns because they are directionally strong, consistent, and highly relevant to the target user’s lived experience.
+
+### 2.11 Key User Research Themes
+
+#### 2.11.1 Theme 1: Traditional Productivity Tools Often Trigger Failure Narratives
+
+Many adults with ADHD do not merely find existing planners inconvenient.
+
+They experience them as evidence-generating systems for personal inadequacy.
+
+Common triggers include:
+
+- overdue counts
+- red warning states
+- broken streak visuals
+- untouched backlog accumulation
+- overly formal language
+- reminders that repeat without adaptation
+- review flows that force confrontation with many missed items at once
+
+Research implication:
+
+The emotional cost of interacting with the app is a core usability variable.
+
+A planner that is logically powerful but emotionally punishing will fail adoption for this audience.
+
+#### 2.11.2 Theme 2: Starting Is Often the Highest-Friction Moment
+
+Users frequently report knowing what they should do but still feeling unable to initiate.
+
+This initiation gap is often amplified by:
+
+- task vagueness
+- fear that starting implies finishing
+- uncertainty about where to begin
+- competing priorities
+- depleted energy
+- transition cost from one context to another
+
+Research implication:
+
+The product must optimize aggressively for reducing the distance between “I should” and “I started.”
+
+Celebration, prompts, timers, body-doubling, and task suggestions should be judged partly on whether they reduce this gap.
+
+#### 2.11.3 Theme 3: Users Need Planning That Accounts for Variable Energy
+
+Target users do not experience capacity as stable.
+
+They often describe high-energy windows, medium-function windows, and near-zero-capacity periods.
+
+These shifts may occur daily, weekly, hormonally, seasonally, or unpredictably.
+
+Research implication:
+
+A planner that treats all open time as equally usable will produce unrealistic plans and repeated self-blame.
+
+Energy-aware planning is therefore not a novelty feature.
+
+It is core infrastructure.
+
+#### 2.11.4 Theme 4: Time Blindness Makes Text Lists Insufficient
+
+Users often struggle with duration estimation, future feeling abstract, and transitions between activities.
+
+Lists can capture commitments but still fail to create action.
+
+Research implication:
+
+Time should be represented visually, spatially, and concretely.
+
+Users need support understanding:
+
+- how much time exists
+- where time is already spoken for
+- what kind of task fits the remaining space
+- how long a focused effort might actually last
+
+#### 2.11.5 Theme 5: Recovery After Disruption Is a Major Product Opportunity
+
+Disruption is common:
+
+- sleep problems
+- illness
+- intense workdays
+- travel
+- caregiving emergencies
+- emotional overwhelm
+- novelty loss
+- forgetting the app exists for a period
+
+Many tools behave as though disruption is a user failure.
+
+ADHD users need tools that assume disruption will happen.
+
+Research implication:
+
+The product should differentiate itself by making re-entry unusually gentle, fast, and non-judgmental.
+
+This should be visible in empty states, reminders, backlog handling, copy, and first actions after returning.
+
+#### 2.11.6 Theme 6: Users Want Support, Not Infantilization
+
+Many ADHD-focused products risk overcorrecting into either clinical coldness or exaggerated cuteness.
+
+Target users often want warmth and delight, but they also want competence, dignity, and seriousness.
+
+Research implication:
+
+The tone should be compassionate, playful in measured doses, and respectful.
+
+The app should feel emotionally intelligent, not patronizing.
+
+#### 2.11.7 Theme 7: Immediate Positive Feedback Matters
+
+Delayed reward is often less effective than near-term reinforcement for this audience.
+
+Tiny wins can meaningfully affect willingness to continue.
+
+Research implication:
+
+The product should create short motivational loops around:
+
+- capturing a task
+- selecting a next step
+- starting a task
+- beginning a focus session
+- re-entering after absence
+- gently closing the day
+
+The loop should reward engagement without becoming distracting or manipulative.
+
+#### 2.11.8 Theme 8: Too Many Choices Can Stall Action
+
+Users frequently report paralysis when faced with:
+
+- too many tasks
+- too many labels
+- too many views
+- too many setup decisions
+- too many steps before value appears
+
+Research implication:
+
+The product must compress choices at low-capacity moments.
+
+Defaults matter.
+
+Progressive disclosure matters.
+
+The app should not ask for seven setup decisions before helping the user act.
+
+### 2.12 Core Jobs to Be Done
+
+The target audience is not “hiring” this product only to store tasks.
+
+They are hiring it to solve emotional, cognitive, and practical jobs simultaneously.
+
+#### 2.12.1 Functional Jobs
+
+Users need the product to help them:
+
+- capture tasks before they disappear
+- decide what to do today without re-evaluating everything
+- match tasks to current energy
+- break through initiation resistance
+- see time visually
+- remember commitments without creating alarm fatigue
+- recover after missing plans
+- keep life admin from becoming invisible until urgent
+- maintain awareness of routines without punitive streaks
+
+#### 2.12.2 Emotional Jobs
+
+Users need the product to help them:
+
+- feel less behind
+- feel less intimidated by their own plans
+- feel safer reopening the app after a difficult period
+- feel encouraged to start small
+- feel understood rather than corrected
+- feel that inconsistency is survivable
+- feel progress before completion
+
+#### 2.12.3 Identity Jobs
+
+Users need the product to help them:
+
+- rebuild trust in their ability to function
+- see themselves as adaptable rather than lazy
+- maintain dignity while using support tools
+- form a sustainable relationship with planning rather than a boom-and-bust one
+
+### 2.13 Barriers to Adoption and Retention
+
+The target audience has predictable reasons for abandoning productivity tools.
+
+These should be treated as retention risks from day one.
+
+#### 2.13.1 Barrier 1: Setup Friction Before Immediate Value
+
+If onboarding feels long, abstract, or administratively heavy, many users will leave before experiencing benefit.
+
+#### 2.13.2 Barrier 2: Emotional Punishment After Inconsistent Use
+
+If the app becomes visually harsher after missed days or unfinished tasks, users are likely to avoid reopening it.
+
+#### 2.13.3 Barrier 3: Overly Dense Information Architecture
+
+If the product requires the user to manage too many categories, views, priorities, statuses, or configuration options, the system itself becomes another source of executive load.
+
+#### 2.13.4 Barrier 4: Low-Quality Reminder Design
+
+If reminders are generic, repetitive, or poorly timed, users will ignore them, mute them, or resent them.
+
+#### 2.13.5 Barrier 5: Rigid Productivity Assumptions
+
+If the app assumes consistency, fixed routines, or stable energy, users will experience repeated plan failure and conclude the app is “not for people like me.”
+
+#### 2.13.6 Barrier 6: Tone Mismatch
+
+If the app feels sterile, preachy, infantilizing, or aggressively self-help-branded, it will lose credibility.
+
+#### 2.13.7 Barrier 7: Rewards That Arrive Too Late
+
+If the only satisfying moment is completion, users who struggle most with starting may receive too little reinforcement to sustain use.
+
+### 2.14 Representative Personas
+
+The personas below are not stereotypes.
+
+They are decision tools that represent recurring combinations of context, pain, motivation, and behavior relevant to product design.
+
+#### 2.14.1 Persona A: Maya, the Capable-but-Drowning Professional
+
+Age: 33
+
+Occupation: Senior marketing manager
+
+Living situation: Lives with partner, no children, busy urban schedule
+
+ADHD context:
+
+- diagnosed at 29
+- primarily inattentive presentation
+- performs well in visible work settings
+- struggles with life admin, task switching, and evenings
+
+Behavioral profile:
+
+- keeps many commitments in her head until they become urgent
+- relies on calendar for meetings but not for personal tasks
+- has used Todoist, Notion, Apple Reminders, and paper planners
+- abandons systems when backlog shame accumulates
+- often has a productive morning and a depleted evening
+
+Pain points:
+
+- personal tasks disappear under work pressure
+- large task lists create dread
+- missed tasks make her stop opening the app
+- she wants structure but not another management system to maintain
+
+Goals:
+
+- keep track of real life without constant mental juggling
+- choose a realistic plan for the day
+- feel less exhausted by keeping herself on track
+- stop equating missed tasks with personal failure
+
+What success looks like:
+
+- she opens the app daily without resistance
+- she sees a manageable “today” view
+- unfinished tasks are rescheduled gracefully
+- she starts more tasks because the app reduces activation friction
+
+Product implications from Maya:
+
+- re-entry experience must be safe
+- daily planning must be lightweight
+- work-life overflow needs clear visibility without overload
+- task start reinforcement matters as much as completion
+
+#### 2.14.2 Persona B: Jordan, the Newly Diagnosed Reframer
+
+Age: 28
+
+Occupation: Freelance designer
+
+Living situation: Lives alone, variable schedule, inconsistent sleep
+
+ADHD context:
+
+- diagnosed within the past year
+- alternating relief and grief about past struggles
+- consuming a lot of ADHD education content
+- actively searching for tools that fit
+
+Behavioral profile:
+
+- starts new systems with enthusiasm
+- drops them when novelty fades or guilt appears
+- often underestimates time
+- sometimes hyperfocuses for hours and then loses the next day
+- wants support but rejects anything that feels patronizing
+
+Pain points:
+
+- difficulty building repeatable routines
+- inconsistent energy and work patterns
+- fear that using a planner means committing to an impossible standard
+- emotional crash after “falling off”
+
+Goals:
+
+- understand what kind of planning actually works for him
+- create a system he can return to after chaotic periods
+- feel supported without being treated like a child
+- reduce friction between intention and action
+
+What success looks like:
+
+- onboarding reflects real ADHD patterns
+- the app adapts to inconsistent use
+- planning feels experimental and supportive rather than evaluative
+- the app helps him restart after bad days
+
+Product implications from Jordan:
+
+- onboarding should build psychological safety quickly
+- novelty should be used carefully to maintain interest without clutter
+- the app must normalize inconsistent engagement
+- educational framing should be practical, not preachy
+
+#### 2.14.3 Persona C: Elena, the Parent Managing Constant Interruptions
+
+Age: 39
+
+Occupation: Part-time consultant and primary household coordinator
+
+Living situation: Married with two children
+
+ADHD context:
+
+- self-identified, pursuing evaluation
+- daily cognitive load shaped by family logistics
+- struggles with fragmented attention and memory
+
+Behavioral profile:
+
+- her day is dominated by short tasks, appointments, school logistics, and interruptions
+- many tasks are recurring but rarely completed in neat cycles
+- she often remembers tasks when she cannot act on them immediately
+- she needs fast capture and strong reminder flexibility
+
+Pain points:
+
+- traditional planners assume uninterrupted blocks she does not have
+- missed routines become emotionally charged
+- visual clutter makes her shut down
+- she needs help deciding what matters in a chaotic day
+
+Goals:
+
+- keep household and personal responsibilities visible without overwhelm
+- avoid dropping important-but-not-urgent tasks
+- recover gracefully when the day goes off the rails
+- maintain a sense of momentum despite fragmentation
+
+What success looks like:
+
+- she can capture and reschedule quickly
+- the app helps her choose small realistic actions
+- recurring responsibilities do not become shame objects
+- reminders support rather than nag
+
+Product implications from Elena:
+
+- interruption recovery is critical
+- recurring task handling must be compassionate and flexible
+- large touch targets and quick interactions matter
+- the app must respect fragmented attention spans
+
+#### 2.14.4 Persona D: Theo, the Ambitious Burnout Cycler
+
+Age: 35
+
+Occupation: Startup founder
+
+Living situation: Lives with roommate, irregular schedule
+
+ADHD context:
+
+- diagnosed in childhood
+- highly capable during urgency spikes
+- prone to overcommitting and collapse
+
+Behavioral profile:
+
+- creates ambitious plans during high-energy windows
+- ignores low-energy reality until systems fail
+- likes tools with strong visual feedback
+- rejects tools that feel slow, cluttered, or moralizing
+
+Pain points:
+
+- unrealistic planning leads to visible failure
+- he can complete major work but neglect basics
+- all-or-nothing thinking makes smaller progress feel invisible
+- traditional habit streaks increase burnout
+
+Goals:
+
+- pace himself more realistically
+- preserve momentum without using panic as fuel
+- see wins earlier in the process
+- align tasks with actual capacity
+
+What success looks like:
+
+- the app nudges realistic daily load
+- he uses energy-aware scheduling instead of optimism alone
+- beginning a task feels rewarding
+- low-capacity days remain usable rather than lost
+
+Product implications from Theo:
+
+- planning should protect against overload during motivation spikes
+- energy estimation should influence recommendations
+- progress states between “not started” and “done” should feel meaningful
+
+### 2.15 Cross-Persona Synthesis
+
+Across personas, the same high-level truths recur:
+
+1. The app must reduce friction before it asks for discipline.
+2. The app must preserve dignity during inconsistent use.
+3. The app must help users translate abstract intentions into visible, timely action.
+4. The app must support fluctuating energy as a primary planning variable.
+5. The app must make re-entry feel normal and lightweight.
+6. The app must reward beginnings and partial engagement.
+7. The app must stay cognitively light even as it becomes more capable.
+
+These are not merely brand principles.
+
+They are design constraints.
+
+### 2.16 User Mental Models to Respect
+
+The product should align to the following user mental models rather than fighting them.
+
+#### 2.16.1 “If I stop using it for a few days, I need to be able to come back”
+
+Users expect interruption.
+
+A system that assumes continuous use will break trust quickly.
+
+#### 2.16.2 “What I can do depends on my energy, not just my free time”
+
+Users often distinguish between available time and usable capacity.
+
+The planner should do the same.
+
+#### 2.16.3 “A task list is not enough if I can’t picture the day”
+
+Users need temporal scaffolding, not just capture.
+
+#### 2.16.4 “I need help getting into motion”
+
+The planner must be useful at the moment of inertia, not only during reflective planning.
+
+#### 2.16.5 “Missing something should change the plan, not prove a character flaw”
+
+The planner must respond to misses as scheduling information.
+
+### 2.17 Trust Signals the Product Must Send
+
+For this audience, trust is earned through interaction design.
+
+The app should repeatedly signal:
+
+- “You are safe to open this.”
+- “You do not need to catch up on everything before using it.”
+- “We will help you choose what matters now.”
+- “A lower-capacity day is still a real day.”
+- “Starting counts.”
+- “The system adapts when life changes.”
+
+If the interface sends the opposite signals, retention will suffer regardless of feature breadth.
+
+### 2.18 Product Risks If Research Insights Are Ignored
+
+If the team ignores the audience patterns in this section, the likely outcomes are predictable.
+
+#### 2.18.1 Risk: The App Becomes Another Backlog Graveyard
+
+Without no-shame rescheduling and safe re-entry, the app will replicate the failure pattern of standard to-do tools.
+
+#### 2.18.2 Risk: The App Feels ADHD-Branded but Not ADHD-Native
+
+If the product uses ADHD language in marketing but retains neurotypical planning assumptions, users will quickly perceive the mismatch.
+
+#### 2.18.3 Risk: Premium Value Feels Abstract
+
+If premium features optimize depth over relief, users may not feel enough day-to-day value to pay.
+
+#### 2.18.4 Risk: Delight Turns into Noise
+
+If dopamine-aware design is implemented as excessive motion, sound, or gamification, the app may increase distraction rather than reduce friction.
+
+#### 2.18.5 Risk: The Product Over-Indexes on Tracking Instead of Action
+
+If the system becomes better at recording intentions than helping starts, users will experience it as another aspirational archive.
+
+### 2.19 Research-Derived Design Principles for This Audience
+
+The following principles directly synthesize persona and research insights:
+
+1. Design for the return, not just the streak.
+2. Treat emotional friction as real friction.
+3. Default toward smaller decisions at low-capacity moments.
+4. Show time in ways the user can feel, not just read.
+5. Let missed tasks flow forward without accusation.
+6. Reinforce initiation as a legitimate success state.
+7. Respect adult dignity in tone, motion, and visuals.
+8. Make energy variability visible and operational.
+9. Keep the system useful during imperfect, irregular use.
+10. Help the user trust the planner by helping the planner feel trustworthy.
+
+### 2.20 Opportunities for Future Validation
+
+This section should later be validated and refined through direct research with representative users.
+
+Priority validation questions include:
+
+1. Which recovery patterns most effectively reduce avoidance after missed days?
+2. What wording best communicates support without sounding clinical or childish?
+3. How many decisions during onboarding are tolerable before drop-off increases?
+4. Which visual time representations feel clearest across energy states?
+5. What kinds of celebratory feedback feel motivating versus distracting?
+6. How should energy estimation be phrased so it feels useful rather than burdensome?
+7. Which reminder strategies are perceived as supportive instead of nagging?
+8. How should the app handle partial task progress in a way that feels encouraging and true?
+
+### 2.21 Section Summary
+
+The target audience for this product is not “people who need to try harder.”
+
+It is adults with ADHD who are already trying, often very hard, inside systems that misread their needs.
+
+They need a planner that understands fluctuating energy, time blindness, initiation difficulty, interruption, and the emotional consequences of missed plans.
+
+The representative personas in this section show that the same needs appear across different life structures:
+
+- emotional safety
+- low-friction action
+- realistic daily planning
+- visible time
+- adaptive recovery
+- respectful motivation
+
+The user research synthesis leads to a clear product mandate:
+
+This planner must be designed for restartability, energy awareness, and dignity from the beginning.
+
+If it succeeds, users should feel that the app understands not only what they need to do, but what it actually takes for them to begin.
+
+## 3. Competitive Analysis
+
+### 3.1 Purpose of This Section
+
+This section analyzes the competitive landscape around planning, routine, and ADHD-adjacent productivity products.
+
+The goal is not to imitate the current leaders.
+
+The goal is to identify:
+
+- what each competitor does well
+- what emotional model each product assumes
+- where ADHD users are currently underserved
+- where this product must be deliberately different
+- which positioning claims are defensible in-market
+
+This analysis is especially important because many competitors appear, at a glance, to address structure, routine, or neurodivergent needs.
+
+However, most products still carry one or more neurotypical defaults:
+
+- consistency is the main marker of success
+- missed plans should remain visibly missed
+- completion matters more than initiation
+- backlog pressure improves action
+- visual clarity is enough without emotional safety
+- routines are expected to repeat predictably
+- the user should adapt to the system more than the system adapts to the user
+
+This product rejects those assumptions.
+
+The app must therefore compete not only on feature list, but on philosophy, interaction logic, emotional outcome, and day-to-day survivability for people whose motivation, energy, and time perception are variable.
+
+### 3.2 Competitive Set Definition
+
+The competitive set for this product includes six relevant categories embodied by the named products:
+
+1. Structured planning with time-block orientation.
+2. Neurodivergent-friendly routine support.
+3. Traditional task management and list-based productivity.
+4. Premium personal task management for organized professionals.
+5. Self-care and motivational companion apps.
+6. Ritualized routine execution tools.
+
+The products analyzed in this section are:
+
+- Structured
+- Tiimo
+- Todoist
+- Things 3
+- Finch
+- Routinery
+
+These products are included because they compete for the same user moments, even when their branding differs.
+
+Those moments include:
+
+- “I need to figure out what my day looks like.”
+- “I know what I should do, but I cannot start.”
+- “I need help remembering and following through.”
+- “I need a routine that does not collapse instantly.”
+- “I want an app that feels supportive instead of punishing.”
+- “I am willing to pay for something that helps me function.”
+
+### 3.3 Competitive Evaluation Framework
+
+Each competitor is evaluated across the dimensions most relevant to an ADHD-native planner.
+
+#### 3.3.1 Emotional Model
+
+What emotional posture does the product take toward missed plans, inconsistency, and imperfect use?
+
+Key questions:
+
+- Does the app feel forgiving or compliance-oriented?
+- Does it remain safe to reopen after a difficult week?
+- Does it reward initiation, completion, or both?
+- Does it create shame pressure through visuals, copy, or state management?
+
+#### 3.3.2 Cognitive Load Profile
+
+How much interpretation, sorting, remembering, and decision-making is demanded from the user?
+
+Key questions:
+
+- Does the interface reduce overwhelm or merely look clean?
+- Are the main actions obvious under low-capacity conditions?
+- How many taps or decisions stand between intention and action?
+- Does the product support recognition over recall?
+
+#### 3.3.3 Time Blindness Support
+
+How concretely does the product help users perceive time?
+
+Key questions:
+
+- Does the app visualize time or mostly store tasks?
+- Does it help users understand duration, sequence, and available space?
+- Does it make “now,” “next,” and “later” legible?
+- Does it scaffold transitions between activities?
+
+#### 3.3.4 Energy Variability Support
+
+Does the product acknowledge that a user’s capacity changes across the day and across days?
+
+Key questions:
+
+- Can the app distinguish high-energy and low-energy work?
+- Does planning adapt when the user is depleted?
+- Does the system help users choose something realistic right now?
+- Is capacity operationalized, or only implied?
+
+#### 3.3.5 Motivation and Reward Design
+
+How does the product help the user start and sustain action?
+
+Key questions:
+
+- Does it provide short motivational loops?
+- Does it celebrate small wins?
+- Is motivation built through delight, pressure, habit mechanics, or self-care?
+- Is the reward structure useful for ADHD users without becoming distracting?
+
+#### 3.3.6 Recovery and Re-Entry Design
+
+What happens after the user misses tasks, skips days, or falls out of a routine?
+
+Key questions:
+
+- Does the system absorb disruption gracefully?
+- Does it accumulate stale evidence of “failure”?
+- Does it help the user restart from the present?
+- Does it preserve dignity during re-entry?
+
+#### 3.3.7 Monetization and Value Narrative
+
+How does each competitor justify payment, and what does that imply about the user’s expectations?
+
+Key questions:
+
+- Is the paid value rooted in power, customization, calm, accountability, or emotional support?
+- Does pricing create an opening for our position?
+- Is the product priced as a broad lifestyle tool or as a specialized support tool?
+- Does our offering feel more aligned, more affordable, or more humane?
+
+### 3.4 Market-Level Observations Before Product-by-Product Analysis
+
+Before analyzing individual products, several broader landscape patterns are clear.
+
+#### 3.4.1 Most Competitors Optimize for Organization More Than Activation
+
+Many products are good at storing tasks, arranging schedules, or presenting routines.
+
+Fewer are designed around the hardest ADHD moment:
+
+The moment between “I know” and “I can start.”
+
+This creates whitespace for a planner that treats initiation friction as the main design problem rather than a secondary coaching concern.
+
+#### 3.4.2 Many “Supportive” Products Still Punish Drift Indirectly
+
+Some apps use friendlier visuals or gentler copy, but still preserve punitive system logic.
+
+Examples include:
+
+- unchanged overdue lists
+- broken streaks as central emotional events
+- habitual emphasis on consistency over recovery
+- interfaces that become visually heavier as the user falls behind
+
+This means emotional safety must be built into state behavior, not just branding.
+
+#### 3.4.3 Time Visualization Exists, but ADHD Time Translation Is Still Rare
+
+Several products show schedules, calendars, or routines.
+
+That is not the same as helping a user feel time.
+
+ADHD users often need:
+
+- clearer duration cues
+- more visible “available space”
+- stronger now/next orientation
+- better support for transitions
+- more compassionate adaptation when plans slip
+
+Existing products often stop at display rather than operational guidance.
+
+#### 3.4.4 Neurodivergent Positioning Exists, but ADHD-Native Planning Is Still Underserved
+
+Tiimo is the strongest existing signal that users want neurodivergent-aware planning.
+
+Finch and routine apps also attract users seeking emotional support.
+
+However, there is still substantial whitespace for a product that combines:
+
+- planner credibility
+- ADHD-specific emotional safety
+- energy-aware tasking
+- no-shame recovery
+- visual time blocks
+- start-focused dopamine loops
+
+Many products offer one or two of these.
+
+Few offer the full system.
+
+#### 3.4.5 Traditional Productivity Leaders Still Win on Trust and Maturity
+
+Todoist and Things 3 remain important because they are trusted, polished, and familiar.
+
+Even users who eventually leave them often start there.
+
+This means our product cannot compete only on empathy language.
+
+It must also feel:
+
+- reliable
+- fast
+- intentional
+- polished
+- worthy of becoming a primary system
+
+Warmth without operational competence will not displace entrenched tools.
+
+### 3.5 Competitor Analysis: Structured
+
+#### 3.5.1 Product Summary
+
+Structured is a visually oriented day planner centered on timeline-based scheduling and time-block organization.
+
+It is appealing to users who want to turn their day into a readable sequence rather than manage a dense backlog.
+
+Its positioning emphasizes visual structure, daily flow, and calm planning.
+
+It is one of the closest competitors in terms of “show me my day” value.
+
+The pricing reference used in this specification is approximately $30 per year.
+
+#### 3.5.2 Core Strengths
+
+Structured’s main strengths are:
+
+- strong visual timeline presentation
+- immediate readability of the day
+- lower ambiguity than plain task lists
+- better support for sequence and schedule shape than many to-do apps
+- approachable visual design relative to traditional task managers
+- clear value for users who want to drag ideas into concrete time slots
+
+For ADHD-adjacent users, these strengths matter.
+
+The product partially addresses time blindness by making the day feel more spatial and temporal.
+
+It can reduce the abstractness of a standard list.
+
+It also likely appeals to users who are overwhelmed by feature-heavy project-management tools.
+
+#### 3.5.3 Why Structured Attracts ADHD Users
+
+Structured attracts ADHD users for understandable reasons:
+
+- a timeline is easier to parse than a giant list
+- visually blocked time can feel more real than written intentions
+- the app appears calmer than traditional productivity software
+- planning a day can feel more tangible and less mentally slippery
+- a schedule layout can create the reassuring sense that life has shape
+
+For users who mainly struggle with time visibility, Structured may deliver immediate relief.
+
+It answers:
+
+“What does today look like?”
+
+better than many mainstream task apps.
+
+#### 3.5.4 Where Structured Falls Short for ADHD-Native Planning
+
+Structured is helpful, but it is still not fundamentally built around ADHD emotional and motivational realities.
+
+Its key limitations for this product space are:
+
+- it prioritizes schedule clarity more than initiation support
+- it does not make “starting” a first-class success state
+- it does not meaningfully operationalize fluctuating energy
+- it does not strongly differentiate between a disrupted day and a failed day
+- it is structured around planning the timeline more than protecting re-entry after drift
+
+The product helps users place tasks into time.
+
+It does less to help when the user:
+
+- avoids the app after missing several planned blocks
+- cannot begin a scheduled task despite seeing it clearly
+- has a low-energy day that makes the planned timeline unrealistic
+- needs emotional safety after non-completion
+- needs adaptive suggestions rather than static structure
+
+In short:
+
+Structured visualizes time.
+
+It does not fully redesign productivity around ADHD initiation, shame, and recovery.
+
+#### 3.5.5 Emotional Model Assessment
+
+Structured generally feels cleaner and calmer than traditional to-do apps.
+
+That is a meaningful advantage.
+
+However, calm is not the same as no-shame.
+
+If a user repeatedly fails to follow a planned day, the timeline itself can become a quiet record of mismatch.
+
+The pressure is subtler than a red overdue list, but it can still exist.
+
+The emotional model appears closer to:
+
+“Here is a beautiful structure for your day.”
+
+than:
+
+“If your day breaks, the system will soften the landing and help you restart.”
+
+That difference matters.
+
+#### 3.5.6 Strategic Lessons from Structured
+
+Structured proves that users value:
+
+- visual days
+- readable timelines
+- lower-clutter planning
+- a less corporate aesthetic
+
+It also reveals the gap our product should fill:
+
+- time visibility must be paired with emotional safety
+- timeline planning must adapt dynamically to energy and disruption
+- the app must help users start, not only schedule
+- rescheduling must feel native and compassionate
+- reward loops must acknowledge initiation before completion
+
+#### 3.5.7 Competitive Position Relative to Our Product
+
+Against Structured, our differentiators should be:
+
+- explicitly ADHD-native design rather than broad day-planner appeal
+- no-shame auto-rescheduling instead of passive timeline failure
+- energy-level-aware scheduling rather than time placement alone
+- start celebrations and supportive momentum loops
+- body doubling and focus support inside the planner experience
+- recovery-first logic for missed days
+
+The positioning message is not:
+
+“We also have a timeline.”
+
+It is:
+
+“We make time visible in a way that still works when ADHD reality interrupts the plan.”
+
+### 3.6 Competitor Analysis: Tiimo
+
+#### 3.6.1 Product Summary
+
+Tiimo is one of the most relevant competitors because it explicitly serves neurodivergent users and emphasizes visual planning, routines, and supportive structure.
+
+It has meaningful brand credibility in the neurodivergent space.
+
+It is likely to be the benchmark users cite when comparing whether an app “gets” ADHD.
+
+The pricing reference used in this specification is approximately $65 per year.
+
+#### 3.6.2 Core Strengths
+
+Tiimo’s major strengths include:
+
+- explicit neurodivergent-friendly positioning
+- visual schedule orientation
+- routine support
+- approachable and warm interface style
+- better-than-average alignment with executive function challenges
+- strong emotional resonance for users who want to feel understood
+
+Tiimo succeeds where many mainstream tools fail:
+
+It acknowledges that different brains need different planning support.
+
+That alone creates trust and lowers resistance.
+
+#### 3.6.3 Why Tiimo Resonates with ADHD Users
+
+Tiimo resonates because it feels like it was designed with neurodivergent realities in mind rather than adapted later.
+
+Users may experience it as:
+
+- gentler
+- more visual
+- less judgmental
+- less sterile
+- more compatible with routine scaffolding
+
+Its brand promise is closer to this product than any of the traditional productivity competitors.
+
+This makes it the most important philosophy competitor in the set.
+
+#### 3.6.4 Where Tiimo Still Leaves Whitespace
+
+Despite its relevance, Tiimo does not eliminate the opportunity for this product.
+
+Key whitespace remains in the following areas:
+
+- energy-aware task selection as a core planning mechanic
+- no-shame task auto-rescheduling as a primary state behavior
+- explicit celebration of starting rather than stronger emphasis on routine completion
+- more planner-like task depth for adults balancing work, life admin, and irregular priorities
+- monetization that feels more accessible than a higher annual subscription
+- body doubling audio and focus-session support integrated into daily action
+- a stronger recovery model for users whose routines collapse frequently
+
+Tiimo is strong on neurodivergent-aware structure.
+
+Our product must be stronger on ADHD-native daily execution under inconsistent capacity.
+
+#### 3.6.5 Emotional Model Assessment
+
+Tiimo’s emotional posture is generally supportive.
+
+This is one of its biggest strengths.
+
+However, support can still skew toward routine maintenance rather than deep re-entry design.
+
+For some ADHD users, routine-oriented systems still create a background pressure:
+
+- keep it going
+- maintain the structure
+- preserve the pattern
+
+That pressure may be softer than mainstream productivity apps, but it can still become difficult after disruption.
+
+Our product should go further by making disrupted use an expected norm rather than a softened exception.
+
+The system should feel unsurprised by chaos.
+
+#### 3.6.6 Cognitive and Interaction Assessment
+
+Tiimo reduces friction through visual structure, but it can still be interpreted as a planning tool that asks the user to maintain a planning system.
+
+This matters.
+
+Many ADHD users do not merely struggle to plan.
+
+They struggle to preserve planning continuity after energy crashes, emotional dips, or life interruptions.
+
+Our app must therefore outperform Tiimo on:
+
+- one-tap recovery
+- present-moment orientation after absence
+- dynamic suggestion of realistic next actions
+- low-friction conversion from intention to start
+
+#### 3.6.7 Strategic Lessons from Tiimo
+
+Tiimo validates several major assumptions:
+
+- ADHD and broader neurodivergent users will pay for specialized support
+- supportive tone is not enough by itself, but it matters enormously
+- visual structure is more compelling than generic list productivity
+- neurodivergent users want tools that feel designed for them rather than merely available to them
+
+Tiimo also creates pressure on our product quality bar.
+
+We cannot position ourselves as neurodivergent-aware in a shallow way.
+
+We need stronger philosophical distinctiveness:
+
+- ADHD-native rather than broadly neurodivergent-friendly
+- start-focused rather than routine-preservation-first
+- auto-adaptive rather than user-maintained
+- emotionally safe after failure states, not just warm during ideal use
+
+#### 3.6.8 Competitive Position Relative to Our Product
+
+Against Tiimo, our differentiators should be:
+
+- deeper emphasis on adult ADHD execution, not just visual routine support
+- stronger no-shame logic for missed tasks and missed days
+- explicit energy-level-aware scheduling
+- body doubling and focus support embedded in the task flow
+- monetization with both subscription and one-time purchase options
+- a task system designed for changing priorities, not only recurring routines
+
+The positioning message is:
+
+“Tiimo helps structure life gently. Our product helps ADHD adults restart, choose realistically, and begin again when life does not go gently.”
+
+### 3.7 Competitor Analysis: Todoist
+
+#### 3.7.1 Product Summary
+
+Todoist is a mainstream task management product known for speed, reliability, cross-platform maturity, and broad utility.
+
+It is often a default recommendation for personal productivity.
+
+It competes less on emotional support and more on trust, capture speed, and organizational competence.
+
+Many ADHD users have already tried it.
+
+Some still use it.
+
+Many abandon it when backlog pressure and list accumulation become emotionally expensive.
+
+#### 3.7.2 Core Strengths
+
+Todoist’s primary strengths include:
+
+- fast capture
+- mature cross-platform synchronization
+- strong reliability reputation
+- flexible recurring tasks
+- robust filtering and organizational features
+- low-friction entry for standard task management use cases
+- broad ecosystem familiarity
+
+These strengths matter because users often compare every newer tool against Todoist’s competence baseline.
+
+If our app feels slower, less stable, or less trustworthy, emotional differentiation will not be enough.
+
+#### 3.7.3 Why Todoist Still Works for Some ADHD Users
+
+Todoist can work for ADHD users when they want:
+
+- a quick inbox
+- simple recurring reminders
+- a place to dump thoughts before they disappear
+- straightforward task entry without much ceremony
+- a familiar, reliable system
+
+Some users with self-built coping systems may prefer Todoist because it is generic enough to bend.
+
+They may create their own labels, views, and conventions to approximate ADHD support.
+
+This highlights an important truth:
+
+Users do not always choose the most emotionally aligned product.
+
+They often choose the product they trust to work every day.
+
+#### 3.7.4 Where Todoist Fails ADHD Users
+
+Todoist’s limitations for ADHD-native planning are substantial:
+
+- it is list-first rather than time-visible by default
+- overdue states can become shame amplifiers
+- backlog accumulation is a core failure mode
+- task completion is privileged over initiation
+- energy variability is not a first-class planning dimension
+- the product assumes users can continuously maintain organizational hygiene
+- cognitive load can increase as the system grows
+
+Todoist is excellent at storing commitments.
+
+It is much weaker at helping a user:
+
+- identify a realistic next step under low capacity
+- re-enter safely after avoidance
+- interpret a chaotic day visually
+- feel rewarded for partial progress or task start
+- recover without confronting a pile of stale obligations
+
+Its worldview is still fundamentally task-manager logic.
+
+That worldview is not built for ADHD emotional survivability.
+
+#### 3.7.5 Emotional Model Assessment
+
+Todoist is not intentionally cruel.
+
+But it is structurally indifferent.
+
+For ADHD users, indifference can still become punitive.
+
+A system that silently accumulates overdue tasks is effectively saying:
+
+“Your past intentions are still waiting, and they are your problem.”
+
+That is enough to trigger avoidance for many users.
+
+Todoist may feel neutral to a general audience.
+
+To ADHD users in a difficult week, it often feels quietly accusatory.
+
+#### 3.7.6 Strategic Lessons from Todoist
+
+Todoist teaches two critical lessons.
+
+First:
+
+Speed, reliability, and capture quality matter enormously.
+
+Second:
+
+A capable system can still become emotionally unusable if its state logic does not protect the user from backlog shame.
+
+Our product must therefore combine:
+
+- Todoist-level trust in capture and storage
+- better-than-Todoist support for the present moment
+- dramatically better recovery after drift
+- a planning model that translates stored tasks into manageable action
+
+#### 3.7.7 Competitive Position Relative to Our Product
+
+Against Todoist, our differentiators should be:
+
+- visual time blocks instead of list-only cognition
+- missed-task auto-rescheduling instead of overdue pile-up
+- start celebrations and momentum loops
+- ADHD-specific energy-aware prioritization
+- emotional safety as a core functional behavior
+- integrated focus timer and body doubling support
+
+The positioning message is:
+
+“Todoist helps you manage tasks. Our product helps ADHD users face today without being crushed by yesterday.”
+
+### 3.8 Competitor Analysis: Things 3
+
+#### 3.8.1 Product Summary
+
+Things 3 is a premium personal task manager known for polish, elegance, and thoughtful interaction design.
+
+It is especially attractive to users who value calm visual design, deliberate workflows, and a feeling of order.
+
+Among traditional productivity tools, it represents the most refined version of the classic task-manager model.
+
+It is also influential because it sets expectations around what “premium” can feel like.
+
+#### 3.8.2 Core Strengths
+
+Things 3’s strengths include:
+
+- exceptional visual polish
+- strong information hierarchy
+- calm and intentionally designed interactions
+- satisfying task management mechanics
+- a sense of premium quality and trust
+- lower visual noise than many mainstream tools
+
+For ADHD users, some of this polish is genuinely beneficial.
+
+A cleaner interface can reduce friction.
+
+A coherent interaction model can feel safe.
+
+A well-designed app can create confidence.
+
+#### 3.8.3 Why Things 3 Appeals to Some ADHD Users
+
+Things 3 appeals to certain ADHD users because it feels less chaotic than mainstream task tools.
+
+Its calmness, strong design, and reduced clutter may create the impression of mental order.
+
+Users who are design-sensitive often respond strongly to:
+
+- visual cleanliness
+- tactile satisfaction
+- deliberate organization
+- reduced feature sprawl
+
+For users whose main need is “a planner that does not assault me,” Things 3 can outperform noisier systems.
+
+#### 3.8.4 Where Things 3 Falls Short for ADHD-Native Planning
+
+Despite its polish, Things 3 remains rooted in a traditional personal productivity philosophy.
+
+Its limitations for this product category include:
+
+- it still assumes users can maintain a coherent organizational system
+- it is more elegant than adaptive
+- it values order, planning, and review more than recovery from inconsistency
+- it does not fundamentally redesign task states around shame avoidance
+- it does not operationalize energy-aware planning
+- it does not focus on start reward or dopamine-aware momentum loops
+- it is not designed around time blindness as a core constraint
+
+Things 3 is a beautiful container for tasks.
+
+It is not a supportive external nervous system for ADHD users on uneven days.
+
+#### 3.8.5 Emotional Model Assessment
+
+Things 3 often feels calm, but it can still feel exacting.
+
+Its orderliness can become aspirational in a way that some ADHD users find motivating and others find alienating.
+
+It communicates:
+
+“A well-organized life can look like this.”
+
+Our product must instead communicate:
+
+“Your life does not need to look organized first for the system to help you.”
+
+That is a deep philosophical difference.
+
+Things 3 offers dignity through elegance.
+
+Our product must offer dignity through adaptability.
+
+#### 3.8.6 Strategic Lessons from Things 3
+
+Things 3 proves that:
+
+- premium design matters
+- calm interfaces can command loyalty
+- users will pay for software that feels thoughtfully crafted
+- refinement can be a competitive moat
+
+It also shows what not to inherit uncritically:
+
+- productivity as aesthetic order
+- high-quality interaction without strong no-shame state logic
+- support for planning that still depends on user consistency
+
+Our product should learn from Things 3’s discipline in craft while rejecting its implicit assumptions about stable executive function.
+
+#### 3.8.7 Competitive Position Relative to Our Product
+
+Against Things 3, our differentiators should be:
+
+- adaptability over idealized order
+- emotional recovery over organizational elegance alone
+- time blindness aids instead of primarily list and project hierarchy
+- momentum-first interactions rather than completion-biased task culture
+- premium feel without requiring premium executive function
+
+The positioning message is:
+
+“Things 3 is polished for organized planning. Our product is polished for real ADHD days.”
+
+### 3.9 Competitor Analysis: Finch
+
+#### 3.9.1 Product Summary
+
+Finch is a self-care and motivation app built around a companion character, daily goals, emotional support, and gentle habit-like check-ins.
+
+It is not a direct planner competitor in the traditional sense.
+
+However, it competes strongly for the user need:
+
+“I need something kind enough that I will actually open it.”
+
+That need is highly relevant for ADHD users.
+
+#### 3.9.2 Core Strengths
+
+Finch’s core strengths include:
+
+- emotional warmth
+- non-threatening daily engagement
+- friendly reward loops
+- strong encouragement mechanics
+- a sense of companionship
+- lower intimidation than serious productivity tools
+- habit-forming check-in behavior through care and delight
+
+Finch excels at making return feel emotionally safe.
+
+This is strategically important.
+
+Many productivity tools fail before planning even begins because users avoid reopening them.
+
+Finch reduces that avoidance.
+
+#### 3.9.3 Why Finch Attracts ADHD Users
+
+Finch attracts ADHD users because it offers:
+
+- soft motivation
+- visible positive reinforcement
+- low emotional stakes
+- a feeling of being supported rather than judged
+- daily engagement that does not begin with failure evidence
+
+For users burned by traditional planning apps, Finch can feel like a relief.
+
+It demonstrates that emotional tone materially changes retention.
+
+#### 3.9.4 Where Finch Falls Short for Planner Use Cases
+
+Finch is compelling emotionally, but it is not a robust ADHD-native planner.
+
+Its limitations for our category include:
+
+- weaker task and scheduling depth
+- less serious day-structure support
+- limited time-blindness planning tools
+- less operational support for complex adult obligations
+- self-care framing that may not fully satisfy users seeking a primary productivity system
+- motivational softness without deep adaptive planning logic
+
+Finch helps the user feel cared for.
+
+It does less to answer:
+
+- What should I do now?
+- Where does this fit in my day?
+- What can I handle at this energy level?
+- How should the system reshuffle missed commitments?
+
+It competes for trust and emotional safety, but not for full planning authority.
+
+#### 3.9.5 Emotional Model Assessment
+
+Finch is one of the strongest examples in the landscape of emotionally safe product design.
+
+Its lesson is critical:
+
+Users engage more when the app feels like an ally.
+
+However, the app’s emotional model is more companion-first than planner-first.
+
+Our product must retain the warmth and re-entry safety without drifting into a tool that feels too soft, too cute, or too detached from practical execution.
+
+Adults with ADHD often want support, but they also want to be taken seriously.
+
+#### 3.9.6 Strategic Lessons from Finch
+
+Finch validates:
+
+- warmth increases retention
+- celebration and delight can support engagement
+- users respond to products that reduce self-judgment
+- emotional design is not cosmetic; it changes behavior
+
+Finch also reveals the gap we can occupy:
+
+- serious planning plus emotional safety
+- adult dignity plus playfulness
+- practical time support plus dopamine-aware reinforcement
+- a no-shame planner, not only a caring companion
+
+#### 3.9.7 Competitive Position Relative to Our Product
+
+Against Finch, our differentiators should be:
+
+- stronger task and schedule execution support
+- real day planning rather than primarily motivational check-ins
+- energy-based task guidance
+- time-block and calendar-like visualization
+- focus timer and body doubling features connected to actual work initiation
+
+The positioning message is:
+
+“Finch helps you feel supported. Our product helps you feel supported while also getting through an ADHD day.”
+
+### 3.10 Competitor Analysis: Routinery
+
+#### 3.10.1 Product Summary
+
+Routinery is a routine-execution app focused on helping users follow structured sequences and repeated activity flows.
+
+It competes most directly around:
+
+- externalizing sequence
+- reducing decision overhead
+- helping users move through recurring routines step by step
+
+This is relevant because many ADHD users struggle not only with tasks, but with transitions and routine initiation.
+
+#### 3.10.2 Core Strengths
+
+Routinery’s strengths include:
+
+- strong support for sequential routines
+- clarity around what comes next
+- reduced need to decide in the moment
+- procedural scaffolding for repeated activities
+- utility for mornings, evenings, and transition-heavy contexts
+
+It solves a real problem:
+
+Some users do not need more task storage.
+
+They need a flow they can follow.
+
+#### 3.10.3 Why Routinery Attracts ADHD Users
+
+Routinery can be highly appealing to ADHD users because it addresses:
+
+- initiation through structured sequence
+- transition difficulty
+- routine forgetfulness
+- executive burden during repetitive parts of the day
+
+Its value is strongest in contexts where the user benefits from being guided through a known chain of actions rather than deciding from scratch.
+
+This is genuinely aligned with ADHD needs.
+
+#### 3.10.4 Where Routinery Falls Short for This Product Space
+
+Routinery is powerful within its lane, but narrow relative to an ADHD-native planner.
+
+Its limitations include:
+
+- stronger support for repeated routines than for fluid daily prioritization
+- less capacity for mixed task, appointment, and energy-aware planning
+- weaker accommodation of changing adult obligations across work and personal life
+- less emphasis on backlog recovery and no-shame task management
+- less support for broader planning decisions beyond routine execution
+
+Routinery helps with:
+
+“How do I move through this sequence?”
+
+Our product must also solve:
+
+- What is realistic today?
+- What matters now?
+- What can I do at low energy?
+- How does the day reshape itself if I miss something?
+
+#### 3.10.5 Emotional Model Assessment
+
+Routinery is often more procedural than emotional.
+
+That can be helpful for users who want straightforward structure.
+
+But it does not inherently create a no-shame planning relationship.
+
+Its logic is strongest when the routine exists and the user wants help executing it.
+
+Our product must remain useful when routines fall apart completely.
+
+That is the difference between sequence support and recovery support.
+
+#### 3.10.6 Strategic Lessons from Routinery
+
+Routinery validates:
+
+- next-step visibility is powerful
+- transition scaffolding matters
+- users value reduced in-the-moment decision-making
+- structured flows can lower initiation barriers
+
+It also points to an opportunity:
+
+Our planner should borrow the helpful part of routine sequencing while embedding it inside a broader adaptive planning system.
+
+That means:
+
+- helping with routine moments
+- helping with non-routine days
+- helping with schedule shifts
+- helping with task overload
+- helping after breakdown, not only during structure
+
+#### 3.10.7 Competitive Position Relative to Our Product
+
+Against Routinery, our differentiators should be:
+
+- broader daily planning capability
+- task, schedule, and focus integration
+- energy-aware suggestion logic
+- no-shame adaptation when routines are missed
+- stronger planner identity for work and life admin, not only routines
+
+The positioning message is:
+
+“Routinery helps you run a sequence. Our product helps you run a real ADHD life.”
+
+### 3.11 Cross-Competitor Comparison Matrix
+
+#### 3.11.1 Summary Comparison
+
+The following qualitative matrix summarizes how the competitive set compares across ADHD-relevant dimensions.
+
+| Dimension | Structured | Tiimo | Todoist | Things 3 | Finch | Routinery | Our Product Target |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Visual time clarity | Strong | Strong | Weak | Moderate | Weak | Moderate | Strong |
+| No-shame missed-task handling | Moderate | Moderate | Weak | Weak to Moderate | Strong emotionally, weak for planning logic | Moderate | Strong |
+| Start-focused motivation | Weak to Moderate | Moderate | Weak | Weak | Strong | Moderate | Strong |
+| Energy-aware planning | Weak | Weak to Moderate | Weak | Weak | Weak | Weak | Strong |
+| Adult task-management depth | Moderate | Moderate | Strong | Strong | Weak | Weak to Moderate | Strong |
+| Recovery after disrupted use | Moderate | Moderate | Weak | Weak to Moderate | Strong emotionally | Moderate | Strong |
+| Routine support | Moderate | Strong | Moderate | Moderate | Moderate | Strong | Strong |
+| Time blindness support | Strong | Strong | Weak | Weak to Moderate | Weak | Moderate | Strong |
+| Focus-session support | Weak | Moderate | Weak | Weak | Weak | Weak | Strong |
+| Emotional warmth | Moderate | Strong | Weak | Moderate | Strong | Moderate | Strong |
+| Planner credibility | Moderate | Moderate to Strong | Strong | Strong | Weak | Moderate | Strong |
+
+#### 3.11.2 Matrix Interpretation
+
+Several conclusions emerge from the comparison:
+
+1. No competitor dominates across both emotional safety and practical planning depth.
+2. Products with strong emotional warmth often lack serious planner authority.
+3. Products with strong planner authority often fail at no-shame recovery.
+4. Visual structure exists in-market, but energy-aware and start-celebrating planning does not meaningfully exist as a combined system.
+5. The strongest whitespace is the intersection of adult credibility, ADHD specificity, recovery logic, and activation support.
+
+This intersection is where our product should live.
+
+### 3.12 Whitespace Analysis
+
+#### 3.12.1 The Largest Gap: A Planner That Survives Imperfect Use
+
+The biggest unmet need in the market is not merely a prettier planner or a kinder habit app.
+
+It is a primary planning system that remains usable after inconsistency.
+
+Many apps are attractive during setup and early use.
+
+Far fewer are resilient during:
+
+- missed days
+- attention crashes
+- life disruptions
+- emotional overwhelm
+- avoidance spirals
+- changing energy across the week
+
+This product should explicitly own:
+
+The planner that still works when the user stops being ideal.
+
+#### 3.12.2 The Second Gap: Energy as a First-Class Planning Dimension
+
+Competitors may support time, routines, or lists.
+
+Very few meaningfully support capacity.
+
+For ADHD users, this is a major omission.
+
+Two hours on a low-energy afternoon is not the same as two hours on a good morning.
+
+A planner that ignores this is only partially planning reality.
+
+Our product should make energy operational by helping users:
+
+- identify expected energy windows
+- tag tasks by likely effort type
+- get suggestions suited to present capacity
+- shift plans when energy does not match expectation
+
+This is not a cosmetic differentiator.
+
+It is a foundational UX advantage.
+
+#### 3.12.3 The Third Gap: Celebration of Initiation
+
+Most tools reward completion, streak continuation, or mere retention.
+
+Very few treat “started” as a meaningful event.
+
+For ADHD users, this is one of the most important unclaimed emotional spaces.
+
+The app should provide positive reinforcement when the user:
+
+- opens a task and commits to beginning
+- starts a timer
+- breaks a task into a first step
+- re-engages after interruption
+
+This creates a dopamine-aware experience that aligns with actual ADHD effort.
+
+#### 3.12.4 The Fourth Gap: Adult Dignity Without Sterility
+
+The market currently splits in unhelpful ways:
+
+- traditional productivity tools can feel capable but emotionally cold
+- supportive tools can feel warm but insufficiently serious
+
+Adults with ADHD often want both:
+
+- emotional safety
+- practical authority
+
+They do not want a planner that feels like enterprise software.
+
+They also do not want a planner that feels like it assumes they are children.
+
+This product should occupy the rare middle:
+
+warm, playful in measured doses, deeply respectful, and operationally serious.
+
+#### 3.12.5 The Fifth Gap: Body Doubling Inside a Real Planner
+
+Body doubling is culturally and practically relevant for ADHD users.
+
+Yet most planning tools do not integrate it meaningfully.
+
+Users often patch together:
+
+- a task app
+- a timer app
+- background audio
+- a YouTube body doubling video
+- a separate accountability mechanism
+
+This fragmentation creates friction.
+
+Our product can differentiate by embedding body doubling and focus support into the act of starting a scheduled task.
+
+This makes the app more than a planner.
+
+It becomes an execution bridge.
+
+### 3.13 Competitive Threats
+
+#### 3.13.1 Threat: Tiimo Expands Further Into Adult ADHD Task Management
+
+Tiimo is the closest philosophy competitor.
+
+If it deepens its task model, improves re-entry handling, and introduces stronger energy-aware planning, it could narrow our whitespace significantly.
+
+Our defense is not “be like Tiimo.”
+
+Our defense is sharper positioning and stronger execution around:
+
+- no-shame auto-rescheduling
+- adult work-and-life task reality
+- start-focused dopamine loops
+- planner-plus-focus integration
+
+#### 3.13.2 Threat: Mainstream Tools Add Friendly ADHD Marketing Without Structural Change
+
+Traditional products may add:
+
+- softer colors
+- focus modes
+- AI suggestions
+- wellness language
+
+without changing their underlying planning logic.
+
+This could create superficial competition and confuse users.
+
+Our response must be concrete and demonstrable.
+
+We need to show that this app behaves differently, not just speaks differently.
+
+#### 3.13.3 Threat: Companion Apps Capture Emotional Loyalty
+
+Products like Finch can become the app users actually open daily, even if they are not the user’s main planner.
+
+That matters because daily emotional loyalty is powerful.
+
+Our product must therefore feel emotionally rewarding enough that users do not reserve warmth for one app and planning for another.
+
+#### 3.13.4 Threat: Users Default to Existing Trusted Systems
+
+Many users already have:
+
+- Todoist inboxes
+- Apple Reminders lists
+- calendar habits
+- paper notes
+- routines in other tools
+
+Switching costs are emotional and practical.
+
+Our product must therefore produce obvious value quickly.
+
+If differentiation is only philosophical and not felt within the first days of use, users will revert to familiar systems.
+
+### 3.14 Competitive Opportunities
+
+#### 3.14.1 Opportunity: Own the Phrase “ADHD-Native Planner”
+
+Many products can claim to be ADHD-friendly.
+
+Far fewer can credibly claim to be ADHD-native.
+
+That phrase should mean:
+
+- the planning model itself is designed around ADHD patterns
+- missed tasks behave differently
+- time is visualized differently
+- energy is treated differently
+- motivation is reinforced differently
+- re-entry is safer by default
+
+This is a strong strategic category claim if the product behavior supports it.
+
+#### 3.14.2 Opportunity: Undercut Premium Competitors on Psychological Value Per Dollar
+
+Compared with products positioned around higher annual subscriptions, our monetization can feel especially compelling if the app is perceived as:
+
+- more specialized
+- more compassionate
+- more execution-supportive
+- more directly tied to the user’s daily functioning
+
+The one-time premium option also creates an important trust signal for users wary of endless subscriptions.
+
+It suggests:
+
+This product is trying to earn long-term trust, not trap the user in recurring payment.
+
+#### 3.14.3 Opportunity: Bridge Planning and Doing
+
+Most competitors cluster around one side:
+
+- planning and organizing
+- or motivation and support
+
+Our product can bridge both by making the path from task selection to focused action unusually short.
+
+This is where:
+
+- focus timer
+- body doubling audio
+- start celebrations
+- visual time placement
+- auto-rescheduling
+
+become more than isolated features.
+
+Together they create a cohesive behavior change loop.
+
+#### 3.14.4 Opportunity: Become the Safe Re-Entry Tool
+
+The app that users can reopen after a bad week has a durable advantage.
+
+If users trust that reopening will not trigger guilt, they are more likely to maintain a relationship with the tool over time.
+
+Retention in this category is not only about habit.
+
+It is about emotional survivability.
+
+This is one of the most defensible opportunities in the market.
+
+### 3.15 Positioning Implications
+
+#### 3.15.1 What We Should Not Say
+
+The product should not position itself as:
+
+- a stricter planner with ADHD features
+- a generic productivity app with a friendlier palette
+- a habit streak tool for neurodivergent users
+- a self-care companion that happens to include tasks
+- a clone of Tiimo, Structured, or Todoist with a different brand voice
+
+Those frames weaken distinctiveness.
+
+#### 3.15.2 What We Should Say
+
+The product should position itself as:
+
+- the ADHD-native planner that does not make you feel bad
+- a planner designed for restartability, not perfection
+- a system that helps users begin, not just organize
+- a planner that adapts to energy, not just time
+- a planning tool that treats missed tasks as data, not failure
+- a practical, adult, supportive tool for real executive dysfunction
+
+#### 3.15.3 Positioning Contrast by Competitor
+
+Versus Structured:
+
+We are not just visually time-based.
+
+We are visually time-based and emotionally adaptive.
+
+Versus Tiimo:
+
+We are not just neurodivergent-friendly.
+
+We are explicitly optimized for adult ADHD task execution and recovery.
+
+Versus Todoist:
+
+We are not just a task database.
+
+We are a no-shame action system.
+
+Versus Things 3:
+
+We are not just beautifully organized.
+
+We are beautifully survivable.
+
+Versus Finch:
+
+We are not just emotionally supportive.
+
+We are emotionally supportive and operationally capable.
+
+Versus Routinery:
+
+We are not just a routine runner.
+
+We are an adaptive daily planner for unpredictable lives.
+
+### 3.16 Product Strategy Consequences
+
+The competitive landscape creates several non-negotiable strategy consequences for this product.
+
+#### 3.16.1 The Product Must Earn Trust Through Reliability, Not Only Empathy
+
+Compassionate design without reliability will lose to Todoist, Things 3, and habit-forming incumbents.
+
+The app must be fast, stable, clear, and dependable.
+
+#### 3.16.2 The Product Must Demonstrate Difference in Core Flows
+
+If the app’s main flows still look like:
+
+- create task
+- forget task
+- see overdue task
+
+then the product is not meaningfully differentiated.
+
+The differentiation must appear in default behavior:
+
+- start celebrations
+- safe re-entry
+- adaptive rescheduling
+- energy-aware suggestions
+- visible time blocks
+
+#### 3.16.3 The Product Must Resist Feature Drift Toward Generic Productivity
+
+As the product matures, there will be pressure to add:
+
+- more organizational complexity
+- more settings
+- more filtering
+- more customization
+- more “power user” constructs
+
+Some of this may be useful.
+
+But if it increases cognitive load and weakens ADHD-native guidance, the product will drift toward the same failure patterns users are trying to leave.
+
+#### 3.16.4 The Product Must Balance Warmth With Adult Seriousness
+
+Finch proves warmth matters.
+
+Things 3 proves craft matters.
+
+This product must combine both without becoming:
+
+- childish
+- clinical
+- whimsical but shallow
+- premium but emotionally cold
+
+That balance is strategic, not cosmetic.
+
+### 3.17 Why This Product Can Win
+
+This product can win because the current market is fragmented across partial solutions.
+
+Users can currently find:
+
+- visual structure
+- routine support
+- emotional warmth
+- task management depth
+- design polish
+
+But they rarely find all of the following in one coherent product:
+
+- ADHD-native philosophy
+- emotionally safe missed-task handling
+- visible time blocks
+- energy-aware scheduling
+- celebration of starting
+- focus timer with body doubling support
+- adult dignity
+- practical planning authority
+
+That combination is not merely a better feature bundle.
+
+It creates a different relationship between the user and the planner.
+
+The user should feel:
+
+- safe to open it
+- clear on what now means
+- supported in getting started
+- unpunished when plans change
+- understood as an ADHD adult, not merely accommodated
+
+That is the strategic opening.
+
+### 3.18 Section Summary
+
+The competitive landscape confirms that no single product currently owns the full problem this app is solving.
+
+Structured validates visual time planning but not ADHD-native recovery.
+
+Tiimo validates neurodivergent demand but leaves room for deeper adult ADHD execution support.
+
+Todoist and Things 3 validate the need for reliability, polish, and planner authority, while exposing the emotional limits of traditional task systems.
+
+Finch validates emotional safety and reward loops, but not serious daily planning.
+
+Routinery validates sequential scaffolding, but not adaptive whole-life planning.
+
+The strategic opportunity is clear:
+
+Build the planner that combines practical daily authority with no-shame ADHD-native behavior.
+
+Not a generic planner with softer branding.
+
+Not a supportive app without planner depth.
+
+A fundamentally different planning system that helps ADHD users begin, adapt, and return.
+
+## 4. Feature Set Overview and Free vs Premium Tier Breakdown
+
+### 4.1 Purpose of This Section
+
+This section defines the product feature set at a portfolio level.
+
+It explains:
+
+- what the product does
+- why each feature exists for ADHD users specifically
+- how the features work together as one coherent system
+- which capabilities are free
+- which capabilities are premium
+- why the monetization structure should feel fair, useful, and psychologically safe
+
+This section is intentionally focused on feature strategy and packaging.
+
+It does not replace later detailed requirements, screen specifications, data modeling, or architecture sections.
+
+Its purpose is to establish the functional promise of the product in a way that is clear enough for product, design, engineering, growth, and QA teams to align around the same boundaries.
+
+### 4.2 Feature Set Philosophy
+
+The feature set must feel like one ADHD-native support system rather than a pile of productivity tools.
+
+This distinction matters.
+
+Many planners accumulate features that are individually useful but collectively exhausting.
+
+That approach is especially dangerous for ADHD users because every extra mode, option, or conceptual model increases cognitive load and weakens trust.
+
+The feature set for this product must therefore follow five rules.
+
+#### 4.2.1 Every Feature Must Reduce Friction at a Real ADHD Pain Point
+
+No feature should exist just because it is standard in the productivity category.
+
+Every major capability must tie directly to a real ADHD struggle such as:
+
+- difficulty starting
+- time blindness
+- inconsistent energy
+- shame after missed plans
+- overwhelm from backlog growth
+- difficulty estimating what fits in a day
+- loss of momentum after interruption
+- difficulty returning to systems after a gap
+- need for external scaffolding when working alone
+
+If a feature cannot be defended in those terms, it should not be core.
+
+#### 4.2.2 The Product Must Bridge Planning and Doing
+
+Many tools are good at storing intentions.
+
+Far fewer are good at helping users turn intentions into present-tense action.
+
+This product must bridge that gap.
+
+The feature set should move the user through a practical sequence:
+
+- capture what matters
+- shape it into a realistic day
+- choose based on actual energy
+- begin with low friction
+- stay supported while doing
+- recover gracefully if interrupted
+- return without shame if the plan breaks
+
+The user should not feel that planning and execution live in different products.
+
+#### 4.2.3 The Product Must Support Imperfect Use
+
+The product cannot assume:
+
+- daily consistency
+- clean inboxes
+- stable routines
+- linear progress
+- one right schedule
+- perfect memory
+- perfect notification response
+
+The feature set must work well even when the user:
+
+- opens the app after several days away
+- skips reminders
+- half-completes a day
+- changes plans repeatedly
+- starts more tasks than they finish
+- reschedules due to low energy
+- uses some features heavily and others rarely
+
+Features that only work under ideal behavior are not core-feature quality for this product.
+
+#### 4.2.4 Core Features Must Deliver Immediate Value
+
+The first-use experience must produce relief quickly.
+
+The user should not need:
+
+- a complex setup ritual
+- a perfectly structured task system
+- a full weekly planning practice
+- high self-knowledge before beginning
+
+The feature set should provide value on day one through simple wins:
+
+- capture a task fast
+- see today clearly
+- start a focus session
+- get a supportive reminder
+- watch a missed task adapt instead of turning red
+
+Premium features may deepen value, but the free experience must still feel genuinely helpful and complete enough to build trust.
+
+#### 4.2.5 Monetization Must Protect Emotional Trust
+
+The premium model must not weaponize stress.
+
+The app must never create conversion pressure by making the user feel:
+
+- inadequate
+- lazy
+- behind
+- punished
+- manipulated by scarcity
+- trapped by hidden limits
+
+Instead, the tiering model should communicate:
+
+- the free tier is a real support tool
+- the premium tier unlocks a fuller adaptive system
+- the paid upgrade expands capacity and personalization
+- the user can choose based on fit, not guilt
+
+This is especially important for ADHD users, many of whom have long histories of paying for systems that failed them.
+
+### 4.3 Core Feature Pillars
+
+The product is organized around seven major feature pillars.
+
+Together, these pillars define the app’s core value.
+
+#### 4.3.1 Pillar 1: Adaptive Task Management
+
+Task management is the backbone of the product.
+
+However, it must not behave like a traditional backlog-first task manager.
+
+The task system must emphasize:
+
+- quick capture
+- realistic planning
+- low-friction editing
+- emotional safety
+- adaptive rescheduling
+- visible next actions
+
+Core task capabilities include:
+
+- creating tasks in seconds
+- assigning tasks to today, a future day, or flexible status
+- estimating duration in rough, usable terms
+- attaching energy expectations to tasks
+- breaking larger intentions into smaller actionable steps
+- starting a task directly from the daily flow
+- pausing and resuming without penalty
+- marking a task as done when complete
+- moving unfinished tasks forward without moral framing
+- archiving completed or inactive items so the system stays emotionally clean
+
+The task layer must not rely on overdue pressure as its main accountability mechanism.
+
+Instead, when the user does not complete something, the system should adapt by helping the user decide:
+
+- still today
+- later today
+- tomorrow
+- this week
+- not now
+
+The emotional message is:
+
+The plan changed.
+
+Let us reshape it.
+
+Not:
+
+You failed to keep up.
+
+#### 4.3.2 Pillar 2: Time Blindness Support
+
+ADHD users often need more than lists.
+
+They need help seeing the shape of time.
+
+This pillar exists to make time concrete, visible, and actionable.
+
+Core capabilities include:
+
+- visual daily time blocks
+- task durations displayed in understandable chunks
+- schedule layouts that show what fits and what does not
+- optional now/next/later framing
+- timer-linked visibility of elapsed and remaining time
+- transitions that make time movement perceptible
+- day structure that reduces the feeling of time disappearing into abstraction
+
+This pillar is not about calendar complexity for its own sake.
+
+It is about converting vague plans into visible experiences.
+
+The user should be able to glance at the app and answer:
+
+- What is happening now?
+- What is next?
+- How much can realistically fit today?
+- Where did the day go?
+- What can I still recover?
+
+#### 4.3.3 Pillar 3: Energy-Aware Planning
+
+Traditional planners treat all available time as equally usable.
+
+For ADHD users, this is often false.
+
+Energy, focus quality, emotional bandwidth, and activation difficulty vary across the day and across the week.
+
+This pillar turns fluctuating capacity into a first-class planning input.
+
+Core capabilities include:
+
+- identifying high-, medium-, and low-energy windows
+- tagging tasks by expected energy requirement
+- suggesting tasks that fit current or typical capacity
+- helping users avoid placing demanding work into depleted periods
+- allowing rescheduling based on energy rather than guilt
+- teaching the user their own patterns over time without sounding clinical
+
+The goal is not rigid optimization.
+
+The goal is compassionate realism.
+
+The planner should help users stop asking:
+
+Why can’t I just do it now?
+
+and instead ask:
+
+What kind of task matches the version of me that exists right now?
+
+#### 4.3.4 Pillar 4: Focus Support and Starting Assistance
+
+Starting is a major point of failure in ADHD productivity.
+
+This pillar exists to reduce the activation energy between intention and action.
+
+Core capabilities include:
+
+- a flexible focus timer
+- start rituals that create momentum quickly
+- supportive transitions into work mode
+- body doubling audio for companionship and external structure
+- immediate positive reinforcement when a session begins
+- low-pressure resume options after interruption
+
+This pillar must treat starting as a meaningful product moment.
+
+The planner is not finished once the user chooses a task.
+
+The planner must help the user cross the threshold into doing.
+
+#### 4.3.5 Pillar 5: Gentle Habit Support
+
+The habit system must reject shame-driven streak culture.
+
+For this audience, habits often fail not because the user lacks desire, but because life variability breaks consistency.
+
+A habit feature that emphasizes broken streaks can become actively harmful.
+
+This pillar should therefore focus on:
+
+- gentle repetition
+- flexible consistency
+- encouragement after misses
+- visible patterns without moral scoring
+- identity support through return, not perfection
+
+Core capabilities include:
+
+- habit creation
+- lightweight daily or weekly check-ins
+- completion history that shows patterns
+- re-entry messaging after gaps
+- optional celebration of participation
+- summaries that emphasize engagement rather than failure counts
+
+The product should not treat a missed day as a dramatic event.
+
+The user should never feel they have to “start over” psychologically.
+
+#### 4.3.6 Pillar 6: Supportive Reminder and Recovery System
+
+Reminders are not just notifications.
+
+For ADHD users, reminders often function as external working memory.
+
+This pillar exists to help the user:
+
+- remember at the right moment
+- reorient after missing the first cue
+- recover without shame
+- return to the app with minimal friction
+
+Core capabilities include:
+
+- multiple reminders per task
+- reminders tied to task timing and context
+- supportive follow-up nudges when the first reminder is missed
+- reminder language that is practical and non-judgmental
+- re-entry flows that reopen the task in a useful state
+- reminders that support starting, not only remembering
+
+The system should acknowledge that a single reminder is often not enough.
+
+However, escalation must feel helpful rather than aggressive.
+
+#### 4.3.7 Pillar 7: Sustainable Motivation and Positive Feedback
+
+The emotional layer of the product is not ornamental.
+
+It is functional.
+
+This pillar exists to create short, respectful reward loops that reinforce engagement.
+
+Core capabilities include:
+
+- celebration on task start
+- satisfying completion feedback
+- supportive microcopy after rescheduling
+- visible evidence of small wins
+- warm reinforcement after returning to the app
+- sensory feedback that is pleasant but not overstimulating
+
+This pillar is one of the clearest differentiators in the product.
+
+Many apps either:
+
+- ignore emotion entirely
+
+or
+
+- gamify in ways that feel childish, noisy, or manipulative
+
+This product should instead deliver adult warmth.
+
+### 4.4 Feature Inventory Overview
+
+The complete product feature set is composed of integrated capabilities across planning, execution, support, and reflection.
+
+The major features are:
+
+- onboarding and energy pattern setup
+- daily planning view
+- task capture and task detail management
+- adaptive rescheduling
+- visual time blocks
+- flexible focus timer
+- body doubling audio sessions
+- energy-aware task matching
+- weekly planning view
+- monthly planning view
+- habit tracking without punitive streak logic
+- reminders with multiple nudges
+- completion and start celebrations
+- archive and history views
+- export for user ownership and portability
+- settings for sound, haptics, accessibility, and planning preferences
+
+Not every feature should be equally emphasized in marketing or first-run experience.
+
+The product story should prioritize the capabilities that most clearly communicate ADHD-native difference:
+
+- tasks that do not become shame piles
+- planning that reflects energy
+- starting support
+- visible time
+- gentle habits
+- no-shame recovery
+
+### 4.5 How the Features Work Together in the User Journey
+
+The feature set is intentionally designed as a loop, not a stack.
+
+The canonical product journey is:
+
+1. The user captures or reviews tasks.
+2. The planner helps shape a realistic day.
+3. The system highlights options based on time and energy.
+4. The user chooses something they can actually begin.
+5. The focus layer helps them start.
+6. The reward layer reinforces that start immediately.
+7. If the task is interrupted or missed, the recovery system helps adapt the plan.
+8. The day still feels salvageable instead of ruined.
+9. Over time, habits and energy awareness improve self-understanding.
+
+This loop is strategically important.
+
+Without it, the app risks becoming one of three inferior products:
+
+- a visually nicer task list
+- a focus timer disconnected from planning
+- a habit tracker with ADHD branding
+
+The product only becomes differentiated when the features operate as one mutually reinforcing system.
+
+### 4.6 Feature-Level Strategic Priorities
+
+Not all features carry equal strategic weight.
+
+The following capabilities are category-defining and must feel excellent:
+
+- adaptive task management
+- no-shame missed-task handling
+- visual daily planning
+- start support and flexible focus timer
+- energy-aware planning
+
+The following capabilities are major differentiation amplifiers:
+
+- body doubling audio
+- habit tracking without punitive streaks
+- weekly and monthly visibility for bigger-picture planning
+- supportive reminder escalation
+
+The following capabilities are trust and retention enablers:
+
+- export
+- archive/history
+- settings personalization
+- polished feedback loops
+
+If tradeoffs become necessary, category-defining flows must be protected first.
+
+### 4.7 Free Tier Philosophy
+
+The free tier must be meaningfully useful.
+
+It should allow a user to experience the product’s emotional and functional difference before paying.
+
+The free tier should not feel like a fake product whose only purpose is to push conversion.
+
+It should feel like:
+
+- a real daily support tool
+- safe to adopt
+- sufficient for lighter users
+- strong enough to build trust
+- limited mainly by capacity and advanced scaffolding depth, not by basic dignity
+
+The free tier exists to prove the core promise:
+
+This planner behaves differently.
+
+It does not need every premium feature to demonstrate that difference.
+
+However, it must include enough of the emotional model that users can directly feel:
+
+- no-shame task handling
+- low-friction task capture
+- a supportive daily planning experience
+- some form of immediate start support
+
+### 4.8 Premium Tier Philosophy
+
+Premium should unlock a fuller operational system for users whose lives require more depth, more surface area, or more scaffolding.
+
+Premium is not just “more features.”
+
+It is deeper support for:
+
+- higher task volume
+- longer planning horizons
+- stronger execution support
+- more personalized energy-aware planning
+- better continuity across complex weeks
+
+Premium should feel like an expansion of capacity and adaptive intelligence.
+
+It should be positioned as:
+
+- more room
+- more visibility
+- more support
+- more personalization
+- more continuity
+
+not as:
+
+- pressure
+- punishment
+- gatekeeping of basic functionality
+
+### 4.9 Free Tier Feature Breakdown
+
+The free tier includes the minimum feature set required to provide a complete, trustworthy ADHD-native daily planning experience for light to moderate use.
+
+#### 4.9.1 Task Capacity
+
+Free users can manage up to 3 active tasks at a time.
+
+This limit is intentionally simple and easy to understand.
+
+An active task is any task that is currently in play rather than completed and archived away.
+
+The limit serves several purposes:
+
+- it preserves meaningful utility for users with smaller daily loads
+- it creates a clear upgrade threshold without hiding basic product behavior
+- it encourages focus and simplicity in the free experience
+
+The system should communicate this limit plainly and respectfully.
+
+It must not use alarmist or guilt-based copy.
+
+When a free user reaches the limit, the product should explain:
+
+- they can complete or archive existing tasks
+- they can upgrade for unlimited active tasks
+- the free version is intentionally lightweight
+
+The app should never imply that the user is being blocked from success.
+
+#### 4.9.2 Basic Task Creation and Editing
+
+Free users can:
+
+- create tasks
+- name tasks
+- add short notes
+- assign tasks to today or later
+- edit task details
+- mark tasks complete
+- reschedule unfinished tasks
+- archive inactive or completed tasks
+
+This is a true task workflow, not a demo.
+
+The no-shame handling model must be present in free.
+
+That is core brand behavior, not a premium luxury.
+
+#### 4.9.3 Daily View
+
+Free users have access to the daily planning view.
+
+This is the primary surface through which the product proves its value.
+
+The daily view should include:
+
+- today’s active tasks
+- visual prioritization of what matters now
+- lightweight time representation appropriate to the day
+- easy start actions
+- clear rescheduling options when plans shift
+
+The daily view is free because it is the emotional center of the app.
+
+If the daily experience were gated, the product would fail to demonstrate its core identity.
+
+#### 4.9.4 Basic Timer
+
+Free users have access to a basic focus timer.
+
+The basic timer should provide:
+
+- start
+- pause
+- resume
+- complete
+- visible time remaining
+- simple end-of-session feedback
+
+This allows free users to experience planning-to-action support.
+
+However, advanced focus support remains premium.
+
+The free timer should be functional and satisfying, but not as rich as the premium execution layer.
+
+#### 4.9.5 Supportive Rescheduling
+
+Free users must still receive the product’s core no-shame adaptive behavior.
+
+This includes:
+
+- tasks not turning into hostile overdue states
+- unfinished items being easy to move forward
+- supportive wording around missed plans
+- recovery paths that keep the day usable
+
+This behavior is not optional.
+
+It is fundamental to the product promise and must be visible in the free experience.
+
+#### 4.9.6 Core Celebration Moments
+
+Free users should experience a limited but real version of dopamine-aware reinforcement.
+
+This includes:
+
+- start celebration feedback
+- completion confirmation feedback
+- gentle positive reinforcement after re-entry or reschedule events
+
+These moments should not be held behind a paywall because they help communicate what makes the app different.
+
+#### 4.9.7 What Free Intentionally Does Not Include
+
+The free tier does not include:
+
+- unlimited active tasks
+- weekly view
+- monthly view
+- full habit support
+- body doubling audio
+- advanced energy-level-aware scheduling
+- export
+
+These exclusions define the premium value clearly while leaving the free product coherent.
+
+### 4.10 Premium Tier Feature Breakdown
+
+Premium includes all free features plus expanded capacity, broader planning surfaces, richer focus support, and more adaptive intelligence.
+
+Premium purchase options are:
+
+- $6.99 one-time
+- $3.99 per month
+
+The product should present both clearly.
+
+The one-time option should feel generous and trust-building.
+
+The monthly option should serve users who prefer lower upfront cost or want to try the premium experience more gradually.
+
+#### 4.10.1 Unlimited Tasks
+
+Premium removes the 3-active-task cap.
+
+This is the clearest capacity unlock in the product.
+
+It matters for users who manage:
+
+- dense workdays
+- family logistics
+- recurring household tasks
+- multi-project lives
+- longer planning horizons
+
+Unlimited tasks should include freedom to:
+
+- carry more active items
+- maintain a fuller backlog
+- plan with less compression
+- use the app as a primary planner rather than a minimal daily aid
+
+This feature is premium because capacity expansion is a natural monetization boundary that does not distort the core emotional model.
+
+#### 4.10.2 Weekly View
+
+Premium unlocks a weekly planning view.
+
+This feature helps users:
+
+- distribute effort across multiple days
+- avoid overloading one day
+- place tasks into more realistic windows
+- recover from disrupted plans without losing the whole week
+- understand how obligations cluster
+
+The weekly view is especially valuable for ADHD users because it bridges short-term focus with medium-horizon planning.
+
+It should make the week feel visible and editable rather than abstract and intimidating.
+
+This is premium because it expands the planning horizon beyond the core daily use case.
+
+#### 4.10.3 Monthly View
+
+Premium unlocks a monthly view for broader orientation.
+
+This feature helps users:
+
+- see patterns of load
+- anticipate high-pressure periods
+- place flexible tasks earlier
+- understand how weeks relate to one another
+- maintain context for appointments, recurring obligations, and planning cycles
+
+The monthly view must remain cognitively manageable.
+
+It should not become a dense enterprise calendar.
+
+Its role is orientation and pattern visibility, not maximal data display.
+
+This is premium because it provides advanced planning depth rather than essential daily support.
+
+#### 4.10.4 Habit Support Without Shame
+
+Premium unlocks the full gentle habit system.
+
+This includes:
+
+- creating habits
+- tracking participation over time
+- seeing engagement history
+- receiving supportive re-entry after missed days
+- viewing patterns without punitive streak-breaking framing
+
+The product should be explicit that this is not a standard streak engine.
+
+It is a repetition support system designed for inconsistent real lives.
+
+This is premium because it extends the app beyond planning into sustained behavior support.
+
+#### 4.10.5 Focus Timer With Body Doubling Audio
+
+Premium unlocks the advanced focus support layer.
+
+This includes:
+
+- richer session setup
+- more flexible focus cycles
+- body doubling audio
+- stronger transition support
+- more immersive start rituals
+- deeper execution scaffolding
+
+Body doubling audio is strategically important because it addresses a real ADHD need that generic planners usually ignore.
+
+For many users, the feeling of working alongside another presence reduces friction and loneliness.
+
+This feature is premium because it is both a differentiated support capability and a recurring-value feature that justifies monetization without taking away basic functionality from free users.
+
+#### 4.10.6 Energy-Level-Aware Scheduling
+
+Premium unlocks the full energy-aware planning system.
+
+This includes:
+
+- storing user energy patterns
+- defining high-, medium-, and low-energy periods
+- matching tasks to energy demand
+- generating more relevant task suggestions
+- helping users reshape plans based on current capacity
+
+This feature is central to the product’s long-term differentiation.
+
+However, it can be premium because:
+
+- the free tier can still be helpful without deep personalization
+- premium users receive a more adaptive and intelligent planning experience
+- the upgrade meaning is easy to understand: the app gets better at fitting the day to the user
+
+#### 4.10.7 Export
+
+Premium unlocks data export.
+
+Export supports:
+
+- trust
+- user ownership
+- portability
+- perceived seriousness of the product
+
+Export matters because ADHD users may have experienced lock-in disappointment before.
+
+Providing a clean export path signals confidence and respect.
+
+It is reasonable as a premium feature because it is an advanced ownership utility rather than a daily-use necessity.
+
+### 4.11 Free vs Premium Summary Matrix
+
+#### 4.11.1 Included by Tier
+
+| Feature | Free | Premium |
+| --- | --- | --- |
+| Active tasks | Up to 3 | Unlimited |
+| Task create/edit/reschedule/archive | Yes | Yes |
+| No-shame missed-task handling | Yes | Yes |
+| Daily view | Yes | Yes |
+| Basic timer | Yes | Yes |
+| Weekly view | No | Yes |
+| Monthly view | No | Yes |
+| Habit support without punitive streaks | No | Yes |
+| Focus timer with body doubling audio | No | Yes |
+| Energy-level-aware scheduling | No | Yes |
+| Export | No | Yes |
+
+#### 4.11.2 Strategic Reading of the Matrix
+
+The matrix is designed to create a clean division:
+
+- free proves the product’s emotional and practical thesis at the daily level
+- premium expands capacity, foresight, personalization, and execution support
+
+This division is deliberate.
+
+It avoids the common mistake of crippling the free tier so severely that users cannot feel the product difference.
+
+It also avoids the opposite mistake of putting all meaningful value into free and leaving premium too thin to justify purchase.
+
+### 4.12 Why These Features Belong in Free
+
+The following features must be free because they communicate the product’s identity:
+
+- task creation and editing
+- supportive rescheduling
+- no-shame missed-task handling
+- daily planning
+- basic timer
+- some celebration moments
+
+If these were premium-only, users could not evaluate whether the app actually understands ADHD reality.
+
+The free tier must let the user answer:
+
+- Does this planner make me feel safer than others?
+- Does this planner help me see today?
+- Does this planner make it easier to start?
+- Does this planner adapt when I miss something?
+
+That experience is essential to trust-building and acquisition.
+
+### 4.13 Why These Features Belong in Premium
+
+The following features belong in premium because they deepen support rather than define the minimum product truth:
+
+- unlimited tasks
+- weekly view
+- monthly view
+- full habit system
+- body doubling audio
+- advanced energy-aware scheduling
+- export
+
+These features are premium for strong strategic reasons.
+
+Unlimited tasks is a clean capacity boundary.
+
+Weekly and monthly views expand planning scope beyond the daily core.
+
+Habits create a new ongoing support layer.
+
+Body doubling audio adds unique execution scaffolding with obvious premium value.
+
+Energy-aware scheduling increases personalization and intelligence.
+
+Export signals serious ownership for invested users.
+
+Together, these features create a premium package that feels meaningfully more powerful without violating the emotional integrity of the free experience.
+
+### 4.14 Monetization Guardrails
+
+The tiering model must follow strict guardrails.
+
+#### 4.14.1 Do Not Put Emotional Safety Behind a Paywall
+
+The following must never be premium-only:
+
+- compassionate missed-task handling
+- non-punitive rescheduling
+- respectful reminder tone
+- supportive microcopy
+- core positive reinforcement
+
+These are product ethics, not monetization levers.
+
+#### 4.14.2 Do Not Use Shame-Based Upgrade Triggers
+
+The app must not attempt conversion through:
+
+- harsh “limit reached” moments
+- red warning walls
+- manipulative countdowns
+- guilt-laden productivity messaging
+- copy implying the user is failing because they are not premium
+
+Upgrade prompts should be contextual, calm, and benefit-led.
+
+#### 4.14.3 Do Not Hide the Tier Logic
+
+The product should make the tier structure easy to understand.
+
+Users should not have to discover limitations through frustrating trial and error.
+
+Feature boundaries must be:
+
+- visible
+- legible
+- consistent
+- easy to remember
+
+#### 4.14.4 Preserve Dignity in Upgrade Surfaces
+
+Upgrade surfaces should communicate:
+
+- what unlocks
+- why it matters
+- how it helps
+- what remains available in free
+
+They should never communicate:
+
+- deficiency
+- judgment
+- urgency theater
+
+### 4.15 Upgrade Triggers That Feel Legitimate
+
+The most legitimate premium triggers are moments when the user has already experienced real value and now needs more support.
+
+Examples include:
+
+- the user tries to add a fourth active task
+- the user wants to view the week because their days are crowding together
+- the user wants to understand the month before a busy period
+- the user wants deeper support for recurring habits
+- the user wants body doubling during focus sessions
+- the user wants energy-aware suggestions because time-based planning alone is not enough
+- the user wants to export their data
+
+In each case, the upgrade logic should feel like natural expansion.
+
+The message is:
+
+You are growing into more support.
+
+Not:
+
+You are being cut off.
+
+### 4.16 Value Narrative by User Type
+
+Different users will perceive premium value differently.
+
+#### 4.16.1 Light Daily Users
+
+These users may remain satisfied on free for a long time.
+
+That is acceptable.
+
+For them, the value is:
+
+- a calmer daily planner
+- a task list that does not shame them
+- a basic start tool
+
+The product should not punish this segment for being light users.
+
+#### 4.16.2 Busy Multi-Context Users
+
+These users are likely to value premium for:
+
+- unlimited tasks
+- weekly visibility
+- monthly orientation
+- stronger organizational continuity
+
+This segment often includes working professionals, parents, caregivers, and users managing many simultaneous responsibilities.
+
+#### 4.16.3 Users Struggling Most With Activation
+
+These users are likely to value premium for:
+
+- body doubling audio
+- richer focus support
+- energy-aware planning
+- habit scaffolding
+
+For them, premium is less about volume and more about execution support.
+
+#### 4.16.4 Users Rebuilding Self-Trust
+
+These users may value premium because it offers:
+
+- gentler long-range planning
+- pattern visibility
+- habit support without failure framing
+- adaptive scheduling that feels realistic
+
+For them, premium helps create a steadier relationship with planning over time.
+
+### 4.17 Strategic Difference From Competitor Packaging
+
+This tiering approach should feel different from both mainstream productivity tools and many wellness-style apps.
+
+Compared with mainstream planners:
+
+- this product keeps emotional safety in the free core
+- premium is about expanded support rather than unlocking basic kindness
+
+Compared with many wellness-oriented apps:
+
+- premium is tied to real functional depth, not merely cosmetic extras
+- the product remains a serious planning tool, not only a mood-support companion
+
+The packaging therefore reinforces the product’s brand position:
+
+an ADHD-native planner with both emotional intelligence and practical authority.
+
+### 4.18 Risks in Feature Packaging
+
+The feature set and tier boundaries create several risks that must be actively managed.
+
+#### 4.18.1 Risk: Free Feels Too Limited Too Early
+
+If the 3-task cap is encountered before the user understands the product, free may feel artificially constrained.
+
+Mitigation:
+
+- make early task management frictionless
+- explain the limit clearly
+- allow the user to feel no-shame behavior before monetization pressure appears
+- ensure free still feels useful for daily planning
+
+#### 4.18.2 Risk: Premium Value Feels Too Abstract
+
+If premium is described vaguely, users may not understand why they should upgrade.
+
+Mitigation:
+
+- anchor premium around concrete use cases
+- show visible differences in weekly/monthly planning
+- explain energy-aware scheduling in plain language
+- demonstrate body doubling value clearly
+
+#### 4.18.3 Risk: The Product Drifts Into Generic Feature Sprawl
+
+If more features are added without discipline, the app may lose its ADHD-native clarity.
+
+Mitigation:
+
+- require each new feature to tie back to a defined ADHD pain point
+- prioritize fewer stronger flows over broad parity chasing
+- protect cognitive simplicity
+
+#### 4.18.4 Risk: Habit Features Accidentally Reintroduce Shame
+
+Even a well-intended habit feature can drift toward punitive streak psychology.
+
+Mitigation:
+
+- avoid “streak broken” framing
+- avoid loss-heavy visuals
+- celebrate return and participation
+- design summaries around patterns, not failure
+
+### 4.19 Product Scope Boundaries for This Feature Set
+
+To protect focus, this feature set intentionally excludes several common productivity directions from the core product definition.
+
+The product is not, at this stage:
+
+- a team collaboration platform
+- a workplace project manager
+- a document system
+- a full calendar replacement
+- a social accountability network
+- a heavy habit gamification engine
+- a goal-setting dashboard obsessed with metrics
+
+These exclusions are important.
+
+They keep the product centered on ADHD-native daily functioning rather than generic productivity expansion.
+
+### 4.20 Section Summary
+
+The feature set is designed as an integrated ADHD support system, not a generic planner bundle.
+
+Its core pillars are:
+
+- adaptive task management
+- time blindness support
+- energy-aware planning
+- focus and starting assistance
+- gentle habit support
+- supportive reminders and recovery
+- sustainable motivation and positive feedback
+
+The free tier provides a real daily planning experience:
+
+- up to 3 active tasks
+- task creation and editing
+- no-shame rescheduling
+- daily view
+- basic timer
+
+The premium tier expands the system into a fuller planner and execution companion:
+
+- unlimited tasks
+- weekly and monthly views
+- habit support without punitive streaks
+- focus timer with body doubling audio
+- energy-level-aware scheduling
+- export
+
+This tier structure is intentionally built to preserve emotional trust.
+
+Free proves the product promise.
+
+Premium expands capacity, foresight, personalization, and support.
+
+## 5. Screen-by-Screen: Onboarding Flow
+
+### 5.1 Purpose of the Onboarding Flow
+
+The onboarding flow introduces the product gently, establishes emotional safety immediately, and creates enough personalization for the planner to feel useful on day one.
+
+This flow must not feel like setup homework.
+
+It must not feel clinical, bureaucratic, or over-explanatory.
+
+It must feel:
+
+- warm
+- fast
+- clear
+- forgiving
+- lightly playful
+- emotionally intelligent
+- grounded in real ADHD experience
+
+The onboarding flow has five jobs:
+
+1. Explain that this planner works differently from traditional productivity apps.
+2. Reduce fear that the app will become another source of shame.
+3. Learn the user’s broad energy patterns and planning style.
+4. Configure a minimal personalized starting experience.
+5. Get the user to a meaningful first win quickly.
+
+Onboarding is not a one-time data collection exercise.
+
+It is a trust-building experience.
+
+The user should leave onboarding with the feeling:
+
+This app understands how my brain actually works.
+
+The user should not leave onboarding feeling:
+
+- evaluated
+- diagnosed
+- scored
+- pressured to optimize
+- guilty about their habits
+- uncertain about what happens next
+
+### 5.2 Onboarding Design Principles
+
+The onboarding flow must reflect the product philosophy, not merely describe it.
+
+#### 5.2.1 Gentle, Not Passive
+
+The tone should be kind without becoming vague.
+
+The app should guide clearly.
+
+Every screen should make the next action obvious.
+
+The user should rarely face more than one primary decision at a time.
+
+#### 5.2.2 Short Cognitive Steps
+
+Each screen should ask for one concept only.
+
+Complexity must be chunked into small interactions.
+
+No screen should contain dense paragraphs, long forms, or multiple competing calls to action.
+
+#### 5.2.3 “Good Enough” Personalization
+
+The onboarding flow should collect enough information to personalize the app meaningfully without pretending to generate a perfect system.
+
+The app should communicate that the setup can evolve.
+
+Nothing in onboarding should feel permanent or high-stakes.
+
+#### 5.2.4 Emotional Safety Before Feature Depth
+
+Before explaining advanced features, the onboarding must establish:
+
+- missed tasks are handled gently
+- energy matters
+- starting counts
+- the user can change their mind later
+
+This emotional framing is more important than feature completeness during onboarding.
+
+#### 5.2.5 Momentum Over Exhaustiveness
+
+The flow should aim for completion in approximately 2 to 4 minutes for most users.
+
+Optional detail should be progressively disclosed.
+
+If a choice is not necessary for first-use success, it should be deferred.
+
+#### 5.2.6 Visually Regulating
+
+The onboarding visual system should reduce activation rather than create hype.
+
+Transitions should feel soft and purposeful.
+
+Motion should reinforce continuity and reward, not distract.
+
+The first-time experience should feel like entering a calmer, more supportive environment than the user’s prior apps.
+
+### 5.3 Onboarding Flow Overview
+
+The onboarding flow is composed of the following screens:
+
+1. Welcome
+2. Product Promise
+3. Energy Pattern Quiz Introduction
+4. Energy Pattern Quiz: Morning
+5. Energy Pattern Quiz: Midday
+6. Energy Pattern Quiz: Evening
+7. Energy Pattern Quiz: Friction Triggers
+8. Energy Pattern Quiz: Best-Case Support Style
+9. Personalization Summary
+10. Notification Preferences
+11. First Planning Setup
+12. First Task Prompt
+13. Success Bridge Into Home
+
+This flow may be shortened adaptively for users who select quick setup.
+
+In quick setup mode, the app may compress the quiz into fewer combined screens while preserving the same conceptual steps.
+
+The default recommended path is the standard flow because it better establishes trust and difference.
+
+### 5.4 Entry Conditions
+
+The onboarding flow begins when the user opens the app for the first time after installation.
+
+The user must not be required to create an account before experiencing the core tone and setup.
+
+If authentication or backup is introduced later in the product roadmap, it must not block first-use onboarding.
+
+The user should be able to exit the app mid-onboarding and resume from the last completed step.
+
+Progress should be autosaved after every screen transition.
+
+The user should also be able to skip non-critical screens where appropriate.
+
+If skipped, the product should use safe defaults and surface gentle opportunities to refine preferences later.
+
+### 5.5 Screen 1: Welcome
+
+#### 5.5.1 Goal
+
+The first screen should lower defenses immediately.
+
+Its goal is not to impress with features.
+
+Its goal is to signal:
+
+This is not another app that will punish you for being human.
+
+#### 5.5.2 Core Message
+
+The welcome screen should introduce the app as a planner built specifically for ADHD brains.
+
+The message should be concise.
+
+Suggested content direction:
+
+- this planner is designed for ADHD
+- plans can change here
+- you do not need to be consistent to use it
+
+The copy should feel confident and plainspoken.
+
+It should not feel overly therapeutic or childish.
+
+#### 5.5.3 Layout
+
+The screen should contain:
+
+- app mark or calming hero illustration
+- short headline
+- one to three short support lines
+- primary action button
+- secondary text action for quick setup or skip if included
+
+The layout should be vertically centered or slightly top-weighted, with generous spacing.
+
+The screen must not feel crowded.
+
+#### 5.5.4 Visual Direction
+
+The hero visual should imply calm support and momentum.
+
+Examples of acceptable motifs:
+
+- soft time blocks
+- gently stacked cards
+- rounded pathways
+- abstract motion cues suggesting flow
+
+The visual should not use:
+
+- alarms
+- warning symbols
+- pressure metaphors
+- business-productivity clichés
+
+#### 5.5.5 Primary Action
+
+Primary CTA:
+
+`Set up my planner`
+
+Optional secondary CTA:
+
+`Quick setup`
+
+If quick setup is offered, it should not feel like the smarter or more efficient choice.
+
+It should simply be available for low-capacity users.
+
+#### 5.5.6 Emotional Outcome
+
+The user should feel:
+
+- seen
+- not judged
+- willing to continue
+
+### 5.6 Screen 2: Product Promise
+
+#### 5.6.1 Goal
+
+This screen establishes the core behavioral difference from traditional planners.
+
+It should convert curiosity into trust.
+
+#### 5.6.2 Core Message
+
+The screen should introduce three short promises:
+
+- missed tasks reschedule instead of turning into a guilt pile
+- starting counts as progress
+- your energy matters when planning
+
+These should be presented as simple cards, steps, or short statements.
+
+The point is not feature education.
+
+The point is emotional differentiation.
+
+#### 5.6.3 Interaction Pattern
+
+The user may tap through horizontally arranged cards or vertically stacked mini-panels.
+
+Each promise should feel skimmable in under two seconds.
+
+There should be one primary CTA at the bottom:
+
+`That sounds better`
+
+Alternative acceptable CTA:
+
+`Continue`
+
+#### 5.6.4 Microcopy Tone
+
+The voice should be warm and direct.
+
+Examples of tone qualities:
+
+- practical
+- validating
+- lightly optimistic
+- never exaggerated
+
+The app should avoid claims that imply cure, transformation, or universal success.
+
+#### 5.6.5 Emotional Outcome
+
+The user should think:
+
+This app is built around how I struggle, not around what I fail to do.
+
+### 5.7 Screen 3: Energy Pattern Quiz Introduction
+
+#### 5.7.1 Goal
+
+This screen introduces the energy pattern quiz in a way that feels helpful rather than diagnostic.
+
+#### 5.7.2 Core Message
+
+The app should explain that planning by time alone often fails for ADHD users because energy changes throughout the day.
+
+The quiz exists to help the app suggest better moments for different kinds of tasks.
+
+The copy should make clear:
+
+- there are no right answers
+- this is a starting point
+- the user can change these settings later
+
+#### 5.7.3 Layout
+
+The screen should contain:
+
+- short headline
+- 2 to 3 lines of explanation
+- small illustration or energy-band visual
+- progress indicator showing that the user is still early in the flow
+- primary CTA
+
+Recommended CTA:
+
+`Let’s map your energy`
+
+#### 5.7.4 Tone Requirements
+
+This screen must avoid sounding like a personality test.
+
+It should not imply the user must know themselves perfectly.
+
+It should explicitly reduce pressure by framing answers as approximate.
+
+#### 5.7.5 Emotional Outcome
+
+The user should feel safe answering imperfectly.
+
+### 5.8 Screen 4: Energy Pattern Quiz - Morning
+
+#### 5.8.1 Goal
+
+Capture the user’s typical morning energy and functional capacity.
+
+#### 5.8.2 Question Focus
+
+This screen asks:
+
+How do mornings usually feel for you?
+
+The wording should emphasize “usually” and “roughly.”
+
+The app should not ask for exact times or force a rigid routine.
+
+#### 5.8.3 Answer Model
+
+Recommended answer format:
+
+- card-based single selection
+- each card includes a label, a short description, and an energy icon or visual cue
+
+Example answer archetypes:
+
+- `Ready early`
+- `Slow start`
+- `Unpredictable`
+- `Low until later`
+
+The exact labels may vary, but they must be plain-language and non-judgmental.
+
+#### 5.8.4 Optional Detail
+
+An optional link may allow:
+
+`Add a usual time range`
+
+This must be optional and collapsed by default.
+
+#### 5.8.5 Adaptive Logic
+
+Based on the selection, the app begins constructing provisional morning energy slots:
+
+- high
+- medium
+- low
+- variable
+
+These are internal scaffolds for later planning suggestions.
+
+The app should not expose complexity at this stage.
+
+#### 5.8.6 UI Notes
+
+The screen should show:
+
+- question
+- four large answer cards
+- back control
+- progress indicator
+- primary continue action enabled after selection
+
+The tap targets must be generous.
+
+Selected state should use warm highlighting and subtle haptic feedback.
+
+#### 5.8.7 Emotional Outcome
+
+The user should feel:
+
+- understood
+- not analyzed
+- able to answer quickly
+
+### 5.9 Screen 5: Energy Pattern Quiz - Midday
+
+#### 5.9.1 Goal
+
+Capture how the user’s energy tends to behave during the middle of the day.
+
+#### 5.9.2 Question Focus
+
+This screen asks how midday usually feels in terms of focus, mental clarity, and task initiation.
+
+The question should recognize that midday can be:
+
+- productive
+- chaotic
+- sleepy
+- dependent on context
+
+#### 5.9.3 Answer Model
+
+Use the same answer format as the morning screen for consistency.
+
+Possible answer directions:
+
+- `Usually my best focus`
+- `Okay if I already started`
+- `Drained or distracted`
+- `Depends on what’s happening`
+
+Answers should map internally to energy confidence and scheduling flexibility.
+
+#### 5.9.4 Supporting Copy
+
+Optional subtext can clarify:
+
+We use this to suggest when heavier tasks may feel easier.
+
+This should remain secondary and unobtrusive.
+
+#### 5.9.5 Interaction Notes
+
+The selected answer should animate subtly into place.
+
+The continue action should preserve momentum.
+
+The screen transition should feel fast enough to avoid drag but soft enough to feel intentional.
+
+#### 5.9.6 Emotional Outcome
+
+The user should feel that variable energy is treated as normal data, not inconsistency.
+
+### 5.10 Screen 6: Energy Pattern Quiz - Evening
+
+#### 5.10.1 Goal
+
+Capture the user’s evening profile and uncover whether evenings are useful for planning, admin, creativity, recovery, or low-demand tasks.
+
+#### 5.10.2 Question Focus
+
+This screen asks:
+
+What do evenings tend to be good for?
+
+This framing is important.
+
+It is better than asking whether evenings are “productive.”
+
+The wording avoids a deficit frame.
+
+#### 5.10.3 Answer Model
+
+This screen may use either:
+
+- single-select cards, or
+- multi-select chips with one recommended primary choice
+
+Preferred options include:
+
+- `Planning and reset`
+- `Creative energy`
+- `Simple tasks only`
+- `Mostly recovery time`
+- `All over the place`
+
+#### 5.10.4 Product Implication
+
+Evening selections help the planner determine:
+
+- whether evening planning prompts are appropriate
+- whether low-effort suggestions should appear later in the day
+- whether reflective end-of-day interactions should be minimized
+
+#### 5.10.5 UX Notes
+
+The visual design should continue the same rhythm as prior quiz screens to reduce cognitive switching.
+
+The question should fit on one screen without scrolling on most devices.
+
+#### 5.10.6 Emotional Outcome
+
+The user should feel that rest is a valid answer.
+
+### 5.11 Screen 7: Energy Pattern Quiz - Friction Triggers
+
+#### 5.11.1 Goal
+
+Identify what most commonly stops the user from starting tasks.
+
+This is crucial because the product is designed around initiation, not only organization.
+
+#### 5.11.2 Question Focus
+
+The screen asks:
+
+What most often gets in the way when you want to start?
+
+This should be framed as a multi-select question.
+
+The user should be allowed to choose up to three common blockers.
+
+#### 5.11.3 Suggested Answer Set
+
+The options should include:
+
+- `I don’t know where to begin`
+- `The task feels too big`
+- `I forget once something interrupts me`
+- `I have energy, but not for the right kind of task`
+- `I avoid it if I already feel behind`
+- `I need more urgency or external structure`
+- `I get stuck switching between tasks`
+- `My day changes unexpectedly`
+
+Answer labels should be compact and emotionally literate.
+
+They should feel familiar rather than clinical.
+
+#### 5.11.4 Why This Matters
+
+These inputs should influence:
+
+- suggested task breakdown prompts
+- reminder tone
+- focus timer defaults
+- body doubling recommendations
+- reschedule messaging
+
+#### 5.11.5 UI Pattern
+
+Use large pill cards or rounded chips with clear selected states.
+
+A short helper line may say:
+
+Pick the ones that feel most true lately.
+
+The word “lately” reduces pressure to define identity permanently.
+
+#### 5.11.6 Emotional Outcome
+
+The user should feel accurately described without feeling reduced to symptoms.
+
+### 5.12 Screen 8: Energy Pattern Quiz - Best-Case Support Style
+
+#### 5.12.1 Goal
+
+Learn what kind of support the user prefers from the app so the product can adapt its interaction style.
+
+#### 5.12.2 Question Focus
+
+The screen asks:
+
+When you’re stuck, what kind of help usually works best?
+
+This is a high-value personalization point because ADHD users often differ sharply in what support feels useful versus irritating.
+
+#### 5.12.3 Answer Model
+
+This should be a single-select question with a clear “change later” note.
+
+Recommended options:
+
+- `Show me one tiny next step`
+- `Help me choose based on my energy`
+- `Give me a gentle nudge to begin`
+- `Start a timer with me`
+- `Keep it simple and quiet`
+
+These answer types can later influence default CTAs, suggestion modules, and nudging tone.
+
+#### 5.12.4 Personalization Impact
+
+Examples:
+
+- one tiny next step preference may prioritize task chunking prompts
+- energy-based preference may foreground energy suggestions in the home view
+- gentle nudge preference may increase reminder warmth and initiation prompts
+- timer preference may place focus actions more prominently
+- quiet preference may reduce motion, haptics, and coaching copy density
+
+#### 5.12.5 Emotional Outcome
+
+The user should feel that the app is adapting to them, not asking them to adapt to the app.
+
+### 5.13 Screen 9: Personalization Summary
+
+#### 5.13.1 Goal
+
+Reflect the user’s answers back in a reassuring, non-creepy way and confirm that the app has built an initial support profile.
+
+#### 5.13.2 Core Message
+
+This screen summarizes what the app learned.
+
+The summary should be short, readable, and human.
+
+It should not read like an assessment report.
+
+Example summary structure:
+
+- mornings may be slower
+- midday may be your best focus window
+- evenings may work better for reset or lighter tasks
+- starting is often hardest when tasks feel too big
+
+The copy should use soft qualifiers:
+
+- may
+- often
+- tends to
+- looks like
+
+#### 5.13.3 Personalization Framing
+
+Below the summary, the app should briefly explain how this will help:
+
+- suggest better task timing
+- keep planning realistic
+- support easier starts
+
+This is the moment where the value of the quiz becomes concrete.
+
+#### 5.13.4 Controls
+
+The user should be able to:
+
+- continue
+- edit answers
+
+The edit option should be visible but secondary.
+
+#### 5.13.5 Visual Design
+
+The summary may appear as a stack of rounded cards or a single warm summary panel.
+
+It should feel affirming and legible.
+
+It must not resemble a performance dashboard.
+
+#### 5.13.6 Emotional Outcome
+
+The user should feel:
+
+- accurately mirrored
+- gently supported
+- ready to move into use
+
+### 5.14 Screen 10: Notification Preferences
+
+#### 5.14.1 Goal
+
+Set expectations around reminders while preserving autonomy and avoiding early overload.
+
+#### 5.14.2 Position in Flow
+
+Notifications should be requested only after the app has already earned some trust.
+
+They should not appear as the first system permission prompt in onboarding.
+
+The product must explain the value before triggering OS permission dialogs.
+
+#### 5.14.3 Core Message
+
+The screen should frame reminders as support for re-entry and time awareness, not enforcement.
+
+Suggested message direction:
+
+- reminders can help you re-find your day
+- you can have more than one reminder
+- reminders can be gentle and adjustable
+
+#### 5.14.4 User Choices
+
+The user should be able to choose one of the following:
+
+- `Yes, help me remember`
+- `Not now`
+
+If the user opts in, a secondary preference chooser may appear before the system prompt:
+
+- gentle reminders only
+- a few nudges if I still haven’t started
+
+This secondary choice should remain simple.
+
+#### 5.14.5 System Permission Timing
+
+Only after the user expresses interest should the OS notification permission prompt appear.
+
+If permission is denied, the app should continue gracefully without guilt-framed messaging.
+
+#### 5.14.6 Emotional Outcome
+
+The user should feel in control of how much prompting they receive.
+
+### 5.15 Screen 11: First Planning Setup
+
+#### 5.15.1 Goal
+
+Configure a minimal initial planner state so the home experience feels immediately oriented rather than empty.
+
+#### 5.15.2 Core Question
+
+This screen should ask a lightweight version of:
+
+What would help most today?
+
+This is preferable to asking the user to build categories, projects, labels, or a weekly system during onboarding.
+
+#### 5.15.3 Answer Model
+
+Recommended options:
+
+- `See just today`
+- `Get help starting tasks`
+- `Plan around my energy`
+- `Keep things very simple`
+
+This choice can influence which module is emphasized on the initial home screen.
+
+#### 5.15.4 Why This Matters
+
+The first in-app state must feel curated rather than generic.
+
+Even small adaptation improves first-session trust.
+
+#### 5.15.5 UI Notes
+
+This screen should be visually lighter than the quiz screens.
+
+By this point, the user should feel like onboarding is concluding.
+
+The pacing should accelerate slightly.
+
+#### 5.15.6 Emotional Outcome
+
+The user should feel that the app is preparing a landing space for them personally.
+
+### 5.16 Screen 12: First Task Prompt
+
+#### 5.16.1 Goal
+
+Convert onboarding from abstract setup into immediate usefulness by helping the user add one task.
+
+This is the most important action in the flow.
+
+Without a first task, the app risks ending onboarding with a polished but empty experience.
+
+#### 5.16.2 Positioning
+
+The screen should frame task creation as low pressure.
+
+The app should explicitly suggest something small.
+
+Suggested framing:
+
+Add one thing you’d feel good getting support with today.
+
+Alternative copy direction:
+
+Start with something real, small, or annoying.
+
+#### 5.16.3 Input Model
+
+The task entry should be friction-light.
+
+Default input should allow:
+
+- task title
+- optional time of day or energy fit
+
+Advanced metadata must remain hidden by default.
+
+The user should not be asked for:
+
+- priority matrix
+- tags
+- subtask structure
+- project assignment
+- exact due dates beyond what is necessary
+
+#### 5.16.4 Smart Prompting
+
+The app may provide one-tap examples if the field is empty, such as:
+
+- email that person back
+- refill prescription
+- fold one load of laundry
+- review tomorrow’s plan
+
+Examples should feel like realistic adult ADHD life tasks, not generic demo data.
+
+#### 5.16.5 Energy Guidance
+
+If the user completed the energy quiz, the app may offer a subtle suggestion:
+
+- good for a high-energy slot
+- better for a lower-energy moment
+- works anytime
+
+This suggestion should be optional and editable.
+
+#### 5.16.6 Start-Celebration Introduction
+
+After task creation, the product may introduce the idea that starting counts.
+
+A brief line can explain:
+
+When you start a task here, we celebrate that too.
+
+This should be delivered lightly.
+
+It should not interrupt completion of onboarding.
+
+#### 5.16.7 Emotional Outcome
+
+The user should feel immediate usefulness and a small sense of momentum.
+
+### 5.17 Screen 13: Success Bridge Into Home
+
+#### 5.17.1 Goal
+
+Transition the user out of onboarding and into the live product with orientation, encouragement, and zero ambiguity.
+
+#### 5.17.2 Core Message
+
+This screen should affirm that setup is complete and explain what the user will see next.
+
+The message should include:
+
+- the planner is ready
+- today view is waiting
+- the user can change preferences anytime
+
+#### 5.17.3 Suggested UI Elements
+
+The success bridge may include:
+
+- short celebratory headline
+- one-line recap of personalization
+- visual preview of the home screen
+- primary CTA
+
+Recommended CTA:
+
+`Open my day`
+
+#### 5.17.4 Celebration Style
+
+The celebration should be warm and restrained.
+
+Acceptable signals:
+
+- brief confetti burst
+- soft glow
+- satisfying haptic pulse
+
+This should feel rewarding, not noisy.
+
+The emotional message is:
+
+You started.
+
+That matters.
+
+#### 5.17.5 Emotional Outcome
+
+The user should feel:
+
+- complete
+- oriented
+- encouraged
+- ready to act
+
+### 5.18 Progress Indicators and Flow Mechanics
+
+#### 5.18.1 Progress Visibility
+
+The onboarding flow should show progress throughout, but not in a way that creates pressure.
+
+Preferred formats:
+
+- soft segmented progress bar
+- step dots with current position
+- “Step X of Y” only if the total remains modest
+
+The progress indicator should reassure the user that the flow is finite.
+
+It should not dominate the screen.
+
+#### 5.18.2 Back Navigation
+
+Users should be able to go back to the previous step without losing prior answers.
+
+Back navigation must feel safe.
+
+It should not trigger discard confirmations unless user-entered content would actually be lost.
+
+#### 5.18.3 Skip Logic
+
+The app may allow skipping on:
+
+- notification preferences
+- first task creation
+- optional time-range detail
+
+The app should not encourage skipping the entire quiz by default, but it may offer quick setup for low-capacity users.
+
+#### 5.18.4 Autosave
+
+Every answer should save immediately or on transition.
+
+If the app is closed during onboarding, the user should resume near the exact point they left.
+
+#### 5.18.5 Error Handling
+
+Onboarding should have almost no opportunities for hard failure.
+
+If a save issue occurs, the app should:
+
+- retry quietly
+- keep the user’s answer visible
+- show a plain-language recovery message only if needed
+
+The tone must remain calm and non-technical.
+
+### 5.19 Personalization Outputs Created by Onboarding
+
+By the end of onboarding, the system should create an initial personalization profile containing:
+
+- broad morning energy preference
+- broad midday energy preference
+- broad evening energy preference
+- common initiation blockers
+- preferred support style
+- notification preference
+- initial home emphasis
+
+This profile should be intentionally lightweight.
+
+It is a starting scaffold, not a diagnosis or prediction engine.
+
+The system should use it to influence:
+
+- task suggestion timing
+- home screen emphasis
+- focus timer presentation
+- reminder tone
+- first-run copy variants
+
+### 5.20 Copywriting Requirements for the Onboarding Flow
+
+The onboarding copy must consistently follow these rules.
+
+#### 5.20.1 Use Approximate Language
+
+Preferred terms:
+
+- usually
+- often
+- tends to
+- lately
+- roughly
+
+Avoid rigid terms:
+
+- always
+- never
+- should
+- must
+
+#### 5.20.2 Validate Without Infantilizing
+
+The app should sound emotionally intelligent, not cute for its own sake.
+
+It should avoid:
+
+- exaggerated cheerfulness
+- therapy clichés
+- patronizing praise
+- school-like reward language
+
+#### 5.20.3 Keep Sentences Short
+
+The onboarding flow should be highly scannable.
+
+Most lines should be readable at a glance.
+
+Dense paragraph blocks should be avoided.
+
+#### 5.20.4 Avoid Shame Triggers
+
+Do not use copy that implies:
+
+- the user lacks discipline
+- the user has been doing productivity wrong
+- the user is behind
+- the app will fix them
+
+#### 5.20.5 Focus on Support, Not Optimization
+
+The app should frame personalization as support for easier action, not as life hacking.
+
+### 5.21 Accessibility Considerations Within Onboarding
+
+Because onboarding establishes the first trust relationship, accessibility requirements are especially important here.
+
+The flow should support users who are:
+
+- distracted
+- fatigued
+- overwhelmed
+- sensory-sensitive
+- using larger text
+- using screen readers
+- using one hand
+- beginning setup in a noisy or interrupted environment
+
+Specific onboarding accessibility needs include:
+
+- large touch targets for all answer cards
+- clear visual selected states beyond color alone
+- low reading burden per screen
+- support for dynamic type without broken layouts
+- motion that can be reduced or disabled
+- logical screen reader order
+- plain labels for all controls
+- sufficient contrast using warm, non-threatening color choices
+
+The onboarding flow must not rely on subtle visual cues alone to communicate choice or progress.
+
+### 5.22 ADHD-Specific UX Risks in Onboarding
+
+#### 5.22.1 Risk: Onboarding Feels Like Another Test to Fail
+
+If the quiz tone becomes diagnostic, the user may disengage.
+
+Mitigation:
+
+- emphasize no right answers
+- use approximate wording
+- keep the quiz short
+- reflect answers back supportively
+
+#### 5.22.2 Risk: Too Much Setup Before Usefulness
+
+If the user spends too long configuring preferences before seeing the planner, momentum drops.
+
+Mitigation:
+
+- defer non-essential settings
+- keep advanced options hidden
+- require only lightweight personalization
+- get to first task creation quickly
+
+#### 5.22.3 Risk: Tone Becomes Overly Gentle and Vague
+
+If the app avoids specificity, it may feel insubstantial or condescending.
+
+Mitigation:
+
+- use clear practical language
+- explain why questions matter
+- give concrete outcomes from quiz answers
+
+#### 5.22.4 Risk: Personalization Feels Prescriptive
+
+If the app presents quiz results as fixed truths, the user may feel misread or boxed in.
+
+Mitigation:
+
+- use soft qualifiers
+- allow easy editing
+- present outputs as starting assumptions
+
+#### 5.22.5 Risk: First Task Creation Feels Like Work
+
+If task entry is too complex, the onboarding loses the user at the exact moment it should produce a win.
+
+Mitigation:
+
+- keep the form extremely lightweight
+- provide examples
+- hide advanced controls
+
+### 5.23 Success Criteria for the Onboarding Flow
+
+The onboarding flow is successful when it produces the following outcomes:
+
+- users understand that the app is different from shame-based productivity tools
+- users complete setup without feeling drained
+- users provide enough energy and support preferences for meaningful personalization
+- users reach the home screen with at least one helpful orientation cue
+- users ideally create their first task during onboarding
+- users feel safe returning even if they stop midway
+
+The emotional success metric is as important as the completion metric.
+
+The user should reach the home screen feeling lighter than when they entered.
+
+### 5.24 Section Summary
+
+The onboarding flow is not a generic intro sequence.
+
+It is the first proof that the product is genuinely ADHD-native.
+
+Screen by screen, it must communicate:
+
+- this planner does not punish missed intentions
+- energy is a valid planning input
+- starting matters
+- personalization is flexible
+- support can be gentle and practical at the same time
+
+The onboarding experience should leave the user with a customized but low-pressure setup, one concrete first step, and a strong early impression that this app was built for their real life rather than an idealized version of it.
+
+## 6. Screen-by-Screen: Home/Today View and Task Cards
+
+### 6.1 Purpose of the Home/Today View
+
+The Home/Today view is the emotional center of the product.
+
+It is the screen users will open most often.
+
+It must immediately answer:
+
+- what matters right now
+- what feels possible right now
+- how to restart if the day already drifted
+
+This screen is not a traditional daily agenda.
+
+It is not a backlog dump.
+
+It is not a guilt dashboard.
+
+It is a re-entry surface.
+
+Its primary job is to help the user begin again, whether they are opening the app:
+
+- first thing in the morning
+- after missing half the day
+- after ignoring reminders
+- while overwhelmed
+- while low-energy
+- while trying to salvage a messy afternoon
+
+The screen should feel usable within seconds.
+
+The user should not need to “process the whole day” before they can act.
+
+The Home/Today view has six jobs:
+
+1. Orient the user to today without information overload.
+2. Show a small, supportive set of tasks that feel actionable now.
+3. Translate time and energy into visible, practical planning cues.
+4. Reduce shame by handling missed or delayed tasks gently.
+5. Provide fast access to task start, timer start, and reschedule actions.
+6. Create small dopamine wins for re-engagement throughout the day.
+
+The emotional promise of this screen is:
+
+You are not behind.
+
+You are just here now, and we can start from here.
+
+### 6.2 Home/Today Design Principles
+
+The Home/Today view must embody the product philosophy in daily use.
+
+#### 6.2.1 Re-Entry Is More Important Than Perfect Planning
+
+Most users will not interact with the app from an ideal, calm, fully intentional state.
+
+The screen must assume interruption, delay, indecision, and context switching as normal conditions.
+
+The UI should privilege “start now,” “choose for me,” and “move this gently” over organizational depth.
+
+#### 6.2.2 One Screen, One Felt Next Step
+
+The user should be able to identify at least one reasonable next action within three to five seconds of landing.
+
+If the screen demands scanning too many modules, it has failed.
+
+#### 6.2.3 Visual Time Must Be Concrete
+
+ADHD users often struggle with time abstraction.
+
+The Home/Today screen must make time visible through blocks, zones, progress bands, or other spatial cues rather than relying only on timestamps and lists.
+
+#### 6.2.4 Energy Is a First-Class Planning Signal
+
+The screen should reflect the user’s current or typical energy state and connect it to task suggestions.
+
+The app must help the user answer:
+
+What kind of task fits me right now?
+
+Not just:
+
+What is due?
+
+#### 6.2.5 Missed Intentions Must Stay Emotionally Safe
+
+Tasks that were not done earlier today must not become visually accusatory.
+
+No harsh red overdue states.
+
+No “late” badges dominating the screen.
+
+No copy that implies failure.
+
+The screen should convert stale intent into fresh options:
+
+- do now
+- do later today
+- move to another day
+- shrink the task
+
+#### 6.2.6 Starting Deserves Reward
+
+Task initiation is one of the hardest parts of ADHD productivity.
+
+The Home/Today view must treat starting as an event worth noticing.
+
+This screen should support:
+
+- start buttons that are more prominent than completion checkmarks in some contexts
+- fast transitions into focus mode
+- micro-celebrations for initiation
+
+#### 6.2.7 Calm by Default, Encouraging by Detail
+
+The screen should feel visually calm at first glance.
+
+Encouragement should appear in small contextual moments, not as relentless cheerfulness.
+
+### 6.3 Primary User Questions the Screen Must Answer
+
+When a user opens Home/Today, the screen must quickly answer the following:
+
+1. What part of the day am I in?
+2. How am I likely to feel right now, or what energy mode am I in?
+3. What is the best task to start next?
+4. What else is on my plate today?
+5. What happened to anything I missed?
+6. How do I change the plan without feeling like I ruined it?
+
+If any of these questions require deep scrolling, dense reading, or menu-hunting, the screen is not meeting its core purpose.
+
+### 6.4 Home/Today View Information Architecture
+
+The Home/Today view should be structured in priority order from immediate orientation to immediate action to supporting context.
+
+Recommended top-to-bottom structure:
+
+1. top status and greeting region
+2. current day timeline or visual time-block strip
+3. primary “Now” or “Next Best Step” module
+4. today task stack
+5. gentle carryover or reschedule area
+6. secondary tools such as focus timer, body doubling, or quick add
+
+The default viewport should show the highest-value content without requiring scroll:
+
+- day orientation
+- one primary actionable task or suggestion
+- at least one additional task card
+
+Lower-priority modules should not displace the primary action zone.
+
+### 6.5 Screen Entry States
+
+The Home/Today view must adapt meaningfully based on context.
+
+It is not one static screen.
+
+#### 6.5.1 First Entry After Onboarding
+
+When arriving from onboarding, the screen should feel prepared rather than empty.
+
+It should show:
+
+- the task created during onboarding if one exists
+- one short orientation cue
+- a clear invitation to start or add another task
+
+The first arrival should validate setup work immediately.
+
+#### 6.5.2 Morning Entry
+
+In the morning, the screen should emphasize:
+
+- today’s shape
+- available energy window
+- one or two recommended starting tasks
+- simple planning support
+
+The tone should feel settling, not demanding.
+
+#### 6.5.3 Midday Re-Entry
+
+During midday, the screen should assume the plan may already have changed.
+
+It should emphasize:
+
+- what still makes sense now
+- what can be shifted without penalty
+- the fastest path back into action
+
+Midday re-entry is a critical ADHD use case and must feel especially forgiving.
+
+#### 6.5.4 Late-Day Entry
+
+In the evening, the screen should adapt toward:
+
+- lighter tasks
+- planning/reset actions
+- closure without self-criticism
+
+If the user has low remaining capacity, the interface should not keep pushing high-effort items.
+
+#### 6.5.5 High-Disruption Entry
+
+If multiple reminders were ignored, a timer was interrupted, or several tasks rolled forward, the app should reduce intensity.
+
+The screen should present a calm reset state:
+
+- one grounding message
+- one recommended task
+- one reschedule path
+
+It must not visually amplify the chaos.
+
+### 6.6 Top Region: Header, Greeting, and Day Orientation
+
+The top region establishes context without wasting space.
+
+It should contain:
+
+- day label such as `Today`
+- date
+- optional soft greeting or contextual phrase
+- quick access to settings, streak-free habits, or profile only if lightweight
+
+The greeting should be variable and situational, not generic motivation.
+
+Examples of acceptable tone direction:
+
+- steady and practical
+- warm but restrained
+- grounded in the current part of day
+
+Examples of acceptable message types:
+
+- orientation: `Tuesday, March 29`
+- energy framing: `Low-energy mornings are valid. Let’s keep it light.`
+- re-entry framing: `Plans changed. Want to reset today in one tap?`
+
+The header should never dominate vertical space.
+
+It exists to orient, not decorate.
+
+### 6.7 Visual Time Block Strip
+
+The Home/Today view should include a visual time representation near the top of the screen.
+
+This is a core differentiator.
+
+It should help users perceive the day spatially rather than only conceptually.
+
+#### 6.7.1 Purpose
+
+The visual time strip helps reduce time blindness by making today feel tangible.
+
+It should communicate:
+
+- current part of day
+- upcoming time blocks
+- approximate placement of planned tasks
+- open space versus crowded space
+
+#### 6.7.2 Representation
+
+The strip may be horizontal or vertically compressed, but it should use visible segments for:
+
+- morning
+- midday
+- afternoon
+- evening
+
+Segments may also reflect the user’s energy profile through soft tonal differences or iconography.
+
+The current moment should be indicated subtly.
+
+It must not mimic a stressful calendar ruler.
+
+#### 6.7.3 Behavior
+
+Tapping a block should optionally filter or jump the task stack to that period.
+
+The strip should remain lightweight.
+
+It is not intended to replace full weekly or monthly planning views.
+
+#### 6.7.4 Emotional Role
+
+The strip should help the user feel:
+
+- the day is finite
+- there is still room
+- time can be worked with visually
+
+### 6.8 Primary Action Module: Now / Next Best Step
+
+This module is the most important interactive area on the Home/Today screen.
+
+It should appear high on the screen and adapt based on context.
+
+#### 6.8.1 Purpose
+
+The module reduces the burden of choosing what to do next.
+
+It should not simply repeat the first task in a list.
+
+It should synthesize:
+
+- timing
+- energy fit
+- urgency
+- task size
+- user support preferences
+
+#### 6.8.2 Default States
+
+Possible primary states include:
+
+- `Start this now`
+- `Good fit for your energy`
+- `Tiny step to restart`
+- `Quick win before your next block`
+- `Would body doubling help?`
+
+The app should choose only one primary framing at a time.
+
+#### 6.8.3 Actions
+
+The module should support direct actions such as:
+
+- start task
+- start focus timer
+- break task into smaller step
+- move to later
+- swap for an easier task
+
+These actions should be available without entering a detail screen.
+
+#### 6.8.4 Presentation
+
+The module may use a larger featured card style than standard task cards.
+
+It should contain:
+
+- task name
+- supporting reason
+- optional energy match label
+- one primary CTA
+- one or two secondary actions only
+
+Too many choices will undermine the point of the module.
+
+#### 6.8.5 ADHD-Specific Value
+
+This module should feel like helpful triage.
+
+It should answer:
+
+You do not need to optimize the whole day.
+
+Here is a reasonable place to begin.
+
+### 6.9 Today Task Stack Overview
+
+Below the primary module, the user should see a curated stack of task cards for today.
+
+This area must balance visibility with restraint.
+
+The screen should not expose the entire backlog by default.
+
+Recommended ordering logic:
+
+1. currently relevant tasks
+2. suggested next tasks
+3. flexible later-today tasks
+4. gently carried-over items
+
+The stack should support light scroll, but the first few cards matter most.
+
+The stack must always feel editable.
+
+Nothing should look locked in.
+
+### 6.10 Task Card Philosophy
+
+Task cards are not merely containers for task data.
+
+They are the primary behavioral surface of the product.
+
+Each card must balance:
+
+- clarity
+- low reading burden
+- fast interaction
+- emotional safety
+- motivating affordances
+
+The task card should make a task feel approachable.
+
+It should reduce dread where possible.
+
+It should surface enough context to help with initiation, but not so much metadata that the card feels managerial.
+
+### 6.11 Standard Task Card Anatomy
+
+Each task card in the Home/Today view should be composed of a consistent set of elements.
+
+Required elements:
+
+- task title
+- current status or state cue
+- suggested time block or timing context
+- energy fit cue when relevant
+- primary action
+
+Optional elements:
+
+- estimated duration
+- tiny-step prompt
+- reminder indicator
+- body doubling availability
+- habit or routine association
+- carryover explanation
+
+The visual hierarchy should strongly prioritize the task title and the next action.
+
+Metadata should stay secondary.
+
+### 6.12 Task Card States
+
+Task cards should have distinct but gentle states.
+
+These states must be easy to scan without relying on punitive visual language.
+
+#### 6.12.1 Ready-to-Start
+
+This is the default active state.
+
+The card should visually communicate readiness and possibility.
+
+Primary CTA:
+
+`Start`
+
+Secondary options may include:
+
+- `Later`
+- `Break it down`
+
+#### 6.12.2 In Progress
+
+When a task has been started, the card should reflect momentum.
+
+This state should show:
+
+- in-progress styling
+- elapsed timer or session association if active
+- option to resume or continue
+
+Completion should still be possible, but the UI should visibly acknowledge that starting already counted.
+
+#### 6.12.3 Paused
+
+If a task was started and then interrupted, the card should show a safe re-entry state.
+
+Suggested tone:
+
+- `Paused earlier`
+- `Ready when you are`
+
+This state is especially important for interrupted focus sessions.
+
+#### 6.12.4 Completed
+
+Completed tasks should feel satisfying but not disappear so quickly that the user loses the reward.
+
+For the current day, completed items may collapse into a softer, lower-emphasis section after a short dwell period.
+
+#### 6.12.5 Auto-Rescheduled
+
+If a task was not completed in its prior slot, the card should not show as failed.
+
+Instead, it may display language such as:
+
+- `Moved forward`
+- `Still available today`
+- `Let’s place this somewhere better`
+
+This is a signature product behavior and must feel humane.
+
+#### 6.12.6 Waiting / Not for Now
+
+Some tasks may be visible but intentionally deferred.
+
+They should look quiet and low-pressure rather than neglected.
+
+### 6.13 Required Content Rules for Task Cards
+
+Task cards should follow these content constraints:
+
+- titles should be plain-language and user-authored
+- dense metadata rows should be avoided
+- priority labels should not dominate
+- hard due-date stress should not be the default visual cue
+- copy should focus on actionability, not evaluation
+
+If the card needs too many labels to explain itself, the task model or view logic should be simplified.
+
+### 6.14 Start Interaction and Initiation Reward
+
+The start action is one of the defining interactions of the app.
+
+#### 6.14.1 Start Button Placement
+
+On ready-to-start cards, the `Start` action should be prominent and thumb-reachable.
+
+It should often be visually more inviting than the completion control.
+
+#### 6.14.2 Immediate Response
+
+When the user taps `Start`, the app should respond instantly with:
+
+- tactile confirmation
+- small visual celebration
+- state transition to in-progress
+
+Optional celebration patterns:
+
+- brief confetti burst
+- glow ripple
+- cheerful card lift
+
+This reward must be short and non-disruptive.
+
+It should reinforce:
+
+Starting happened.
+
+That counts.
+
+#### 6.14.3 Post-Start Branches
+
+After start, the system may:
+
+- open the focus timer
+- keep the user on Home with the task marked active
+- prompt for body doubling if enabled
+
+The exact branch should depend on task type, preference settings, and whether the user tends to prefer low-friction starts or structured sessions.
+
+### 6.15 Completion Interaction
+
+Completion should feel good, but not like the only valid success state.
+
+When a user marks a task complete:
+
+- provide warm positive feedback
+- keep animation shorter than initiation celebration or equal in intensity, but not dramatically larger
+- optionally move the card to a completed area after a short delay
+
+The emotional model is:
+
+completion is great
+
+starting also mattered
+
+### 6.16 Gentle Reschedule Interaction
+
+Rescheduling must be a first-class task-card interaction.
+
+It should never feel like punishment or admission of failure.
+
+#### 6.16.1 Entry Points
+
+The user should be able to reschedule from:
+
+- swipe action
+- card overflow menu
+- inline `Later` action
+- carryover prompt
+
+#### 6.16.2 Reschedule Choices
+
+Reschedule choices should emphasize low-friction decisions:
+
+- later today
+- tomorrow
+- this weekend
+- next week
+- when energy is higher
+- choose a time
+
+The app should allow energy-based rescheduling as a meaningful option.
+
+#### 6.16.3 Copy Requirements
+
+Avoid phrasing like:
+
+- overdue
+- missed deadline
+- failed
+- ignored
+
+Prefer phrasing like:
+
+- move it
+- try a better slot
+- not today
+- save for later
+
+### 6.17 Carryover Area
+
+Tasks that originated earlier but are still relevant should not be mixed indistinguishably with fresh tasks.
+
+They should live in a soft carryover area or appear with a clear gentle label.
+
+This area exists to reduce ambiguity without creating guilt.
+
+Recommended labels:
+
+- `Still open`
+- `Carried into today`
+- `Needs a new spot`
+
+The area should:
+
+- remain visually calm
+- support bulk gentle actions
+- avoid a backlog-pile feeling
+
+Possible actions:
+
+- review one by one
+- place all later
+- pick one to start now
+
+### 6.18 Energy-Aware Presentation in Home/Today
+
+The Home/Today view must translate energy-aware planning into visible behavior.
+
+This should be one of the clearest differences from conventional task apps.
+
+#### 6.18.1 Current Energy Context
+
+The screen may infer or ask for a current energy level.
+
+It should present this lightly, such as:
+
+- `High focus window`
+- `Medium energy`
+- `Low-capacity mode`
+
+The user must be able to change it quickly.
+
+#### 6.18.2 Card-Level Energy Fit
+
+When helpful, task cards may include cues like:
+
+- `Good for low energy`
+- `Best in a focused block`
+- `Flexible`
+
+These labels must help decision-making, not clutter the UI.
+
+#### 6.18.3 Suggestion Logic
+
+If the user is in low-energy mode, the Home screen should elevate:
+
+- smaller tasks
+- admin tasks
+- maintenance tasks
+- recovery-compatible tasks
+
+If the user is in high-energy mode, it may elevate:
+
+- deep work
+- complex tasks
+- planning-heavy items
+
+The app should never make energy feel prescriptive.
+
+It should feel like support, not limitation.
+
+### 6.19 Focus Timer and Body Doubling Affordances
+
+The Home/Today view should provide direct access to support tools without overpowering the task experience.
+
+#### 6.19.1 Focus Timer Entry
+
+If a task is started, the card or primary module should offer:
+
+- `Start focus session`
+- `25 min`
+- `Flexible timer`
+
+If the user frequently uses timers, this action may be elevated.
+
+#### 6.19.2 Body Doubling Entry
+
+For users who selected external-structure preferences, relevant cards may show a body doubling affordance such as:
+
+- `Work with audio`
+- `Need company to start?`
+
+This should be suggestive, not intrusive.
+
+#### 6.19.3 Integration Rule
+
+These support tools must feel attached to the task the user is trying to begin.
+
+They should not feel like parallel productivity gadgets.
+
+### 6.20 Empty, Light, and Overloaded States
+
+The Home/Today view must handle different density states gracefully.
+
+#### 6.20.1 Empty Day
+
+If there are no tasks for today, the screen should feel calm and invitational rather than blank.
+
+It should offer:
+
+- quick add
+- suggested planning prompt
+- optional habit or reset action
+
+The message should imply possibility, not emptiness.
+
+#### 6.20.2 Very Light Day
+
+If only one or two tasks exist, the screen should avoid looking underbuilt.
+
+It may use larger cards, more breathing room, and supporting prompts.
+
+#### 6.20.3 Overloaded Day
+
+If many tasks exist, the screen should still protect the user from overwhelm.
+
+It should:
+
+- surface only the most relevant items first
+- allow grouping by time or energy
+- compress lower-priority items
+- offer gentle bulk reschedule or simplify actions
+
+The overloaded state must not become a wall of demands.
+
+### 6.21 Motion, Haptics, and Microfeedback in Home/Today
+
+The Home/Today view should feel alive in a regulating way.
+
+Motion should support comprehension and reward, not novelty for its own sake.
+
+Recommended interaction feedback:
+
+- soft card lift on press
+- subtle slide on reschedule
+- warm pulse on start
+- low-intensity confetti on initiation
+- satisfying collapse into completed state
+
+Haptics should be:
+
+- noticeable
+- brief
+- adjustable
+- never aggressive
+
+Users with reduced motion or sensory sensitivity settings must receive calmer alternatives.
+
+### 6.22 Accessibility Requirements for Home/Today and Task Cards
+
+This screen has elevated accessibility importance because it is repeatedly used in low-capacity moments.
+
+Requirements include:
+
+- large touch targets for all primary task actions
+- screen reader labels that describe task title, state, and next action clearly
+- no information conveyed by color alone
+- strong contrast while maintaining warm non-threatening palette choices
+- support for large text without task cards becoming unusable
+- predictable reading order
+- swipe actions with accessible equivalents
+- reduced-motion support for all celebrations and transitions
+
+The cognitive accessibility standard is especially important.
+
+The screen must remain understandable when the user is:
+
+- tired
+- stressed
+- distracted
+- using one hand
+- returning after avoidance
+
+### 6.23 ADHD-Specific UX Risks in Home/Today
+
+#### 6.23.1 Risk: The Screen Feels Like a Failure Report
+
+If carryover items, delayed tasks, and missed reminders dominate visually, the user may avoid the app.
+
+Mitigation:
+
+- keep missed-task language gentle
+- elevate what is possible now
+- separate carryover from active now items
+
+#### 6.23.2 Risk: Too Many Choices Cause Paralysis
+
+If the user sees a long undifferentiated task list, they may do nothing.
+
+Mitigation:
+
+- featured next-step module
+- limited visible top items
+- energy-aware sorting
+
+#### 6.23.3 Risk: Time Blindness Support Is Too Abstract
+
+If time is shown only as text metadata, the app loses one of its biggest differentiators.
+
+Mitigation:
+
+- use spatial time blocks
+- anchor tasks to visible day segments
+- indicate the current part of the day clearly
+
+#### 6.23.4 Risk: Start Celebration Becomes Distracting
+
+If initiation rewards are noisy, the screen may feel childish or overstimulating.
+
+Mitigation:
+
+- keep celebration brief
+- tune intensity by user preference
+- prioritize tactile and subtle visual feedback over spectacle
+
+#### 6.23.5 Risk: Energy Labels Feel Limiting
+
+If the app appears to decide what the user can or cannot do, trust will drop.
+
+Mitigation:
+
+- frame energy as suggestion
+- allow easy override
+- avoid deterministic wording
+
+### 6.24 Success Criteria for the Home/Today View
+
+The Home/Today view is successful when it produces the following outcomes:
+
+- users can identify a next step within seconds
+- missed tasks do not create a shame response
+- task cards make initiation feel easier, not heavier
+- visual time aids improve day orientation
+- energy-aware suggestions feel relevant and humane
+- starting a task feels meaningfully rewarded
+- rescheduling feels safe and normal
+- the screen remains usable under interruption and low capacity
+
+The emotional success metric is:
+
+the user feels more able to begin than they did before opening the app
+
+### 6.25 Section Summary
+
+The Home/Today view is where the product proves, day after day, that it is not a neurotypical planner with softer colors.
+
+It must help users:
+
+- re-enter without shame
+- see time more concretely
+- choose based on energy, not only obligation
+- start quickly
+- adjust plans gently
+
+Task cards are central to this promise.
+
+They should feel supportive, low-friction, and alive with small moments of encouragement.
+
+Together, the Home/Today view and its task cards should make daily planning feel less like self-surveillance and more like practical support for an ADHD brain in motion.
+
+## 7. Screen-by-Screen: Task Creation, Editing, and Auto-Rescheduling
+
+### 7.1 Purpose of the Task Creation and Editing Experience
+
+Task creation and editing are not administrative utilities.
+
+They are core therapeutic-feeling product moments where the app either lowers friction and builds trust or recreates the same burden users have felt in traditional planners.
+
+For many ADHD users, capturing a task is easy in theory and hard in practice.
+
+The difficulty is not only remembering what needs to be done.
+
+The difficulty is also:
+
+- deciding how much detail is required
+- deciding when something belongs
+- deciding whether it is worth adding at all
+- deciding how to break it down
+- deciding whether missing it later will create guilt
+- deciding whether the system is about to become another place full of evidence that they are behind
+
+The task creation and editing flow must therefore do more than collect fields.
+
+It must:
+
+- reduce capture friction
+- help the user convert vague intention into a manageable plan
+- avoid forcing premature precision
+- make rescheduling feel expected rather than corrective
+- preserve emotional safety when plans change
+- make editing feel lightweight instead of bureaucratic
+- help the user start from imperfect information
+
+This section covers the full screen-by-screen behavior for:
+
+- task creation entry points
+- quick capture
+- full task composer
+- task detail and edit mode
+- due date and time assignment
+- energy-aware scheduling options
+- repeat and habit-adjacent behavior for tasks
+- archive behavior
+- missed-task handling
+- auto-rescheduling logic as expressed in the UI
+
+The overarching product promise for this area is:
+
+The app should help the user make a task real without making it feel heavy.
+
+### 7.2 Core Design Principles for Task Creation and Editing
+
+The task creation and editing experience must follow these principles.
+
+#### 7.2.1 Capture First, Refine Second
+
+The system must allow users to create a task with minimal information.
+
+Users should never be forced to define every scheduling detail at the moment of capture.
+
+The minimum viable task should be extremely light:
+
+- task title
+- optional timing anchor or day placement
+
+Everything else should be progressively disclosed.
+
+The interface should assume that users often think in fragments:
+
+- "email landlord"
+- "call pharmacy"
+- "figure out budget"
+- "start slides"
+- "clean kitchen maybe"
+
+The product must respect fragment-first thinking.
+
+#### 7.2.2 Planning Should Feel Like Support, Not Data Entry
+
+Fields should be framed as helpful supports rather than required metadata.
+
+Instead of presenting a dense form, the composer should feel like a guided construction surface with a small number of meaningful decisions.
+
+Every additional setting should answer a real ADHD need:
+
+- when should I see this
+- how much energy does this likely need
+- do I want help breaking it down
+- how do I want reminders
+- what should happen if I miss it
+
+If a control does not reduce cognitive effort later, it should not demand effort now.
+
+#### 7.2.3 Misses Are Schedule Changes, Not Failures
+
+The app must never turn a missed planned task into a visual punishment object.
+
+Creation and editing flows should establish this expectation early.
+
+Whenever date, time, or energy placement is configured, the UI should reinforce that plans are adjustable.
+
+Examples of acceptable framing include:
+
+- "You can move this anytime."
+- "If today gets messy, we will help you place it again."
+- "Plans can flex."
+
+Examples of unacceptable framing include:
+
+- "Deadline missed"
+- "Overdue"
+- "Past due"
+- "Failed today"
+
+#### 7.2.4 The Interface Must Support Varying Levels of Capacity
+
+The same user may need radically different interaction depth depending on context.
+
+Sometimes they will want:
+
+- a two-second brain dump
+
+Other times they will want:
+
+- a detailed plan with energy fit, reminders, subtasks, and focus support
+
+The product should support both states without making either one feel wrong.
+
+#### 7.2.5 Editing Must Be Easier Than Avoidance
+
+Many users avoid opening a task because they fear confronting an outdated plan.
+
+The detail screen must therefore feel editable, forgiving, and alive.
+
+It should encourage small adjustments:
+
+- move to tomorrow
+- reduce scope
+- mark as "started"
+- convert to a smaller first step
+- move to lower-energy time
+
+The editing experience should support recovery more than perfect organization.
+
+### 7.3 Screen Architecture Overview
+
+This part of the product should be composed of the following screen and surface types:
+
+1. Quick Add entry surface
+2. Full Task Composer
+3. Scheduling picker surfaces
+4. Energy fit selector
+5. Reminder configuration surface
+6. Task Detail view
+7. Edit mode within Task Detail
+8. Auto-reschedule review surface
+9. Archive confirmation and recovery states
+
+These surfaces may be implemented as modal sheets, stacked screens, or hybrid transitions depending on platform conventions, but the emotional behavior must remain the same across implementations.
+
+The recommended structure is:
+
+- quick capture as a bottom sheet or lightweight modal
+- full composer as a full-screen modal
+- date/time/energy/reminder pickers as focused sub-sheets
+- task detail as a full screen reached from a task card
+
+This structure keeps simple actions fast while preserving room for richer planning.
+
+### 7.4 Entry Points Into Task Creation
+
+Task creation should be accessible from anywhere the user is likely to think of something.
+
+Primary entry points should include:
+
+- floating add button on Home/Today
+- inline "Add task" action within daily view
+- empty-state actions when a time block or list segment has no items
+- quick add from notification or widget entry point where supported
+- add from weekly or monthly view in premium
+- add from energy slot view
+- add from body doubling or focus timer context when the user realizes a task needs formalizing
+
+The most common entry point will be the Home/Today add button.
+
+That action must be obvious, easy to reach with one thumb, and visually inviting without feeling loud.
+
+The add action should communicate:
+
+- this is safe
+- this is easy
+- you do not need to have the whole plan figured out
+
+### 7.5 Quick Add Surface
+
+#### 7.5.1 Purpose
+
+Quick Add exists for low-friction capture.
+
+It is the fastest way to turn a thought into an object the system can support.
+
+This surface is especially important for ADHD users because delay between thought and capture often results in abandonment, distraction, or forgetting.
+
+#### 7.5.2 When Quick Add Should Be Used
+
+Quick Add should be optimized for:
+
+- sudden thought capture
+- low-energy planning moments
+- in-between transitions
+- interruption recovery
+- rapid brain dump behavior
+
+It should not require structured thinking.
+
+#### 7.5.3 Layout
+
+The Quick Add surface should contain:
+
+- a prominent title input field
+- one-line emotional helper text
+- a small set of optional fast chips
+- a clear save action
+- a subtle "More options" path into the full composer
+
+The first focus target should be the task title.
+
+The keyboard should appear immediately when the surface opens unless accessibility settings or platform conventions make this disruptive.
+
+#### 7.5.4 Title Input Behavior
+
+The title field should support natural, imperfect language.
+
+It should accept:
+
+- sentence fragments
+- lowercase input
+- emojis if the user uses them
+- vague wording
+
+The system should not aggressively "clean up" or reformat the user’s words.
+
+The app must preserve the emotional tone of how the user thinks about the task.
+
+For example:
+
+- "ugh email insurance"
+- "start laundry"
+- "text Maya back"
+- "maybe call dentist"
+
+These entries are valid.
+
+The product should not force the user into formal task language.
+
+#### 7.5.5 Suggested Quick Options
+
+Quick Add should include optional chips that apply common planning anchors in one tap.
+
+Recommended chips:
+
+- `Today`
+- `Tomorrow`
+- `This Week`
+- `High Energy`
+- `Medium Energy`
+- `Low Energy`
+- `15 min`
+- `Needs Reminder`
+
+The exact set may adapt based on context.
+
+For example, if the user opened Quick Add from a visible time block, the default chips might instead include:
+
+- `This Morning`
+- `This Afternoon`
+- `Tonight`
+
+These chips should be suggestions, not commitments that create later pressure.
+
+#### 7.5.6 Save Behavior
+
+When the user taps save from Quick Add:
+
+- the task should be created immediately
+- a subtle confirmation should appear
+- the user should be returned to the originating screen
+- the new task should appear in the most sensible placement
+
+If no date is chosen, the app should place the task in an inbox-like flexible state that still feels visible and usable, not forgotten.
+
+The confirmation tone should be encouraging and brief.
+
+Examples:
+
+- "Captured."
+- "Added for later."
+- "Saved. You can place it anytime."
+
+The product should avoid transactional or corporate-feeling copy such as "Task created successfully."
+
+#### 7.5.7 More Options Path
+
+If the user needs more structure, a clear action should open the Full Task Composer while preserving whatever they have already typed.
+
+This transition must feel like expansion, not restart.
+
+No typed data should ever be lost between quick add and full composer.
+
+### 7.6 Full Task Composer
+
+#### 7.6.1 Purpose
+
+The Full Task Composer is where the user can turn a basic task into a more supported plan.
+
+It should feel calmer and more intentional than Quick Add, but still not like a dense enterprise form.
+
+This screen is where the app demonstrates its ADHD-native philosophy most clearly.
+
+The composer should help the user answer:
+
+- what is this
+- when do I want to see it
+- what kind of energy does it need
+- how much support do I want around it
+- what should happen if today does not go to plan
+
+#### 7.6.2 Overall Layout
+
+The full composer should be organized into distinct, low-cognitive-load blocks in priority order.
+
+Recommended order:
+
+1. Task identity
+2. Timing and placement
+3. Energy fit
+4. Duration and effort
+5. Reminder support
+6. Task breakdown or notes
+7. Missed-task behavior preview
+8. Save actions
+
+Each block should be visually separate with generous spacing and concise labels.
+
+The screen should avoid presenting all inputs as equal-weight form rows.
+
+Some decisions matter more than others and the layout should make that obvious.
+
+#### 7.6.3 Task Identity Block
+
+This block should include:
+
+- task title
+- optional short note
+- optional "first tiny step" field
+
+The "first tiny step" field is especially valuable for ADHD users.
+
+It allows the user to encode the initiation move rather than only the abstract outcome.
+
+Examples:
+
+- task: "Do taxes"
+- first tiny step: "Open the tax folder"
+
+- task: "Clean bedroom"
+- first tiny step: "Pick clothes off chair"
+
+- task: "Prepare presentation"
+- first tiny step: "Open slides and title the deck"
+
+This field should be optional but encouraged gently.
+
+The interface should never imply that a task is poorly formed if the user skips it.
+
+#### 7.6.4 Timing and Placement Block
+
+The task timing area should answer a real-world ADHD need:
+
+When should this come back into view in a way that I can actually act on?
+
+This block should support:
+
+- no specific date
+- date only
+- date plus time block
+- date plus exact time
+- flexible this-week placement
+- recurring or repeating patterns where appropriate
+
+The UI should prefer planning anchors users can feel rather than requiring exact timestamps too early.
+
+Examples of useful anchors:
+
+- this morning
+- after lunch
+- this evening
+- tomorrow
+- later this week
+- next week when energy is better
+
+Exact time should be available, but not treated as the default best practice for every task.
+
+#### 7.6.5 Duration and Effort Block
+
+Users should be able to indicate rough duration or effort without precise estimation pressure.
+
+Suggested options:
+
+- 5 min
+- 15 min
+- 30 min
+- 45 min
+- 60+ min
+- not sure
+
+This helps:
+
+- place tasks visually in time blocks
+- power task suggestions
+- support realistic daily density
+- make large tasks visible as large
+
+If the user does not know duration, the system should treat uncertainty as normal.
+
+#### 7.6.6 Energy Fit Block
+
+Energy fit is one of the product’s differentiators and must be integrated naturally into the composer.
+
+The user should be able to mark the task as:
+
+- high energy
+- medium energy
+- low energy
+- flexible
+
+This control should not feel clinical.
+
+It should feel like practical self-knowledge.
+
+Helper copy may read:
+
+- "What kind of energy does this usually need?"
+- "Pick the version that feels most true most days."
+
+Energy fit affects:
+
+- suggested placement
+- reschedule recommendations
+- what the app surfaces during different parts of the day
+
+The UI must make this feel supportive rather than restrictive.
+
+There should always be a sense that the user can override later.
+
+#### 7.6.7 Reminder Support Block
+
+Reminder configuration should acknowledge that one reminder is often not enough for ADHD users.
+
+The composer should allow:
+
+- no reminder
+- one reminder
+- multiple reminders
+- escalating reminders
+
+The UI must present this as support rather than nagging.
+
+Possible language:
+
+- "How much nudging would help?"
+- "Choose one or a few check-ins."
+
+The reminder block should allow the user to configure reminders relative to:
+
+- planned time
+- day part
+- custom times
+
+The block should also permit gentle repetition before a task becomes active, especially for tasks that require preparation or transitions.
+
+#### 7.6.8 Notes and Support Details
+
+Optional supporting content may include:
+
+- notes
+- subtasks
+- links or references
+- body doubling recommendation toggle
+- focus timer suggestion toggle
+
+These should remain clearly optional.
+
+The composer must not visually punish users who leave most advanced fields empty.
+
+#### 7.6.9 Missed-Task Behavior Preview
+
+Every task with a date or planned time should show a small, reassuring preview of missed-task handling.
+
+Example patterns:
+
+- "If this does not happen today, we will help you place it again."
+- "Missed tasks move forward gently instead of piling up."
+- "You can choose a new slot later. No overdue pile."
+
+This is not decorative copy.
+
+It is part of the trust model.
+
+The composer is where the app teaches users that using the planner will not create shame debt.
+
+#### 7.6.10 Save Actions
+
+The composer should offer:
+
+- primary save
+- save and start now when relevant
+- cancel or close
+
+The save action label should adapt when useful.
+
+Examples:
+
+- `Save task`
+- `Add to today`
+- `Save and start`
+
+If the user has selected a time and current context suggests immediate action, "Save and start" can be powerful because it compresses planning and action into one loop.
+
+### 7.7 Task Creation Defaults
+
+Defaults matter disproportionately for ADHD users because many interactions will happen at low capacity.
+
+The app should provide helpful defaults without becoming presumptive.
+
+Recommended defaults:
+
+- tasks default to flexible placement unless the user explicitly chooses a date or slot
+- energy defaults to `flexible`
+- duration defaults to `not sure`
+- reminders default to off unless user preferences suggest otherwise
+- missed tasks default to auto-reschedule behavior
+
+If the user consistently creates tasks with similar settings, the app may learn gentle defaults over time, but this personalization must remain legible and easy to override.
+
+The system should never silently lock users into inferred patterns they do not understand.
+
+### 7.8 Progressive Disclosure Rules
+
+The creation flow must avoid overwhelming users with too many decisions at once.
+
+Progressive disclosure should work as follows:
+
+- show only the title input and most essential planning chips first in Quick Add
+- reveal the full set of fields only in the Full Task Composer
+- reveal advanced reminder configuration only after the user opts into reminders
+- reveal recurrence detail only after the user indicates repeating behavior
+- reveal subtasks and support features only when the user expands them
+
+The app must still make discoverability easy.
+
+Hiding complexity should reduce overwhelm, not make features feel buried.
+
+### 7.9 Suggestions Inside Task Creation
+
+The task composer may offer lightweight supportive suggestions, but these must be carefully constrained.
+
+Examples of appropriate suggestions:
+
+- "This sounds like a high-energy task. Want to label it that way?"
+- "This seems big. Add a first tiny step?"
+- "Want a reminder before this time block?"
+- "This might fit better tomorrow morning based on your usual high-energy window."
+
+Suggestions must be:
+
+- dismissible
+- nonjudgmental
+- framed as options
+- shown sparingly
+
+Suggestions must never sound like correction.
+
+The product should not imply that the user has planned "incorrectly."
+
+### 7.10 Task Detail View
+
+#### 7.10.1 Purpose
+
+The Task Detail view is where a task becomes tangible and adjustable.
+
+It must support two primary emotional jobs:
+
+1. make the task feel doable
+2. make plan changes feel safe
+
+This screen should not feel static or archival.
+
+It should feel like a living plan.
+
+#### 7.10.2 Entry Points
+
+Users may reach Task Detail from:
+
+- Home/Today task cards
+- weekly or monthly view
+- reminders
+- search results
+- archive history
+- focus timer context
+
+The screen must preserve enough context to help the user remember why they are there.
+
+If opened from a reminder, the top of the screen should make the task immediately recognizable without requiring scroll.
+
+#### 7.10.3 Layout Overview
+
+The Task Detail screen should present information in action-first order.
+
+Recommended layout:
+
+1. task identity and current status
+2. primary actions
+3. timing and energy context
+4. first tiny step or subtasks
+5. notes and support tools
+6. history or adaptive behavior summary
+
+The screen should prioritize actions the user is likely to need right now:
+
+- start
+- mark done
+- move
+- reduce scope
+- edit
+- archive
+
+#### 7.10.4 Top Summary Area
+
+The top area should show:
+
+- title
+- optional note snippet
+- planned day or time block
+- current energy fit
+- duration estimate if set
+- current state such as `Not started`, `Started`, `Paused`, `Moved`, or `Completed`
+
+The state language should remain humane.
+
+Avoid labels like:
+
+- delinquent
+- overdue
+- expired
+
+#### 7.10.5 Primary Actions
+
+The Task Detail screen should expose the most common actions as large, easy-to-hit buttons or pills.
+
+Required primary actions:
+
+- `Start now`
+- `Done`
+- `Move`
+- `Edit`
+
+Secondary actions may include:
+
+- `Break into steps`
+- `Lower the effort`
+- `Archive`
+- `Add reminder`
+- `Start focus timer`
+
+The `Move` action is especially important.
+
+It should be treated as a normal path, not as an admission of failure.
+
+### 7.11 Edit Mode
+
+#### 7.11.1 Philosophy
+
+Editing must feel lightweight, reversible, and emotionally neutral.
+
+Users should not hesitate to edit because editing is how the app stays in sync with real life.
+
+The product should normalize small plan corrections as healthy planner use.
+
+#### 7.11.2 Entering Edit Mode
+
+Users should be able to edit from:
+
+- a dedicated edit button in Task Detail
+- inline tap targets on editable fields
+- long-press or quick actions from task cards where appropriate
+
+Inline editing is valuable for speed, but full edit mode is important for clarity and accessibility.
+
+#### 7.11.3 Editable Fields
+
+The user should be able to change:
+
+- title
+- note
+- first tiny step
+- date
+- day part
+- exact time
+- duration
+- energy fit
+- reminders
+- subtasks
+- support toggles
+- archive state
+
+Changes should autosave where safe, or save with a clear explicit action if the platform interaction model makes autosave ambiguous.
+
+The user must not lose edits due to accidental dismissal.
+
+#### 7.11.4 Microcopy Around Edits
+
+Edits should be framed as planning updates, not corrections.
+
+Preferred language:
+
+- "Update plan"
+- "Move to tomorrow"
+- "Try a smaller version"
+- "Shift to low-energy time"
+
+Avoid language that implies the original plan was a mistake.
+
+#### 7.11.5 Scope Reduction as an Edit Pattern
+
+An important ADHD-specific edit behavior is reducing scope without deleting the task.
+
+Examples:
+
+- changing "clean apartment" to "clear kitchen counters"
+- changing "write report" to "open report doc and outline sections"
+- changing "go through all email" to "reply to top three urgent messages"
+
+The product should support this kind of edit explicitly because many users freeze when a task becomes too large or emotionally loaded.
+
+The interface may offer supportive pathways such as:
+
+- `Make this smaller`
+- `Pick a first step`
+- `Reduce effort for today`
+
+These actions help preserve momentum while respecting actual capacity.
+
+### 7.12 Scheduling and Rescheduling Surfaces
+
+#### 7.12.1 Scheduling as Placement, Not Commitment Theater
+
+The scheduling UI must communicate that time placement is a useful guess, not a rigid contract.
+
+This is especially important for ADHD users who may have been harmed by planning systems that treat every deviation as noncompliance.
+
+The scheduling surface should therefore emphasize:
+
+- visible day parts
+- energy fit
+- realistic duration
+- ease of moving
+
+It should not center guilt-inducing constructs like lateness penalties.
+
+#### 7.12.2 Scheduling Modes
+
+Users should be able to schedule a task using:
+
+- date only
+- date plus morning/afternoon/evening
+- date plus exact time
+- this week / next week flexible placement
+- energy-slot placement
+
+The app should recommend the lowest-precision mode that still helps.
+
+For many tasks, day part is better than exact time.
+
+#### 7.12.3 Move / Reschedule Sheet
+
+When the user taps `Move`, the app should open a focused reschedule sheet rather than a generic edit form.
+
+This sheet should be optimized for speed.
+
+Recommended quick actions:
+
+- later today
+- tonight
+- tomorrow morning
+- tomorrow afternoon
+- this weekend
+- next week
+- when I have high energy
+- unschedule but keep visible
+
+There should also be an option for custom date and time.
+
+The move sheet should make the humane path the easy path.
+
+#### 7.12.4 Reschedule Copy
+
+The move sheet should use neutral or supportive copy.
+
+Acceptable examples:
+
+- "Pick a better time."
+- "Let us move this."
+- "What would make this easier?"
+- "Still matters, just not now?"
+
+Avoid copy that implies failure:
+
+- "You missed this"
+- "This is overdue"
+- "Fix lateness"
+
+#### 7.12.5 Energy-Aware Reschedule Options
+
+If the task is marked high energy and the user is currently in a low-energy period, the move sheet may suggest:
+
+- tomorrow morning
+- next high-energy block
+- split into smaller step
+
+If the task is low energy, the app may suggest:
+
+- keep for tonight
+- slot into current low-energy block
+
+These suggestions must be clearly labeled as optional recommendations.
+
+### 7.13 Auto-Rescheduling Philosophy
+
+Auto-rescheduling is one of the most differentiating behaviors in the product.
+
+It is not a background convenience feature.
+
+It is an explicit rejection of the standard backlog punishment model.
+
+Traditional task apps often let missed items accumulate in place, usually with red badges, dated labels, and a growing emotional signal that the user is behind.
+
+This product must behave differently.
+
+When a planned task is not completed, the system should preserve the task’s importance while changing its placement so the user can re-engage without shame.
+
+The product belief is:
+
+A missed plan is not evidence that the user failed.
+
+It is evidence that the plan needs adaptation.
+
+### 7.14 What Auto-Rescheduling Means in Practice
+
+Auto-rescheduling means the app should:
+
+- detect that a planned slot has passed without completion
+- avoid visually marking the task as overdue in red or piling it into a punitive backlog
+- move the task into an appropriate future context or recovery queue
+- maintain clear visibility without harshness
+- offer the user easy review and override
+
+Auto-rescheduling does not mean silently hiding tasks.
+
+It does not mean pretending nothing happened.
+
+It means converting failed plan-state into adaptive plan-state.
+
+### 7.15 When Auto-Rescheduling Should Trigger
+
+Auto-rescheduling should apply to tasks that were intentionally placed in time and not completed or consciously dismissed.
+
+Trigger cases include:
+
+- date-only task reaches end of day
+- time-block task passes its block window
+- exact-time task passes a reasonable grace period
+- task remains unstarted after all reminders and the day closes
+
+The system should use humane timing rules.
+
+For example:
+
+- a morning task should not auto-reschedule at 10:01 AM if the user might still reasonably do it at noon
+- an evening task should not remain floating in uncertainty for multiple days without surfacing a new placement
+
+The exact thresholds may vary by task type and user settings, but the emotional behavior must remain consistent.
+
+### 7.16 Auto-Rescheduling Outcomes
+
+When auto-rescheduling occurs, the system should choose among several outcomes:
+
+1. move to a likely better slot
+2. move to tomorrow by default
+3. move to next appropriate energy window
+4. convert to flexible unscheduled visibility
+5. queue for morning review if confidence is low
+
+The chosen behavior should be legible.
+
+The user should understand:
+
+- that the task still exists
+- that it was moved to reduce pressure
+- where it can now be found
+
+### 7.17 User-Facing Auto-Reschedule Patterns
+
+The UI should make auto-rescheduling visible in calm, brief ways.
+
+Examples:
+
+- small banner on Home/Today: "We moved 2 tasks forward so today starts clean."
+- task chip label: "Moved from yesterday"
+- morning review card: "A few things need a better spot."
+
+These patterns acknowledge continuity without turning yesterday into a scarlet letter.
+
+The app must never transform the screen into a sea of old dates.
+
+### 7.18 Auto-Reschedule Decision Factors
+
+Auto-rescheduling should consider:
+
+- original day and time placement
+- task energy fit
+- duration
+- whether the task was started
+- user’s historical completion patterns
+- current upcoming calendar density if integrated
+- quiet hours and notification settings
+- whether the task was manually moved recently
+- whether the task is repeating
+
+From a product perspective, these factors should be used to make the system feel thoughtful, not spooky.
+
+The user does not need to see every variable.
+
+They need to feel that the next suggested placement is sensible.
+
+### 7.19 Started but Unfinished Tasks
+
+The app must distinguish between:
+
+- never started
+- started but interrupted
+- intentionally paused
+
+Started tasks deserve different handling because starting is itself meaningful.
+
+If a task was started but not completed, the auto-reschedule treatment should reflect that progress.
+
+Appropriate patterns:
+
+- show `Started yesterday`
+- preserve the current step or timer history
+- suggest a re-entry slot rather than treating it as untouched
+- celebrate continuation, not just fresh starts
+
+This supports the product principle that initiation counts.
+
+### 7.20 Reschedule Review Surface
+
+#### 7.20.1 Purpose
+
+Some auto-reschedules should be surfaced in a lightweight review area so the user maintains trust and agency.
+
+This review should feel like a supportive morning reset, not a debt reconciliation screen.
+
+#### 7.20.2 When Review Is Needed
+
+Review is especially useful when:
+
+- several tasks were moved
+- the system is uncertain about best future placement
+- the user has conflicting high-energy tasks
+- tasks have been moved multiple times
+- a repeating task pattern may need adjustment
+
+#### 7.20.3 Layout
+
+The review surface should group moved tasks into manageable cards.
+
+Each card should show:
+
+- task title
+- original placement in muted form
+- new suggested placement
+- one-tap alternatives
+- tiny-step or scope reduction option when relevant
+
+The review should never feel like the user is forced to triage a giant backlog.
+
+If there are many moved tasks, the interface should batch and simplify.
+
+#### 7.20.4 Review Actions
+
+Recommended actions:
+
+- `Keep this plan`
+- `Move again`
+- `Make smaller`
+- `Unschedule`
+- `Archive`
+
+The app should not require all items to be reviewed before the user can continue using the product.
+
+### 7.21 Archive Instead of Delete
+
+The product requirement is archive rather than delete as the standard task removal path.
+
+This is important for several reasons:
+
+- it reduces fear of losing information
+- it preserves continuity and reflection value
+- it avoids accidental deletion in low-attention moments
+- it supports a softer relationship to incomplete tasks
+
+Within task creation and editing, archive should be available but de-emphasized relative to start, move, and edit.
+
+Archive should feel like:
+
+- "not active right now"
+
+not:
+
+- "erase evidence"
+
+If the user archives an incomplete task, the app may optionally ask a brief supportive question:
+
+- "Archive for now, or move it to a better time?"
+
+This should be optional and non-blocking.
+
+### 7.22 Repeating Tasks Within the Task Model
+
+Some users will create repeating tasks that are not formal habits.
+
+Examples:
+
+- refill prescription monthly
+- send invoice every Friday
+- water plants every Sunday
+
+For repeating tasks, the creation and edit flow should make recurrence easy without forcing streak pressure.
+
+The UI should separate:
+
+- repeating tasks
+- habits
+
+Repeating tasks are obligation or maintenance items with recurrence logic.
+
+Habits are behavior-building tools with gentler tracking models described elsewhere.
+
+The task composer should therefore support repeat patterns without importing shame-driven streak logic.
+
+### 7.23 State Changes After Completion
+
+Although this section centers on creation and editing, completion behavior affects how the user perceives the task model.
+
+When the user marks a task complete from detail or edit contexts:
+
+- completion should feel satisfying but not overwhelming
+- the task should leave the active plan gracefully
+- repeating tasks should generate the next instance in a calm, expected way
+- the user should not be dropped into a dead-end state
+
+If the task was difficult to start, completion may include a warmer celebration.
+
+If the task was routine, the feedback should be simpler.
+
+The app should preserve emotional pacing.
+
+### 7.24 Motion and Microfeedback in Task Creation and Editing
+
+This area should use motion to reduce friction and reinforce progress.
+
+Recommended behaviors:
+
+- quick add sheet rises smoothly and focuses title immediately
+- selecting chips gives subtle tactile and visual confirmation
+- expanding from Quick Add to Full Composer feels like unfolding the same object
+- moving a task animates the updated placement rather than making the item disappear abruptly
+- auto-rescheduled tasks reappear with calm continuity cues
+
+Motion should suggest:
+
+- continuity
+- support
+- softness
+
+It should not feel like error correction.
+
+### 7.25 Haptics and Sound in These Flows
+
+Haptics should reward commitment and clarity.
+
+Useful moments include:
+
+- saving a task
+- applying a schedule
+- confirming a move
+- starting a task
+- completing a task
+
+Haptic intensity should remain light by default.
+
+Sound should be optional and subtle.
+
+No sound or haptic should resemble an alarm, punishment cue, or system warning unless there is a true error or an explicit timer event.
+
+### 7.26 Empty, Draft, and Interrupted States
+
+The product must handle partial planning states gracefully.
+
+#### 7.26.1 Empty Title Draft
+
+If the user opens creation and closes it without entering anything, no draft should be saved.
+
+The exit should be silent and forgiving.
+
+#### 7.26.2 Partial Draft
+
+If the user has entered meaningful text and is interrupted, the app should preserve the draft locally and make return easy.
+
+The restore pattern should be calm:
+
+- "Continue your draft?"
+
+not:
+
+- "Unsaved changes will be lost!"
+
+#### 7.26.3 Interrupted While Editing
+
+If the user is editing a task and receives a call, locks the phone, or switches apps, their work should persist safely.
+
+ADHD users are especially vulnerable to interruption-driven loss.
+
+This part of the product must be resilient.
+
+### 7.27 Error Handling
+
+Errors in task creation and editing should be rare, specific, and emotionally neutral.
+
+If an error occurs:
+
+- explain what happened plainly
+- preserve user input
+- offer a clear retry path
+
+Examples:
+
+- local save failed due to storage issue
+- reminder permission not granted
+- notification scheduling failed for a specific reminder
+
+The app must never use blame-oriented phrasing.
+
+Avoid:
+
+- "You entered an invalid task"
+- "Task failed because required values were missing"
+
+Prefer:
+
+- "We could not save this yet."
+- "Your text is still here."
+- "Try again in a moment."
+
+### 7.28 Accessibility Requirements for Task Creation and Editing
+
+This part of the app has elevated accessibility importance because it contains multiple decision points and potential attention traps.
+
+Required accessibility behaviors include:
+
+- large tap targets for chips and action buttons
+- clear focus order for keyboard and screen reader users
+- concise labels for all controls
+- non-color indicators for moved, started, or rescheduled states
+- support for dynamic type without collapsing layout hierarchy
+- voiceover and talkback announcements for save, move, and start actions
+- reduced motion alternatives for celebratory or transition effects
+
+The interface must also minimize cognitive overload.
+
+That means:
+
+- avoiding dense forms
+- avoiding crowded side-by-side controls
+- avoiding hidden consequences
+- avoiding ambiguous state changes
+
+Accessibility here is not only about technical compliance.
+
+It is about helping users hold the planning thread.
+
+### 7.29 ADHD-Specific UX Risks in Task Creation and Editing
+
+#### 7.29.1 Risk: The Composer Feels Like Homework
+
+If the task composer is too form-heavy, users will default to vague capture only or abandon the flow entirely.
+
+Mitigation:
+
+- prioritize Quick Add
+- use progressive disclosure
+- make optional fields clearly optional
+- privilege timing and energy over excessive metadata
+
+#### 7.29.2 Risk: Auto-Rescheduling Feels Like Loss of Control
+
+If tasks move without explanation, users may feel disoriented or mistrust the system.
+
+Mitigation:
+
+- show calm visibility cues
+- provide review states when needed
+- preserve move history in lightweight form
+- allow easy manual override
+
+#### 7.29.3 Risk: Energy Labels Feel Prescriptive
+
+If energy fit reads like a judgment about the user’s capabilities, the feature will backfire.
+
+Mitigation:
+
+- use suggestive rather than deterministic copy
+- allow flexible and override states
+- frame energy as planning support
+
+#### 7.29.4 Risk: Rescheduling Becomes Another Avoidance Ritual
+
+If moving a task is too easy without any reflective support, users may endlessly bounce tasks without progress.
+
+Mitigation:
+
+- keep move easy
+- but suggest `make smaller` when repeated moves occur
+- surface first tiny step suggestions
+- offer start-now paths when appropriate
+
+The product should reduce shame without enabling total disengagement from reality.
+
+#### 7.29.5 Risk: Editing Old Tasks Triggers Shame
+
+If the detail screen foregrounds age and old dates too strongly, users may avoid opening tasks altogether.
+
+Mitigation:
+
+- minimize harsh historical emphasis
+- focus the screen on what can happen next
+- present old placement as muted context, not accusation
+
+### 7.30 Success Criteria for Task Creation, Editing, and Auto-Rescheduling
+
+This section is successful when the product consistently produces the following outcomes:
+
+- users can capture a task in seconds without cognitive friction
+- users feel safe adding imperfect tasks
+- editing a task feels normal and lightweight
+- users understand that missed plans will adapt rather than become punishments
+- rescheduling is fast and emotionally neutral
+- auto-rescheduling reduces backlog shame without reducing trust
+- energy fit improves placement quality
+- started tasks retain their sense of momentum even if interrupted
+- task detail helps users act, not just review
+- the system preserves drafts and edits reliably under interruption
+
+The emotional success metric is:
+
+the user feels that the app helps them keep going, even when the original plan did not hold
+
+### 7.31 Section Summary
+
+Task creation, editing, and auto-rescheduling form the product’s practical trust engine.
+
+This is where the app proves that it does not believe a plan is only valid if it is followed perfectly.
+
+The experience must help users:
+
+- capture quickly
+- plan with just enough structure
+- revise without shame
+- move tasks easily
+- recover after missed intentions
+- keep momentum visible
+
+If this section is executed well, the app will feel fundamentally different from traditional planners not because it is less structured, but because its structure is adaptive, emotionally safe, and designed for the realities of ADHD life.
+
+## 8. Screen-by-Screen: Focus Timer With Body Doubling Audio
+
+### 8.1 Section Intent
+
+The focus timer is not a generic Pomodoro add-on.
+
+It is a regulated, ADHD-aware start engine.
+
+Its job is to help the user cross the hardest threshold:
+
+beginning.
+
+For many users, the painful part of productivity is not lack of calendar access, task visibility, or priority logic.
+
+It is the moment between:
+
+- "I know what I should do"
+- and
+- "I have actually started doing it"
+
+This screen exists to shorten that gap.
+
+The focus timer should feel like a transition space between intention and action.
+
+It should help the user:
+
+- enter a task gently
+- reduce activation friction
+- externalize structure
+- recover from hesitation without shame
+- stay anchored when time becomes slippery
+- use companionship cues when working alone feels impossible
+
+The body doubling layer is not novelty content.
+
+It is a support mechanism for users who regulate attention better when another presence, voice, room tone, or shared-working cue is present.
+
+The product should treat this as legitimate cognitive scaffolding.
+
+The combined timer and body doubling experience should feel like:
+
+- a calm launchpad
+- a supportive work container
+- a non-judgmental re-entry space after interruption
+
+It should not feel like:
+
+- a strict stopwatch
+- a punishment clock
+- a gamified productivity race
+- a noisy media player bolted onto a timer
+
+### 8.2 Core User Needs This Screen Must Solve
+
+This screen is responsible for solving a specific cluster of ADHD-native problems.
+
+#### 8.2.1 Initiation Paralysis
+
+The user may know exactly what task matters and still feel unable to start.
+
+The screen must lower the cost of beginning through:
+
+- preselected short focus options
+- one-tap start
+- visible first-step framing
+- encouragement tied to starting rather than finishing
+- optional body doubling for external structure
+
+#### 8.2.2 Time Blindness During Work
+
+Once the user starts, they may lose track of elapsed time or overestimate how long they have been working.
+
+The screen must make time feel visible through:
+
+- large visual countdown or count-up blocks
+- progress rings or segmented bars
+- ambient time cues that are readable at a glance
+- predictable phase transitions
+
+#### 8.2.3 Fragility Under Interruption
+
+Calls, texts, app switching, low-battery anxiety, or sudden thought spirals can break focus.
+
+The screen must make interruption recovery feel easy rather than ruinous.
+
+It should preserve the sense that a session can bend without fully breaking.
+
+#### 8.2.4 Need for External Structure
+
+Many users focus more easily with another human presence or a simulation of one.
+
+The body doubling layer should support users who benefit from:
+
+- shared-work ambience
+- calm human voice prompts
+- co-working style audio presence
+- subtle start and return cues
+
+#### 8.2.5 Aversion to Rigid Productivity Systems
+
+The user should never feel punished for:
+
+- pausing
+- restarting
+- extending a session
+- switching to a smaller goal
+- stopping early because their nervous system is overloaded
+
+The screen must preserve flexibility without collapsing into vagueness.
+
+### 8.3 Product Role in the Overall App Flow
+
+The focus timer sits at the moment where planning becomes action.
+
+It is the bridge between:
+
+- task selection
+- energy-aware suggestion
+- actual work initiation
+
+This screen may be entered from several places:
+
+- the Today screen after tapping `Start focus`
+- a task card after tapping `Start with timer`
+- a task detail screen
+- a body doubling recommendation card
+- a focus shortcut from the home navigation
+- a recovery prompt after repeated task postponement
+
+Regardless of entry point, the screen must answer four questions immediately:
+
+1. What am I about to focus on?
+2. How long am I trying for?
+3. Do I want body doubling support?
+4. What happens if I need to pause, stop, or change course?
+
+The screen should reduce ambiguity before the session starts.
+
+### 8.4 Primary Experience Principles
+
+#### 8.4.1 Celebrate Starting
+
+The strongest reinforcement should occur at session start, not only at session completion.
+
+The act of beginning is itself the key achievement this screen is designed to support.
+
+#### 8.4.2 Keep Structure Soft
+
+The timer should provide shape without becoming authoritarian.
+
+Defaults matter, but overrides should remain easy.
+
+#### 8.4.3 Reduce Pre-Work Friction
+
+The user should not need to configure six settings before beginning.
+
+The ideal path is:
+
+- pick task
+- pick duration
+- optionally enable body doubling
+- start
+
+#### 8.4.4 Make Time Legible
+
+Time should be shown visually, not buried in small text.
+
+The screen must help users feel where they are inside the session.
+
+#### 8.4.5 Preserve Emotional Safety
+
+If the session is interrupted, abandoned, or changed, the UI must stay calm.
+
+The app should frame deviation as adjustment, not failure.
+
+### 8.5 Entry Variants
+
+The focus timer screen should support multiple entry contexts while still feeling like the same product object.
+
+#### 8.5.1 Task-Linked Entry
+
+When launched from a specific task, the screen header should clearly show:
+
+- task title
+- optional first step
+- energy fit indicator if available
+- planned duration recommendation if the system has one
+
+This variant should feel purpose-built for helping the user start that exact task.
+
+#### 8.5.2 General Focus Entry
+
+Some users will want to focus without selecting a task first.
+
+In this case the screen should support:
+
+- `Focus without task`
+- quick attach of a task later
+- lightweight prompt such as `What are you trying to move forward?`
+
+The app should not force task formalization if that would block starting.
+
+#### 8.5.3 Recovery Entry
+
+If the user has postponed or drifted repeatedly, the app may offer a recovery path into the timer with copy such as:
+
+- `Try 5 minutes`
+- `Want a gentle start?`
+- `Use body doubling to begin`
+
+This entry should feel especially low-pressure.
+
+#### 8.5.4 Suggested Focus Entry
+
+When the system recommends a task based on energy or schedule fit, the timer may open with suggested settings already chosen.
+
+Example:
+
+- task attached
+- 15-minute session selected
+- body doubling recommended if the user has historically used it for similar tasks
+
+Preselection should reduce friction, not feel presumptuous.
+
+### 8.6 Pre-Start Screen Layout
+
+The pre-start state is a setup screen, but it should not look like a control panel.
+
+It should feel like a calm launch surface.
+
+#### 8.6.1 Top Area
+
+The top area should contain:
+
+- a soft title such as `Focus session`
+- a back affordance
+- optional close or minimize action if the flow was opened modally
+
+If the timer is task-linked, the task card should appear near the top and remain visually prominent.
+
+#### 8.6.2 Task Summary Card
+
+This card should include:
+
+- task title
+- optional micro-step or `start with` text
+- estimated effort or energy fit if known
+- due-today or schedule context if helpful
+
+The card should not repeat heavy metadata.
+
+The purpose is anchoring, not administration.
+
+#### 8.6.3 Duration Selector
+
+The duration selector should be one of the most visually prominent controls on the screen.
+
+Recommended quick options:
+
+- `5 min`
+- `10 min`
+- `15 min`
+- `25 min`
+- `45 min`
+- `Custom`
+
+The first options should be especially easy to tap because short starts are often the difference between action and avoidance.
+
+The product should explicitly validate ultra-short sessions as legitimate.
+
+Examples of supportive helper text:
+
+- `A small start counts`
+- `You can always keep going`
+
+#### 8.6.4 Session Mode Selector
+
+The screen may optionally provide session modes when appropriate:
+
+- `Gentle start`
+- `Standard focus`
+- `Deep focus`
+
+These are not merely cosmetic labels.
+
+They can adjust defaults such as:
+
+- duration
+- break behavior
+- prompt intensity
+- body doubling style suggestions
+
+However, the user should not need to understand these modes in order to start quickly.
+
+#### 8.6.5 Body Doubling Panel
+
+The body doubling panel should sit directly below or beside the duration controls depending on screen size.
+
+It should present body doubling as a supportive option, not as a premium gimmick.
+
+The panel should show:
+
+- toggle state
+- currently selected audio type if any
+- short explanation such as `Work with a calm companion track`
+- premium lock state when relevant
+
+Suggested audio categories:
+
+- `Quiet co-working`
+- `Soft encouragement`
+- `Cafe focus`
+- `Library calm`
+- `Rain + presence`
+- `Structured check-ins`
+
+The selection UI should use plain language.
+
+Users should understand the emotional shape of a track before starting it.
+
+#### 8.6.6 Start Action Area
+
+The bottom action area should include:
+
+- primary CTA: `Start focus`
+- optional secondary CTA: `Start without audio`
+- optional tertiary link: `Just start task`
+
+The main CTA should be large, warm, and visually rewarding.
+
+The user should feel that the screen wants them to succeed.
+
+### 8.7 Pre-Start Content Behavior
+
+#### 8.7.1 Duration Defaults
+
+If the app has enough context, it may suggest a default duration based on:
+
+- user preference
+- task type
+- current energy
+- available time until next event
+- historical completion or continuation data
+
+Example:
+
+- admin task during low energy -> suggest 10 minutes
+- deep writing task in a high-energy slot -> suggest 25 or 45 minutes
+
+Suggestions must be editable in one tap.
+
+#### 8.7.2 Body Doubling Recommendations
+
+The app may recommend body doubling when:
+
+- the user often uses it for hard-to-start tasks
+- the task has been postponed several times
+- the user’s onboarding profile indicated high benefit from external structure
+- the task is cognitively heavy or emotionally avoidant
+
+Recommendation copy should be gentle:
+
+- `Want a little company while you start?`
+
+not:
+
+- `You seem unable to focus alone`
+
+#### 8.7.3 First-Step Framing
+
+If the attached task has a first-step note, the screen should highlight it before session start.
+
+Example:
+
+- `First step: open the form`
+- `First step: write the email subject line`
+- `First step: put the laundry in`
+
+This transforms the session from abstract effort into specific action.
+
+### 8.8 Active Timer Screen Layout
+
+Once the session starts, the interface should transition into an active focus state.
+
+The shift should feel like crossing a threshold.
+
+The app should briefly acknowledge the start with:
+
+- soft haptic
+- small confetti or sparkle burst
+- concise affirmation such as `You started`
+
+The celebration must be short and non-distracting.
+
+#### 8.8.1 Top Region During Active Focus
+
+The top region should contain:
+
+- current task title or focus label
+- optional body doubling indicator
+- minimize control
+- overflow menu for advanced actions
+
+The header must remain quiet.
+
+It should not compete with the timer.
+
+#### 8.8.2 Central Time Display
+
+The central timer display is the emotional and functional center of the screen.
+
+It should be large enough to read instantly.
+
+Recommended visual elements:
+
+- large numeric countdown
+- circular or segmented progress indicator
+- phase label such as `Focus`
+- optional small elapsed-time view
+
+The design should help users answer:
+
+- how much longer
+- how far in
+- whether this is still the focus phase or a break
+
+#### 8.8.3 Task Anchor Module
+
+Below the timer, the screen should keep a lightweight task anchor visible.
+
+This may include:
+
+- task title
+- current micro-step
+- `Need a smaller step?` action
+- `Mark started` state if not already implied
+
+The user should not lose sight of what this session is for.
+
+#### 8.8.4 Audio Control Strip
+
+If body doubling is active, a persistent control strip should show:
+
+- track name or mode label
+- play/pause
+- volume shortcut
+- change track
+- captions or prompt indicator if voice content exists
+
+These controls should remain simple.
+
+The screen is a focus tool, not a media library.
+
+#### 8.8.5 Bottom Action Cluster
+
+The bottom region should expose the most common actions:
+
+- `Pause`
+- `Finish early`
+- `Add 5 min`
+- `Take break now` when enabled
+
+Actions should be spaced generously to prevent accidental taps.
+
+### 8.9 Active Session States
+
+The active timer screen must support multiple in-session states without losing coherence.
+
+#### 8.9.1 Running State
+
+This is the default active state.
+
+The timer counts down visibly.
+
+Audio, if enabled, plays according to the selected body doubling mode.
+
+The UI should remain stable and non-busy.
+
+#### 8.9.2 Paused State
+
+If the user pauses, the UI should visually soften and clearly indicate the session is paused.
+
+Recommended changes:
+
+- timer freezes
+- progress ring dims slightly
+- pause label appears
+- body doubling audio pauses or switches to paused-state behavior
+
+The paused screen should provide:
+
+- `Resume`
+- `Finish session`
+- `Make it smaller`
+
+The product should never imply that pausing invalidates the session.
+
+#### 8.9.3 Extended State
+
+If the user chooses to continue beyond the original duration, the screen should support a graceful extension.
+
+Options:
+
+- add 5 minutes
+- add 10 minutes
+- switch to open-ended mode
+
+This is important because ADHD users may finally enter flow after a delayed start.
+
+The product should not punish success by forcing a hard stop.
+
+#### 8.9.4 Break State
+
+If break functionality is enabled, the screen should clearly transition into a break phase.
+
+Break state should feel restorative, not empty.
+
+It may include:
+
+- countdown to return
+- calming visual treatment
+- optional hydration or stretch prompt
+- `Skip break`
+- `Start next focus`
+
+Breaks should help with regulation without scattering attention.
+
+#### 8.9.5 Interrupted Background State
+
+If the app goes into background during a session:
+
+- local timer state must remain reliable
+- notifications should support return
+- session continuity must be preserved
+
+When the user comes back, the screen should explain the current state plainly.
+
+Examples:
+
+- `3 minutes left`
+- `Your timer finished while you were away`
+- `Paused when you left`
+
+### 8.10 Body Doubling Audio Experience
+
+Body doubling must feel intentionally designed for ADHD regulation, not like a playlist widget.
+
+#### 8.10.1 Purpose of Body Doubling in This Product
+
+The feature exists to provide:
+
+- companionship without social demand
+- rhythm without pressure
+- external structure without surveillance
+- grounding during hard starts
+
+The user should feel accompanied, not watched.
+
+#### 8.10.2 Audio Format Types
+
+The product should support several audio patterns because users regulate differently.
+
+Potential formats:
+
+- continuous ambient co-working room tone
+- occasional spoken check-ins
+- start prompt plus long quiet interval
+- light verbal reminders at predictable points
+- paired breathing or settling prompt before work begins
+
+The app should not assume everyone wants frequent voice interruptions.
+
+#### 8.10.3 Tone of Voice
+
+Any spoken body doubling content must be:
+
+- calm
+- warm
+- non-patronizing
+- concise
+- adult-oriented
+
+It must avoid:
+
+- childish cheerleader energy
+- therapy imitation
+- overly intimate parasocial scripting
+- command-heavy directives
+- guilt-based motivation
+
+Appropriate examples:
+
+- `We are just getting started. Pick the smallest next move.`
+- `You are still in it. Come back to the task when you're ready.`
+- `A few minutes counts.`
+
+#### 8.10.4 Audio Start Ritual
+
+If body doubling is enabled, session start may include a short settling cue before the main work interval.
+
+For example:
+
+- 5-second breath cue
+- one calm orientation sentence
+- soft ambient fade-in
+
+This can help the user cross from intention into action.
+
+The ritual must remain skippable.
+
+#### 8.10.5 Audio During the Session
+
+The ongoing audio behavior should depend on track type.
+
+Examples:
+
+- quiet co-working: mostly ambience, no speech
+- structured check-ins: brief voice at predictable intervals
+- soft encouragement: sparse and non-intrusive cues
+
+The user should always know whether speech is expected.
+
+Unexpected voice interruptions can break concentration.
+
+#### 8.10.6 Audio at Pause, Return, and End
+
+Audio transitions should support regulation.
+
+Examples:
+
+- pause -> gentle fade or stop
+- resume -> short return cue
+- finish -> subtle closing phrase or soft tone
+
+These should never feel like alarms unless the user has explicitly selected a stronger style.
+
+### 8.11 Session Completion Experience
+
+Completion is important, but it should remain secondary to successful initiation and engagement.
+
+#### 8.11.1 End-of-Session Priorities
+
+At the end of a session, the screen should help the user answer:
+
+- Did I make progress?
+- Do I want to continue?
+- Do I need a break?
+- What should happen to the task now?
+
+The completion state should avoid binary all-or-nothing framing.
+
+#### 8.11.2 Completion Layout
+
+The completion surface should show:
+
+- encouraging header
+- session length
+- task context
+- optional progress reflection
+- next-step actions
+
+Suggested messages:
+
+- `You started and stayed with it`
+- `Nice work showing up`
+- `That session counts`
+
+These messages should remain grounded rather than overly celebratory.
+
+#### 8.11.3 Primary Completion Actions
+
+Recommended actions:
+
+- `Keep going`
+- `Take a break`
+- `Mark task done`
+- `Still in progress`
+- `Schedule another session`
+
+This is critical.
+
+The user may have done meaningful work without finishing the task.
+
+The UI must explicitly support partial progress.
+
+#### 8.11.4 Reflection Without Homework
+
+An optional tiny reflection prompt may appear after completion.
+
+Examples:
+
+- `Did this length work for you?`
+- `Want to keep the same setup next time?`
+- `Was body doubling helpful?`
+
+This should never become required journaling.
+
+### 8.12 In-Session Microinteractions
+
+Microinteractions must support momentum rather than distract from it.
+
+Recommended moments:
+
+- session start confetti burst
+- subtle ring pulse on phase change
+- gentle haptic when the timer begins
+- satisfying button press feedback on pause or extend
+- soft completion animation
+
+All motion should be:
+
+- brief
+- low-clutter
+- skippable under reduced motion settings
+
+### 8.13 Flexible Timer Rules
+
+The timer must be opinionated enough to help and flexible enough to survive real use.
+
+#### 8.13.1 Default Timing Philosophy
+
+The product should not insist that 25 minutes is universally correct.
+
+Instead, the timer model should acknowledge:
+
+- some users need 5 minutes to break inertia
+- some users prefer 15 minutes because 25 feels too heavy
+- some users enter flow and want longer sessions
+
+The timer should support adjustable defaults without making the user configure a complex system.
+
+#### 8.13.2 Graceful Short Sessions
+
+Very short sessions must be treated as valid.
+
+The product should never imply that a 5-minute session is inferior or unserious.
+
+Short focus windows are often clinically realistic and behaviorally effective for ADHD users.
+
+#### 8.13.3 Break Flexibility
+
+Breaks should be optional, adjustable, and easy to skip.
+
+The user may need:
+
+- a break immediately
+- no break at all
+- a longer recovery break after heavy effort
+
+Rigid break enforcement would be misaligned with the product philosophy.
+
+#### 8.13.4 Continue Flow Support
+
+If the session ends and the user is finally in motion, the screen should make continuation frictionless.
+
+`Keep going` should be easier than reconfiguring a new session from scratch.
+
+### 8.14 Screen Behavior for Different Task Types
+
+The timer may adapt presentation depending on the nature of the task.
+
+#### 8.14.1 Admin and Chore Tasks
+
+These often benefit from:
+
+- short default duration
+- first-step emphasis
+- body doubling recommendation for activation
+- straightforward completion options
+
+#### 8.14.2 Deep Work Tasks
+
+These may benefit from:
+
+- longer default duration
+- quieter body doubling options
+- less intrusive prompts
+- stronger visual time progression
+
+#### 8.14.3 Emotionally Avoidant Tasks
+
+Examples:
+
+- difficult email
+- financial paperwork
+- medical admin
+
+These should receive more compassionate start framing and may benefit from:
+
+- smaller default start windows
+- explicit `just begin` language
+- structured check-in audio
+- easy `make smaller` action
+
+### 8.15 Empty and Edge Variants
+
+#### 8.15.1 No Task Attached
+
+When no task is attached, the screen should still feel complete.
+
+The UI should anchor around the focus goal rather than exposing a blank state problem.
+
+#### 8.15.2 No Audio Available
+
+If body doubling content is unavailable due to offline state, entitlement, or loading error, the timer should remain fully usable.
+
+The app should offer:
+
+- start without audio
+- retry audio load
+- choose another track if locally available
+
+The failure of audio must not block focus support.
+
+#### 8.15.3 Premium Lock State
+
+If the user is on the free plan and taps a premium body doubling option, the paywall behavior must remain respectful.
+
+It should explain the value plainly and allow easy return to the current timer setup.
+
+The product must not hijack the user’s moment of readiness.
+
+If possible, the app should still allow:
+
+- timer start without audio
+- timer start with basic free mode if included
+
+#### 8.15.4 Session Finished in Background
+
+When the user returns after the session completed while the app was backgrounded, the screen should summarize the state clearly and offer re-entry options without confusion.
+
+### 8.16 Navigation and Minimized Timer Behavior
+
+Users will sometimes need to leave the active timer screen without abandoning the session.
+
+The product should support a minimized timer state.
+
+#### 8.16.1 Minimized Floating or Pinned Bar
+
+When minimized, the app may show a persistent compact element containing:
+
+- remaining time
+- task title or short label
+- pause/resume
+- return to full timer
+
+This helps users maintain continuity while checking another screen.
+
+#### 8.16.2 Return Path
+
+Returning to the full timer screen should restore context instantly.
+
+The user must never wonder whether the session is still running.
+
+### 8.17 Notifications and External Cues
+
+The focus timer is partly a foreground experience and partly a system-level support tool.
+
+#### 8.17.1 Start Notification Strategy
+
+The app does not need a notification at session start if the app is open, but it may use local notifications for:
+
+- phase changes in background
+- session completion in background
+- return-from-pause reminders when user opted in
+
+#### 8.17.2 End Notification Strategy
+
+End notifications should be calming and brief.
+
+Examples:
+
+- `Focus session complete`
+- `Your 15-minute session ended`
+- `Ready for a break or another round?`
+
+Avoid urgency-heavy sound or phrasing.
+
+#### 8.17.3 Re-Entry Reminders
+
+If the user pauses and does not return, the app may send a gentle reminder if enabled.
+
+Example:
+
+- `Want to come back for 5 more minutes?`
+
+This should remain optional because reminders can easily become guilt triggers.
+
+### 8.18 Accessibility Requirements for This Screen
+
+This screen has especially high accessibility importance because it combines time pressure, audio, motion, and action controls.
+
+Required behaviors include:
+
+- large readable timer text
+- screen reader labels for countdown, task, and controls
+- clear accessible names for play, pause, resume, extend, and finish actions
+- captions or text alternatives for spoken body doubling content where feasible
+- reduced motion mode for celebratory and transition animations
+- color-independent state communication
+- generous tap targets
+- support for dynamic type without clipping primary controls
+
+The screen must also reduce cognitive load.
+
+That means:
+
+- limit simultaneous choices once session is running
+- avoid tiny secondary controls
+- avoid cluttered audio settings panels during active work
+- preserve visual hierarchy so the user always knows what matters most
+
+### 8.19 ADHD-Specific UX Risks
+
+#### 8.19.1 Risk: The Timer Feels Like Surveillance
+
+If the design feels strict or evaluative, some users will avoid it.
+
+Mitigation:
+
+- use soft language
+- emphasize support rather than discipline
+- allow pause, extend, and early finish without friction
+
+#### 8.19.2 Risk: Body Doubling Feels Cringe or Infantilizing
+
+If voice content sounds fake, overly chirpy, or emotionally manipulative, users will disengage immediately.
+
+Mitigation:
+
+- adult tone
+- restrained scripts
+- multiple track styles
+- clear expectation-setting before play
+
+#### 8.19.3 Risk: Too Many Setup Choices Block Starting
+
+If the pre-start screen asks for too many decisions, the user may never begin.
+
+Mitigation:
+
+- strong defaults
+- one-tap start
+- progressive disclosure for advanced options
+
+#### 8.19.4 Risk: Session End Creates a Crash
+
+If the session ends abruptly with no continuation path, the user may fall out of momentum.
+
+Mitigation:
+
+- immediate `Keep going` option
+- calm break transition
+- support for in-progress task state
+
+#### 8.19.5 Risk: Audio Becomes Distracting
+
+If spoken prompts are mistimed or too frequent, body doubling can become a source of sensory irritation.
+
+Mitigation:
+
+- clear track categories
+- predictable prompt patterns
+- simple audio switching
+- sparse defaults
+
+### 8.20 Success Criteria for the Focus Timer and Body Doubling Screen
+
+This section is successful when the experience consistently produces the following outcomes:
+
+- users can start a session in a few seconds
+- short sessions feel valid and inviting
+- the screen helps users begin tasks they would otherwise avoid
+- body doubling feels supportive, not gimmicky
+- time becomes more legible during focus
+- pausing, extending, and re-entering feel safe
+- completion supports partial progress rather than all-or-nothing judgment
+- premium upsell does not sabotage moments of readiness
+- the timer feels integrated with tasks and energy-aware planning rather than separate from them
+
+The emotional success metric is:
+
+the user feels accompanied into action, not pressured into performance
+
+### 8.21 Section Summary
+
+The focus timer with body doubling audio is the product’s activation engine.
+
+It should translate planning into motion by giving the user:
+
+- a soft start
+- visible time structure
+- supportive companionship when needed
+- flexibility during real-world disruption
+- reinforcement for showing up
+
+If this screen is executed well, the app will feel fundamentally different from traditional timers because it does not treat focus as obedience to a clock.
+
+It treats focus as a supported state transition for an ADHD brain that often needs help getting over the starting line and staying connected to the task once it begins.
+
+## 9. Screen-by-Screen: Energy Scheduling and Time Block Views
+
+### 9.1 Section Intent
+
+This section defines the screens and interactions that help users plan around fluctuating energy and visually understand the shape of time.
+
+In this product, energy scheduling and time block views are not secondary planning tools.
+
+They are central ADHD supports.
+
+Traditional planners typically organize around deadlines, priorities, and chronological lists.
+
+This product must also organize around capacity.
+
+The screen family described here should help the user answer questions that matter in actual ADHD daily life:
+
+- what kind of energy do I realistically have right now
+- what kind of task fits that energy
+- where did my day go
+- what still fits today without forcing it
+- how can I place tasks into visible time so they feel real
+- how can I plan tomorrow without creating guilt
+
+These screens must convert abstract intention into concrete visual structure.
+
+They must make time feel less slippery.
+
+They must help the user plan a day that is survivable, not idealized.
+
+They must also protect the user from a common failure mode in productivity tools:
+
+creating a schedule that looks beautiful at planning time and impossible at execution time.
+
+Energy scheduling and time block views should therefore behave less like a rigid calendar and more like a compassionate planning surface that adapts to ADHD variability.
+
+### 9.2 Core User Needs These Screens Must Solve
+
+#### 9.2.1 Variable Capacity Across the Day
+
+Many users do not experience motivation or executive function as stable from morning to night.
+
+The product must help them plan based on likely capacity windows rather than the fantasy of constant availability.
+
+#### 9.2.2 Time Blindness and Day Shape Awareness
+
+Users often know they have `time somewhere` but cannot feel the actual size, sequence, or boundaries of the day.
+
+These screens must make time visible as chunks, transitions, and occupied versus open space.
+
+#### 9.2.3 Overplanning Under Optimism
+
+ADHD users may overestimate what fits into a day, especially during planning moments with temporary motivation spikes.
+
+The interface must gently slow that tendency without feeling restrictive.
+
+#### 9.2.4 Re-Planning After Drift or Disruption
+
+When the day goes off track, users need an easy way to re-place tasks into new blocks without a shame-heavy rescheduling ritual.
+
+#### 9.2.5 Translating Tasks Into Placeable Units
+
+A task title alone is often not enough to prompt action.
+
+Placing a task into a visual time block makes it feel more real, more bounded, and easier to begin.
+
+#### 9.2.6 Matching Task Demands to Real Energy
+
+The user should not need to mentally review every task and evaluate effort from scratch each time.
+
+The system should surface tasks that fit high, medium, or low energy windows in a way that feels helpful rather than controlling.
+
+### 9.3 Product Role in the Overall App
+
+The energy scheduling and time block experience sits between task capture and task execution.
+
+It is the translation layer that turns:
+
+- `I should do this`
+
+into:
+
+- `this fits here`
+
+and then:
+
+- `I can start this now`
+
+This section’s screens are therefore responsible for:
+
+- reducing decision fatigue when planning
+- externalizing day structure visually
+- normalizing energy-aware choices
+- improving start likelihood by clarifying time placement
+- supporting gentle replanning after interruption
+- making premium value concrete through richer week and month planning
+
+The screen family must feel tightly integrated with:
+
+- Home/Today view
+- task creation and editing
+- auto-rescheduling
+- reminders
+- focus timer
+
+These are not standalone views for power users.
+
+They are core behavioral scaffolds for ordinary daily use.
+
+### 9.4 Experience Principles
+
+#### 9.4.1 Capacity Before Ambition
+
+The interface should begin with what the user can probably carry, not what an ideal self might schedule.
+
+#### 9.4.2 Visible Time Beats Abstract Priority
+
+Seeing where a task lives in the day is more actionable than ranking it in a list.
+
+#### 9.4.3 Planning Must Stay Soft
+
+A time block is a proposal, not a promise.
+
+The UI must communicate flexibility explicitly.
+
+#### 9.4.4 Energy Language Must Guide, Not Label the User
+
+Energy categories describe fit between a task and a moment.
+
+They must never imply fixed identity or moral worth.
+
+#### 9.4.5 Replanning Must Feel Like Normal Maintenance
+
+Moving a block should feel as emotionally neutral as adjusting a sticky note.
+
+#### 9.4.6 Visual Calm Is Required
+
+Because these screens represent time, density, and choices, they can become overwhelming quickly.
+
+The design must maintain simplicity, spacing, and strong hierarchy at all times.
+
+### 9.5 Screen Inventory
+
+This section covers the following primary screens and surfaces:
+
+- Energy Schedule Overview
+- Day Time Block View
+- Week Energy Planning View
+- Month Planning View
+- Block Placement Sheet
+- Energy Match Suggestions Sheet
+- Replan / Drift Recovery View
+- Empty and edge states specific to these views
+
+Each screen should share a consistent visual language:
+
+- warm, soft time blocks
+- clear segmentation by day part
+- energy markers that are visible but not loud
+- rounded containers
+- sparse but helpful copy
+- large placement and movement touch targets
+
+### 9.6 Screen 1: Energy Schedule Overview
+
+#### 9.6.1 Purpose
+
+The Energy Schedule Overview is the user’s primary planning entry point for capacity-aware scheduling.
+
+It provides a bird’s-eye view of:
+
+- the current day’s energy windows
+- planned blocks already placed
+- suggested tasks by energy fit
+- opportunities to rebalance the day
+
+It should feel like a calm command center, not a dense scheduler.
+
+#### 9.6.2 Primary User Questions
+
+This screen must answer:
+
+- what kind of day am I having
+- when do I usually do best with demanding tasks
+- what is already occupying my day
+- what still fits
+- what should move if my energy is lower than expected
+
+#### 9.6.3 Entry Points
+
+Users may reach this screen from:
+
+- Home/Today `Plan with energy`
+- a task card action such as `Place in day`
+- onboarding completion when energy patterns are available
+- a notification or reminder prompting a replan
+- weekly planning flow for premium users
+
+#### 9.6.4 Top Region
+
+The top region should contain:
+
+- current date
+- optional day label such as `Tuesday`
+- current energy check-in state
+- one-line supportive framing
+- a compact summary of how full the day is
+
+Example summary patterns:
+
+- `Your day has room for 2 medium tasks`
+- `This morning looks full. Afternoon has breathing room`
+- `Low-energy day so far. Let’s keep it lighter`
+
+This top region should orient rather than overwhelm.
+
+#### 9.6.5 Energy Band Summary
+
+Below the top region, the screen should present the day as energy bands rather than only hours.
+
+Example structure:
+
+- morning: medium
+- midday: high
+- afternoon: low
+- evening: low
+
+Each band should show:
+
+- approximate time range
+- energy level
+- a short descriptor
+- number of planned blocks inside it
+- available space indicator if relevant
+
+Descriptors should use adult, practical language.
+
+Examples:
+
+- `clear-headed`
+- `steady`
+- `foggy`
+- `winding down`
+- `good for admin`
+- `good for deeper thinking`
+
+The system may infer defaults from onboarding and learned behavior, but the user must be able to override for the current day.
+
+#### 9.6.6 Current-Day Override Control
+
+Users should be able to tap an energy band and say:
+
+- `more energy than usual`
+- `about right`
+- `less energy than usual`
+- `skip energy for today`
+
+This matters because a user’s actual capacity may differ due to:
+
+- sleep
+- medication timing
+- stress
+- illness
+- menstrual cycle
+- work context
+- emotional load
+
+The app should react to the override immediately by changing suggestions and softness of schedule recommendations.
+
+#### 9.6.7 Planned Blocks Preview
+
+Each energy band should show a compact preview of planned blocks inside that band.
+
+Preview rules:
+
+- show up to three visible block chips before collapsing
+- include short task title
+- show approximate duration visually
+- indicate if a block is flexible versus anchored
+- indicate if a block is already in progress
+
+Anchored means tied to a real constraint such as an appointment.
+
+Flexible means movable within the day.
+
+This distinction is important because ADHD users often need help seeing what can move safely.
+
+#### 9.6.8 Suggested Matches Strip
+
+The screen should include a horizontally scrollable or vertically stacked suggestion area titled with plain language such as:
+
+- `Good fits for this energy`
+- `Fits your current capacity`
+- `Lighter options for right now`
+
+Each suggestion card should show:
+
+- task title
+- estimated duration
+- energy fit label
+- reason for suggestion
+- one-tap `Place now`
+- one-tap `Start instead`
+
+Reason examples:
+
+- `short and low effort`
+- `matches your higher-focus window`
+- `already partly started`
+- `good before your 3 PM meeting`
+
+#### 9.6.9 Density Guardrails
+
+This screen must guard against false confidence.
+
+If a user attempts to place too many medium or high-demand tasks into the same band, the UI should gently flag overload.
+
+It must not use red punitive warnings.
+
+Instead it should say things like:
+
+- `This block of the day is getting crowded`
+- `You may want to leave recovery room here`
+- `Two demanding tasks already live in this window`
+
+The goal is reflective friction, not prohibition.
+
+#### 9.6.10 Primary Actions
+
+Primary actions on the overview screen include:
+
+- add block
+- auto-fill suggestions
+- adjust today’s energy
+- open day view
+- open week view
+- replan after drift
+
+These should remain few in number and visually clear.
+
+#### 9.6.11 Emotional Outcome
+
+The user should feel:
+
+- understood by the system
+- less pressured to force an unrealistic day
+- more able to choose a next step
+- safer making a lighter plan when needed
+
+### 9.7 Screen 2: Day Time Block View
+
+#### 9.7.1 Purpose
+
+The Day Time Block View is the most concrete visual representation of the day.
+
+It translates tasks and commitments into visible blocks on a timeline-like surface.
+
+This view is not intended to mimic a rigid enterprise calendar.
+
+It should feel softer, clearer, and more ADHD-friendly than a conventional agenda.
+
+#### 9.7.2 Core Function
+
+The screen must help the user:
+
+- see the shape of the day
+- place tasks into actual time windows
+- understand how long things likely take
+- identify open spaces
+- drag, stretch, shrink, or move flexible blocks
+- recover when the day changes
+
+#### 9.7.3 Layout Structure
+
+The day view should be divided into:
+
+- top header and date navigation
+- optional current energy status row
+- vertical time block canvas
+- bottom quick actions tray
+
+The time block canvas is the primary focus.
+
+#### 9.7.4 Time Canvas Philosophy
+
+The canvas must favor readability over strict minute-level precision.
+
+Users with ADHD usually need:
+
+- approximate placement
+- visible duration
+- a feeling of day flow
+
+They do not always need:
+
+- exact quarter-hour perfection
+- dense calendar controls
+- highly technical scheduling detail
+
+This means the timeline may support approximate placement in larger increments by default, with more precise control available only when necessary.
+
+#### 9.7.5 Day Segmentation
+
+The day should be visually segmented into meaningful chunks.
+
+Possible segmentation:
+
+- early morning
+- morning
+- midday
+- afternoon
+- evening
+- night
+
+These chunks may align to hourly spans, but the labels should remain human-readable.
+
+Each segment should include:
+
+- time labels
+- a subtle energy tint
+- enough whitespace to reduce clutter
+
+The tint must remain soft and low-contrast enough not to become visually noisy.
+
+#### 9.7.6 Time Block Anatomy
+
+A standard block in day view should contain:
+
+- task title
+- optional icon or category marker
+- approximate duration
+- energy fit indicator
+- block type marker: flexible or anchored
+- state marker: planned, started, paused, completed, moved
+
+If there is insufficient vertical room, the block should preserve title and state first, then collapse secondary details.
+
+#### 9.7.7 Block Color and Meaning
+
+Colors should communicate state gently.
+
+Examples:
+
+- calm amber or peach for flexible planned blocks
+- warmer gold or coral accent for in-progress blocks
+- muted teal or moss for completed blocks
+- soft stone or cloud tone for moved or deferred blocks
+- neutral warm gray for anchored external events
+
+No block state should imply punishment through harsh red.
+
+Missed or moved tasks should appear adaptive, not delinquent.
+
+#### 9.7.8 Now Marker
+
+The current time marker is critical for time blindness support.
+
+It should be:
+
+- clearly visible
+- visually distinct from ordinary dividers
+- easy to spot at a glance
+- paired with a subtle `Now` label
+
+The marker should help the user orient quickly without dominating the screen.
+
+#### 9.7.9 Current Window Highlight
+
+The current active time window should be softly highlighted.
+
+This reduces the cognitive cost of locating oneself in the day.
+
+The highlight should be more atmospheric than alerting.
+
+#### 9.7.10 Open Space Representation
+
+Unscheduled time is a feature, not an emptiness problem.
+
+Open space should be visibly represented so users can feel:
+
+- available room
+- transition buffers
+- recovery pockets
+
+Open space may contain suggestions such as:
+
+- `good spot for a short task`
+- `leave this open`
+- `possible admin window`
+
+These suggestions must remain subtle and dismissible.
+
+#### 9.7.11 Block Interaction Model
+
+Users should be able to:
+
+- tap a block to open detail
+- drag a flexible block to another time
+- resize a block duration using handles or simple controls
+- convert a block from flexible to anchored
+- split a block into smaller parts
+- mark `start now`
+- mark `not happening today`
+
+Direct manipulation matters here because it lowers the friction of replanning.
+
+#### 9.7.12 Drag and Drop Behavior
+
+Drag and drop must feel forgiving.
+
+Rules:
+
+- snap to sensible intervals
+- show ghost placement before drop
+- preview energy fit in destination area
+- reveal overload warning only if placement truly creates crowding
+- allow cancellation without penalty
+
+If the destination has lower energy compatibility, the system may say:
+
+- `Still possible, but this may feel heavy here`
+
+This is guidance, not rejection.
+
+#### 9.7.13 Placement Feedback
+
+When a block is successfully placed or moved, the app should provide:
+
+- brief haptic confirmation
+- a small visual settle animation
+- concise copy if needed
+
+Example:
+
+- `Moved to your steadier afternoon window`
+
+This creates confidence without interrupting flow.
+
+#### 9.7.14 Starting From Day View
+
+Users should be able to start a task directly from its placed block.
+
+Starting a task should:
+
+- change the block state immediately
+- trigger light celebration
+- optionally open the focus timer if duration suggests it
+- preserve the time context of the day
+
+#### 9.7.15 Planning From Empty Space
+
+Tapping an open area in the time canvas should open a lightweight add flow.
+
+That flow should prefill:
+
+- time range
+- day
+- energy level of the selected window
+
+It may also suggest tasks that fit the selected space.
+
+#### 9.7.16 Contextual Suggestions Inside the Day View
+
+The day view can show context-sensitive recommendations such as:
+
+- `This 20-minute gap fits 2 low-energy tasks`
+- `You usually fade after 4 PM`
+- `Move this to tomorrow’s high-energy window?`
+
+These must remain sparse.
+
+Over-advice will create noise and reduce trust.
+
+#### 9.7.17 Anchored Events Versus Self-Planned Blocks
+
+The day view must visually distinguish:
+
+- fixed appointments
+- semi-fixed commitments
+- self-planned tasks
+
+This helps users understand what is truly movable.
+
+Anchored events should look stable and subdued.
+
+Self-planned blocks should feel editable and alive.
+
+#### 9.7.18 Recovery Buffer Logic
+
+The system should encourage buffers between demanding blocks.
+
+If the user creates back-to-back high-energy placements, the app may offer:
+
+- `Add a 10-minute reset buffer`
+- `Leave a breather here`
+
+This is especially important for ADHD users who underestimate transition costs.
+
+#### 9.7.19 Compression and Overflow Handling
+
+If the day becomes crowded, the screen must not collapse into unreadable density.
+
+Overflow behaviors may include:
+
+- stack summary chips
+- collapse secondary details
+- suggest moving lower-priority flexible blocks
+- switch to a compressed card list below the timeline for overflow items
+
+The product must preserve legibility over completeness.
+
+#### 9.7.20 Emotional Outcome
+
+The user should feel:
+
+- able to see the day instead of guessing at it
+- less likely to overpack time blindly
+- more comfortable moving blocks when reality changes
+- less afraid of the planner after disruption
+
+### 9.8 Screen 3: Week Energy Planning View
+
+#### 9.8.1 Purpose
+
+The week view is a premium planning surface that helps the user see patterns across multiple days without demanding rigid weekly optimization.
+
+Its purpose is not to create a perfect weekly plan.
+
+Its purpose is to help users place a few meaningful things into plausible windows and protect bandwidth across the week.
+
+#### 9.8.2 Core Questions
+
+The screen should answer:
+
+- where are my strongest windows this week
+- which days already look heavy
+- what can I spread out instead of stacking
+- where should bigger tasks probably live
+
+#### 9.8.3 Layout Options
+
+The preferred layout is a horizontally navigable week grid or stacked day cards.
+
+Each day should display:
+
+- day name and date
+- energy forecast by major band
+- anchored commitments summary
+- placed blocks summary
+- open capacity signal
+
+The week view must remain readable on mobile without requiring tiny tap targets.
+
+#### 9.8.4 Day Card Composition
+
+Each day card should show:
+
+- a compact energy profile
+- number of flexible blocks
+- one to three major planned items
+- overload or breathing-room cue
+
+Examples:
+
+- `Wednesday: high early, low late`
+- `Friday: mostly full`
+- `Sunday: light and flexible`
+
+#### 9.8.5 Weekly Placement Interaction
+
+Users should be able to move tasks across days with low friction.
+
+Possible interactions:
+
+- drag a task chip between day cards
+- tap `Move to another day`
+- auto-suggest best days for a task based on duration and energy fit
+
+#### 9.8.6 Weekly Balancing Guidance
+
+The system should support load balancing across the week.
+
+Examples:
+
+- `Two deep-focus tasks are already on Thursday`
+- `Tuesday has a better high-energy window`
+- `Saturday is mostly open if you want to move this out of the workweek`
+
+This guidance should help the user avoid piling all hard tasks onto the same imagined super-productive day.
+
+#### 9.8.7 Week Planning Ritual Support
+
+The screen should support a gentle weekly reset ritual.
+
+The app may frame this as:
+
+- `Place a few anchors for the week`
+- `Give future you a softer start`
+- `Spread the heavy stuff`
+
+The ritual should encourage light structure, not administrative burden.
+
+#### 9.8.8 Partial Planning Is Valid
+
+The week view must not imply that every day needs full blocks.
+
+A successful weekly plan may include:
+
+- only major commitments
+- only likely focus windows
+- only two or three pre-placed tasks
+
+The UI should explicitly validate partial planning.
+
+#### 9.8.9 Emotional Outcome
+
+The user should feel:
+
+- less trapped in a single overloaded day
+- more realistic about the week’s energy terrain
+- more able to spread effort without overcommitting
+
+### 9.9 Screen 4: Month Planning View
+
+#### 9.9.1 Purpose
+
+The month view is a premium zoomed-out planning surface for orientation, not detailed scheduling.
+
+It helps users understand larger patterns without turning the app into a strict calendar system.
+
+#### 9.9.2 Primary Use Cases
+
+Users may use month view to:
+
+- see major appointments and deadlines
+- spot heavy clusters
+- plan around travel or life events
+- identify likely recovery weekends
+- place broad intentions into future weeks
+
+#### 9.9.3 Information Density Rules
+
+Month view must remain intentionally light.
+
+Each date cell should show only the most important signals:
+
+- anchored event dots or markers
+- overload shading if a day is unusually packed
+- energy tendency hint if relevant
+- count of planned blocks if helpful
+
+It should not attempt to display full task titles for many items inside tiny cells.
+
+#### 9.9.4 Tap-Through Behavior
+
+Tapping a day should open:
+
+- day detail
+- quick add
+- place task
+- view commitments
+
+Tapping a week may optionally open the week energy planning view.
+
+#### 9.9.5 Emotional Framing
+
+Month view should help users feel oriented, not trapped by a wall of obligations.
+
+The calendar should avoid alarmist coloring and backlog-heavy visual language.
+
+It should look breathable even when the month is busy.
+
+#### 9.9.6 Emotional Outcome
+
+The user should feel:
+
+- able to look ahead without panic
+- more prepared for upcoming crunch points
+- more aware of where recovery room is needed
+
+### 9.10 Screen 5: Block Placement Sheet
+
+#### 9.10.1 Purpose
+
+The Block Placement Sheet is the lightweight surface that appears when the user chooses to place a task into time.
+
+It must be fast enough to support momentum.
+
+It should feel much lighter than full task editing.
+
+#### 9.10.2 Entry Points
+
+This sheet may open from:
+
+- task detail
+- task card quick actions
+- energy overview suggestions
+- empty space tap in day view
+- reminder follow-up action
+
+#### 9.10.3 Sheet Content
+
+The placement sheet should include:
+
+- task title
+- current duration estimate
+- energy fit summary
+- suggested windows
+- manual day and time selection
+- flexible versus anchored toggle
+- save action
+
+#### 9.10.4 Suggested Window List
+
+Suggested windows should rank options by:
+
+- energy fit
+- available duration
+- current day load
+- urgency
+- user preferences
+- whether the task has already been deferred several times
+
+Each suggestion row should say why it is suggested.
+
+Examples:
+
+- `Today, 2:30 PM. Good match for medium effort`
+- `Tomorrow morning. Your strongest window`
+- `Friday evening. Short and low-pressure slot`
+
+#### 9.10.5 Fast Placement Patterns
+
+The sheet should support one-tap actions such as:
+
+- `Place in best slot`
+- `Place this afternoon`
+- `Move to tomorrow`
+- `Split into two blocks`
+
+These are especially important when the user has low capacity.
+
+#### 9.10.6 Flexible Duration Adjustment
+
+If the selected window is smaller than the current estimate, the sheet may offer:
+
+- `Shrink to 15 minutes`
+- `Make this a starter block`
+- `Split the rest later`
+
+This aligns with the product philosophy of celebrating starting and lowering the barrier to entry.
+
+#### 9.10.7 Save Behavior
+
+After placement, the sheet should close quickly and return the user to context.
+
+The user should immediately see the task in its new time location.
+
+### 9.11 Screen 6: Energy Match Suggestions Sheet
+
+#### 9.11.1 Purpose
+
+This sheet appears when the product proactively helps the user choose tasks that fit a specific energy state or time window.
+
+It is a decision-reduction tool.
+
+#### 9.11.2 Trigger Conditions
+
+It may appear when:
+
+- the user taps an energy band
+- the user taps open time in the day view
+- the user requests `what fits now`
+- a planned block becomes impossible after a low-energy override
+
+#### 9.11.3 Suggestion Ranking Logic
+
+Suggested tasks should be ranked using:
+
+- energy fit
+- duration fit
+- urgency without punitive weighting
+- partial progress already made
+- emotional difficulty
+- recent postponement history
+- whether the task unlocks other tasks
+
+The ranking should prefer achievable momentum over theoretical importance alone.
+
+#### 9.11.4 Card Anatomy
+
+Each task suggestion card should include:
+
+- title
+- estimated duration
+- effort or energy fit
+- supportive reason
+- one-tap start
+- one-tap place
+- one-tap skip for now
+
+#### 9.11.5 Tone Rules
+
+The sheet should never say:
+
+- `You should be doing`
+- `Best use of your time`
+- `Productive choice`
+
+It should instead use:
+
+- `might fit`
+- `could work here`
+- `lighter option`
+- `good for your current energy`
+
+#### 9.11.6 Decline Path
+
+Users must be able to dismiss suggestions without penalty.
+
+The sheet should never behave as though rejecting a suggestion is a mistake.
+
+### 9.12 Screen 7: Replan / Drift Recovery View
+
+#### 9.12.1 Purpose
+
+This view supports users after the day has drifted away from the original plan.
+
+It is one of the most strategically important surfaces in the product because ADHD users often abandon planners at the moment a plan stops matching reality.
+
+This screen must make re-entry feel normal.
+
+#### 9.12.2 Trigger Conditions
+
+The view may be offered when:
+
+- several planned blocks have passed untouched
+- current energy is far below the planned demand
+- the user opens the app after a long gap
+- a focus session ended much later than planned
+- the user manually taps `Replan`
+
+#### 9.12.3 Core Message
+
+The screen should frame the situation as a plan update, not a failure event.
+
+Examples:
+
+- `Your day changed. Let’s adjust it`
+- `This plan can flex`
+- `Want help reshaping the rest of today?`
+
+#### 9.12.4 Layout
+
+The recovery view should show:
+
+- where the day currently stands
+- what blocks were missed or no longer fit
+- remaining open windows
+- current or updated energy context
+- a few clear actions
+
+#### 9.12.5 Recovery Actions
+
+Primary actions should include:
+
+- move to later today
+- move to tomorrow
+- shrink into starter block
+- mark not for today
+- start now anyway
+- auto-rebalance remaining blocks
+
+#### 9.12.6 Auto-Rebalance Behavior
+
+If the user chooses automatic help, the app may:
+
+- keep anchored commitments fixed
+- move flexible blocks into remaining windows
+- reduce or split blocks that no longer fit
+- suggest carrying low-priority items forward
+
+The system must explain the adjustment in plain language.
+
+Example:
+
+- `We moved two flexible tasks to tomorrow and left one short task for tonight`
+
+#### 9.12.7 Emotional Safeguards
+
+This view must not:
+
+- show large counts of missed work as a guilt signal
+- color missed blocks aggressively
+- compare plan versus performance in a judgmental way
+- ask reflective questions that feel like homework in the moment
+
+Its job is operational recovery.
+
+#### 9.12.8 Emotional Outcome
+
+The user should feel:
+
+- relief
+- clarity
+- permission to continue the day
+- confidence that the system adapts instead of accusing
+
+### 9.13 Motion, Haptics, and Microfeedback
+
+These screens involve movement, placement, and reconfiguration.
+
+Feedback should help the user trust changes without overstimulation.
+
+Required patterns:
+
+- soft snap animation on block placement
+- subtle haptic on successful move
+- gentle pulse or glow for current time area
+- brief celebratory response when a placed block is started
+- calm fade transition when switching between day, week, and month views
+
+Motion must clarify state change.
+
+It must never become decorative chaos.
+
+### 9.14 Copywriting Requirements
+
+Copy across these screens must remain:
+
+- short
+- concrete
+- supportive
+- non-judgmental
+
+Preferred language patterns:
+
+- `fits here`
+- `move this`
+- `lighter option`
+- `good window`
+- `leave room`
+- `start small`
+- `try later`
+- `not for today`
+
+Avoid:
+
+- `failed`
+- `overdue`
+- `behind`
+- `missed goal`
+- `best practice`
+- `optimize`
+- `wasted time`
+
+### 9.15 Accessibility Requirements for Energy Scheduling and Time Block Views
+
+These screens have unusually high accessibility importance because they combine:
+
+- visual timelines
+- color-coded energy states
+- drag interactions
+- dense temporal information
+
+Required behaviors include:
+
+- all color meanings must have text or icon reinforcement
+- screen reader access to every block, time range, and state
+- non-drag alternatives for moving blocks
+- large touch targets for block controls
+- reduced motion mode for all placement and transition animations
+- dynamic type support without destroying core hierarchy
+- strong contrast for time labels and current position indicators
+- plain-language labels for energy states
+
+Screen reader examples should expose information such as:
+
+- task title
+- scheduled time
+- duration
+- energy fit
+- movable or anchored status
+- completion or progress state
+
+### 9.16 ADHD-Specific UX Risks
+
+#### 9.16.1 Risk: The View Becomes a Fancy Calendar Rather Than an ADHD Tool
+
+If the screen copies mainstream calendar patterns too closely, it will inherit their rigidity and intimidation.
+
+Mitigation:
+
+- emphasize softness and editability
+- keep precision optional
+- foreground energy and recoverability
+
+#### 9.16.2 Risk: Too Many Visible Blocks Create Overwhelm
+
+If every detail is shown at once, the screen becomes cognitively unusable.
+
+Mitigation:
+
+- collapse nonessential details
+- use progressive disclosure
+- preserve whitespace aggressively
+
+#### 9.16.3 Risk: Energy Guidance Feels Patronizing or Deterministic
+
+If the app seems to tell the user what they are capable of, trust will break.
+
+Mitigation:
+
+- frame energy as a suggestion layer
+- allow instant override
+- avoid identity language
+
+#### 9.16.4 Risk: Replanning Feels Like Admitting Defeat
+
+If moving blocks carries emotional weight, users will avoid the screen when they need it most.
+
+Mitigation:
+
+- normalize movement
+- use soft states
+- make relocation visually easy and emotionally neutral
+
+#### 9.16.5 Risk: The Screen Encourages Over-Scheduling
+
+A visually placeable day can tempt users to fill every open gap.
+
+Mitigation:
+
+- visibly honor buffers and empty space
+- gently flag crowding
+- validate leaving room
+
+### 9.17 Success Criteria for Energy Scheduling and Time Block Views
+
+This section is successful when the experience reliably produces the following outcomes:
+
+- users can place a task into time with very low friction
+- users better understand the actual shape of their day
+- users make more realistic plans when energy is low
+- replanning after disruption feels safe and fast
+- open time and recovery buffers remain visible and valued
+- week and month views help orientation without creating calendar anxiety
+- premium planning value feels tangible and behaviorally useful
+- energy-aware suggestions help users start rather than freeze
+
+The emotional success metric is:
+
+the user feels guided toward a doable day, not pressured into performing an imaginary one
+
+### 9.18 Section Summary
+
+Energy scheduling and time block views are the product’s main tools for turning ADHD reality into workable daily structure.
+
+They should make time visible, capacity legible, and replanning emotionally safe.
+
+If these screens are executed well, the user will experience something most planners fail to provide:
+
+- a day that feels placeable
+- a plan that can flex without shame
+- support that respects energy as real
+- a visual system that helps action happen sooner
+
+These screens are where the app proves it is not merely kinder in tone than other planners.
+
+They are where it becomes structurally different.
+
+## 10. Screen-by-Screen: Habit Tracking (No Streaks, Gentle Nudges)
+
+### 10.1 Section Intent
+
+This section defines the habit tracking experience for an ADHD-native planner that rejects streak pressure, all-or-nothing framing, and shame-based retention mechanics.
+
+In this product, habits are not obedience loops.
+
+They are soft support structures for repetition, identity reinforcement, and easier re-entry.
+
+Traditional habit systems often turn a simple miss into a symbolic failure event.
+
+For many ADHD users, that pattern is destructive.
+
+One missed day can trigger:
+
+- avoidance
+- self-criticism
+- abandonment of the habit entirely
+- a sense of having ruined progress
+- reluctance to reopen the app
+
+This product must break that pattern.
+
+Habit tracking here should help users:
+
+- remember what they are trying to support
+- notice patterns without moralizing them
+- celebrate showing up
+- recover quickly after gaps
+- keep habits feeling alive even when consistency is uneven
+
+The core design stance is simple:
+
+Missing a habit check-in is not a broken promise.
+
+It is information about context, energy, life load, and friction.
+
+The screens in this section must translate that stance into visible behavior.
+
+They must feel fundamentally different from mainstream streak apps.
+
+They must feel warm, resilient, and practical.
+
+### 10.2 Core User Needs These Screens Must Solve
+
+#### 10.2.1 Repetition Support Without Punishment
+
+Users need help repeating behaviors over time.
+
+They do not need a system that turns inconsistency into visible failure.
+
+#### 10.2.2 Low-Friction Daily Check-In
+
+A habit support tool only works if interaction stays lighter than the effort of the habit itself.
+
+Daily check-in must therefore be extremely fast.
+
+#### 10.2.3 Recovery After Missed Days
+
+Many users can engage with a habit for several days, disappear for a week, and then feel too guilty to return.
+
+The product must make coming back feel normal.
+
+#### 10.2.4 Pattern Visibility Without Harsh Metrics
+
+Users benefit from seeing:
+
+- rough frequency
+- time-of-day tendencies
+- environmental fit
+- easier and harder weeks
+
+They do not benefit from being dominated by:
+
+- broken streak counts
+- longest streak worship
+- red missed-day grids
+- loss language
+
+#### 10.2.5 Habit Identity Support
+
+The user often wants reinforcement that says:
+
+- this still counts
+- I am still someone who is building this
+- returning is part of the process
+
+The system should support that identity gently and credibly.
+
+#### 10.2.6 Flexible Habit Definitions
+
+Not every habit should behave like a daily binary checkbox.
+
+Some habits are:
+
+- daily when possible
+- weekly
+- several times per week
+- tiny starter habits
+- maintenance routines tied to energy or context
+
+The UI must support this range without becoming complex or clinical.
+
+### 10.3 Product Role in the Overall App
+
+The habit tracking layer extends the planner from moment-to-moment task support into longer-term life scaffolding.
+
+It should help users maintain supportive routines without importing the emotional failure modes of traditional habit apps.
+
+This section’s screens are responsible for:
+
+- making habit engagement fast enough for low-capacity moments
+- distinguishing habits from ordinary repeating tasks
+- helping users see patterns that matter
+- providing gentle reminders and re-entry support
+- validating partial participation
+- making premium value tangible without locking essential dignity behind a paywall
+
+The habit system must feel integrated with:
+
+- onboarding personalization
+- Home/Today view
+- energy-aware planning
+- reminders
+- focus support
+- settings for sensory and notification preferences
+
+Habits are not a separate self-improvement product bolted onto the planner.
+
+They are one more way the app supports real ADHD life.
+
+### 10.4 Experience Principles
+
+#### 10.4.1 Return Matters More Than Perfect Continuity
+
+The system should reward re-entry and participation, not uninterrupted runs.
+
+#### 10.4.2 Habits Must Feel Lightweight
+
+If the interface feels administrative, users will stop using it.
+
+#### 10.4.3 Patterns Beat Scores
+
+The product should show rhythms, contexts, and frequency instead of moralized tallies.
+
+#### 10.4.4 Nudges Must Feel Supportive, Not Supervisory
+
+A reminder should feel like external memory support.
+
+It must not feel like being checked on.
+
+#### 10.4.5 Misses Must Stay Emotionally Neutral
+
+The system should never dramatize a gap.
+
+It should absorb gaps and keep moving.
+
+#### 10.4.6 Tiny Wins Must Count
+
+For ADHD users, doing a habit imperfectly or partially may be the meaningful victory.
+
+The UI should make small engagement visible and valid.
+
+#### 10.4.7 Habit Screens Must Remain Calm
+
+Because habit products can become dense with charts, streaks, trophies, and cumulative pressure, this app must stay visually warm and restrained.
+
+### 10.5 Screen Inventory
+
+This section covers the following primary screens and surfaces:
+
+- Habits Home
+- Habit Card System
+- Habit Creation and Edit Flow
+- Quick Check-In Sheet
+- Habit Detail and Pattern View
+- Gentle Re-Entry Surface
+- Habit Reminder and Nudge States
+- Empty, Paused, and Edge States
+
+Each screen should share a consistent visual language:
+
+- rounded cards
+- warm, soft color coding
+- minimal dense text
+- large completion and adjustment targets
+- positive feedback for participation
+- no red missed-day treatment
+- no aggressive chart styling
+
+### 10.6 Screen 1: Habits Home
+
+#### 10.6.1 Purpose
+
+Habits Home is the central screen for seeing active habits, checking in quickly, and regaining orientation after a gap.
+
+It should feel like a gentle daily support board.
+
+It should not feel like a scoreboard.
+
+#### 10.6.2 Primary User Questions
+
+This screen must answer:
+
+- what habits matter today
+- what can I check in with quickly
+- what has been feeling easy lately
+- what might need a gentler re-entry
+- what counts as progress right now
+
+#### 10.6.3 Entry Points
+
+Users may reach Habits Home from:
+
+- bottom navigation or primary app tab
+- Home/Today module featuring active habits
+- reminder tap-through
+- premium upsell conversion path
+- post-onboarding recommendation to set a first support habit
+
+#### 10.6.4 Emotional Role
+
+This screen is a high-risk emotional surface.
+
+Many users will open it after inconsistency.
+
+Therefore the default emotional message must be:
+
+You can resume from here without cleanup, apology, or catching up
+
+#### 10.6.5 Top Region
+
+The top region should contain:
+
+- screen title
+- a short framing line
+- a compact participation summary
+- a primary action to add a habit
+
+Example framing lines:
+
+- `Support a few routines gently`
+- `Small repeats still count`
+- `Pick back up wherever today starts`
+
+The summary should avoid numeric pressure.
+
+Good summary patterns include:
+
+- `2 habits ready for a quick check-in`
+- `You showed up for this a few times this week`
+- `Today can be a reset point`
+
+Bad summary patterns include:
+
+- `You missed 4 days`
+- `Streak lost`
+- `Only 32% completed`
+
+#### 10.6.6 Information Architecture
+
+Habits Home should prioritize the following order:
+
+1. immediate, easy check-ins
+2. supportive orientation
+3. pattern glimpses
+4. lower-priority management actions
+
+The screen should not begin with analytics.
+
+It should begin with actionability.
+
+#### 10.6.7 Active Habit Groups
+
+The screen may group habits into a few simple zones:
+
+- `Ready now`
+- `Later today`
+- `This week`
+- `Needs a soft restart`
+
+Grouping logic should feel helpful rather than evaluative.
+
+`Needs a soft restart` is not an error state.
+
+It simply means the habit has been quiet and may benefit from a low-pressure re-entry message.
+
+Group membership should be adaptive rather than fixed.
+
+Suggested grouping behavior:
+
+- `Ready now` contains habits whose preferred time, cue, or reminder window is currently active
+- `Later today` contains habits likely to fit later based on time-of-day preference or reminder schedule
+- `This week` contains lower-immediacy habits that are still relevant within the current week
+- `Needs a soft restart` contains habits that have gone quiet beyond their usual cadence window without being archived or paused
+
+The same habit should appear in only one primary group at a time to avoid duplication and visual noise.
+
+If the number of active habits is small, the product may collapse groups into a single ordered list while preserving the same prioritization logic.
+
+If a group is empty, the screen may omit it rather than rendering a hollow container.
+
+#### 10.6.8 Today Relevance Rules
+
+The screen should surface habits based on:
+
+- expected cadence
+- reminder timing
+- time-of-day preference
+- energy context
+- recent engagement
+- whether the user tends to do the habit in clusters
+
+The product should not surface everything equally at all times.
+
+Too many active habits in one list will overwhelm the user.
+
+#### 10.6.9 Compact Daily Snapshot
+
+A small snapshot area near the top may show:
+
+- today’s likely easy wins
+- one habit that has been feeling steady
+- one habit that has been quiet
+- an invitation to keep goals small
+
+Example:
+
+- `Tea before email still seems to fit mornings`
+- `A tiny stretch check-in could fit your low-energy afternoon`
+
+This should feel observational, not prescriptive.
+
+#### 10.6.10 Habit Card Density Rules
+
+The home screen should display a manageable number of expanded habit cards.
+
+Rules:
+
+- show high-relevance habits first
+- collapse low-relevance habits into a secondary list
+- preserve whitespace between cards
+- avoid chart clutter in the main feed
+- keep interaction targets visibly large
+
+#### 10.6.11 Quick Actions
+
+Primary actions on Habits Home include:
+
+- check in
+- mark partial
+- snooze gently
+- open detail
+- pause habit
+- add habit
+
+These actions must stay visible without making every card feel busy.
+
+#### 10.6.12 Premium Framing
+
+If the user is on the free tier and habits are premium, the Habits Home preview state should still communicate the philosophy clearly.
+
+It should emphasize:
+
+- no shame
+- no streak pressure
+- pattern-based support
+- easy return after gaps
+
+The upsell should never imply that premium users become more disciplined.
+
+It should imply that premium unlocks more supportive scaffolding.
+
+#### 10.6.13 Emotional Outcome
+
+The user should feel:
+
+- safe opening the habit area after a gap
+- able to check in without friction
+- interested in continuing rather than hiding
+- supported by the app rather than measured by it
+
+### 10.7 Screen 2: Habit Card System
+
+#### 10.7.1 Purpose
+
+Habit cards are the main interaction units of the habit experience.
+
+They must make a habit feel alive, approachable, and easy to re-enter.
+
+#### 10.7.2 Card Anatomy
+
+Each habit card should contain:
+
+- habit name
+- optional small icon or color marker
+- short purpose or cue line
+- cadence label
+- relevant time cue
+- quick check-in controls
+- a lightweight pattern preview
+- overflow actions
+
+The card should emphasize immediate action over metadata.
+
+#### 10.7.3 Name and Cue Line
+
+The card should present the habit in user-centered language.
+
+Examples:
+
+- `Take meds`
+- `Open laptop and plan first 10 minutes`
+- `Stretch for one song`
+- `Drink water before second coffee`
+
+An optional cue line can ground the habit in real context.
+
+Examples:
+
+- `Usually easiest right after breakfast`
+- `Works best as a tiny version`
+- `Even once this week counts`
+
+#### 10.7.4 Check-In Controls
+
+Each card should support one-tap check-in options appropriate to the habit.
+
+Possible controls:
+
+- `Done`
+- `Did a little`
+- `Not today`
+- `Remind me later`
+
+Not every habit requires every option.
+
+The product should avoid overwhelming the card with too many buttons.
+
+#### 10.7.5 Partial Completion Support
+
+Partial participation is strategically important.
+
+For many habits, a reduced version should count as meaningful engagement.
+
+Examples:
+
+- one minute of stretching
+- taking some notes instead of full journaling
+- putting the meds bottle on the counter even if intake is delayed
+
+The card system should support partials where appropriate through language like:
+
+- `Did a little`
+- `Starter version`
+- `Count the tiny version`
+
+This helps preserve momentum and reduce all-or-nothing dropout.
+
+#### 10.7.6 Pattern Preview
+
+Each card may include a very lightweight preview of recent engagement.
+
+Possible representations:
+
+- a row of soft dots
+- a seven-day warmth band
+- a tiny participation sparkline
+
+This preview must avoid harsh missed-day encoding.
+
+Missed periods should look neutral, not accusatory.
+
+The card preview is for orientation only.
+
+Deeper patterns belong in detail view.
+
+#### 10.7.7 Participation Language
+
+Card copy should reinforce engagement rather than binary pass-fail framing.
+
+Preferred examples:
+
+- `You’ve shown up for this a few times lately`
+- `This one tends to work better later in the day`
+- `Quiet recently. Easy to restart small`
+
+Avoid:
+
+- `Failure rate`
+- `Current streak`
+- `Broken`
+- `Off track`
+
+#### 10.7.8 Visual States
+
+Habit cards should have gentle visual states such as:
+
+- ready
+- completed today
+- partially completed today
+- snoozed
+- paused
+- re-entry recommended
+
+These states should be communicated with:
+
+- subtle icon shifts
+- calm color changes
+- microcopy
+- minimal motion
+
+No state should turn the card hostile.
+
+#### 10.7.9 Completed-Today State
+
+When checked in, a habit card should:
+
+- settle visually
+- show a soft celebratory confirmation
+- remain visible for context
+- avoid disappearing too abruptly
+
+The system may show copy such as:
+
+- `Nice. Showing up counts`
+- `Logged`
+- `Tiny wins still move things`
+
+The celebration should be smaller than task-start celebration.
+
+Habits are ongoing.
+
+The feedback should feel warm, not finale-like.
+
+#### 10.7.10 Re-Entry Card State
+
+If a habit has been quiet for a while, the card should shift into a re-entry state.
+
+This state may show:
+
+- softer contrast
+- a practical restart suggestion
+- quick action to do a tiny version
+
+Example copy:
+
+- `Want to restart with the smallest version today?`
+- `You can pick this back up without catching up`
+- `Try one easy rep`
+
+#### 10.7.11 Overflow Actions
+
+Overflow actions may include:
+
+- edit habit
+- view pattern details
+- pause for now
+- change reminder
+- change schedule
+- archive habit
+
+Archive should be available, but delete should not be the primary emotional exit path.
+
+The system should support:
+
+- pausing a habit that is not realistic right now
+- archiving a habit that no longer fits
+
+This reinforces that changing needs are normal.
+
+#### 10.7.12 Emotional Outcome
+
+The user should feel:
+
+- invited into action quickly
+- validated for partial effort
+- unafraid of seeing a habit after inconsistency
+
+### 10.8 Screen 3: Habit Creation and Edit Flow
+
+#### 10.8.1 Purpose
+
+The habit creation flow must help users define supportive, realistic routines without accidentally setting up a shame trap.
+
+#### 10.8.2 Design Goal
+
+The flow should lead users toward:
+
+- smaller scope
+- realistic cadence
+- concrete cues
+- permission for partial participation
+- gentle reminder choices
+
+It should actively resist the common failure mode of creating an aspirational habit that is too large, too frequent, or too vague.
+
+#### 10.8.3 Entry Points
+
+Users may enter creation from:
+
+- Habits Home
+- onboarding recommendation
+- Home/Today suggestion
+- a completed task that the user wants to turn into a habit
+- a re-entry recommendation after repeated manual repetition
+
+Edit entry points include:
+
+- habit card overflow
+- habit detail
+- reminder settings
+
+#### 10.8.4 Flow Structure
+
+The creation flow should feel lightweight and stepwise.
+
+Recommended structure:
+
+1. name the habit
+2. choose cadence
+3. choose best timing or cue
+4. define what counts
+5. choose reminder style
+6. confirm gentle setup
+
+The flow should not present all controls on one dense form.
+
+#### 10.8.5 Naming Guidance
+
+The app should encourage specific, doable names.
+
+Good examples:
+
+- `Put meds by water bottle and take them`
+- `Write one sentence in journal`
+- `Walk outside for five minutes`
+- `Tidy desk for one song`
+
+The interface may guide against vague ambition phrases such as:
+
+- `Be healthy`
+- `Get life together`
+- `Always keep house clean`
+
+The product should not shame these inputs.
+
+It should redirect them into smaller, behavior-shaped wording.
+
+#### 10.8.6 Cadence Selection
+
+Cadence options should include:
+
+- daily
+- weekdays
+- weekends
+- certain days
+- x times per week
+- x times per month
+- flexible `when possible` pattern for especially gentle habits
+
+Cadence should be communicated as support frequency, not contract terms.
+
+#### 10.8.7 Definition of Success
+
+The flow must ask what counts as a valid check-in.
+
+This is crucial.
+
+The user may define:
+
+- full version only
+- tiny version counts
+- partial version counts differently
+- simple yes/no check-in
+- quantity-based participation such as glasses of water or minutes moved
+
+The system should gently recommend tiny-valid definitions when appropriate.
+
+Example:
+
+`Want the smallest version to count too? That can make restarting easier.`
+
+#### 10.8.8 Time and Cue Selection
+
+The user should be able to anchor a habit by:
+
+- time of day
+- after another event
+- during a certain energy state
+- when opening the app in the morning
+- loose weekly timing
+
+The app should encourage contextual anchors over abstract intention.
+
+Examples:
+
+- `after coffee`
+- `before leaving home`
+- `during low-energy evening`
+- `after lunch reset`
+
+#### 10.8.9 Reminder Selection
+
+Reminder options should feel gentle and adjustable.
+
+Possible styles:
+
+- soft single nudge
+- two-step reminder
+- body doubling style encouragement
+- silent badge only
+- no reminder
+
+The flow should make it clear that more reminders are not always better.
+
+#### 10.8.10 Shame Prevention Guidance
+
+At setup time, the UI should proactively steer the user away from impossible habit definitions.
+
+Examples:
+
+- `Daily might be a lot right now. Want to start with 3 times a week?`
+- `This sounds like a big task. Would a 5-minute version fit better as a habit?`
+- `You can always increase this later`
+
+This guidance must remain optional and respectful.
+
+#### 10.8.11 Edit Philosophy
+
+Editing a habit should feel like tuning support, not admitting failure.
+
+Users should easily change:
+
+- cadence
+- reminder style
+- what counts
+- cue
+- title
+- paused state
+
+The edit flow should not present historical data in a way that pressures the user to preserve the original setup.
+
+#### 10.8.12 Pause and Archive Paths
+
+The edit flow must support:
+
+- pause for now
+- pause until a date
+- archive gently
+
+Pause copy examples:
+
+- `This doesn’t need to disappear. You can shelve it for a while`
+- `Pause while life is full`
+
+This matters because forcing delete-or-continue increases shame and abandonment.
+
+#### 10.8.13 Emotional Outcome
+
+The user should feel:
+
+- realistic about what they created
+- supported in making habits smaller
+- free to adjust without guilt later
+
+### 10.9 Screen 4: Quick Check-In Sheet
+
+#### 10.9.1 Purpose
+
+The Quick Check-In Sheet is the fast interaction surface for logging a habit without opening full detail.
+
+It is one of the most important pieces of the habit experience because it reduces the cost of showing up.
+
+#### 10.9.2 Trigger Points
+
+This sheet may open from:
+
+- tapping a habit card
+- tapping a reminder
+- tapping a habit from Home/Today
+- lock-screen or notification actions where supported
+
+#### 10.9.3 Sheet Content
+
+The sheet should include:
+
+- habit name
+- quick encouragement
+- relevant check-in choices
+- optional partial or note controls
+- reminder-later action
+- `not today` or skip action where appropriate
+
+#### 10.9.4 Check-In Choices
+
+The check-in sheet should adapt to the habit type.
+
+Examples:
+
+- binary completion
+- partial completion
+- quantity stepper
+- duration shortcuts
+- mood or energy context tag if useful
+
+The sheet must remain small and quick.
+
+It should never feel like filling out a journal when the user only wanted to log a habit.
+
+#### 10.9.5 Optional Context Capture
+
+For some habits, the app may offer lightweight optional context tags such as:
+
+- `easy`
+- `hard`
+- `helped`
+- `low energy`
+- `outside routine`
+
+This data can later support pattern insights.
+
+It must remain optional.
+
+#### 10.9.6 Remind-Later Behavior
+
+`Remind me later` should offer fast choices such as:
+
+- in 15 minutes
+- this evening
+- tomorrow morning
+- next scheduled time
+
+Choosing later should never be framed as failure.
+
+It is a valid self-regulation action.
+
+#### 10.9.7 Not-Today Behavior
+
+For habits where daily completion is not always realistic, the sheet may include:
+
+- `Not today`
+- `Skip without guilt`
+- `Pause for today`
+
+This action should:
+
+- prevent repeat reminders for the day
+- keep history neutral
+- avoid negative coloring
+
+#### 10.9.8 Confirmation Feedback
+
+After a successful check-in, the sheet should:
+
+- provide light haptic confirmation
+- show a quick warm animation
+- return the user to context quickly
+
+Confirmation examples:
+
+- `Logged`
+- `That counts`
+- `Nice re-entry`
+
+#### 10.9.9 Emotional Outcome
+
+The user should feel:
+
+- that logging a habit is almost frictionless
+- that partials and postponements are valid
+- that the system is easy to return to during chaotic days
+
+### 10.10 Screen 5: Habit Detail and Pattern View
+
+#### 10.10.1 Purpose
+
+Habit Detail is the screen for understanding a single habit over time without turning the habit into a performance dashboard.
+
+It should provide clarity, not self-surveillance.
+
+#### 10.10.2 Primary Questions
+
+This screen must answer:
+
+- how has this habit been fitting into real life
+- when does it usually work best
+- what kind of version counts most often
+- is this habit too ambitious or still a good fit
+- what would make re-entry easier
+
+#### 10.10.3 Layout Structure
+
+The detail screen should include:
+
+- header with habit title and status
+- short description of the habit’s intended support role
+- recent participation summary
+- pattern visualization
+- context insights
+- reminder and setup controls
+- pause or archive actions
+
+#### 10.10.4 Summary Area
+
+The summary should avoid score language.
+
+Good summary examples:
+
+- `You’ve checked in with this on 4 of the last 7 days`
+- `This tends to happen most on calmer mornings`
+- `Tiny versions are carrying this habit lately`
+
+The product may state frequency, but it should not frame it as failure against a perfect target.
+
+#### 10.10.5 Pattern Visualization Philosophy
+
+The pattern view should focus on recognizable rhythms.
+
+It should help the user notice:
+
+- clusters
+- drop-offs during hard weeks
+- stronger days
+- easier time windows
+- whether reminders help
+
+It should not create a high-stakes visual of loss.
+
+#### 10.10.6 Pattern Visualization Options
+
+Possible visual modules include:
+
+- soft dot calendar
+- weekly participation bars
+- heat-style activity view using warm neutrals rather than alarm colors
+- time-of-day pattern ribbon
+
+Any visualization must treat non-participation as neutral empty space.
+
+Empty is not failure.
+
+Empty is absence of data or absence of engagement.
+
+#### 10.10.7 Insight Cards
+
+The detail screen may provide restrained insights such as:
+
+- `This habit is easier on weekdays`
+- `You tend to skip this when energy is low`
+- `A tiny version seems to keep this alive`
+- `Evening reminders are usually ignored`
+
+Insights should be descriptive, not corrective.
+
+#### 10.10.8 Notes and Reflection
+
+If notes are supported, they should remain optional and lightweight.
+
+Possible uses:
+
+- tracking what made the habit easier
+- logging support tools
+- noting environmental friction
+
+The app should not require reflective journaling to use habits successfully.
+
+#### 10.10.9 Adjustment Recommendations
+
+When the system detects persistent friction, the detail screen may offer supportive adjustments.
+
+Examples:
+
+- `Try a smaller version`
+- `Move this later in the day`
+- `Change this to 3 times a week`
+- `Pause until next month`
+
+These recommendations must be framed as support tuning.
+
+They must not imply underperformance.
+
+#### 10.10.10 Historical Navigation
+
+Users should be able to look back across:
+
+- recent week
+- recent month
+- longer trend view
+
+Longer history should remain lightweight.
+
+The product should not encourage compulsive self-auditing.
+
+#### 10.10.11 Emotional Outcome
+
+The user should feel:
+
+- more informed about the habit’s real fit
+- less guilty about imperfect consistency
+- more capable of adjusting instead of quitting
+
+### 10.11 Screen 6: Gentle Re-Entry Surface
+
+#### 10.11.1 Purpose
+
+This surface appears when a habit has gone quiet long enough that the user may need an especially soft restart experience.
+
+It is not a warning screen.
+
+It is a recovery screen.
+
+#### 10.11.2 Trigger Conditions
+
+It may appear when:
+
+- a habit has had no check-ins beyond its usual cadence window
+- the user opens Habits after a long gap
+- reminders have been repeatedly ignored
+- the user taps a quiet habit card
+
+#### 10.11.3 Core Message
+
+The re-entry surface should normalize return.
+
+Examples:
+
+- `This can restart small`
+- `You don’t need to make up missed days`
+- `Want the easiest version today?`
+- `Life changed. This habit can flex too`
+
+#### 10.11.4 Layout
+
+The surface should show:
+
+- habit name
+- very short supportive framing
+- one or two easiest next actions
+- option to resize the habit
+- option to pause it
+
+This is not the place for analytics.
+
+It is the place for a practical next step.
+
+#### 10.11.5 Recommended Actions
+
+Actions may include:
+
+- do the tiny version now
+- remind me tomorrow
+- make this smaller
+- change to fewer times per week
+- pause for now
+
+The product should prioritize actions that preserve dignity and momentum.
+
+#### 10.11.6 Do-Not-Show Rules
+
+This surface must not show:
+
+- broken streaks
+- number of misses
+- harsh completion percentages
+- disappointed language
+
+It should never ask:
+
+- `Why did you stop?`
+- `What went wrong?`
+
+Those questions may be useful in therapy.
+
+They are not useful in a vulnerable re-entry moment.
+
+#### 10.11.7 Emotional Outcome
+
+The user should feel:
+
+- relieved
+- permitted to resume
+- offered a realistic next step
+
+### 10.12 Habit Reminder and Gentle Nudge States
+
+#### 10.12.1 Role of Reminders
+
+Habit reminders act as external memory support and activation cues.
+
+They are not compliance alerts.
+
+#### 10.12.2 Reminder Principles
+
+Reminders must be:
+
+- brief
+- warm
+- practical
+- skimmable
+- easy to snooze or dismiss
+
+They must not be:
+
+- guilt-heavy
+- passive-aggressive
+- alarmist
+- infantilizing
+
+#### 10.12.3 Reminder Types
+
+The habit system may support:
+
+- scheduled reminder
+- context-aware reminder
+- re-entry reminder
+- post-snooze reminder
+- summary-style weekly encouragement
+
+#### 10.12.4 Reminder Copy Patterns
+
+Preferred examples:
+
+- `A tiny version of your stretch habit could fit now`
+- `Meds check-in`
+- `Want a soft restart on journaling today?`
+- `You can count the small version`
+
+Avoid:
+
+- `Don’t break the chain`
+- `You forgot again`
+- `Stay disciplined`
+- `You’re falling behind`
+
+#### 10.12.5 Escalation Rules
+
+Reminder escalation should be limited and humane.
+
+If the user ignores a reminder:
+
+- the second reminder should be quieter or differently timed
+- repeated ignoring should trigger reduced frequency, not nagging intensity
+- the system may suggest changing timing instead of sending more pings
+
+#### 10.12.6 Interaction Options
+
+Habit reminders should support direct actions where platform capabilities allow:
+
+- done
+- partial
+- remind later
+- not today
+- open habit
+
+The goal is to reduce the number of steps between noticing and logging.
+
+#### 10.12.7 Weekly Encouragement
+
+An optional weekly summary may highlight:
+
+- habits that are feeling natural
+- habits that might want resizing
+- overall participation tone
+
+This summary should never rank the user against perfection.
+
+Example:
+
+- `A few routines are still alive, even on a messy week`
+
+### 10.13 Empty, Paused, and Edge States
+
+#### 10.13.1 No Habits Yet
+
+If the user has no habits, the empty state should explain the philosophy clearly.
+
+Example framing:
+
+- `Build gentle repeats, not streak pressure`
+- `Habits here are designed for real, inconsistent lives`
+
+The screen should suggest a few starter habit templates sized for ADHD reality.
+
+Examples:
+
+- `Take meds`
+- `Five-minute reset`
+- `Drink water once this morning`
+- `Plan first step of the day`
+
+#### 10.13.2 Too Many Active Habits
+
+If the user creates too many active habits, the system may gently suggest simplification.
+
+Examples:
+
+- `You may get more traction with fewer active habits right now`
+- `Want to pause a few and keep the easiest ones visible?`
+
+This must remain guidance, not enforcement.
+
+#### 10.13.3 Habit Quiet for a Long Time
+
+If a habit has been inactive for an extended period, the app should not let it silently become a guilt artifact.
+
+The system may:
+
+- move it into a gentle restart group
+- suggest pause or archive
+- offer a smaller version
+
+#### 10.13.4 Paused Habits
+
+Paused habits should remain accessible in a calm secondary area.
+
+They should not look like failures.
+
+Resume copy should feel simple:
+
+- `Bring back`
+- `Try again this week`
+- `Resume gently`
+
+#### 10.13.5 Archived Habits
+
+Archived habits should preserve history without pressuring reactivation.
+
+The archive can support reflection, but it should not dominate the active experience.
+
+#### 10.13.6 Free Tier Boundaries
+
+If habits are premium-only, the locked state should still demonstrate the emotional difference of the feature.
+
+The locked preview should highlight:
+
+- gentle tracking
+- no streak punishment
+- supportive re-entry
+- pattern visibility without shame
+
+It should not rely on generic premium language like `Build better habits faster`.
+
+### 10.14 Motion, Haptics, and Microfeedback
+
+Habit tracking should feel encouraging and alive without turning into noisy gamification.
+
+Recommended patterns:
+
+- soft pop or bloom when a habit is checked in
+- brief haptic confirmation for completion or partial completion
+- warm settle animation when a card shifts to completed-today state
+- subtle re-entry glow on a habit card that is being gently resurfaced
+- calm transition into detail and back out again
+
+Animation should reinforce:
+
+- yes, that counted
+- yes, this changed state
+- yes, you can continue
+
+It should not mimic arcade reward systems or trophy apps.
+
+### 10.15 Copywriting Requirements
+
+Habit copy must remain:
+
+- adult
+- supportive
+- brief
+- concrete
+- non-judgmental
+
+Preferred language patterns:
+
+- `show up`
+- `restart small`
+- `that counts`
+- `try the tiny version`
+- `quiet lately`
+- `fits better later`
+- `pause for now`
+
+Avoid:
+
+- `discipline`
+- `failure`
+- `broken streak`
+- `fell off`
+- `slacking`
+- `get back on track`
+- `consistency is key`
+
+The product should sound like a calm, observant ally.
+
+It should not sound like a coach, parent, or manager.
+
+### 10.16 Accessibility Requirements for Habit Tracking
+
+Habit tracking has unusually high accessibility importance because many neurodivergent users are especially sensitive to cognitive load, emotional tone, notification intensity, and visual clutter.
+
+Required behaviors include:
+
+- all pattern colors must have text alternatives
+- quick check-in controls must be large and easy to distinguish
+- habit cards must be fully operable with screen readers
+- pattern visualizations must have plain-language summaries
+- reminders must be configurable for sound, haptics, and frequency
+- reduced motion mode must simplify celebrations and card transitions
+- dynamic type must preserve check-in usability
+- all state changes must be conveyed without color alone
+
+Screen reader outputs should expose:
+
+- habit title
+- cadence
+- check-in status for today
+- available actions
+- concise pattern summary
+- paused or active state
+
+### 10.17 ADHD-Specific UX Risks
+
+#### 10.17.1 Risk: The Feature Quietly Becomes a Streak Engine
+
+If streak counts, perfect-week visuals, or chain metaphors creep in, the product will betray its core philosophy.
+
+Mitigation:
+
+- ban streak-first information architecture
+- prioritize participation summaries and re-entry
+- keep misses visually neutral
+
+#### 10.17.2 Risk: Users Create Aspirational Habits That Collapse Immediately
+
+If the creation flow encourages oversized commitments, the feature will generate shame instead of support.
+
+Mitigation:
+
+- recommend tiny versions
+- support flexible cadence
+- make resizing easy and normal
+
+#### 10.17.3 Risk: Reminders Feel Like Nagging
+
+If nudges pile up, users will turn them off entirely or avoid the app.
+
+Mitigation:
+
+- limit escalation
+- adapt timing based on response
+- treat snoozing and not-today as valid outcomes
+
+#### 10.17.4 Risk: Analytics Trigger Self-Surveillance
+
+If the detail view becomes too metric-heavy, users may fixate on underperformance.
+
+Mitigation:
+
+- use descriptive pattern language
+- avoid punitive percentages and red charts
+- emphasize fit and adjustment
+
+#### 10.17.5 Risk: Partial Completion Feels Fake or Patronizing
+
+If tiny versions feel infantilizing or arbitrary, users will reject them.
+
+Mitigation:
+
+- let users define what counts
+- use adult language
+- tie partials to real friction reduction
+
+#### 10.17.6 Risk: The Habit Screen Becomes Cluttered and Unusable
+
+If too many habits, previews, and suggestions appear at once, the user will avoid the section.
+
+Mitigation:
+
+- prioritize a few relevant habits
+- collapse secondary content
+- preserve whitespace and simple card hierarchy
+
+### 10.18 Success Criteria for Habit Tracking
+
+This section is successful when the experience reliably produces the following outcomes:
+
+- users can check in with a habit in seconds
+- users do not feel punished for missed days
+- re-entry after gaps feels emotionally safe
+- partial participation meaningfully preserves momentum
+- pattern views increase understanding without increasing shame
+- reminder behavior supports memory without becoming nagging
+- users resize or pause unrealistic habits instead of abandoning the feature entirely
+- the habit system feels fundamentally different from streak-driven competitors
+
+The emotional success metric is:
+
+the user feels invited to keep returning, even when consistency is messy
+
+### 10.19 Section Summary
+
+Habit tracking in this product is not a chain to keep alive.
+
+It is a gentle repetition support system for ADHD lives that are variable, interrupted, and often burdened by shame from previous tools.
+
+If this section is executed well, the user will experience habits as:
+
+- easy to log
+- safe to miss
+- simple to restart
+- informative without judgment
+- supportive of identity without demanding perfection
+
+This is where the app proves that long-term behavior support does not need guilt to be effective.
+
+## 11. Screen-by-Screen: Weekly/Monthly Views, Settings, and Paywall
+
+### 11.1 Section Intent
+
+This section defines the planning surfaces that expand beyond the Today view, the control surfaces that help users make the app fit their real life, and the monetization surfaces that must convert without violating trust.
+
+These screens are especially sensitive because they can easily drift into neurotypical productivity patterns:
+
+- dense calendar overload
+- backlog anxiety
+- overly managerial settings architecture
+- manipulative upgrade pressure
+- shame-inducing locked states
+
+In this product, weekly and monthly views must make time more visible without making the future feel crushing.
+
+Settings must increase user control without forcing them through an exhausting labyrinth of configuration.
+
+The paywall must present premium value clearly while preserving dignity, emotional safety, and product credibility.
+
+Every screen in this section should reinforce one message:
+
+the app adapts to the user rather than demanding that the user adapt to the app
+
+### 11.2 Design Goals Across These Screens
+
+The weekly view, monthly view, settings, and paywall should collectively achieve the following:
+
+- extend planning horizon without increasing shame
+- help the user orient in time visually
+- prevent large spans of time from feeling like a failure dashboard
+- make premium features feel meaningfully supportive rather than decorative
+- allow users to tune stimulation, reminders, audio, haptics, and accessibility without friction
+- preserve a warm, ADHD-native voice even in administrative or monetization contexts
+
+These screens should feel calmer and more spacious than most planning apps.
+
+They should not look like enterprise calendar software miniaturized for mobile.
+
+They should not feel like hidden “advanced mode” areas only for highly organized users.
+
+They should feel like natural extensions of the app’s emotional promise:
+
+you can look ahead, adjust, recover, and choose support without being judged
+
+### 11.3 Information Architecture in Context
+
+These screens sit adjacent to the daily core, not above it.
+
+That matters.
+
+The app is still fundamentally anchored in helping the user answer:
+
+- what matters now
+- what can I start
+- what fits my current energy
+- how do I recover when things move
+
+Weekly and monthly views exist to support orientation, balancing, and future planning.
+
+They do not replace the Today view as the primary interaction surface.
+
+Settings exist to personalize support.
+
+They do not become a burden that users must “set up correctly” before the product becomes useful.
+
+The paywall exists to fund ongoing support and unlock meaningful additional scaffolding.
+
+It must never make the free experience feel like a bait-and-switch.
+
+### 11.4 Weekly View Overview
+
+The weekly view is the first horizon-expansion screen.
+
+Its purpose is to help the user:
+
+- see the shape of the week
+- place tasks into visible time containers
+- notice overload before it becomes paralysis
+- redistribute plans based on energy
+- recover from drift without manually cleaning up a punitive backlog
+
+This screen should feel like a compassionate planning canvas.
+
+It should not feel like a performance review.
+
+### 11.5 Weekly View Core User Jobs
+
+The weekly view supports several distinct jobs:
+
+1. See where the week is already heavy.
+2. Find realistic placement for tasks not yet anchored.
+3. Notice which days align with high-, medium-, or low-energy expectations.
+4. Move tasks quickly when plans change.
+5. Reduce “I have too much somewhere in the future” into a visible, manageable pattern.
+
+The weekly view is not mainly for precision scheduling down to the minute.
+
+It is for time visibility, load balancing, and emotionally safe planning.
+
+### 11.6 Weekly View Layout
+
+The weekly view should use a horizontally or vertically legible seven-day structure that remains readable on small screens.
+
+The layout should prioritize:
+
+- day clarity
+- time block visibility
+- low visual noise
+- easy drag or reassignment
+- simple scanning of task density
+
+The screen should generally include:
+
+- top navigation header
+- week range label
+- quick return to today
+- week summary strip
+- seven day columns or cards
+- visible energy cues for each day
+- lightly grouped tasks within each day
+- overflow handling that does not create clutter
+- action affordance for adding or placing a task
+
+Recommended top header elements:
+
+- current week label, for example `Apr 1 - Apr 7`
+- previous week and next week controls
+- `Today` jump button
+- view switcher back to daily or forward to monthly
+
+The week label should be large enough to anchor orientation.
+
+Users with ADHD often lose context quickly when navigating in time.
+
+The header must make it obvious:
+
+- which week is being viewed
+- whether it includes today
+- how far from the current date the user has moved
+
+### 11.7 Weekly View Visual Model
+
+The weekly view should blend list clarity with calendar visibility.
+
+A pure event-grid calendar may become too dense.
+
+A pure list loses time-blindness support.
+
+The best pattern is a hybrid structure:
+
+- each day has a visible container
+- scheduled tasks appear in approximate time zones or named blocks
+- unscheduled tasks appear in a softer “not placed yet” area for that day
+- visual height or grouping helps users sense density
+
+The visual system should communicate:
+
+- morning / afternoon / evening structure
+- relative busyness
+- energy fit
+- movement flexibility
+
+It should not communicate:
+
+- punishment for unfinished work
+- exactness where exactness is not useful
+- pressure to fill every slot
+
+### 11.8 Weekly View Day Card Anatomy
+
+Each day in the weekly view should have a consistent anatomy.
+
+Recommended structure:
+
+1. Day name and date.
+2. Today indicator if applicable.
+3. Energy forecast or typical energy marker.
+4. Optional gentle load summary.
+5. Scheduled blocks or grouped tasks.
+6. Unplaced task bucket.
+7. Add action.
+
+Example labels:
+
+- `Wed 1`
+- `Today`
+- `Higher energy morning`
+- `Light day`
+- `2 planned blocks`
+- `1 flexible task`
+
+The day card should feel readable at a glance.
+
+The user should not need to open each day to understand its rough demand profile.
+
+### 11.9 Weekly View Time Representation
+
+Time representation must support ADHD users with time blindness.
+
+This means time should be made visible, not merely named.
+
+Possible patterns include:
+
+- soft segmented blocks for morning, midday, afternoon, evening
+- vertical mini-timelines with broad time anchors
+- shaded block regions instead of thin appointment rows
+
+The goal is not precise calendaring.
+
+The goal is externalized temporal scaffolding.
+
+A user should be able to see:
+
+- where the day has breathing room
+- where deep work might fit
+- where transitions are already crowded
+- where low-energy tasks belong
+
+Visual time blocks should be forgiving and somewhat abstracted.
+
+They should not imply that every task must have a perfectly exact start minute.
+
+### 11.10 Weekly View Task Cards
+
+Tasks in weekly view should use smaller card variants than Today view cards while preserving emotional tone.
+
+Each task card should show only the most decision-relevant information:
+
+- title
+- estimated effort or size cue
+- energy fit
+- task state
+- optional scheduled block
+
+Possible secondary metadata:
+
+- `15 min`
+- `low energy`
+- `started`
+- `moved here`
+- `body doubling available`
+
+Avoid cramming cards with:
+
+- long notes
+- multiple tags
+- dense icons
+- excessive deadlines
+- punitive status badges
+
+Overdue styling should never appear as red alarm language.
+
+If a task rolled from a prior day, the card may instead use calm descriptive language such as:
+
+- `carried forward`
+- `still open`
+- `moved to fit this week`
+
+### 11.11 Weekly View Load Balancing Aids
+
+The weekly view should actively help users notice imbalance.
+
+This is one of the most important differentiators from standard planners.
+
+The system should surface gentle observations like:
+
+- `Thursday looks heavy`
+- `Tuesday has room for one more medium task`
+- `Three high-energy tasks are clustered on one day`
+- `This week has very little recovery space`
+
+These aids should appear as optional micro-guidance, not intrusive warnings.
+
+The product should feel like it is helping the user reduce friction, not evaluating their planning skill.
+
+Suggested load signals:
+
+- visual density meter per day
+- energy mismatch indicators
+- recovery-space cues
+- suggestions to spread large tasks
+
+The language must remain neutral and practical.
+
+Avoid:
+
+- `overbooked`
+- `too much`
+- `unrealistic`
+- `bad planning`
+
+Prefer:
+
+- `heavy`
+- `stacked`
+- `full`
+- `might feel easier if spread out`
+
+### 11.12 Weekly View Energy Integration
+
+The weekly view should prominently integrate energy-aware planning.
+
+Each day may reflect:
+
+- typical energy pattern for that weekday
+- user-selected energy forecast
+- current confidence level
+- time-of-day energy shifts
+
+This allows the planner to visually connect tasks with the user’s actual functioning patterns.
+
+Examples:
+
+- a day strip indicating `high focus morning, lower afternoon`
+- subtle background tone differences across day segments
+- a note such as `better for admin, errands, reset tasks`
+
+When a task’s required energy mismatches the chosen slot, the UI may gently indicate:
+
+- `high-energy task placed in low-energy block`
+- `might be easier earlier`
+- `consider splitting this`
+
+These prompts should never block scheduling.
+
+The user must remain in control.
+
+### 11.13 Weekly View Interactions
+
+Core interactions should include:
+
+- tap day to expand details
+- drag task between days or blocks
+- tap task for quick actions
+- long-press task for move/split/reschedule menu
+- tap empty block to place or create task
+- swipe or button navigation between weeks
+
+Quick actions should emphasize low-friction planning:
+
+- `Move`
+- `Split`
+- `Make smaller`
+- `Start when time comes`
+- `Keep flexible`
+
+The interaction design should optimize for one-handed use and rapid correction.
+
+Users should be able to repair a messy week in under a minute.
+
+### 11.14 Weekly View Expand and Collapse Behavior
+
+Because seven days can become visually dense, the screen should support progressive disclosure.
+
+Examples:
+
+- a compact week overview by default
+- tap a day to expand into a larger detail sheet
+- collapse secondary metadata until needed
+- hide completed tasks behind a simple count
+
+The default state should emphasize planning clarity over historical completeness.
+
+Users should not be forced to stare at everything that already happened in the week.
+
+Completed tasks can remain visible in a softened, celebratory, low-noise state or be tucked behind a summary like:
+
+- `3 completed today`
+- `2 wins earlier this week`
+
+### 11.15 Weekly View Start-State Behavior
+
+The weekly view should support quick activation of tasks directly from future days.
+
+If the user looks ahead and decides to begin something now, the interface should make that easy.
+
+Possible actions:
+
+- `Start now`
+- `Pull into today`
+- `Start a 10-minute focus burst`
+- `Open with body doubling`
+
+This matters because ADHD planning is non-linear.
+
+A task placed on Thursday may suddenly become doable on Tuesday.
+
+The app should support that momentum instead of enforcing calendar purity.
+
+### 11.16 Weekly View Recovery Behavior
+
+If several tasks were not completed earlier in the week, the weekly view should show adaptive recovery rather than failure accumulation.
+
+Behavior principles:
+
+- previously missed items roll forward gracefully
+- days do not become red backlog dumps
+- the system may redistribute flexible tasks automatically
+- the user can review recovered placements with minimal friction
+
+Example summaries:
+
+- `A few tasks were re-placed to keep the week usable`
+- `We kept only what still fits`
+- `Some flexible items moved forward`
+
+The weekly view is a critical place where the app proves that missed plans do not equal moral failure.
+
+### 11.17 Weekly View Empty and Light States
+
+A week with little planned should feel spacious, not empty in a discouraging way.
+
+Possible empty-state framing:
+
+- `This week has room to breathe`
+- `Start with one anchor and let the rest stay flexible`
+- `You do not need to plan everything to use this week well`
+
+Suggested actions:
+
+- add one important task
+- place a routine
+- block a focus session
+- preview your energy pattern
+
+The screen should avoid implying that an unfilled week is a missed opportunity.
+
+For many users, overplanning is the bigger risk.
+
+### 11.18 Weekly View Heavy-Load States
+
+When the week is highly loaded, the screen should shift into support mode.
+
+Potential behaviors:
+
+- compress lower-priority items behind counts
+- offer a `lighten this week` assistant action
+- suggest moving low-urgency items forward
+- suggest splitting large tasks
+- highlight protected recovery space
+
+Supportive microcopy examples:
+
+- `This week is carrying a lot`
+- `Want help spreading the load?`
+- `You can keep the essentials visible and soften the rest`
+
+The interface should not become louder as the week becomes harder.
+
+It should become calmer.
+
+### 11.19 Weekly View Completed State Handling
+
+Completed tasks in the weekly screen should contribute to momentum without taking over the canvas.
+
+Recommended treatment:
+
+- softened cards
+- light celebratory mark
+- grouped under a small expandable summary
+- optionally visible within the current day
+- collapsed by default on past days
+
+The purpose is to preserve a sense of progress while prioritizing what still matters.
+
+### 11.20 Weekly View Free vs Premium Role
+
+The weekly view is a premium feature in the monetization model.
+
+That means its locked preview matters.
+
+The free user should understand that weekly view is not merely “more calendar.”
+
+It is a support feature that helps with:
+
+- seeing overload earlier
+- balancing energy across days
+- redistributing plans compassionately
+- making time visible beyond today
+
+The preview should show value through explained support, not generic upgrade pressure.
+
+### 11.21 Weekly View Locked Preview
+
+If a free user navigates toward weekly view, the locked state should show a partial, static, or lightly interactive preview.
+
+It should communicate:
+
+- your week can be seen as a shape
+- tasks can be spread instead of piled
+- your energy pattern can guide placement
+- recovery can happen at the week level, not only daily
+
+Possible preview copy:
+
+- `See the whole week without the overwhelm`
+- `Spread tasks around your real energy, not idealized time`
+- `Plan ahead without building a guilt pile`
+
+The preview should never say or imply:
+
+- `Unlock advanced productivity`
+- `Upgrade for better discipline`
+- `Pro users plan smarter`
+
+### 11.22 Monthly View Overview
+
+The monthly view expands the horizon further.
+
+Its purpose is not fine-grained daily planning.
+
+Its purpose is to support:
+
+- temporal orientation
+- future awareness
+- anticipation of heavy periods
+- planning around recurring realities
+- prevention of surprise overload
+
+For ADHD users, a monthly view can be helpful or harmful.
+
+It is helpful when it makes time concrete.
+
+It is harmful when it becomes a tiny-box guilt grid.
+
+This product’s monthly view must be explicitly designed to avoid the latter.
+
+### 11.23 Monthly View Core User Jobs
+
+The monthly view should help users:
+
+1. See where major tasks or commitments cluster.
+2. Notice upcoming busy weeks before they arrive.
+3. Place rough anchors without micromanaging every day.
+4. Understand cycles, routines, and repeating load patterns.
+5. Enter future planning without emotionally drowning in the entire month.
+
+The monthly view is about shape, rhythm, and anticipation.
+
+It is not primarily a completion board.
+
+### 11.24 Monthly View Layout
+
+The screen should use a familiar month grid because that structure supports orientation.
+
+However, the implementation must soften the typical harshness of calendar grids.
+
+Recommended elements:
+
+- month and year header
+- swipe or arrow navigation
+- `Today` jump action
+- month summary strip
+- week row structure
+- day cells with limited visible content
+- soft indicators for density, anchors, and energy themes
+- optional lower detail tray for selected day
+
+The header should make time position obvious:
+
+- `April 2026`
+- whether the displayed month is current, past, or future
+- any notable month-level summary
+
+Example summary:
+
+- `A lighter month overall`
+- `Two heavier weeks ahead`
+- `Good month for protecting low-energy recovery blocks`
+
+### 11.25 Monthly View Day Cell Design
+
+Each month cell must remain simple.
+
+It should not attempt to show full task lists.
+
+Instead, each day cell may show:
+
+- day number
+- today marker
+- one primary anchor if present
+- small count or dot indicators
+- optional energy tint
+- completion or activity summary in subdued form
+
+The user should be able to tell:
+
+- empty day
+- lightly planned day
+- packed day
+- day with routine anchors
+- day affected by carry-forward clustering
+
+But the cell must not become visually busy.
+
+When more detail is needed, selecting the day should open a lower tray, sheet, or detail panel.
+
+### 11.26 Monthly View Visual Language
+
+The monthly view should use visual density carefully.
+
+Potential signals:
+
+- soft fill intensity for load
+- tiny stacked dots for task categories or energy demand
+- calm badges for major anchors
+- subtle ring around today
+
+Avoid:
+
+- red day boxes
+- aggressive overdue counts
+- tiny unreadable labels
+- loud holiday-style icons competing with planning information
+
+This screen should feel breathable, even when the month is busy.
+
+### 11.27 Monthly View Detail Tray
+
+Tapping a day in monthly view should reveal a focused detail surface.
+
+This may appear as:
+
+- bottom sheet
+- side panel on tablet
+- expanding in-place section
+
+The tray should include:
+
+- full date
+- energy expectation for that day
+- key planned items
+- quick add
+- move to daily or weekly view
+- suggestion if the day is overloaded or empty
+
+Examples:
+
+- `Friday, April 10`
+- `Lower-energy afternoon expected`
+- `2 anchored tasks, 1 flexible task`
+- `Jump to week`
+- `Open today-style view for this date`
+
+This detail pattern lets the monthly view stay simple while still supporting meaningful interaction.
+
+### 11.28 Monthly View Planning Behavior
+
+The monthly view should support rough planning rather than strict scheduling.
+
+Good uses include:
+
+- placing a big task sometime next week
+- protecting rest before a demanding event
+- seeing where habits or recurring obligations cluster
+- roughing in admin days
+- identifying realistic windows for larger projects
+
+The interface should encourage broad placement language such as:
+
+- `early week`
+- `this weekend`
+- `sometime Thursday`
+- `high-energy morning slot`
+
+This supports users who benefit from planning ahead without overcommitting to precise times.
+
+### 11.29 Monthly View Relationship to Time Blindness
+
+The monthly view is one of the strongest tools for counteracting time blindness when designed well.
+
+It should help answer:
+
+- how soon is that thing, actually
+- what else is around that date
+- where does this week sit in the month
+- how many days are left before a major commitment
+
+Helpful supports include:
+
+- highlighted current week
+- countdown language for major anchors
+- clear today location
+- visual spacing that makes near-term versus far-term obvious
+
+The monthly view must prevent the common ADHD experience of discovering a commitment “suddenly” because abstract future dates were never cognitively real.
+
+### 11.30 Monthly View Recovery and Drift Handling
+
+If plans moved across days during the month, the monthly view should absorb that motion gracefully.
+
+It should not become littered with symbols of failure.
+
+Behaviors may include:
+
+- moved tasks represented only in their current destination
+- soft indicators of active rescheduling, not overdue counts
+- summary language such as `a flexible week` instead of punitive labels
+
+The monthly surface should communicate that plans are allowed to adapt.
+
+### 11.31 Monthly View Patterns and Reflection
+
+This view can gently surface patterns without becoming an analytics dashboard.
+
+Examples:
+
+- `Mondays tend to fill quickly`
+- `Mid-month energy looks lower`
+- `You often protect less recovery time in the third week`
+- `Weekend reset blocks seem helpful here`
+
+These observations should remain optional and lightweight.
+
+The purpose is to aid self-understanding, not surveillance.
+
+### 11.32 Monthly View Heavy Month State
+
+When the month contains many anchors, the screen should prioritize clarity and triage.
+
+It may:
+
+- simplify day cells further
+- emphasize week-level density more than individual tasks
+- highlight major pressure points
+- offer a `review heavy weeks` entry point
+
+Microcopy examples:
+
+- `This month has a few crowded pockets`
+- `You may want to protect some lighter days now`
+- `Want help spreading what can move?`
+
+### 11.33 Monthly View Light Month State
+
+A light month should feel open and promising.
+
+It should not feel blank in a way that invites guilt for not planning enough.
+
+Examples:
+
+- `This month has room`
+- `Keep it simple and add anchors as they become real`
+- `You do not need to map the whole month today`
+
+This supports users who may otherwise over-plan in response to anxiety.
+
+### 11.34 Monthly View Free vs Premium Role
+
+The monthly view is also premium.
+
+Its locked positioning should make the value obvious:
+
+- broader time orientation
+- early overload detection
+- rough future planning
+- calmer anticipation of upcoming commitments
+
+The app should communicate that monthly view helps users see time before time becomes a problem.
+
+That framing is much more aligned than generic `unlock more calendar views`.
+
+### 11.35 Monthly View Locked Preview
+
+The monthly locked preview should show the screen’s emotional function.
+
+Possible copy:
+
+- `See the month as a shape, not a surprise`
+- `Catch crowded weeks before they hit`
+- `Plan lightly ahead without turning life into a grid of pressure`
+
+The preview may show:
+
+- a softly blurred month grid
+- highlighted busy versus light weeks
+- an example day detail tray
+- energy pattern hints across the month
+
+The locked state should feel aspirational but grounded in real support.
+
+### 11.36 Cross-View Navigation
+
+Daily, weekly, and monthly views should feel like one coherent system rather than separate products.
+
+Navigation should support:
+
+- moving from day to week to month without losing context
+- selecting a date in monthly view and opening the weekly view around it
+- selecting a week day and drilling into a today-style detail screen
+- quick return to actual today from any future or past date
+
+This continuity matters because ADHD users can lose orientation if each screen resets mental context.
+
+The system should maintain:
+
+- selected date
+- surrounding week or month
+- current filter state where appropriate
+- clear signposting of temporal movement
+
+### 11.37 Shared Date Orientation Rules
+
+Across weekly and monthly views, the app should always clarify:
+
+- what date is selected
+- whether the selected range includes today
+- how far away a future date is
+- what happens if tasks move
+
+Helpful labels include:
+
+- `Today`
+- `Tomorrow`
+- `In 3 days`
+- `Next week`
+- `Later this month`
+
+The app should not assume the user will naturally calculate time distance from raw dates alone.
+
+### 11.38 Shared Motion Principles for Calendar Views
+
+Transitions between planning views should feel smooth and grounding.
+
+Recommended patterns:
+
+- horizontal slide when changing week or month
+- zoom or expand when drilling into a day
+- soft settle when tasks move between days
+- gentle highlight pulse for newly selected date
+
+Motion should reinforce spatial and temporal orientation.
+
+It should not create spectacle.
+
+Reduced motion mode should simplify:
+
+- slides into fades
+- confetti into quiet confirmation
+- drag settle animations into instant state updates
+
+### 11.39 Settings Overview
+
+Settings is where the user configures how the app supports their nervous system.
+
+This screen is not merely administrative.
+
+For this product, settings is a care surface.
+
+It should help the user tune:
+
+- stimulation
+- reminders
+- visual density
+- sound and haptics
+- energy planning preferences
+- recovery preferences
+- subscriptions and export
+
+The settings experience should feel calm, clear, and low-cognitive-load.
+
+It should not resemble a dense technical control panel.
+
+### 11.40 Settings Core Design Principles
+
+The settings screen must be:
+
+- easy to scan
+- grouped around real user intentions
+- supportive rather than bureaucratic
+- reversible
+- explicit about impact
+
+Instead of organizing settings only by engineering categories, the information architecture should reflect user needs.
+
+Good grouping examples:
+
+- `How the app feels`
+- `Reminders and nudges`
+- `Focus and audio`
+- `Planning preferences`
+- `Accessibility and calm mode`
+- `Account and premium`
+- `Data and export`
+
+This reduces the burden of translating internal system terminology into user meaning.
+
+### 11.41 Settings Landing Layout
+
+The settings landing screen should include:
+
+- top title
+- brief supportive subtext
+- grouped cards or list sections
+- account and premium state
+- current plan summary
+- small status indicators for key modes
+
+Example subtext:
+
+- `Make the app fit your brain, energy, and environment`
+- `Adjust support, not your personality`
+
+Key modes that may appear at a glance:
+
+- reduced motion on/off
+- calm mode on/off
+- reminder intensity
+- body doubling audio enabled
+- premium active or locked
+
+### 11.42 Settings Section: Profile and Identity
+
+This area should remain minimal.
+
+The product should not over-index on account complexity.
+
+Possible contents:
+
+- display name
+- optional pronouns
+- sign-in method
+- restore purchases
+- sync status if applicable in future architecture
+
+If profile details are sparse, that is acceptable.
+
+The app’s value comes from support, not social identity features.
+
+### 11.43 Settings Section: Planning Preferences
+
+This section lets users shape how planning behaves.
+
+Settings may include:
+
+- default view on app open
+- first day of week
+- preferred planning horizon
+- task auto-reschedule behavior
+- whether completed tasks stay visible in day/week views
+- preferred time block format
+- time estimate display style
+
+Important settings related to adaptive planning:
+
+- `Auto-move missed flexible tasks`
+- `Ask before moving anchored tasks`
+- `Show gentle suggestions for heavy days`
+- `Prefer simpler daily plans`
+
+These controls must be explained in plain language.
+
+Avoid cryptic labels like:
+
+- `Smart task migration`
+- `Adaptive engine mode`
+
+Prefer descriptive labels:
+
+- `Move flexible tasks forward when a day gets missed`
+- `Keep past days visually quiet after tasks are moved`
+
+### 11.44 Settings Section: Energy Preferences
+
+Because energy-aware planning is core to the product, users need control here.
+
+Possible settings:
+
+- edit weekly energy pattern
+- set morning/afternoon/evening tendencies
+- enable energy-based task suggestions
+- choose how strongly the app surfaces energy mismatch prompts
+- mark medication-sensitive times
+- note common low-capacity windows
+
+The section should also allow easy revision because user energy patterns are not static.
+
+Helpful copy:
+
+- `Your energy map can change. Update it anytime.`
+- `This helps the app suggest better-fitting times, not judge your choices.`
+
+### 11.45 Settings Section: Reminders and Nudges
+
+Reminder controls are especially important for ADHD users because notification support can be essential one week and intolerable the next.
+
+This section should allow:
+
+- global reminders on/off
+- reminder sound selection or mute
+- haptic intensity
+- default task reminder count
+- escalating reminder behavior
+- quiet hours
+- habit reminder tone
+- focus session interruption handling
+
+Users should be able to tune reminder intensity with meaningful language.
+
+Example levels:
+
+- `Quiet`
+- `Balanced`
+- `Persistent`
+
+Descriptions:
+
+- `Quiet`: one reminder, gentle follow-up
+- `Balanced`: a few timed nudges with calm language
+- `Persistent`: more support for tasks that are easy to lose track of
+
+Avoid language that implies moral superiority for tolerating more reminders.
+
+### 11.46 Settings Section: Sound, Haptics, and Body Double Audio
+
+This section manages sensory support.
+
+Possible controls:
+
+- task start celebration sound on/off
+- completion sound on/off
+- haptic intensity
+- body doubling voice or soundscape preference
+- auto-play body doubling intro on timer start
+- volume defaults
+- headphone behavior prompts
+
+The user should understand that sound and haptics are optional support, not required parts of the experience.
+
+Helpful copy:
+
+- `Choose what feels motivating, not distracting`
+- `You can keep feedback tactile, audible, both, or neither`
+
+### 11.47 Settings Section: Accessibility and Calm Mode
+
+This is one of the most important settings areas.
+
+It should be prominent, not buried.
+
+Controls may include:
+
+- reduce motion
+- reduce celebration intensity
+- high-clarity mode
+- larger touch targets
+- larger text support
+- lower visual density
+- simplify color cues
+- mute non-essential sounds
+- screen reader optimization hints
+- calm mode preset
+
+`Calm mode` can be a bundled preset for low-capacity or overstimulated periods.
+
+It may:
+
+- reduce animation
+- reduce confetti
+- simplify backgrounds
+- lower notification intensity
+- collapse extra guidance
+
+This feature should communicate deep empathy for fluctuating sensory tolerance.
+
+### 11.48 Settings Section: Focus Preferences
+
+Users should be able to configure:
+
+- default focus session length
+- break length
+- flexible Pomodoro mode
+- pause behavior
+- interruption recovery
+- auto-start breaks or next sessions
+- body doubling defaults
+- post-session celebration intensity
+
+The framing should remain flexible.
+
+Avoid presenting the focus system as a rigid productivity doctrine.
+
+Prefer:
+
+- `Default starting point`
+- `Use when helpful`
+- `Pause and return without penalty`
+
+### 11.49 Settings Section: Habits Preferences
+
+Because habits are intentionally non-streak-based, users may need reassurance and control here.
+
+Settings could include:
+
+- show gentle participation summaries
+- hide pattern visualizations
+- reminder defaults for habits
+- choose partial completion language
+- archived habit visibility
+
+This section should never include a streak toggle or chain-preservation mechanic.
+
+### 11.50 Settings Section: Data, Export, and Privacy
+
+This area should cover:
+
+- export data
+- local data explanation
+- backup or sync status if offered
+- privacy policy access
+- notification permissions
+- audio download management
+- storage use
+
+Because users may be sensitive to whether intimate productivity data is being tracked, this area should use very plain language.
+
+Examples:
+
+- `Your planning data stays on your device unless you choose to export or sync`
+- `Downloaded body doubling audio uses device storage`
+
+### 11.51 Settings Section: Premium and Billing
+
+This section should make monetization transparent and low-friction.
+
+It should include:
+
+- current plan
+- premium feature summary
+- manage subscription
+- restore purchases
+- one-time purchase status if owned
+- terms access
+
+If the user is free-tier, this section may gently show what premium unlocks.
+
+If the user already pays, the section should feel reassuring and service-oriented rather than upsell-oriented.
+
+### 11.52 Settings Search and Discoverability
+
+If settings grow large, a lightweight search function may be appropriate.
+
+However, the screen should remain usable without search.
+
+The product should avoid requiring memory of exact terminology.
+
+Search terms should match user language such as:
+
+- reminders
+- sound
+- calmer
+- animation
+- export
+- weekly view
+- billing
+
+### 11.53 Settings Copywriting
+
+Settings copy must remain:
+
+- concise
+- human
+- practical
+- non-technical where possible
+- emotionally safe
+
+Examples of good labels:
+
+- `Show fewer moving parts on hard days`
+- `Keep missed tasks from piling up visually`
+- `Use gentler reminders`
+- `Make touch targets larger`
+
+Examples to avoid:
+
+- `Enable productivity boosts`
+- `Failure prevention mode`
+- `Optimization settings`
+- `Behavior correction`
+
+### 11.54 Settings Empty and Permission States
+
+Some settings depend on OS permissions or downloaded assets.
+
+These states should remain calm and instructional.
+
+Examples:
+
+- notifications disabled at OS level
+- sound pack not downloaded
+- no headphones connected for body doubling audio
+- export unavailable offline if a cloud provider is chosen in future versions
+
+Copy examples:
+
+- `Notifications are off at the device level`
+- `Turn them on in system settings if you want reminders`
+- `Body doubling audio works best with headphones, but they are optional`
+
+### 11.55 Settings Emotional Role
+
+The settings screen should reassure the user that support can be tuned.
+
+This is especially important for ADHD users who may blame themselves when a system stops working.
+
+The app should subtly communicate:
+
+- if the app feels too loud, quiet it
+- if the app feels too quiet, add support
+- if your energy changed, update your map
+- if reminders are irritating now, change them
+
+The deeper message is:
+
+the system is adjustable because your needs are variable, not because you are using it wrong
+
+### 11.56 Paywall Overview
+
+The paywall is one of the highest-risk surfaces in the product.
+
+If executed poorly, it can instantly undermine the app’s credibility.
+
+This is especially true for ADHD users who are often highly sensitive to:
+
+- shame-based persuasion
+- manipulative urgency
+- hidden pricing
+- bait-and-switch onboarding
+- exploitative monetization of distress
+
+Therefore the paywall must be:
+
+- transparent
+- concrete
+- calm
+- respectful
+- emotionally aligned with the rest of the product
+
+### 11.57 Paywall Strategic Role
+
+The paywall must do three things well:
+
+1. Explain what premium changes in day-to-day life.
+2. Make pricing and plan options immediately clear.
+3. Preserve goodwill even if the user declines.
+
+It should not try to win conversion by making free users feel deficient.
+
+It should not use guilt, scarcity pressure, or fear of failure.
+
+The strongest conversion lever for this product is not aggressive sales language.
+
+It is resonance.
+
+The user should feel:
+
+this app understands me, and premium adds meaningful support I may genuinely want
+
+### 11.58 Paywall Trigger Moments
+
+The paywall may appear from several entry points:
+
+- attempting to access weekly view
+- attempting to access monthly view
+- attempting to exceed free task cap
+- trying to use premium focus audio
+- trying to use export
+- premium upsell entry from settings
+
+Each trigger should preserve context.
+
+The paywall should reflect what the user was trying to do.
+
+Examples:
+
+- from weekly view: emphasize seeing and balancing the whole week
+- from task cap: emphasize unlimited tasks and reduced backlog triage stress
+- from body doubling audio: emphasize supported focus sessions
+
+This contextual relevance is critical.
+
+A generic paywall wastes the emotional setup created by the preceding moment.
+
+### 11.59 Paywall Layout
+
+The paywall should likely use a scrollable but concise vertical layout.
+
+Recommended structure:
+
+1. Warm headline.
+2. Short emotional-value subhead.
+3. Visual feature preview tied to the trigger.
+4. Premium benefits list.
+5. Pricing options.
+6. Restore purchases.
+7. Terms and cancelation clarity.
+8. Continue free option or close affordance.
+
+The screen should not feel cluttered or sales-heavy.
+
+Whitespace matters here.
+
+The user must be able to think, not just react.
+
+### 11.60 Paywall Headline and Tone
+
+The headline should articulate support, not superiority.
+
+Good patterns:
+
+- `Get more room to plan the way your brain works`
+- `Unlock support for the whole week, not just today`
+- `Add deeper ADHD-friendly scaffolding when you need it`
+
+Subhead examples:
+
+- `Premium expands planning, focus, and recovery tools without changing the no-shame core`
+- `Free stays useful. Premium adds more space, more visibility, and more support`
+
+Avoid:
+
+- `Become your best self`
+- `Finally get disciplined`
+- `Stop procrastinating now`
+- `Serious users go premium`
+
+### 11.61 Pricing Presentation
+
+Pricing must be visible immediately and in plain language.
+
+The monetization model is:
+
+- free tier
+- premium one-time purchase: `$6.99`
+- premium subscription: `$3.99/month`
+
+The paywall should explain both premium options clearly.
+
+Potential presentation:
+
+- `One-time unlock` — `$6.99`
+- `Monthly support` — `$3.99/month`
+
+Important clarifications:
+
+- what each option includes
+- whether they unlock the same premium features
+- whether the monthly option auto-renews
+- how to cancel
+
+If both options unlock the same features, state that directly.
+
+Do not force users to infer value from pricing layout tricks.
+
+### 11.62 Premium Benefits Hierarchy
+
+Premium benefits should be listed in order of felt value for ADHD users.
+
+Recommended hierarchy:
+
+1. Unlimited tasks.
+2. Weekly and monthly planning views.
+3. Habit support without shame.
+4. Focus timer with body doubling audio.
+5. Energy-level-aware scheduling.
+6. Export.
+
+The list should explain emotional and functional value together.
+
+Examples:
+
+- `Unlimited tasks so you can stop trimming your life down to fit a cap`
+- `Weekly and monthly views to see overload before it hits`
+- `Habit support that tracks gently without streak punishment`
+- `Focus timer with body doubling audio for easier task starts`
+- `Energy-level-aware scheduling that fits work to real capacity`
+- `Export your data whenever you want`
+
+### 11.63 Free Tier Respect
+
+The paywall must explicitly respect the free tier.
+
+This is important for trust.
+
+Free users should know they still keep:
+
+- up to 3 tasks
+- basic timer
+- daily view
+
+The language should make clear that free is a legitimate mode, not merely a teaser.
+
+Example:
+
+- `Free remains a real daily planner. Premium adds more planning range and support depth.`
+
+This product’s ethics require that monetization never weaponize scarcity against vulnerable users.
+
+### 11.64 Paywall Visual Design
+
+The paywall should feel consistent with the design system:
+
+- warm palette
+- rounded surfaces
+- spacious layout
+- soft motion
+- supportive illustration or abstract planning visuals
+
+It should not adopt the standard “dark flashy premium card” trope unless consistent with the overall product identity.
+
+The visual tone should communicate:
+
+- trust
+- calm value
+- emotional safety
+- practical support
+
+Not:
+
+- luxury status
+- hustle culture
+- hard conversion pressure
+
+### 11.65 Feature Previews on Paywall
+
+Feature previews should be concrete and tied to real user benefit.
+
+Examples:
+
+- a weekly view mock showing a heavy day being softened
+- a monthly preview showing busy weeks ahead
+- body doubling audio focus card
+- energy scheduling card matching high-focus tasks to morning
+- habit card showing `showed up 3 times this week` rather than a streak count
+
+These previews should visually differentiate the app from generic productivity software.
+
+### 11.66 Paywall CTA Design
+
+The primary CTA should be clear and specific.
+
+Examples:
+
+- `Unlock Premium`
+- `Choose Premium`
+- `Get Weekly and Monthly Planning`
+
+If plan selection occurs first, the CTA can reflect the selected option:
+
+- `Unlock for $6.99`
+- `Start monthly for $3.99`
+
+Secondary actions must remain visible:
+
+- `Restore purchases`
+- `Maybe later`
+- `Keep using free`
+
+The user should never feel trapped in the paywall.
+
+### 11.67 Paywall Close Behavior
+
+Users must be able to close or dismiss the paywall unless the platform or purchase flow requires otherwise.
+
+The dismissal affordance should be obvious.
+
+A hidden close button would be especially damaging in this product because it signals coercion.
+
+If the paywall was triggered by a locked feature, the app should return the user gracefully to the prior context.
+
+### 11.68 Contextual Paywall Variants
+
+Different premium triggers should slightly adjust the hero copy and preview modules.
+
+Examples:
+
+#### 11.68.1 Weekly View Trigger
+
+- `Plan the whole week without building a guilt pile`
+- preview of load balancing and energy-aware placement
+
+#### 11.68.2 Monthly View Trigger
+
+- `See the month before it sneaks up on you`
+- preview of heavy-week detection and future anchors
+
+#### 11.68.3 Task Limit Trigger
+
+- `Stop compressing your life into three slots`
+- preview of unlimited tasks and calmer capture
+
+#### 11.68.4 Focus Audio Trigger
+
+- `Start with support in your ear, not pressure in your head`
+- preview of body doubling sessions
+
+#### 11.68.5 Export Trigger
+
+- `Take your plans with you whenever you need`
+- preview of export control and ownership
+
+These variants improve relevance without creating entirely separate systems.
+
+### 11.69 Paywall Copywriting Requirements
+
+The paywall copy must be:
+
+- adult
+- direct
+- transparent
+- emotionally intelligent
+- non-manipulative
+
+Preferred language:
+
+- `support`
+- `more room`
+- `see ahead`
+- `plan gently`
+- `fit your energy`
+- `keep using free`
+
+Avoid:
+
+- `crush your goals`
+- `unlock your potential`
+- `stop procrastinating`
+- `limited time`
+- `don’t miss out`
+- `exclusive`
+
+### 11.70 Paywall Urgency and Scarcity Rules
+
+This product should not rely on fake urgency.
+
+No:
+
+- countdown timers
+- expiring pseudo-discounts
+- flashing limited offers
+- guilt language after dismissing
+
+If a genuine launch or seasonal offer ever exists in the future, it must be disclosed plainly and sparingly.
+
+But the default product should convert on alignment and usefulness, not pressure.
+
+### 11.71 Paywall Trust Requirements
+
+Trust signals should include:
+
+- clear pricing
+- simple restore purchase path
+- access to terms and privacy
+- no ambiguous trial language
+- no hidden auto-renew details
+- honest free-tier description
+
+If using RevenueCat-based purchase flows, the UI should still keep wording human and product-aligned rather than exposing platform jargon unnecessarily.
+
+### 11.72 Paywall for Already Overwhelmed Users
+
+The app must consider that many users will hit the paywall in a moment of cognitive strain.
+
+Therefore:
+
+- keep copy short
+- keep plan choice simple
+- avoid too many comparison rows
+- reduce decorative motion
+- maintain strong visual hierarchy
+
+The paywall should be understandable in under ten seconds.
+
+### 11.73 Paywall for Returning Free Users
+
+If a user dismisses the paywall repeatedly, the app should not become naggy.
+
+Rules:
+
+- do not force repeated immediate re-prompts
+- do not guilt the user later
+- do not dark-pattern locked features with ambiguity
+
+Instead, the app can allow discovery through:
+
+- settings premium area
+- feature previews
+- contextual lock states
+
+This preserves trust and reduces avoidance.
+
+### 11.74 Post-Purchase Experience
+
+The moment after purchase should feel warm, clear, and oriented.
+
+Recommended flow:
+
+- brief celebration
+- confirmation that premium is active
+- immediate return to the feature the user wanted
+- optional one-line explanation of newly available support
+
+Examples:
+
+- `Premium is on. Your week is ready.`
+- `You now have unlimited tasks and deeper planning views.`
+
+The app should not dump the user into a generic account screen after purchase.
+
+It should return them to momentum.
+
+### 11.75 Restore Purchase Experience
+
+Restore purchase should be easy to find and emotionally neutral.
+
+The copy should avoid implying user error.
+
+Preferred:
+
+- `Restore purchases`
+- `Already unlocked premium? Bring it back here.`
+
+Avoid:
+
+- `Having trouble?`
+- `Purchased incorrectly?`
+
+### 11.76 Subscription Management Transparency
+
+If the user chooses the monthly plan, the app must state:
+
+- that billing recurs monthly
+- where subscription management happens
+- how cancellation works
+
+This should be written plainly and placed near the plan selection or legal footer.
+
+Transparency here is essential for trust.
+
+### 11.77 Paywall Accessibility Requirements
+
+The paywall must be fully accessible.
+
+Requirements include:
+
+- screen reader readable pricing and plan labels
+- no pricing conveyed by visual emphasis alone
+- large tap targets for plan selection
+- legal text readable without microscopic scaling
+- reduced motion support
+- clear focus order
+- dismiss action discoverable by assistive tech
+
+If feature previews use illustrations or mock screens, they should have useful accessibility descriptions or be hidden from screen readers when decorative.
+
+### 11.78 Weekly/Monthly/Paywall Integration with Free Tier Messaging
+
+Across locked weekly view, locked monthly view, and the paywall, the message must remain consistent:
+
+- free is still useful
+- premium expands support
+- premium is not a moral upgrade
+
+This consistency matters because users are extremely sensitive to tone mismatch.
+
+One manipulative screen would contaminate trust across the whole product.
+
+### 11.79 ADHD-Specific UX Risks in This Section
+
+#### 11.79.1 Risk: Weekly and Monthly Views Become Overwhelming
+
+If these screens show too much detail, users will avoid them entirely.
+
+Mitigation:
+
+- prioritize shape over completeness
+- use progressive disclosure
+- keep cell/card content minimal
+- support drill-down instead of stuffing information into overview surfaces
+
+#### 11.79.2 Risk: Calendar Views Reintroduce Shame Through Density and Overdue Signals
+
+If missed tasks accumulate visually, the app breaks its core promise.
+
+Mitigation:
+
+- move tasks gracefully
+- avoid red overdue states
+- surface current placement rather than failure history
+- emphasize adaptability
+
+#### 11.79.3 Risk: Settings Become an Exhausting Maze
+
+If personalization requires too much reading or configuration, users will abandon it.
+
+Mitigation:
+
+- group by user intent
+- keep defaults strong
+- provide presets like calm mode
+- use plain-language explanations
+
+#### 11.79.4 Risk: The Paywall Feels Manipulative
+
+If premium conversion uses pressure tactics, users may distrust the whole product.
+
+Mitigation:
+
+- clear pricing
+- no fake urgency
+- respectful dismissal
+- contextual value explanation
+- honest free-tier framing
+
+#### 11.79.5 Risk: Premium Feature Boundaries Feel Arbitrary
+
+If locked features seem random or decorative, the paywall will feel unfair.
+
+Mitigation:
+
+- keep free tier coherent
+- lock deeper planning depth rather than basic dignity
+- explain premium through user outcomes
+- ensure premium features are genuinely additive
+
+#### 11.79.6 Risk: Monthly View Encourages Overplanning
+
+If the monthly screen rewards filling every day, users may create unrealistic plans and later crash.
+
+Mitigation:
+
+- emphasize anchors, not full saturation
+- celebrate open space
+- use light planning language
+- avoid “empty month” pressure
+
+### 11.80 Success Criteria for This Section
+
+This section is successful when:
+
+- weekly view helps users rebalance plans quickly and without shame
+- monthly view improves time awareness without becoming a tiny backlog grid
+- settings make support feel adjustable and personalized
+- premium value is understood in functional and emotional terms
+- free users do not feel tricked or insulted by monetization
+- locked states explain real support rather than generic exclusivity
+- users can move fluidly between day, week, and month contexts without losing orientation
+
+The emotional success metric is:
+
+the user feels more held, more oriented, and more respected after using these screens, not more pressured
+
+### 11.81 Section Summary
+
+Weekly and monthly views extend the planner’s reach across time.
+
+Settings extend the planner’s fit across different brains, days, and sensory states.
+
+The paywall extends the business model without breaking the emotional contract.
+
+If this section is executed well:
+
+- the future becomes visible without becoming threatening
+- personalization feels supportive instead of burdensome
+- premium feels like added scaffolding, not extracted vulnerability
+
+This is where the app proves that planning horizons, configuration, and monetization can all remain ADHD-native when designed with emotional safety as a first principle.
