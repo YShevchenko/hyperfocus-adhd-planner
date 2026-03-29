@@ -7538,3 +7538,1003 @@ The experience must help users:
 - keep momentum visible
 
 If this section is executed well, the app will feel fundamentally different from traditional planners not because it is less structured, but because its structure is adaptive, emotionally safe, and designed for the realities of ADHD life.
+
+## 8. Screen-by-Screen: Focus Timer With Body Doubling Audio
+
+### 8.1 Section Intent
+
+The focus timer is not a generic Pomodoro add-on.
+
+It is a regulated, ADHD-aware start engine.
+
+Its job is to help the user cross the hardest threshold:
+
+beginning.
+
+For many users, the painful part of productivity is not lack of calendar access, task visibility, or priority logic.
+
+It is the moment between:
+
+- "I know what I should do"
+- and
+- "I have actually started doing it"
+
+This screen exists to shorten that gap.
+
+The focus timer should feel like a transition space between intention and action.
+
+It should help the user:
+
+- enter a task gently
+- reduce activation friction
+- externalize structure
+- recover from hesitation without shame
+- stay anchored when time becomes slippery
+- use companionship cues when working alone feels impossible
+
+The body doubling layer is not novelty content.
+
+It is a support mechanism for users who regulate attention better when another presence, voice, room tone, or shared-working cue is present.
+
+The product should treat this as legitimate cognitive scaffolding.
+
+The combined timer and body doubling experience should feel like:
+
+- a calm launchpad
+- a supportive work container
+- a non-judgmental re-entry space after interruption
+
+It should not feel like:
+
+- a strict stopwatch
+- a punishment clock
+- a gamified productivity race
+- a noisy media player bolted onto a timer
+
+### 8.2 Core User Needs This Screen Must Solve
+
+This screen is responsible for solving a specific cluster of ADHD-native problems.
+
+#### 8.2.1 Initiation Paralysis
+
+The user may know exactly what task matters and still feel unable to start.
+
+The screen must lower the cost of beginning through:
+
+- preselected short focus options
+- one-tap start
+- visible first-step framing
+- encouragement tied to starting rather than finishing
+- optional body doubling for external structure
+
+#### 8.2.2 Time Blindness During Work
+
+Once the user starts, they may lose track of elapsed time or overestimate how long they have been working.
+
+The screen must make time feel visible through:
+
+- large visual countdown or count-up blocks
+- progress rings or segmented bars
+- ambient time cues that are readable at a glance
+- predictable phase transitions
+
+#### 8.2.3 Fragility Under Interruption
+
+Calls, texts, app switching, low-battery anxiety, or sudden thought spirals can break focus.
+
+The screen must make interruption recovery feel easy rather than ruinous.
+
+It should preserve the sense that a session can bend without fully breaking.
+
+#### 8.2.4 Need for External Structure
+
+Many users focus more easily with another human presence or a simulation of one.
+
+The body doubling layer should support users who benefit from:
+
+- shared-work ambience
+- calm human voice prompts
+- co-working style audio presence
+- subtle start and return cues
+
+#### 8.2.5 Aversion to Rigid Productivity Systems
+
+The user should never feel punished for:
+
+- pausing
+- restarting
+- extending a session
+- switching to a smaller goal
+- stopping early because their nervous system is overloaded
+
+The screen must preserve flexibility without collapsing into vagueness.
+
+### 8.3 Product Role in the Overall App Flow
+
+The focus timer sits at the moment where planning becomes action.
+
+It is the bridge between:
+
+- task selection
+- energy-aware suggestion
+- actual work initiation
+
+This screen may be entered from several places:
+
+- the Today screen after tapping `Start focus`
+- a task card after tapping `Start with timer`
+- a task detail screen
+- a body doubling recommendation card
+- a focus shortcut from the home navigation
+- a recovery prompt after repeated task postponement
+
+Regardless of entry point, the screen must answer four questions immediately:
+
+1. What am I about to focus on?
+2. How long am I trying for?
+3. Do I want body doubling support?
+4. What happens if I need to pause, stop, or change course?
+
+The screen should reduce ambiguity before the session starts.
+
+### 8.4 Primary Experience Principles
+
+#### 8.4.1 Celebrate Starting
+
+The strongest reinforcement should occur at session start, not only at session completion.
+
+The act of beginning is itself the key achievement this screen is designed to support.
+
+#### 8.4.2 Keep Structure Soft
+
+The timer should provide shape without becoming authoritarian.
+
+Defaults matter, but overrides should remain easy.
+
+#### 8.4.3 Reduce Pre-Work Friction
+
+The user should not need to configure six settings before beginning.
+
+The ideal path is:
+
+- pick task
+- pick duration
+- optionally enable body doubling
+- start
+
+#### 8.4.4 Make Time Legible
+
+Time should be shown visually, not buried in small text.
+
+The screen must help users feel where they are inside the session.
+
+#### 8.4.5 Preserve Emotional Safety
+
+If the session is interrupted, abandoned, or changed, the UI must stay calm.
+
+The app should frame deviation as adjustment, not failure.
+
+### 8.5 Entry Variants
+
+The focus timer screen should support multiple entry contexts while still feeling like the same product object.
+
+#### 8.5.1 Task-Linked Entry
+
+When launched from a specific task, the screen header should clearly show:
+
+- task title
+- optional first step
+- energy fit indicator if available
+- planned duration recommendation if the system has one
+
+This variant should feel purpose-built for helping the user start that exact task.
+
+#### 8.5.2 General Focus Entry
+
+Some users will want to focus without selecting a task first.
+
+In this case the screen should support:
+
+- `Focus without task`
+- quick attach of a task later
+- lightweight prompt such as `What are you trying to move forward?`
+
+The app should not force task formalization if that would block starting.
+
+#### 8.5.3 Recovery Entry
+
+If the user has postponed or drifted repeatedly, the app may offer a recovery path into the timer with copy such as:
+
+- `Try 5 minutes`
+- `Want a gentle start?`
+- `Use body doubling to begin`
+
+This entry should feel especially low-pressure.
+
+#### 8.5.4 Suggested Focus Entry
+
+When the system recommends a task based on energy or schedule fit, the timer may open with suggested settings already chosen.
+
+Example:
+
+- task attached
+- 15-minute session selected
+- body doubling recommended if the user has historically used it for similar tasks
+
+Preselection should reduce friction, not feel presumptuous.
+
+### 8.6 Pre-Start Screen Layout
+
+The pre-start state is a setup screen, but it should not look like a control panel.
+
+It should feel like a calm launch surface.
+
+#### 8.6.1 Top Area
+
+The top area should contain:
+
+- a soft title such as `Focus session`
+- a back affordance
+- optional close or minimize action if the flow was opened modally
+
+If the timer is task-linked, the task card should appear near the top and remain visually prominent.
+
+#### 8.6.2 Task Summary Card
+
+This card should include:
+
+- task title
+- optional micro-step or `start with` text
+- estimated effort or energy fit if known
+- due-today or schedule context if helpful
+
+The card should not repeat heavy metadata.
+
+The purpose is anchoring, not administration.
+
+#### 8.6.3 Duration Selector
+
+The duration selector should be one of the most visually prominent controls on the screen.
+
+Recommended quick options:
+
+- `5 min`
+- `10 min`
+- `15 min`
+- `25 min`
+- `45 min`
+- `Custom`
+
+The first options should be especially easy to tap because short starts are often the difference between action and avoidance.
+
+The product should explicitly validate ultra-short sessions as legitimate.
+
+Examples of supportive helper text:
+
+- `A small start counts`
+- `You can always keep going`
+
+#### 8.6.4 Session Mode Selector
+
+The screen may optionally provide session modes when appropriate:
+
+- `Gentle start`
+- `Standard focus`
+- `Deep focus`
+
+These are not merely cosmetic labels.
+
+They can adjust defaults such as:
+
+- duration
+- break behavior
+- prompt intensity
+- body doubling style suggestions
+
+However, the user should not need to understand these modes in order to start quickly.
+
+#### 8.6.5 Body Doubling Panel
+
+The body doubling panel should sit directly below or beside the duration controls depending on screen size.
+
+It should present body doubling as a supportive option, not as a premium gimmick.
+
+The panel should show:
+
+- toggle state
+- currently selected audio type if any
+- short explanation such as `Work with a calm companion track`
+- premium lock state when relevant
+
+Suggested audio categories:
+
+- `Quiet co-working`
+- `Soft encouragement`
+- `Cafe focus`
+- `Library calm`
+- `Rain + presence`
+- `Structured check-ins`
+
+The selection UI should use plain language.
+
+Users should understand the emotional shape of a track before starting it.
+
+#### 8.6.6 Start Action Area
+
+The bottom action area should include:
+
+- primary CTA: `Start focus`
+- optional secondary CTA: `Start without audio`
+- optional tertiary link: `Just start task`
+
+The main CTA should be large, warm, and visually rewarding.
+
+The user should feel that the screen wants them to succeed.
+
+### 8.7 Pre-Start Content Behavior
+
+#### 8.7.1 Duration Defaults
+
+If the app has enough context, it may suggest a default duration based on:
+
+- user preference
+- task type
+- current energy
+- available time until next event
+- historical completion or continuation data
+
+Example:
+
+- admin task during low energy -> suggest 10 minutes
+- deep writing task in a high-energy slot -> suggest 25 or 45 minutes
+
+Suggestions must be editable in one tap.
+
+#### 8.7.2 Body Doubling Recommendations
+
+The app may recommend body doubling when:
+
+- the user often uses it for hard-to-start tasks
+- the task has been postponed several times
+- the user’s onboarding profile indicated high benefit from external structure
+- the task is cognitively heavy or emotionally avoidant
+
+Recommendation copy should be gentle:
+
+- `Want a little company while you start?`
+
+not:
+
+- `You seem unable to focus alone`
+
+#### 8.7.3 First-Step Framing
+
+If the attached task has a first-step note, the screen should highlight it before session start.
+
+Example:
+
+- `First step: open the form`
+- `First step: write the email subject line`
+- `First step: put the laundry in`
+
+This transforms the session from abstract effort into specific action.
+
+### 8.8 Active Timer Screen Layout
+
+Once the session starts, the interface should transition into an active focus state.
+
+The shift should feel like crossing a threshold.
+
+The app should briefly acknowledge the start with:
+
+- soft haptic
+- small confetti or sparkle burst
+- concise affirmation such as `You started`
+
+The celebration must be short and non-distracting.
+
+#### 8.8.1 Top Region During Active Focus
+
+The top region should contain:
+
+- current task title or focus label
+- optional body doubling indicator
+- minimize control
+- overflow menu for advanced actions
+
+The header must remain quiet.
+
+It should not compete with the timer.
+
+#### 8.8.2 Central Time Display
+
+The central timer display is the emotional and functional center of the screen.
+
+It should be large enough to read instantly.
+
+Recommended visual elements:
+
+- large numeric countdown
+- circular or segmented progress indicator
+- phase label such as `Focus`
+- optional small elapsed-time view
+
+The design should help users answer:
+
+- how much longer
+- how far in
+- whether this is still the focus phase or a break
+
+#### 8.8.3 Task Anchor Module
+
+Below the timer, the screen should keep a lightweight task anchor visible.
+
+This may include:
+
+- task title
+- current micro-step
+- `Need a smaller step?` action
+- `Mark started` state if not already implied
+
+The user should not lose sight of what this session is for.
+
+#### 8.8.4 Audio Control Strip
+
+If body doubling is active, a persistent control strip should show:
+
+- track name or mode label
+- play/pause
+- volume shortcut
+- change track
+- captions or prompt indicator if voice content exists
+
+These controls should remain simple.
+
+The screen is a focus tool, not a media library.
+
+#### 8.8.5 Bottom Action Cluster
+
+The bottom region should expose the most common actions:
+
+- `Pause`
+- `Finish early`
+- `Add 5 min`
+- `Take break now` when enabled
+
+Actions should be spaced generously to prevent accidental taps.
+
+### 8.9 Active Session States
+
+The active timer screen must support multiple in-session states without losing coherence.
+
+#### 8.9.1 Running State
+
+This is the default active state.
+
+The timer counts down visibly.
+
+Audio, if enabled, plays according to the selected body doubling mode.
+
+The UI should remain stable and non-busy.
+
+#### 8.9.2 Paused State
+
+If the user pauses, the UI should visually soften and clearly indicate the session is paused.
+
+Recommended changes:
+
+- timer freezes
+- progress ring dims slightly
+- pause label appears
+- body doubling audio pauses or switches to paused-state behavior
+
+The paused screen should provide:
+
+- `Resume`
+- `Finish session`
+- `Make it smaller`
+
+The product should never imply that pausing invalidates the session.
+
+#### 8.9.3 Extended State
+
+If the user chooses to continue beyond the original duration, the screen should support a graceful extension.
+
+Options:
+
+- add 5 minutes
+- add 10 minutes
+- switch to open-ended mode
+
+This is important because ADHD users may finally enter flow after a delayed start.
+
+The product should not punish success by forcing a hard stop.
+
+#### 8.9.4 Break State
+
+If break functionality is enabled, the screen should clearly transition into a break phase.
+
+Break state should feel restorative, not empty.
+
+It may include:
+
+- countdown to return
+- calming visual treatment
+- optional hydration or stretch prompt
+- `Skip break`
+- `Start next focus`
+
+Breaks should help with regulation without scattering attention.
+
+#### 8.9.5 Interrupted Background State
+
+If the app goes into background during a session:
+
+- local timer state must remain reliable
+- notifications should support return
+- session continuity must be preserved
+
+When the user comes back, the screen should explain the current state plainly.
+
+Examples:
+
+- `3 minutes left`
+- `Your timer finished while you were away`
+- `Paused when you left`
+
+### 8.10 Body Doubling Audio Experience
+
+Body doubling must feel intentionally designed for ADHD regulation, not like a playlist widget.
+
+#### 8.10.1 Purpose of Body Doubling in This Product
+
+The feature exists to provide:
+
+- companionship without social demand
+- rhythm without pressure
+- external structure without surveillance
+- grounding during hard starts
+
+The user should feel accompanied, not watched.
+
+#### 8.10.2 Audio Format Types
+
+The product should support several audio patterns because users regulate differently.
+
+Potential formats:
+
+- continuous ambient co-working room tone
+- occasional spoken check-ins
+- start prompt plus long quiet interval
+- light verbal reminders at predictable points
+- paired breathing or settling prompt before work begins
+
+The app should not assume everyone wants frequent voice interruptions.
+
+#### 8.10.3 Tone of Voice
+
+Any spoken body doubling content must be:
+
+- calm
+- warm
+- non-patronizing
+- concise
+- adult-oriented
+
+It must avoid:
+
+- childish cheerleader energy
+- therapy imitation
+- overly intimate parasocial scripting
+- command-heavy directives
+- guilt-based motivation
+
+Appropriate examples:
+
+- `We are just getting started. Pick the smallest next move.`
+- `You are still in it. Come back to the task when you're ready.`
+- `A few minutes counts.`
+
+#### 8.10.4 Audio Start Ritual
+
+If body doubling is enabled, session start may include a short settling cue before the main work interval.
+
+For example:
+
+- 5-second breath cue
+- one calm orientation sentence
+- soft ambient fade-in
+
+This can help the user cross from intention into action.
+
+The ritual must remain skippable.
+
+#### 8.10.5 Audio During the Session
+
+The ongoing audio behavior should depend on track type.
+
+Examples:
+
+- quiet co-working: mostly ambience, no speech
+- structured check-ins: brief voice at predictable intervals
+- soft encouragement: sparse and non-intrusive cues
+
+The user should always know whether speech is expected.
+
+Unexpected voice interruptions can break concentration.
+
+#### 8.10.6 Audio at Pause, Return, and End
+
+Audio transitions should support regulation.
+
+Examples:
+
+- pause -> gentle fade or stop
+- resume -> short return cue
+- finish -> subtle closing phrase or soft tone
+
+These should never feel like alarms unless the user has explicitly selected a stronger style.
+
+### 8.11 Session Completion Experience
+
+Completion is important, but it should remain secondary to successful initiation and engagement.
+
+#### 8.11.1 End-of-Session Priorities
+
+At the end of a session, the screen should help the user answer:
+
+- Did I make progress?
+- Do I want to continue?
+- Do I need a break?
+- What should happen to the task now?
+
+The completion state should avoid binary all-or-nothing framing.
+
+#### 8.11.2 Completion Layout
+
+The completion surface should show:
+
+- encouraging header
+- session length
+- task context
+- optional progress reflection
+- next-step actions
+
+Suggested messages:
+
+- `You started and stayed with it`
+- `Nice work showing up`
+- `That session counts`
+
+These messages should remain grounded rather than overly celebratory.
+
+#### 8.11.3 Primary Completion Actions
+
+Recommended actions:
+
+- `Keep going`
+- `Take a break`
+- `Mark task done`
+- `Still in progress`
+- `Schedule another session`
+
+This is critical.
+
+The user may have done meaningful work without finishing the task.
+
+The UI must explicitly support partial progress.
+
+#### 8.11.4 Reflection Without Homework
+
+An optional tiny reflection prompt may appear after completion.
+
+Examples:
+
+- `Did this length work for you?`
+- `Want to keep the same setup next time?`
+- `Was body doubling helpful?`
+
+This should never become required journaling.
+
+### 8.12 In-Session Microinteractions
+
+Microinteractions must support momentum rather than distract from it.
+
+Recommended moments:
+
+- session start confetti burst
+- subtle ring pulse on phase change
+- gentle haptic when the timer begins
+- satisfying button press feedback on pause or extend
+- soft completion animation
+
+All motion should be:
+
+- brief
+- low-clutter
+- skippable under reduced motion settings
+
+### 8.13 Flexible Timer Rules
+
+The timer must be opinionated enough to help and flexible enough to survive real use.
+
+#### 8.13.1 Default Timing Philosophy
+
+The product should not insist that 25 minutes is universally correct.
+
+Instead, the timer model should acknowledge:
+
+- some users need 5 minutes to break inertia
+- some users prefer 15 minutes because 25 feels too heavy
+- some users enter flow and want longer sessions
+
+The timer should support adjustable defaults without making the user configure a complex system.
+
+#### 8.13.2 Graceful Short Sessions
+
+Very short sessions must be treated as valid.
+
+The product should never imply that a 5-minute session is inferior or unserious.
+
+Short focus windows are often clinically realistic and behaviorally effective for ADHD users.
+
+#### 8.13.3 Break Flexibility
+
+Breaks should be optional, adjustable, and easy to skip.
+
+The user may need:
+
+- a break immediately
+- no break at all
+- a longer recovery break after heavy effort
+
+Rigid break enforcement would be misaligned with the product philosophy.
+
+#### 8.13.4 Continue Flow Support
+
+If the session ends and the user is finally in motion, the screen should make continuation frictionless.
+
+`Keep going` should be easier than reconfiguring a new session from scratch.
+
+### 8.14 Screen Behavior for Different Task Types
+
+The timer may adapt presentation depending on the nature of the task.
+
+#### 8.14.1 Admin and Chore Tasks
+
+These often benefit from:
+
+- short default duration
+- first-step emphasis
+- body doubling recommendation for activation
+- straightforward completion options
+
+#### 8.14.2 Deep Work Tasks
+
+These may benefit from:
+
+- longer default duration
+- quieter body doubling options
+- less intrusive prompts
+- stronger visual time progression
+
+#### 8.14.3 Emotionally Avoidant Tasks
+
+Examples:
+
+- difficult email
+- financial paperwork
+- medical admin
+
+These should receive more compassionate start framing and may benefit from:
+
+- smaller default start windows
+- explicit `just begin` language
+- structured check-in audio
+- easy `make smaller` action
+
+### 8.15 Empty and Edge Variants
+
+#### 8.15.1 No Task Attached
+
+When no task is attached, the screen should still feel complete.
+
+The UI should anchor around the focus goal rather than exposing a blank state problem.
+
+#### 8.15.2 No Audio Available
+
+If body doubling content is unavailable due to offline state, entitlement, or loading error, the timer should remain fully usable.
+
+The app should offer:
+
+- start without audio
+- retry audio load
+- choose another track if locally available
+
+The failure of audio must not block focus support.
+
+#### 8.15.3 Premium Lock State
+
+If the user is on the free plan and taps a premium body doubling option, the paywall behavior must remain respectful.
+
+It should explain the value plainly and allow easy return to the current timer setup.
+
+The product must not hijack the user’s moment of readiness.
+
+If possible, the app should still allow:
+
+- timer start without audio
+- timer start with basic free mode if included
+
+#### 8.15.4 Session Finished in Background
+
+When the user returns after the session completed while the app was backgrounded, the screen should summarize the state clearly and offer re-entry options without confusion.
+
+### 8.16 Navigation and Minimized Timer Behavior
+
+Users will sometimes need to leave the active timer screen without abandoning the session.
+
+The product should support a minimized timer state.
+
+#### 8.16.1 Minimized Floating or Pinned Bar
+
+When minimized, the app may show a persistent compact element containing:
+
+- remaining time
+- task title or short label
+- pause/resume
+- return to full timer
+
+This helps users maintain continuity while checking another screen.
+
+#### 8.16.2 Return Path
+
+Returning to the full timer screen should restore context instantly.
+
+The user must never wonder whether the session is still running.
+
+### 8.17 Notifications and External Cues
+
+The focus timer is partly a foreground experience and partly a system-level support tool.
+
+#### 8.17.1 Start Notification Strategy
+
+The app does not need a notification at session start if the app is open, but it may use local notifications for:
+
+- phase changes in background
+- session completion in background
+- return-from-pause reminders when user opted in
+
+#### 8.17.2 End Notification Strategy
+
+End notifications should be calming and brief.
+
+Examples:
+
+- `Focus session complete`
+- `Your 15-minute session ended`
+- `Ready for a break or another round?`
+
+Avoid urgency-heavy sound or phrasing.
+
+#### 8.17.3 Re-Entry Reminders
+
+If the user pauses and does not return, the app may send a gentle reminder if enabled.
+
+Example:
+
+- `Want to come back for 5 more minutes?`
+
+This should remain optional because reminders can easily become guilt triggers.
+
+### 8.18 Accessibility Requirements for This Screen
+
+This screen has especially high accessibility importance because it combines time pressure, audio, motion, and action controls.
+
+Required behaviors include:
+
+- large readable timer text
+- screen reader labels for countdown, task, and controls
+- clear accessible names for play, pause, resume, extend, and finish actions
+- captions or text alternatives for spoken body doubling content where feasible
+- reduced motion mode for celebratory and transition animations
+- color-independent state communication
+- generous tap targets
+- support for dynamic type without clipping primary controls
+
+The screen must also reduce cognitive load.
+
+That means:
+
+- limit simultaneous choices once session is running
+- avoid tiny secondary controls
+- avoid cluttered audio settings panels during active work
+- preserve visual hierarchy so the user always knows what matters most
+
+### 8.19 ADHD-Specific UX Risks
+
+#### 8.19.1 Risk: The Timer Feels Like Surveillance
+
+If the design feels strict or evaluative, some users will avoid it.
+
+Mitigation:
+
+- use soft language
+- emphasize support rather than discipline
+- allow pause, extend, and early finish without friction
+
+#### 8.19.2 Risk: Body Doubling Feels Cringe or Infantilizing
+
+If voice content sounds fake, overly chirpy, or emotionally manipulative, users will disengage immediately.
+
+Mitigation:
+
+- adult tone
+- restrained scripts
+- multiple track styles
+- clear expectation-setting before play
+
+#### 8.19.3 Risk: Too Many Setup Choices Block Starting
+
+If the pre-start screen asks for too many decisions, the user may never begin.
+
+Mitigation:
+
+- strong defaults
+- one-tap start
+- progressive disclosure for advanced options
+
+#### 8.19.4 Risk: Session End Creates a Crash
+
+If the session ends abruptly with no continuation path, the user may fall out of momentum.
+
+Mitigation:
+
+- immediate `Keep going` option
+- calm break transition
+- support for in-progress task state
+
+#### 8.19.5 Risk: Audio Becomes Distracting
+
+If spoken prompts are mistimed or too frequent, body doubling can become a source of sensory irritation.
+
+Mitigation:
+
+- clear track categories
+- predictable prompt patterns
+- simple audio switching
+- sparse defaults
+
+### 8.20 Success Criteria for the Focus Timer and Body Doubling Screen
+
+This section is successful when the experience consistently produces the following outcomes:
+
+- users can start a session in a few seconds
+- short sessions feel valid and inviting
+- the screen helps users begin tasks they would otherwise avoid
+- body doubling feels supportive, not gimmicky
+- time becomes more legible during focus
+- pausing, extending, and re-entering feel safe
+- completion supports partial progress rather than all-or-nothing judgment
+- premium upsell does not sabotage moments of readiness
+- the timer feels integrated with tasks and energy-aware planning rather than separate from them
+
+The emotional success metric is:
+
+the user feels accompanied into action, not pressured into performance
+
+### 8.21 Section Summary
+
+The focus timer with body doubling audio is the product’s activation engine.
+
+It should translate planning into motion by giving the user:
+
+- a soft start
+- visible time structure
+- supportive companionship when needed
+- flexibility during real-world disruption
+- reinforcement for showing up
+
+If this screen is executed well, the app will feel fundamentally different from traditional timers because it does not treat focus as obedience to a clock.
+
+It treats focus as a supported state transition for an ADHD brain that often needs help getting over the starting line and staying connected to the task once it begins.
