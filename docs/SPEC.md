@@ -9708,3 +9708,1420 @@ If these screens are executed well, the user will experience something most plan
 These screens are where the app proves it is not merely kinder in tone than other planners.
 
 They are where it becomes structurally different.
+
+## 10. Screen-by-Screen: Habit Tracking (No Streaks, Gentle Nudges)
+
+### 10.1 Section Intent
+
+This section defines the habit tracking experience for an ADHD-native planner that rejects streak pressure, all-or-nothing framing, and shame-based retention mechanics.
+
+In this product, habits are not obedience loops.
+
+They are soft support structures for repetition, identity reinforcement, and easier re-entry.
+
+Traditional habit systems often turn a simple miss into a symbolic failure event.
+
+For many ADHD users, that pattern is destructive.
+
+One missed day can trigger:
+
+- avoidance
+- self-criticism
+- abandonment of the habit entirely
+- a sense of having ruined progress
+- reluctance to reopen the app
+
+This product must break that pattern.
+
+Habit tracking here should help users:
+
+- remember what they are trying to support
+- notice patterns without moralizing them
+- celebrate showing up
+- recover quickly after gaps
+- keep habits feeling alive even when consistency is uneven
+
+The core design stance is simple:
+
+Missing a habit check-in is not a broken promise.
+
+It is information about context, energy, life load, and friction.
+
+The screens in this section must translate that stance into visible behavior.
+
+They must feel fundamentally different from mainstream streak apps.
+
+They must feel warm, resilient, and practical.
+
+### 10.2 Core User Needs These Screens Must Solve
+
+#### 10.2.1 Repetition Support Without Punishment
+
+Users need help repeating behaviors over time.
+
+They do not need a system that turns inconsistency into visible failure.
+
+#### 10.2.2 Low-Friction Daily Check-In
+
+A habit support tool only works if interaction stays lighter than the effort of the habit itself.
+
+Daily check-in must therefore be extremely fast.
+
+#### 10.2.3 Recovery After Missed Days
+
+Many users can engage with a habit for several days, disappear for a week, and then feel too guilty to return.
+
+The product must make coming back feel normal.
+
+#### 10.2.4 Pattern Visibility Without Harsh Metrics
+
+Users benefit from seeing:
+
+- rough frequency
+- time-of-day tendencies
+- environmental fit
+- easier and harder weeks
+
+They do not benefit from being dominated by:
+
+- broken streak counts
+- longest streak worship
+- red missed-day grids
+- loss language
+
+#### 10.2.5 Habit Identity Support
+
+The user often wants reinforcement that says:
+
+- this still counts
+- I am still someone who is building this
+- returning is part of the process
+
+The system should support that identity gently and credibly.
+
+#### 10.2.6 Flexible Habit Definitions
+
+Not every habit should behave like a daily binary checkbox.
+
+Some habits are:
+
+- daily when possible
+- weekly
+- several times per week
+- tiny starter habits
+- maintenance routines tied to energy or context
+
+The UI must support this range without becoming complex or clinical.
+
+### 10.3 Product Role in the Overall App
+
+The habit tracking layer extends the planner from moment-to-moment task support into longer-term life scaffolding.
+
+It should help users maintain supportive routines without importing the emotional failure modes of traditional habit apps.
+
+This section’s screens are responsible for:
+
+- making habit engagement fast enough for low-capacity moments
+- distinguishing habits from ordinary repeating tasks
+- helping users see patterns that matter
+- providing gentle reminders and re-entry support
+- validating partial participation
+- making premium value tangible without locking essential dignity behind a paywall
+
+The habit system must feel integrated with:
+
+- onboarding personalization
+- Home/Today view
+- energy-aware planning
+- reminders
+- focus support
+- settings for sensory and notification preferences
+
+Habits are not a separate self-improvement product bolted onto the planner.
+
+They are one more way the app supports real ADHD life.
+
+### 10.4 Experience Principles
+
+#### 10.4.1 Return Matters More Than Perfect Continuity
+
+The system should reward re-entry and participation, not uninterrupted runs.
+
+#### 10.4.2 Habits Must Feel Lightweight
+
+If the interface feels administrative, users will stop using it.
+
+#### 10.4.3 Patterns Beat Scores
+
+The product should show rhythms, contexts, and frequency instead of moralized tallies.
+
+#### 10.4.4 Nudges Must Feel Supportive, Not Supervisory
+
+A reminder should feel like external memory support.
+
+It must not feel like being checked on.
+
+#### 10.4.5 Misses Must Stay Emotionally Neutral
+
+The system should never dramatize a gap.
+
+It should absorb gaps and keep moving.
+
+#### 10.4.6 Tiny Wins Must Count
+
+For ADHD users, doing a habit imperfectly or partially may be the meaningful victory.
+
+The UI should make small engagement visible and valid.
+
+#### 10.4.7 Habit Screens Must Remain Calm
+
+Because habit products can become dense with charts, streaks, trophies, and cumulative pressure, this app must stay visually warm and restrained.
+
+### 10.5 Screen Inventory
+
+This section covers the following primary screens and surfaces:
+
+- Habits Home
+- Habit Card System
+- Habit Creation and Edit Flow
+- Quick Check-In Sheet
+- Habit Detail and Pattern View
+- Gentle Re-Entry Surface
+- Habit Reminder and Nudge States
+- Empty, Paused, and Edge States
+
+Each screen should share a consistent visual language:
+
+- rounded cards
+- warm, soft color coding
+- minimal dense text
+- large completion and adjustment targets
+- positive feedback for participation
+- no red missed-day treatment
+- no aggressive chart styling
+
+### 10.6 Screen 1: Habits Home
+
+#### 10.6.1 Purpose
+
+Habits Home is the central screen for seeing active habits, checking in quickly, and regaining orientation after a gap.
+
+It should feel like a gentle daily support board.
+
+It should not feel like a scoreboard.
+
+#### 10.6.2 Primary User Questions
+
+This screen must answer:
+
+- what habits matter today
+- what can I check in with quickly
+- what has been feeling easy lately
+- what might need a gentler re-entry
+- what counts as progress right now
+
+#### 10.6.3 Entry Points
+
+Users may reach Habits Home from:
+
+- bottom navigation or primary app tab
+- Home/Today module featuring active habits
+- reminder tap-through
+- premium upsell conversion path
+- post-onboarding recommendation to set a first support habit
+
+#### 10.6.4 Emotional Role
+
+This screen is a high-risk emotional surface.
+
+Many users will open it after inconsistency.
+
+Therefore the default emotional message must be:
+
+You can resume from here without cleanup, apology, or catching up
+
+#### 10.6.5 Top Region
+
+The top region should contain:
+
+- screen title
+- a short framing line
+- a compact participation summary
+- a primary action to add a habit
+
+Example framing lines:
+
+- `Support a few routines gently`
+- `Small repeats still count`
+- `Pick back up wherever today starts`
+
+The summary should avoid numeric pressure.
+
+Good summary patterns include:
+
+- `2 habits ready for a quick check-in`
+- `You showed up for this a few times this week`
+- `Today can be a reset point`
+
+Bad summary patterns include:
+
+- `You missed 4 days`
+- `Streak lost`
+- `Only 32% completed`
+
+#### 10.6.6 Information Architecture
+
+Habits Home should prioritize the following order:
+
+1. immediate, easy check-ins
+2. supportive orientation
+3. pattern glimpses
+4. lower-priority management actions
+
+The screen should not begin with analytics.
+
+It should begin with actionability.
+
+#### 10.6.7 Active Habit Groups
+
+The screen may group habits into a few simple zones:
+
+- `Ready now`
+- `Later today`
+- `This week`
+- `Needs a soft restart`
+
+Grouping logic should feel helpful rather than evaluative.
+
+`Needs a soft restart` is not an error state.
+
+It simply means the habit has been quiet and may benefit from a low-pressure re-entry message.
+
+Group membership should be adaptive rather than fixed.
+
+Suggested grouping behavior:
+
+- `Ready now` contains habits whose preferred time, cue, or reminder window is currently active
+- `Later today` contains habits likely to fit later based on time-of-day preference or reminder schedule
+- `This week` contains lower-immediacy habits that are still relevant within the current week
+- `Needs a soft restart` contains habits that have gone quiet beyond their usual cadence window without being archived or paused
+
+The same habit should appear in only one primary group at a time to avoid duplication and visual noise.
+
+If the number of active habits is small, the product may collapse groups into a single ordered list while preserving the same prioritization logic.
+
+If a group is empty, the screen may omit it rather than rendering a hollow container.
+
+#### 10.6.8 Today Relevance Rules
+
+The screen should surface habits based on:
+
+- expected cadence
+- reminder timing
+- time-of-day preference
+- energy context
+- recent engagement
+- whether the user tends to do the habit in clusters
+
+The product should not surface everything equally at all times.
+
+Too many active habits in one list will overwhelm the user.
+
+#### 10.6.9 Compact Daily Snapshot
+
+A small snapshot area near the top may show:
+
+- today’s likely easy wins
+- one habit that has been feeling steady
+- one habit that has been quiet
+- an invitation to keep goals small
+
+Example:
+
+- `Tea before email still seems to fit mornings`
+- `A tiny stretch check-in could fit your low-energy afternoon`
+
+This should feel observational, not prescriptive.
+
+#### 10.6.10 Habit Card Density Rules
+
+The home screen should display a manageable number of expanded habit cards.
+
+Rules:
+
+- show high-relevance habits first
+- collapse low-relevance habits into a secondary list
+- preserve whitespace between cards
+- avoid chart clutter in the main feed
+- keep interaction targets visibly large
+
+#### 10.6.11 Quick Actions
+
+Primary actions on Habits Home include:
+
+- check in
+- mark partial
+- snooze gently
+- open detail
+- pause habit
+- add habit
+
+These actions must stay visible without making every card feel busy.
+
+#### 10.6.12 Premium Framing
+
+If the user is on the free tier and habits are premium, the Habits Home preview state should still communicate the philosophy clearly.
+
+It should emphasize:
+
+- no shame
+- no streak pressure
+- pattern-based support
+- easy return after gaps
+
+The upsell should never imply that premium users become more disciplined.
+
+It should imply that premium unlocks more supportive scaffolding.
+
+#### 10.6.13 Emotional Outcome
+
+The user should feel:
+
+- safe opening the habit area after a gap
+- able to check in without friction
+- interested in continuing rather than hiding
+- supported by the app rather than measured by it
+
+### 10.7 Screen 2: Habit Card System
+
+#### 10.7.1 Purpose
+
+Habit cards are the main interaction units of the habit experience.
+
+They must make a habit feel alive, approachable, and easy to re-enter.
+
+#### 10.7.2 Card Anatomy
+
+Each habit card should contain:
+
+- habit name
+- optional small icon or color marker
+- short purpose or cue line
+- cadence label
+- relevant time cue
+- quick check-in controls
+- a lightweight pattern preview
+- overflow actions
+
+The card should emphasize immediate action over metadata.
+
+#### 10.7.3 Name and Cue Line
+
+The card should present the habit in user-centered language.
+
+Examples:
+
+- `Take meds`
+- `Open laptop and plan first 10 minutes`
+- `Stretch for one song`
+- `Drink water before second coffee`
+
+An optional cue line can ground the habit in real context.
+
+Examples:
+
+- `Usually easiest right after breakfast`
+- `Works best as a tiny version`
+- `Even once this week counts`
+
+#### 10.7.4 Check-In Controls
+
+Each card should support one-tap check-in options appropriate to the habit.
+
+Possible controls:
+
+- `Done`
+- `Did a little`
+- `Not today`
+- `Remind me later`
+
+Not every habit requires every option.
+
+The product should avoid overwhelming the card with too many buttons.
+
+#### 10.7.5 Partial Completion Support
+
+Partial participation is strategically important.
+
+For many habits, a reduced version should count as meaningful engagement.
+
+Examples:
+
+- one minute of stretching
+- taking some notes instead of full journaling
+- putting the meds bottle on the counter even if intake is delayed
+
+The card system should support partials where appropriate through language like:
+
+- `Did a little`
+- `Starter version`
+- `Count the tiny version`
+
+This helps preserve momentum and reduce all-or-nothing dropout.
+
+#### 10.7.6 Pattern Preview
+
+Each card may include a very lightweight preview of recent engagement.
+
+Possible representations:
+
+- a row of soft dots
+- a seven-day warmth band
+- a tiny participation sparkline
+
+This preview must avoid harsh missed-day encoding.
+
+Missed periods should look neutral, not accusatory.
+
+The card preview is for orientation only.
+
+Deeper patterns belong in detail view.
+
+#### 10.7.7 Participation Language
+
+Card copy should reinforce engagement rather than binary pass-fail framing.
+
+Preferred examples:
+
+- `You’ve shown up for this a few times lately`
+- `This one tends to work better later in the day`
+- `Quiet recently. Easy to restart small`
+
+Avoid:
+
+- `Failure rate`
+- `Current streak`
+- `Broken`
+- `Off track`
+
+#### 10.7.8 Visual States
+
+Habit cards should have gentle visual states such as:
+
+- ready
+- completed today
+- partially completed today
+- snoozed
+- paused
+- re-entry recommended
+
+These states should be communicated with:
+
+- subtle icon shifts
+- calm color changes
+- microcopy
+- minimal motion
+
+No state should turn the card hostile.
+
+#### 10.7.9 Completed-Today State
+
+When checked in, a habit card should:
+
+- settle visually
+- show a soft celebratory confirmation
+- remain visible for context
+- avoid disappearing too abruptly
+
+The system may show copy such as:
+
+- `Nice. Showing up counts`
+- `Logged`
+- `Tiny wins still move things`
+
+The celebration should be smaller than task-start celebration.
+
+Habits are ongoing.
+
+The feedback should feel warm, not finale-like.
+
+#### 10.7.10 Re-Entry Card State
+
+If a habit has been quiet for a while, the card should shift into a re-entry state.
+
+This state may show:
+
+- softer contrast
+- a practical restart suggestion
+- quick action to do a tiny version
+
+Example copy:
+
+- `Want to restart with the smallest version today?`
+- `You can pick this back up without catching up`
+- `Try one easy rep`
+
+#### 10.7.11 Overflow Actions
+
+Overflow actions may include:
+
+- edit habit
+- view pattern details
+- pause for now
+- change reminder
+- change schedule
+- archive habit
+
+Archive should be available, but delete should not be the primary emotional exit path.
+
+The system should support:
+
+- pausing a habit that is not realistic right now
+- archiving a habit that no longer fits
+
+This reinforces that changing needs are normal.
+
+#### 10.7.12 Emotional Outcome
+
+The user should feel:
+
+- invited into action quickly
+- validated for partial effort
+- unafraid of seeing a habit after inconsistency
+
+### 10.8 Screen 3: Habit Creation and Edit Flow
+
+#### 10.8.1 Purpose
+
+The habit creation flow must help users define supportive, realistic routines without accidentally setting up a shame trap.
+
+#### 10.8.2 Design Goal
+
+The flow should lead users toward:
+
+- smaller scope
+- realistic cadence
+- concrete cues
+- permission for partial participation
+- gentle reminder choices
+
+It should actively resist the common failure mode of creating an aspirational habit that is too large, too frequent, or too vague.
+
+#### 10.8.3 Entry Points
+
+Users may enter creation from:
+
+- Habits Home
+- onboarding recommendation
+- Home/Today suggestion
+- a completed task that the user wants to turn into a habit
+- a re-entry recommendation after repeated manual repetition
+
+Edit entry points include:
+
+- habit card overflow
+- habit detail
+- reminder settings
+
+#### 10.8.4 Flow Structure
+
+The creation flow should feel lightweight and stepwise.
+
+Recommended structure:
+
+1. name the habit
+2. choose cadence
+3. choose best timing or cue
+4. define what counts
+5. choose reminder style
+6. confirm gentle setup
+
+The flow should not present all controls on one dense form.
+
+#### 10.8.5 Naming Guidance
+
+The app should encourage specific, doable names.
+
+Good examples:
+
+- `Put meds by water bottle and take them`
+- `Write one sentence in journal`
+- `Walk outside for five minutes`
+- `Tidy desk for one song`
+
+The interface may guide against vague ambition phrases such as:
+
+- `Be healthy`
+- `Get life together`
+- `Always keep house clean`
+
+The product should not shame these inputs.
+
+It should redirect them into smaller, behavior-shaped wording.
+
+#### 10.8.6 Cadence Selection
+
+Cadence options should include:
+
+- daily
+- weekdays
+- weekends
+- certain days
+- x times per week
+- x times per month
+- flexible `when possible` pattern for especially gentle habits
+
+Cadence should be communicated as support frequency, not contract terms.
+
+#### 10.8.7 Definition of Success
+
+The flow must ask what counts as a valid check-in.
+
+This is crucial.
+
+The user may define:
+
+- full version only
+- tiny version counts
+- partial version counts differently
+- simple yes/no check-in
+- quantity-based participation such as glasses of water or minutes moved
+
+The system should gently recommend tiny-valid definitions when appropriate.
+
+Example:
+
+`Want the smallest version to count too? That can make restarting easier.`
+
+#### 10.8.8 Time and Cue Selection
+
+The user should be able to anchor a habit by:
+
+- time of day
+- after another event
+- during a certain energy state
+- when opening the app in the morning
+- loose weekly timing
+
+The app should encourage contextual anchors over abstract intention.
+
+Examples:
+
+- `after coffee`
+- `before leaving home`
+- `during low-energy evening`
+- `after lunch reset`
+
+#### 10.8.9 Reminder Selection
+
+Reminder options should feel gentle and adjustable.
+
+Possible styles:
+
+- soft single nudge
+- two-step reminder
+- body doubling style encouragement
+- silent badge only
+- no reminder
+
+The flow should make it clear that more reminders are not always better.
+
+#### 10.8.10 Shame Prevention Guidance
+
+At setup time, the UI should proactively steer the user away from impossible habit definitions.
+
+Examples:
+
+- `Daily might be a lot right now. Want to start with 3 times a week?`
+- `This sounds like a big task. Would a 5-minute version fit better as a habit?`
+- `You can always increase this later`
+
+This guidance must remain optional and respectful.
+
+#### 10.8.11 Edit Philosophy
+
+Editing a habit should feel like tuning support, not admitting failure.
+
+Users should easily change:
+
+- cadence
+- reminder style
+- what counts
+- cue
+- title
+- paused state
+
+The edit flow should not present historical data in a way that pressures the user to preserve the original setup.
+
+#### 10.8.12 Pause and Archive Paths
+
+The edit flow must support:
+
+- pause for now
+- pause until a date
+- archive gently
+
+Pause copy examples:
+
+- `This doesn’t need to disappear. You can shelve it for a while`
+- `Pause while life is full`
+
+This matters because forcing delete-or-continue increases shame and abandonment.
+
+#### 10.8.13 Emotional Outcome
+
+The user should feel:
+
+- realistic about what they created
+- supported in making habits smaller
+- free to adjust without guilt later
+
+### 10.9 Screen 4: Quick Check-In Sheet
+
+#### 10.9.1 Purpose
+
+The Quick Check-In Sheet is the fast interaction surface for logging a habit without opening full detail.
+
+It is one of the most important pieces of the habit experience because it reduces the cost of showing up.
+
+#### 10.9.2 Trigger Points
+
+This sheet may open from:
+
+- tapping a habit card
+- tapping a reminder
+- tapping a habit from Home/Today
+- lock-screen or notification actions where supported
+
+#### 10.9.3 Sheet Content
+
+The sheet should include:
+
+- habit name
+- quick encouragement
+- relevant check-in choices
+- optional partial or note controls
+- reminder-later action
+- `not today` or skip action where appropriate
+
+#### 10.9.4 Check-In Choices
+
+The check-in sheet should adapt to the habit type.
+
+Examples:
+
+- binary completion
+- partial completion
+- quantity stepper
+- duration shortcuts
+- mood or energy context tag if useful
+
+The sheet must remain small and quick.
+
+It should never feel like filling out a journal when the user only wanted to log a habit.
+
+#### 10.9.5 Optional Context Capture
+
+For some habits, the app may offer lightweight optional context tags such as:
+
+- `easy`
+- `hard`
+- `helped`
+- `low energy`
+- `outside routine`
+
+This data can later support pattern insights.
+
+It must remain optional.
+
+#### 10.9.6 Remind-Later Behavior
+
+`Remind me later` should offer fast choices such as:
+
+- in 15 minutes
+- this evening
+- tomorrow morning
+- next scheduled time
+
+Choosing later should never be framed as failure.
+
+It is a valid self-regulation action.
+
+#### 10.9.7 Not-Today Behavior
+
+For habits where daily completion is not always realistic, the sheet may include:
+
+- `Not today`
+- `Skip without guilt`
+- `Pause for today`
+
+This action should:
+
+- prevent repeat reminders for the day
+- keep history neutral
+- avoid negative coloring
+
+#### 10.9.8 Confirmation Feedback
+
+After a successful check-in, the sheet should:
+
+- provide light haptic confirmation
+- show a quick warm animation
+- return the user to context quickly
+
+Confirmation examples:
+
+- `Logged`
+- `That counts`
+- `Nice re-entry`
+
+#### 10.9.9 Emotional Outcome
+
+The user should feel:
+
+- that logging a habit is almost frictionless
+- that partials and postponements are valid
+- that the system is easy to return to during chaotic days
+
+### 10.10 Screen 5: Habit Detail and Pattern View
+
+#### 10.10.1 Purpose
+
+Habit Detail is the screen for understanding a single habit over time without turning the habit into a performance dashboard.
+
+It should provide clarity, not self-surveillance.
+
+#### 10.10.2 Primary Questions
+
+This screen must answer:
+
+- how has this habit been fitting into real life
+- when does it usually work best
+- what kind of version counts most often
+- is this habit too ambitious or still a good fit
+- what would make re-entry easier
+
+#### 10.10.3 Layout Structure
+
+The detail screen should include:
+
+- header with habit title and status
+- short description of the habit’s intended support role
+- recent participation summary
+- pattern visualization
+- context insights
+- reminder and setup controls
+- pause or archive actions
+
+#### 10.10.4 Summary Area
+
+The summary should avoid score language.
+
+Good summary examples:
+
+- `You’ve checked in with this on 4 of the last 7 days`
+- `This tends to happen most on calmer mornings`
+- `Tiny versions are carrying this habit lately`
+
+The product may state frequency, but it should not frame it as failure against a perfect target.
+
+#### 10.10.5 Pattern Visualization Philosophy
+
+The pattern view should focus on recognizable rhythms.
+
+It should help the user notice:
+
+- clusters
+- drop-offs during hard weeks
+- stronger days
+- easier time windows
+- whether reminders help
+
+It should not create a high-stakes visual of loss.
+
+#### 10.10.6 Pattern Visualization Options
+
+Possible visual modules include:
+
+- soft dot calendar
+- weekly participation bars
+- heat-style activity view using warm neutrals rather than alarm colors
+- time-of-day pattern ribbon
+
+Any visualization must treat non-participation as neutral empty space.
+
+Empty is not failure.
+
+Empty is absence of data or absence of engagement.
+
+#### 10.10.7 Insight Cards
+
+The detail screen may provide restrained insights such as:
+
+- `This habit is easier on weekdays`
+- `You tend to skip this when energy is low`
+- `A tiny version seems to keep this alive`
+- `Evening reminders are usually ignored`
+
+Insights should be descriptive, not corrective.
+
+#### 10.10.8 Notes and Reflection
+
+If notes are supported, they should remain optional and lightweight.
+
+Possible uses:
+
+- tracking what made the habit easier
+- logging support tools
+- noting environmental friction
+
+The app should not require reflective journaling to use habits successfully.
+
+#### 10.10.9 Adjustment Recommendations
+
+When the system detects persistent friction, the detail screen may offer supportive adjustments.
+
+Examples:
+
+- `Try a smaller version`
+- `Move this later in the day`
+- `Change this to 3 times a week`
+- `Pause until next month`
+
+These recommendations must be framed as support tuning.
+
+They must not imply underperformance.
+
+#### 10.10.10 Historical Navigation
+
+Users should be able to look back across:
+
+- recent week
+- recent month
+- longer trend view
+
+Longer history should remain lightweight.
+
+The product should not encourage compulsive self-auditing.
+
+#### 10.10.11 Emotional Outcome
+
+The user should feel:
+
+- more informed about the habit’s real fit
+- less guilty about imperfect consistency
+- more capable of adjusting instead of quitting
+
+### 10.11 Screen 6: Gentle Re-Entry Surface
+
+#### 10.11.1 Purpose
+
+This surface appears when a habit has gone quiet long enough that the user may need an especially soft restart experience.
+
+It is not a warning screen.
+
+It is a recovery screen.
+
+#### 10.11.2 Trigger Conditions
+
+It may appear when:
+
+- a habit has had no check-ins beyond its usual cadence window
+- the user opens Habits after a long gap
+- reminders have been repeatedly ignored
+- the user taps a quiet habit card
+
+#### 10.11.3 Core Message
+
+The re-entry surface should normalize return.
+
+Examples:
+
+- `This can restart small`
+- `You don’t need to make up missed days`
+- `Want the easiest version today?`
+- `Life changed. This habit can flex too`
+
+#### 10.11.4 Layout
+
+The surface should show:
+
+- habit name
+- very short supportive framing
+- one or two easiest next actions
+- option to resize the habit
+- option to pause it
+
+This is not the place for analytics.
+
+It is the place for a practical next step.
+
+#### 10.11.5 Recommended Actions
+
+Actions may include:
+
+- do the tiny version now
+- remind me tomorrow
+- make this smaller
+- change to fewer times per week
+- pause for now
+
+The product should prioritize actions that preserve dignity and momentum.
+
+#### 10.11.6 Do-Not-Show Rules
+
+This surface must not show:
+
+- broken streaks
+- number of misses
+- harsh completion percentages
+- disappointed language
+
+It should never ask:
+
+- `Why did you stop?`
+- `What went wrong?`
+
+Those questions may be useful in therapy.
+
+They are not useful in a vulnerable re-entry moment.
+
+#### 10.11.7 Emotional Outcome
+
+The user should feel:
+
+- relieved
+- permitted to resume
+- offered a realistic next step
+
+### 10.12 Habit Reminder and Gentle Nudge States
+
+#### 10.12.1 Role of Reminders
+
+Habit reminders act as external memory support and activation cues.
+
+They are not compliance alerts.
+
+#### 10.12.2 Reminder Principles
+
+Reminders must be:
+
+- brief
+- warm
+- practical
+- skimmable
+- easy to snooze or dismiss
+
+They must not be:
+
+- guilt-heavy
+- passive-aggressive
+- alarmist
+- infantilizing
+
+#### 10.12.3 Reminder Types
+
+The habit system may support:
+
+- scheduled reminder
+- context-aware reminder
+- re-entry reminder
+- post-snooze reminder
+- summary-style weekly encouragement
+
+#### 10.12.4 Reminder Copy Patterns
+
+Preferred examples:
+
+- `A tiny version of your stretch habit could fit now`
+- `Meds check-in`
+- `Want a soft restart on journaling today?`
+- `You can count the small version`
+
+Avoid:
+
+- `Don’t break the chain`
+- `You forgot again`
+- `Stay disciplined`
+- `You’re falling behind`
+
+#### 10.12.5 Escalation Rules
+
+Reminder escalation should be limited and humane.
+
+If the user ignores a reminder:
+
+- the second reminder should be quieter or differently timed
+- repeated ignoring should trigger reduced frequency, not nagging intensity
+- the system may suggest changing timing instead of sending more pings
+
+#### 10.12.6 Interaction Options
+
+Habit reminders should support direct actions where platform capabilities allow:
+
+- done
+- partial
+- remind later
+- not today
+- open habit
+
+The goal is to reduce the number of steps between noticing and logging.
+
+#### 10.12.7 Weekly Encouragement
+
+An optional weekly summary may highlight:
+
+- habits that are feeling natural
+- habits that might want resizing
+- overall participation tone
+
+This summary should never rank the user against perfection.
+
+Example:
+
+- `A few routines are still alive, even on a messy week`
+
+### 10.13 Empty, Paused, and Edge States
+
+#### 10.13.1 No Habits Yet
+
+If the user has no habits, the empty state should explain the philosophy clearly.
+
+Example framing:
+
+- `Build gentle repeats, not streak pressure`
+- `Habits here are designed for real, inconsistent lives`
+
+The screen should suggest a few starter habit templates sized for ADHD reality.
+
+Examples:
+
+- `Take meds`
+- `Five-minute reset`
+- `Drink water once this morning`
+- `Plan first step of the day`
+
+#### 10.13.2 Too Many Active Habits
+
+If the user creates too many active habits, the system may gently suggest simplification.
+
+Examples:
+
+- `You may get more traction with fewer active habits right now`
+- `Want to pause a few and keep the easiest ones visible?`
+
+This must remain guidance, not enforcement.
+
+#### 10.13.3 Habit Quiet for a Long Time
+
+If a habit has been inactive for an extended period, the app should not let it silently become a guilt artifact.
+
+The system may:
+
+- move it into a gentle restart group
+- suggest pause or archive
+- offer a smaller version
+
+#### 10.13.4 Paused Habits
+
+Paused habits should remain accessible in a calm secondary area.
+
+They should not look like failures.
+
+Resume copy should feel simple:
+
+- `Bring back`
+- `Try again this week`
+- `Resume gently`
+
+#### 10.13.5 Archived Habits
+
+Archived habits should preserve history without pressuring reactivation.
+
+The archive can support reflection, but it should not dominate the active experience.
+
+#### 10.13.6 Free Tier Boundaries
+
+If habits are premium-only, the locked state should still demonstrate the emotional difference of the feature.
+
+The locked preview should highlight:
+
+- gentle tracking
+- no streak punishment
+- supportive re-entry
+- pattern visibility without shame
+
+It should not rely on generic premium language like `Build better habits faster`.
+
+### 10.14 Motion, Haptics, and Microfeedback
+
+Habit tracking should feel encouraging and alive without turning into noisy gamification.
+
+Recommended patterns:
+
+- soft pop or bloom when a habit is checked in
+- brief haptic confirmation for completion or partial completion
+- warm settle animation when a card shifts to completed-today state
+- subtle re-entry glow on a habit card that is being gently resurfaced
+- calm transition into detail and back out again
+
+Animation should reinforce:
+
+- yes, that counted
+- yes, this changed state
+- yes, you can continue
+
+It should not mimic arcade reward systems or trophy apps.
+
+### 10.15 Copywriting Requirements
+
+Habit copy must remain:
+
+- adult
+- supportive
+- brief
+- concrete
+- non-judgmental
+
+Preferred language patterns:
+
+- `show up`
+- `restart small`
+- `that counts`
+- `try the tiny version`
+- `quiet lately`
+- `fits better later`
+- `pause for now`
+
+Avoid:
+
+- `discipline`
+- `failure`
+- `broken streak`
+- `fell off`
+- `slacking`
+- `get back on track`
+- `consistency is key`
+
+The product should sound like a calm, observant ally.
+
+It should not sound like a coach, parent, or manager.
+
+### 10.16 Accessibility Requirements for Habit Tracking
+
+Habit tracking has unusually high accessibility importance because many neurodivergent users are especially sensitive to cognitive load, emotional tone, notification intensity, and visual clutter.
+
+Required behaviors include:
+
+- all pattern colors must have text alternatives
+- quick check-in controls must be large and easy to distinguish
+- habit cards must be fully operable with screen readers
+- pattern visualizations must have plain-language summaries
+- reminders must be configurable for sound, haptics, and frequency
+- reduced motion mode must simplify celebrations and card transitions
+- dynamic type must preserve check-in usability
+- all state changes must be conveyed without color alone
+
+Screen reader outputs should expose:
+
+- habit title
+- cadence
+- check-in status for today
+- available actions
+- concise pattern summary
+- paused or active state
+
+### 10.17 ADHD-Specific UX Risks
+
+#### 10.17.1 Risk: The Feature Quietly Becomes a Streak Engine
+
+If streak counts, perfect-week visuals, or chain metaphors creep in, the product will betray its core philosophy.
+
+Mitigation:
+
+- ban streak-first information architecture
+- prioritize participation summaries and re-entry
+- keep misses visually neutral
+
+#### 10.17.2 Risk: Users Create Aspirational Habits That Collapse Immediately
+
+If the creation flow encourages oversized commitments, the feature will generate shame instead of support.
+
+Mitigation:
+
+- recommend tiny versions
+- support flexible cadence
+- make resizing easy and normal
+
+#### 10.17.3 Risk: Reminders Feel Like Nagging
+
+If nudges pile up, users will turn them off entirely or avoid the app.
+
+Mitigation:
+
+- limit escalation
+- adapt timing based on response
+- treat snoozing and not-today as valid outcomes
+
+#### 10.17.4 Risk: Analytics Trigger Self-Surveillance
+
+If the detail view becomes too metric-heavy, users may fixate on underperformance.
+
+Mitigation:
+
+- use descriptive pattern language
+- avoid punitive percentages and red charts
+- emphasize fit and adjustment
+
+#### 10.17.5 Risk: Partial Completion Feels Fake or Patronizing
+
+If tiny versions feel infantilizing or arbitrary, users will reject them.
+
+Mitigation:
+
+- let users define what counts
+- use adult language
+- tie partials to real friction reduction
+
+#### 10.17.6 Risk: The Habit Screen Becomes Cluttered and Unusable
+
+If too many habits, previews, and suggestions appear at once, the user will avoid the section.
+
+Mitigation:
+
+- prioritize a few relevant habits
+- collapse secondary content
+- preserve whitespace and simple card hierarchy
+
+### 10.18 Success Criteria for Habit Tracking
+
+This section is successful when the experience reliably produces the following outcomes:
+
+- users can check in with a habit in seconds
+- users do not feel punished for missed days
+- re-entry after gaps feels emotionally safe
+- partial participation meaningfully preserves momentum
+- pattern views increase understanding without increasing shame
+- reminder behavior supports memory without becoming nagging
+- users resize or pause unrealistic habits instead of abandoning the feature entirely
+- the habit system feels fundamentally different from streak-driven competitors
+
+The emotional success metric is:
+
+the user feels invited to keep returning, even when consistency is messy
+
+### 10.19 Section Summary
+
+Habit tracking in this product is not a chain to keep alive.
+
+It is a gentle repetition support system for ADHD lives that are variable, interrupted, and often burdened by shame from previous tools.
+
+If this section is executed well, the user will experience habits as:
+
+- easy to log
+- safe to miss
+- simple to restart
+- informative without judgment
+- supportive of identity without demanding perfection
+
+This is where the app proves that long-term behavior support does not need guilt to be effective.
