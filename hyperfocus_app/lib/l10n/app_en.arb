@@ -1,0 +1,119 @@
+{
+  "@@locale": "en",
+  "appTitle": "HyperFocus",
+  "whatsOverwhelming": "What's overwhelming you?",
+  "homeSubtitle": "Pick a task and we'll break it into tiny steps.",
+  "searchHint": "Search tasks...",
+  "pickCategory": "Pick a category",
+  "tasks": "tasks",
+  "steps": "steps",
+  "categoryCleaning": "Cleaning",
+  "categorySelfCare": "Self Care",
+  "categoryAdmin": "Admin",
+  "categoryWork": "Work",
+  "categoryCooking": "Cooking",
+  "categorySocial": "Social",
+  "createCustomTask": "Create your own task",
+  "noResultsFound": "No results found",
+  "errorLoading": "Something went wrong",
+  "stepOf": "Step {current} of {total}",
+  "@stepOf": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "done": "DONE",
+  "skipThisStep": "Skip this step",
+  "abandonTask": "Leave task?",
+  "abandonTaskConfirm": "No worries — you can always come back to it later.",
+  "keepGoing": "Keep going",
+  "yesAbandon": "Yes, leave",
+  "letsDoThis": "Let's do this!",
+  "readyToStart": "One step at a time. You've got this.",
+  "estimatedTime": "~{minutes} min",
+  "@estimatedTime": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "youDidIt": "You did it!",
+  "completedStepsCount": "{count} steps completed",
+  "@completedStepsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeTaken": "{minutes} minutes",
+  "@timeTaken": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "backToHome": "Back to home",
+  "encouragement1": "Every small step counts. You showed up today.",
+  "encouragement2": "Look at you, getting things done!",
+  "encouragement3": "That wasn't so bad, was it?",
+  "encouragement4": "One task at a time. You're doing great.",
+  "encouragement5": "Progress, not perfection. Well done!",
+  "history": "History",
+  "noHistory": "No completed tasks yet",
+  "clearAll": "Clear all",
+  "clearAllHistory": "Clear all history?",
+  "clearAllHistoryConfirm": "This will remove all your completed task records. This cannot be undone.",
+  "cancel": "Cancel",
+  "historyPremiumOnly": "History is a premium feature",
+  "settings": "Settings",
+  "timerSettings": "Timer",
+  "enableTimer": "Step timer",
+  "enableTimerDescription": "Show a countdown timer for each step",
+  "defaultStepDuration": "Default step duration",
+  "minutes": "minutes",
+  "timeBlindness": "Time-blindness",
+  "timeBlindnessChime": "Time awareness chime",
+  "chimeEvery": "Remind me every",
+  "minutesShort": "{minutes} min",
+  "@minutesShort": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "chimePremiumOnly": "Time-blindness chimes are a premium feature",
+  "soundSettings": "Sound",
+  "enableSound": "Sound effects",
+  "enableSoundDescription": "Chimes and celebration sounds",
+  "premium": "Premium",
+  "premiumActive": "Premium active",
+  "upgradePremium": "Upgrade to Premium",
+  "premiumRequired": "Premium required",
+  "premiumDescription": "Unlock 300+ task templates, time-blindness audio, and task history.",
+  "premiumFeatures": "300+ templates, time-blindness chimes, task history, and no ads.",
+  "buyPremium": "Get Premium — ${price}",
+  "@buyPremium": {
+    "placeholders": {
+      "price": {"type": "double", "format": "decimalPattern"}
+    }
+  },
+  "restorePurchases": "Restore purchases",
+  "maybeLater": "Maybe later",
+  "about": "About",
+  "version": "Version",
+  "publisher": "Publisher",
+  "contact": "Contact",
+  "taskTitle": "Task title",
+  "taskTitleHint": "e.g., Clean the bathroom",
+  "category": "Category",
+  "microSteps": "Micro-steps",
+  "microStepsHint": "Break it down into the smallest possible steps",
+  "addStep": "Add step",
+  "stepHint": "e.g., Stand up",
+  "save": "Save",
+  "pleaseEnterTitle": "Please enter a task title",
+  "pleaseAddSteps": "Please add at least one step",
+  "noTemplatesInCategory": "No templates in this category yet",
+  "pauseTimer": "Pause",
+  "resumeTimer": "Resume",
+  "quickStart": "Quick Start",
+  "quickStartDescription": "Use our 3-step Getting Started template",
+  "orAddYourOwn": "Or add your own steps below"
+}

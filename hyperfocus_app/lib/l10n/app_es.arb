@@ -1,0 +1,119 @@
+{
+  "@@locale": "es",
+  "appTitle": "HyperFocus",
+  "whatsOverwhelming": "Que te abruma?",
+  "homeSubtitle": "Elige una tarea y la dividiremos en pasos pequenos.",
+  "searchHint": "Buscar tareas...",
+  "pickCategory": "Elige una categoria",
+  "tasks": "tareas",
+  "steps": "pasos",
+  "categoryCleaning": "Limpieza",
+  "categorySelfCare": "Autocuidado",
+  "categoryAdmin": "Administracion",
+  "categoryWork": "Trabajo",
+  "categoryCooking": "Cocina",
+  "categorySocial": "Social",
+  "createCustomTask": "Crea tu propia tarea",
+  "noResultsFound": "No se encontraron resultados",
+  "errorLoading": "Algo salio mal",
+  "stepOf": "Paso {current} de {total}",
+  "@stepOf": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "done": "HECHO",
+  "skipThisStep": "Saltar este paso",
+  "abandonTask": "Dejar la tarea?",
+  "abandonTaskConfirm": "No pasa nada, siempre puedes volver despues.",
+  "keepGoing": "Seguir",
+  "yesAbandon": "Si, salir",
+  "letsDoThis": "Vamos alla!",
+  "readyToStart": "Un paso a la vez. Tu puedes.",
+  "estimatedTime": "~{minutes} min",
+  "@estimatedTime": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "youDidIt": "Lo lograste!",
+  "completedStepsCount": "{count} pasos completados",
+  "@completedStepsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeTaken": "{minutes} minutos",
+  "@timeTaken": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "backToHome": "Volver al inicio",
+  "encouragement1": "Cada paso cuenta. Hoy lo intentaste.",
+  "encouragement2": "Mirate, logrando cosas!",
+  "encouragement3": "No estuvo tan mal, verdad?",
+  "encouragement4": "Una tarea a la vez. Lo estas haciendo genial.",
+  "encouragement5": "Progreso, no perfeccion. Bien hecho!",
+  "history": "Historial",
+  "noHistory": "Aun no hay tareas completadas",
+  "clearAll": "Borrar todo",
+  "clearAllHistory": "Borrar todo el historial?",
+  "clearAllHistoryConfirm": "Se eliminaran todos los registros de tareas completadas. Esto no se puede deshacer.",
+  "cancel": "Cancelar",
+  "historyPremiumOnly": "El historial es una funcion premium",
+  "settings": "Ajustes",
+  "timerSettings": "Temporizador",
+  "enableTimer": "Temporizador por paso",
+  "enableTimerDescription": "Mostrar cuenta regresiva para cada paso",
+  "defaultStepDuration": "Duracion predeterminada del paso",
+  "minutes": "minutos",
+  "timeBlindness": "Ceguera temporal",
+  "timeBlindnessChime": "Campana de conciencia temporal",
+  "chimeEvery": "Recordarme cada",
+  "minutesShort": "{minutes} min",
+  "@minutesShort": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "chimePremiumOnly": "Las campanas de ceguera temporal son una funcion premium",
+  "soundSettings": "Sonido",
+  "enableSound": "Efectos de sonido",
+  "enableSoundDescription": "Campanas y sonidos de celebracion",
+  "premium": "Premium",
+  "premiumActive": "Premium activo",
+  "upgradePremium": "Mejorar a Premium",
+  "premiumRequired": "Se requiere Premium",
+  "premiumDescription": "Desbloquea mas de 300 plantillas, audio de ceguera temporal e historial.",
+  "premiumFeatures": "300+ plantillas, campanas de tiempo, historial y sin anuncios.",
+  "buyPremium": "Obtener Premium — ${price}",
+  "@buyPremium": {
+    "placeholders": {
+      "price": {"type": "double", "format": "decimalPattern"}
+    }
+  },
+  "restorePurchases": "Restaurar compras",
+  "maybeLater": "Quiza despues",
+  "about": "Acerca de",
+  "version": "Version",
+  "publisher": "Editor",
+  "contact": "Contacto",
+  "taskTitle": "Titulo de la tarea",
+  "taskTitleHint": "ej., Limpiar el bano",
+  "category": "Categoria",
+  "microSteps": "Micro-pasos",
+  "microStepsHint": "Dividelo en los pasos mas pequenos posibles",
+  "addStep": "Agregar paso",
+  "stepHint": "ej., Levantarse",
+  "save": "Guardar",
+  "pleaseEnterTitle": "Por favor ingresa un titulo",
+  "pleaseAddSteps": "Por favor agrega al menos un paso",
+  "noTemplatesInCategory": "Aun no hay plantillas en esta categoria",
+  "pauseTimer": "Pausar",
+  "resumeTimer": "Continuar",
+  "quickStart": "Inicio rapido",
+  "quickStartDescription": "Usa nuestra plantilla de 3 pasos",
+  "orAddYourOwn": "O agrega tus propios pasos abajo"
+}

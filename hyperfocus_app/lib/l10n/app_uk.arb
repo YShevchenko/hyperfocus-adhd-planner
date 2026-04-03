@@ -1,0 +1,119 @@
+{
+  "@@locale": "uk",
+  "appTitle": "HyperFocus",
+  "whatsOverwhelming": "Shcho tebe zaraз pereповнює?",
+  "homeSubtitle": "Обери завдання і ми розіб'ємо його на маленькі кроки.",
+  "searchHint": "Шукати завдання...",
+  "pickCategory": "Обери категорію",
+  "tasks": "завдань",
+  "steps": "кроків",
+  "categoryCleaning": "Прибирання",
+  "categorySelfCare": "Самодогляд",
+  "categoryAdmin": "Адміністрація",
+  "categoryWork": "Робота",
+  "categoryCooking": "Готування",
+  "categorySocial": "Соціальне",
+  "createCustomTask": "Створити власне завдання",
+  "noResultsFound": "Нічого не знайдено",
+  "errorLoading": "Щось пішло не так",
+  "stepOf": "Крок {current} з {total}",
+  "@stepOf": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "done": "ГОТОВО",
+  "skipThisStep": "Пропустити цей крок",
+  "abandonTask": "Залишити завдання?",
+  "abandonTaskConfirm": "Нічого страшного — завжди можна повернутися пізніше.",
+  "keepGoing": "Продовжити",
+  "yesAbandon": "Так, залишити",
+  "letsDoThis": "Починаємо!",
+  "readyToStart": "Крок за кроком. Ти зможеш.",
+  "estimatedTime": "~{minutes} хв",
+  "@estimatedTime": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "youDidIt": "Ти це зробив!",
+  "completedStepsCount": "{count} кроків виконано",
+  "@completedStepsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeTaken": "{minutes} хвилин",
+  "@timeTaken": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "backToHome": "На головну",
+  "encouragement1": "Кожен крок має значення. Ти сьогодні старався.",
+  "encouragement2": "Подивись на себе, ти робиш справи!",
+  "encouragement3": "Було не так вже й страшно, правда?",
+  "encouragement4": "Одне завдання за раз. Ти молодець.",
+  "encouragement5": "Прогрес, не досконалість. Чудова робота!",
+  "history": "Історія",
+  "noHistory": "Ще немає виконаних завдань",
+  "clearAll": "Очистити все",
+  "clearAllHistory": "Очистити всю історію?",
+  "clearAllHistoryConfirm": "Всі записи про виконані завдання будуть видалені. Це не можна скасувати.",
+  "cancel": "Скасувати",
+  "historyPremiumOnly": "Історія — преміум функція",
+  "settings": "Налаштування",
+  "timerSettings": "Таймер",
+  "enableTimer": "Таймер кроку",
+  "enableTimerDescription": "Показувати таймер зворотного відліку для кожного кроку",
+  "defaultStepDuration": "Тривалість кроку за замовчуванням",
+  "minutes": "хвилин",
+  "timeBlindness": "Часова сліпота",
+  "timeBlindnessChime": "Сигнал часової обізнаності",
+  "chimeEvery": "Нагадувати кожні",
+  "minutesShort": "{minutes} хв",
+  "@minutesShort": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "chimePremiumOnly": "Сигнали часової сліпоти — преміум функція",
+  "soundSettings": "Звук",
+  "enableSound": "Звукові ефекти",
+  "enableSoundDescription": "Сигнали та звуки святкування",
+  "premium": "Преміум",
+  "premiumActive": "Преміум активний",
+  "upgradePremium": "Оновити до Преміум",
+  "premiumRequired": "Потрібен Преміум",
+  "premiumDescription": "Відкрийте 300+ шаблонів, аудіо часової сліпоти та історію завдань.",
+  "premiumFeatures": "300+ шаблонів, сигнали часу, історія та без реклами.",
+  "buyPremium": "Отримати Преміум — ${price}",
+  "@buyPremium": {
+    "placeholders": {
+      "price": {"type": "double", "format": "decimalPattern"}
+    }
+  },
+  "restorePurchases": "Відновити покупки",
+  "maybeLater": "Можливо пізніше",
+  "about": "Про додаток",
+  "version": "Версія",
+  "publisher": "Видавець",
+  "contact": "Контакт",
+  "taskTitle": "Назва завдання",
+  "taskTitleHint": "напр., Прибрати ванну",
+  "category": "Категорія",
+  "microSteps": "Мікро-кроки",
+  "microStepsHint": "Розбий на якнайменші можливі кроки",
+  "addStep": "Додати крок",
+  "stepHint": "напр., Встати",
+  "save": "Зберегти",
+  "pleaseEnterTitle": "Будь ласка, введіть назву завдання",
+  "pleaseAddSteps": "Будь ласка, додайте хоча б один крок",
+  "noTemplatesInCategory": "Ще немає шаблонів у цій категорії",
+  "pauseTimer": "Пауза",
+  "resumeTimer": "Продовжити",
+  "quickStart": "Швидкий старт",
+  "quickStartDescription": "Використати шаблон з 3 кроків",
+  "orAddYourOwn": "Або додай свої кроки нижче"
+}

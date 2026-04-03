@@ -1,0 +1,119 @@
+{
+  "@@locale": "de",
+  "appTitle": "HyperFocus",
+  "whatsOverwhelming": "Was ueberwaeltigt dich?",
+  "homeSubtitle": "Waehle eine Aufgabe und wir zerlegen sie in kleine Schritte.",
+  "searchHint": "Aufgaben suchen...",
+  "pickCategory": "Waehle eine Kategorie",
+  "tasks": "Aufgaben",
+  "steps": "Schritte",
+  "categoryCleaning": "Putzen",
+  "categorySelfCare": "Selbstfuersorge",
+  "categoryAdmin": "Verwaltung",
+  "categoryWork": "Arbeit",
+  "categoryCooking": "Kochen",
+  "categorySocial": "Soziales",
+  "createCustomTask": "Eigene Aufgabe erstellen",
+  "noResultsFound": "Keine Ergebnisse gefunden",
+  "errorLoading": "Etwas ist schiefgelaufen",
+  "stepOf": "Schritt {current} von {total}",
+  "@stepOf": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "done": "FERTIG",
+  "skipThisStep": "Diesen Schritt ueberspringen",
+  "abandonTask": "Aufgabe verlassen?",
+  "abandonTaskConfirm": "Kein Problem — du kannst jederzeit zurueckkommen.",
+  "keepGoing": "Weitermachen",
+  "yesAbandon": "Ja, verlassen",
+  "letsDoThis": "Los geht's!",
+  "readyToStart": "Schritt fuer Schritt. Du schaffst das.",
+  "estimatedTime": "~{minutes} Min.",
+  "@estimatedTime": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "youDidIt": "Geschafft!",
+  "completedStepsCount": "{count} Schritte erledigt",
+  "@completedStepsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeTaken": "{minutes} Minuten",
+  "@timeTaken": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "backToHome": "Zurueck zur Startseite",
+  "encouragement1": "Jeder kleine Schritt zaehlt. Du hast heute etwas geschafft.",
+  "encouragement2": "Schau dich an, du erledigst Sachen!",
+  "encouragement3": "War doch gar nicht so schlimm, oder?",
+  "encouragement4": "Eine Aufgabe nach der anderen. Du machst das toll.",
+  "encouragement5": "Fortschritt, nicht Perfektion. Gut gemacht!",
+  "history": "Verlauf",
+  "noHistory": "Noch keine erledigten Aufgaben",
+  "clearAll": "Alles loeschen",
+  "clearAllHistory": "Gesamten Verlauf loeschen?",
+  "clearAllHistoryConfirm": "Alle erledigten Aufgaben werden entfernt. Das kann nicht rueckgaengig gemacht werden.",
+  "cancel": "Abbrechen",
+  "historyPremiumOnly": "Verlauf ist eine Premium-Funktion",
+  "settings": "Einstellungen",
+  "timerSettings": "Timer",
+  "enableTimer": "Schritt-Timer",
+  "enableTimerDescription": "Countdown-Timer fuer jeden Schritt anzeigen",
+  "defaultStepDuration": "Standard-Schrittdauer",
+  "minutes": "Minuten",
+  "timeBlindness": "Zeitblindheit",
+  "timeBlindnessChime": "Zeitbewusstseins-Signal",
+  "chimeEvery": "Erinnere mich alle",
+  "minutesShort": "{minutes} Min.",
+  "@minutesShort": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "chimePremiumOnly": "Zeitblindheits-Signale sind eine Premium-Funktion",
+  "soundSettings": "Ton",
+  "enableSound": "Soundeffekte",
+  "enableSoundDescription": "Signaltoene und Feier-Sounds",
+  "premium": "Premium",
+  "premiumActive": "Premium aktiv",
+  "upgradePremium": "Auf Premium upgraden",
+  "premiumRequired": "Premium erforderlich",
+  "premiumDescription": "Schalte 300+ Aufgabenvorlagen, Zeitblindheits-Audio und Aufgabenverlauf frei.",
+  "premiumFeatures": "300+ Vorlagen, Zeitblindheits-Signale, Aufgabenverlauf und keine Werbung.",
+  "buyPremium": "Premium holen — {price} EUR",
+  "@buyPremium": {
+    "placeholders": {
+      "price": {"type": "double", "format": "decimalPattern"}
+    }
+  },
+  "restorePurchases": "Kaeufe wiederherstellen",
+  "maybeLater": "Vielleicht spaeter",
+  "about": "Ueber",
+  "version": "Version",
+  "publisher": "Herausgeber",
+  "contact": "Kontakt",
+  "taskTitle": "Aufgabentitel",
+  "taskTitleHint": "z.B. Badezimmer putzen",
+  "category": "Kategorie",
+  "microSteps": "Mini-Schritte",
+  "microStepsHint": "Zerlege es in die kleinstmoeglichen Schritte",
+  "addStep": "Schritt hinzufuegen",
+  "stepHint": "z.B. Aufstehen",
+  "save": "Speichern",
+  "pleaseEnterTitle": "Bitte gib einen Aufgabentitel ein",
+  "pleaseAddSteps": "Bitte fuege mindestens einen Schritt hinzu",
+  "noTemplatesInCategory": "Noch keine Vorlagen in dieser Kategorie",
+  "pauseTimer": "Pause",
+  "resumeTimer": "Fortfahren",
+  "quickStart": "Schnellstart",
+  "quickStartDescription": "Nutze unsere 3-Schritte-Vorlage",
+  "orAddYourOwn": "Oder fuege eigene Schritte hinzu"
+}

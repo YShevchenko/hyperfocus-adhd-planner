@@ -1,0 +1,1510 @@
+{
+  "templates": [
+    {
+      "category": "cleaning",
+      "title": "Clean the kitchen",
+      "steps": ["Stand up from where you are", "Walk to the kitchen", "Look at the counter", "Pick up ONE item", "Put it where it belongs", "Repeat until counter is clear", "Wipe the counter with a cloth", "Done! The kitchen looks better now"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Do the dishes",
+      "steps": ["Walk to the sink", "Turn on warm water", "Add a drop of dish soap", "Pick up one dish", "Wash it and rinse", "Place it on the drying rack", "Repeat for the next dish", "Drain the sink when done"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Load the dishwasher",
+      "steps": ["Open the dishwasher door", "Pull out the bottom rack", "Place plates in the bottom rack", "Place bowls next to the plates", "Pull out the top rack", "Put cups and glasses on top", "Add detergent to the dispenser", "Close and start the cycle"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Unload the dishwasher",
+      "steps": ["Open the dishwasher", "Pull out the bottom rack", "Put plates in the cupboard", "Put bowls away", "Pull out the top rack", "Put cups in the cupboard", "Put silverware in the drawer", "Close the dishwasher"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Start a load of laundry",
+      "steps": ["Gather dirty clothes from one spot", "Carry them to the washing machine", "Open the machine door", "Put the clothes in", "Add detergent", "Select the wash cycle", "Press start", "Set a reminder for when it's done"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Move laundry to dryer",
+      "steps": ["Walk to the washing machine", "Open the door", "Pull out the wet clothes", "Open the dryer door", "Put clothes in the dryer", "Select a heat setting", "Press start"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Fold laundry",
+      "steps": ["Get the clean laundry", "Sit down somewhere comfy", "Pick up one item", "Fold it roughly — doesn't have to be perfect", "Set it in a pile", "Pick up the next item", "Repeat until done", "Put the piles away"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Put away clean laundry",
+      "steps": ["Grab one pile of folded clothes", "Walk to your dresser or closet", "Open a drawer", "Place the clothes inside", "Go back for the next pile", "Repeat until all piles are put away"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Vacuum one room",
+      "steps": ["Get the vacuum", "Plug it in", "Turn it on", "Vacuum one corner of the room", "Move to the next area", "Get under the furniture edges", "Turn off and unplug", "Put the vacuum away"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Sweep the floor",
+      "steps": ["Get the broom and dustpan", "Start in one corner", "Sweep toward the center", "Move around the edges", "Sweep everything into a pile", "Use the dustpan to collect it", "Dump it in the trash", "Put the broom away"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Mop the floor",
+      "steps": ["Fill a bucket with warm water and cleaner", "Get the mop", "Dip the mop and wring it out", "Mop one section of floor", "Re-dip and wring as needed", "Move to the next section", "Empty and rinse the bucket", "Put everything away"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean the bathroom sink",
+      "steps": ["Get a cleaning spray and cloth", "Spray the sink basin", "Wipe the basin in circles", "Spray the faucet", "Wipe the faucet", "Wipe the counter around the sink", "Rinse the cloth", "Give it a final wipe"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean the toilet",
+      "steps": ["Put on gloves if you want", "Squirt cleaner inside the bowl", "Let it sit for a minute", "Scrub with the toilet brush", "Flush", "Wipe the outside with a disinfectant wipe", "Wipe the seat and lid", "Toss the wipe in the trash"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean the bathroom mirror",
+      "steps": ["Get glass cleaner and a cloth", "Spray the mirror", "Wipe from top to bottom", "Check for streaks", "Buff any streaks with a dry cloth", "Done — look at that clean mirror!"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean the shower",
+      "steps": ["Spray shower cleaner on the walls", "Let it sit for 2 minutes", "Scrub one wall at a time", "Scrub the floor of the shower", "Rinse everything with water", "Wipe the fixtures", "Hang up the towel to dry"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Make your bed",
+      "steps": ["Stand next to the bed", "Pull the sheet up to the pillows", "Smooth it out with your hands", "Pull up the blanket or comforter", "Smooth that out too", "Fluff the pillows", "Place pillows at the top", "Step back and admire your work"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Change the bed sheets",
+      "steps": ["Pull off the pillowcases", "Pull off the fitted sheet", "Pull off the flat sheet", "Get clean sheets from the closet", "Put on the fitted sheet corner by corner", "Put on the flat sheet", "Put on the pillowcases", "Put dirty sheets in the hamper"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Take out the trash",
+      "steps": ["Find the trash bag", "Tie the top of the bag", "Lift it out of the can", "Walk it to the outdoor bin", "Drop it in", "Walk back inside", "Put a new bag in the can"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Take out recycling",
+      "steps": ["Collect the recycling bin", "Check for anything that doesn't belong", "Carry it outside", "Empty it into the recycling bin", "Bring the empty container back", "Put it back in its spot"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Wipe down the dining table",
+      "steps": ["Clear anything off the table", "Get a damp cloth", "Wipe from one end to the other", "Get any crumbs off the edges", "Dry with a towel if needed", "Put things back on the table"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean the microwave",
+      "steps": ["Put a bowl of water with lemon inside", "Microwave it for 2 minutes", "Let it sit for 1 minute", "Open the door carefully", "Remove the bowl", "Wipe the inside walls with a cloth", "Wipe the turntable", "Close the door"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean the fridge",
+      "steps": ["Open the fridge", "Take everything out of one shelf", "Wipe that shelf", "Check expiration dates on items", "Throw away anything old", "Put good items back", "Repeat for the next shelf", "Close the fridge"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Declutter one drawer",
+      "steps": ["Pick one drawer", "Pull it open", "Take everything out", "Wipe the inside", "Sort items into keep and toss", "Put the keep items back neatly", "Throw away or donate the toss pile"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Declutter one shelf",
+      "steps": ["Pick one shelf", "Remove everything from it", "Wipe the shelf", "Decide what to keep and what to toss", "Put the keepers back neatly", "Bag up anything to donate or throw away"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Tidy the living room",
+      "steps": ["Look around the room", "Pick up any cups or dishes", "Put away any blankets or pillows", "Stack any books or papers", "Put remotes in one spot", "Quick wipe of the coffee table", "Fluff the couch cushions", "Done! The room looks so much better"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Dust one room",
+      "steps": ["Get a duster or microfiber cloth", "Start at the highest surface", "Dust the top of the bookshelf", "Move to the next surface", "Dust the TV stand", "Dust the windowsill", "Work your way around the room", "Shake out the cloth outside"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean the stovetop",
+      "steps": ["Wait until the stove is cool", "Remove the grates if applicable", "Spray cleaner on the surface", "Let it sit for 1 minute", "Scrub with a sponge", "Wipe clean with a cloth", "Replace the grates", "Done!"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Organize under the sink",
+      "steps": ["Open the cabinet under the sink", "Take everything out", "Wipe the bottom of the cabinet", "Throw away empty bottles", "Group similar items together", "Put them back organized", "Close the cabinet"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Quick 5-minute room pickup",
+      "steps": ["Set a 5-minute timer", "Pick up anything on the floor", "Put trash in the bin", "Stack loose papers together", "Straighten couch pillows", "Done when the timer goes off!"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean your desk",
+      "steps": ["Remove everything from the desk", "Wipe down the surface", "Throw away any trash", "Sort papers into a pile", "Put pens back in a holder", "Place essentials back neatly", "Admire your clean workspace"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Wipe light switches and door handles",
+      "steps": ["Get a disinfectant wipe", "Wipe the nearest light switch", "Move to the next one", "Wipe each door handle you pass", "Do one room at a time", "Toss the wipe when done"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean your phone screen",
+      "steps": ["Get a microfiber cloth", "Turn off your phone screen", "Gently wipe in small circles", "Check for smudges", "Buff any remaining marks", "Done — so satisfying!"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Organize the entryway",
+      "steps": ["Pick up any shoes on the floor", "Line them up or put them on a rack", "Hang up any coats", "Sort the mail pile", "Wipe down the surface if there's one", "Put keys in their spot"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Wipe kitchen appliances",
+      "steps": ["Get a damp cloth", "Wipe the front of the fridge", "Wipe the oven door", "Wipe the dishwasher front", "Wipe any small appliances", "Dry with a towel", "Done!"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Empty all small trash cans",
+      "steps": ["Get a big trash bag", "Go to the nearest small trash can", "Empty it into the big bag", "Move to the next room", "Repeat for each small can", "Tie the big bag and take it out"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean window glass",
+      "steps": ["Get glass cleaner and paper towel", "Spray one window", "Wipe top to bottom", "Check for streaks", "Buff with dry paper towel", "Move to the next window"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean the oven",
+      "steps": ["Spray oven cleaner inside", "Close the door", "Let it sit for 15 minutes", "Open and wipe walls with a cloth", "Scrub any stubborn spots", "Wipe the door inside", "Wipe the rack", "Close the oven"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Tidy the bedroom",
+      "steps": ["Make the bed", "Pick up clothes from the floor", "Put dirty ones in the hamper", "Hang or fold clean ones", "Clear the nightstand", "Put away any dishes", "Quick dust of surfaces"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Organize one closet section",
+      "steps": ["Open the closet", "Pick one section to focus on", "Take those items out", "Sort: keep, donate, toss", "Put keep items back neatly", "Bag donate items", "Throw away toss items"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Wash the car interior",
+      "steps": ["Open all the car doors", "Remove any trash", "Shake out the floor mats", "Wipe the dashboard", "Wipe the steering wheel", "Clean the cup holders", "Put the mats back", "Close the doors"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Sort the mail",
+      "steps": ["Get the pile of mail", "Sit down with it", "Make three piles: keep, recycle, shred", "Open the keep pile one by one", "Recycle the junk mail", "Shred anything with personal info", "File the keepers"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean pet bowls",
+      "steps": ["Pick up the food bowl", "Dump any leftover food", "Wash with soap and warm water", "Rinse well", "Pick up the water bowl", "Wash it too", "Refill with fresh water", "Put both bowls back"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Wipe the baseboards",
+      "steps": ["Get a damp cloth or wipe", "Start at one corner of a room", "Wipe along the baseboard", "Move around the room slowly", "Re-wet the cloth as needed", "Finish where you started"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Organize the junk drawer",
+      "steps": ["Open the junk drawer", "Dump everything onto the counter", "Wipe the empty drawer", "Throw away obvious trash", "Sort remaining items by type", "Put the most-used items back first", "Add the rest neatly"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean the coffee maker",
+      "steps": ["Empty any old coffee grounds", "Rinse the carafe", "Fill the reservoir with water and vinegar", "Run a brew cycle", "Run a cycle with clean water", "Wipe down the outside", "Done!"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Wash the outside windows",
+      "steps": ["Fill a bucket with soapy water", "Get a sponge and squeegee", "Wet one window with the sponge", "Squeegee from top to bottom", "Wipe edges with a cloth", "Move to the next window"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean ceiling fan blades",
+      "steps": ["Get a step stool if needed", "Get a damp cloth", "Carefully wipe one blade at a time", "Hold a bag under the blade to catch dust", "Wipe all blades", "Step down and put the stool away"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Declutter your bag or backpack",
+      "steps": ["Empty the bag completely", "Shake out any crumbs", "Throw away trash and receipts", "Sort items: keep vs. doesn't belong here", "Put the keepers back in", "Put misplaced items where they go"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean your computer keyboard",
+      "steps": ["Turn off or unplug the keyboard", "Turn it upside down and shake gently", "Use a can of compressed air on the keys", "Wipe keys with a damp cloth", "Let it dry", "Plug it back in"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Organize the pantry",
+      "steps": ["Open the pantry", "Take items off one shelf", "Check expiration dates", "Throw away expired items", "Wipe the shelf", "Group similar items together", "Place them back neatly", "Repeat for the next shelf"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean the bathtub",
+      "steps": ["Spray tub cleaner on the surface", "Let it sit for 2 minutes", "Scrub with a brush or sponge", "Pay extra attention to the drain area", "Rinse with water", "Wipe the faucet", "Done!"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Organize your nightstand",
+      "steps": ["Remove everything from the nightstand", "Wipe it clean", "Throw away any trash", "Decide what actually belongs there", "Put those items back neatly", "Find a home for the rest"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Wash throw blankets",
+      "steps": ["Gather throw blankets from around the house", "Check care labels", "Put them in the washing machine", "Add gentle detergent", "Select delicate cycle", "Start the wash", "Move to dryer or air-dry when done"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean your glasses or sunglasses",
+      "steps": ["Run them under warm water", "Add a tiny drop of dish soap", "Gently rub the lenses", "Rinse under warm water", "Dry with a clean microfiber cloth", "Check for smudges", "Done!"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean under the couch cushions",
+      "steps": ["Remove the couch cushions", "Pick up any visible items", "Vacuum the base of the couch", "Wipe any sticky spots", "Fluff the cushions", "Put them back in place"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Organize the fridge door",
+      "steps": ["Open the fridge", "Take everything off the door shelves", "Wipe the shelves", "Check expiration dates on condiments", "Throw away old or empty bottles", "Put the rest back organized"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean the garbage can",
+      "steps": ["Take the garbage bag out", "Take the can outside", "Spray it with a hose or cleaner", "Scrub inside with a brush", "Rinse it out", "Let it dry", "Put a fresh bag in"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Wipe down all remote controls",
+      "steps": ["Gather all remote controls", "Get a disinfectant wipe", "Wipe each remote thoroughly", "Pay attention to the buttons", "Let them air dry", "Put them back where they belong"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Organize the bathroom cabinet",
+      "steps": ["Open the cabinet", "Take everything out", "Wipe the shelves", "Check for expired products", "Throw away old items", "Group by type: skincare, meds, etc.", "Put them back organized"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Quick bathroom wipe-down",
+      "steps": ["Grab disinfectant wipes", "Wipe the sink", "Wipe the toilet seat", "Wipe the counter", "Wipe the faucet handles", "Toss the wipe", "Done in 2 minutes!"]
+    },
+    {
+      "category": "self_care",
+      "title": "Take a shower",
+      "steps": ["Walk to the bathroom", "Turn on the water to warm up", "Get undressed", "Step into the shower", "Wet your hair and body", "Shampoo your hair", "Rinse the shampoo out", "Done! Turn off the water and grab a towel"]
+    },
+    {
+      "category": "self_care",
+      "title": "Brush your teeth",
+      "steps": ["Walk to the bathroom", "Pick up your toothbrush", "Put toothpaste on it", "Brush your top teeth", "Brush your bottom teeth", "Brush your tongue gently", "Spit and rinse", "Rinse your toothbrush"]
+    },
+    {
+      "category": "self_care",
+      "title": "Wash your face",
+      "steps": ["Go to the sink", "Turn on warm water", "Wet your hands", "Apply face cleanser", "Gently massage your face", "Rinse off the cleanser", "Pat dry with a towel"]
+    },
+    {
+      "category": "self_care",
+      "title": "Apply skincare routine",
+      "steps": ["Wash your face first", "Pat dry gently", "Apply toner if you use one", "Apply serum", "Apply moisturizer", "Apply sunscreen if it's daytime", "Done! Your skin says thank you"]
+    },
+    {
+      "category": "self_care",
+      "title": "Get dressed",
+      "steps": ["Open your dresser or closet", "Pick out underwear", "Pick a top — whatever's clean", "Pick bottoms", "Put on the underwear", "Put on the top", "Put on the bottoms", "Socks if you need them"]
+    },
+    {
+      "category": "self_care",
+      "title": "Put on deodorant",
+      "steps": ["Go to where you keep it", "Pick it up", "Remove the cap", "Apply to one underarm", "Apply to the other", "Put the cap back on", "Put it back"]
+    },
+    {
+      "category": "self_care",
+      "title": "Drink a glass of water",
+      "steps": ["Find a glass or water bottle", "Walk to the faucet or fridge", "Fill it up with water", "Drink it slowly", "Take a breath", "Refill if you want", "Good job hydrating!"]
+    },
+    {
+      "category": "self_care",
+      "title": "Eat a simple meal",
+      "steps": ["Go to the kitchen", "Open the fridge or pantry", "Pick something simple — anything counts", "Put it on a plate or bowl", "Sit down somewhere comfortable", "Eat it slowly", "Drink some water with it", "Put the plate in the sink"]
+    },
+    {
+      "category": "self_care",
+      "title": "Eat breakfast",
+      "steps": ["Go to the kitchen", "Pick something simple: cereal, toast, fruit", "Get a bowl or plate", "Prepare it", "Sit down to eat", "Eat slowly, no rush", "Drink something: water, juice, coffee", "Put dishes in the sink"]
+    },
+    {
+      "category": "self_care",
+      "title": "Make a snack",
+      "steps": ["Go to the kitchen", "Open the pantry or fridge", "Pick something — fruit, crackers, yogurt", "Put it on a plate", "Sit down and enjoy it", "Put the plate away when done"]
+    },
+    {
+      "category": "self_care",
+      "title": "Take your medication",
+      "steps": ["Go to where you keep your meds", "Find today's dose", "Get a glass of water", "Take the medication", "Drink some water", "Mark it done if you track it", "Good job taking care of yourself"]
+    },
+    {
+      "category": "self_care",
+      "title": "Take a break and stretch",
+      "steps": ["Stand up from where you are", "Stretch your arms above your head", "Roll your shoulders back", "Gently tilt your head side to side", "Touch your toes or reach for them", "Take 3 deep breaths", "Sit back down when ready"]
+    },
+    {
+      "category": "self_care",
+      "title": "Do a body scan meditation",
+      "steps": ["Sit or lie down comfortably", "Close your eyes", "Focus on your feet — notice any tension", "Move attention up to your legs", "Notice your stomach and chest", "Relax your shoulders", "Notice your face and jaw", "Take 3 deep breaths and open your eyes"]
+    },
+    {
+      "category": "self_care",
+      "title": "Go for a short walk",
+      "steps": ["Put on comfortable shoes", "Grab your keys and phone", "Step outside", "Walk in any direction — no pressure", "Notice something around you", "Walk for at least 5 minutes", "Turn around and head home", "You did it! Fresh air is good for you"]
+    },
+    {
+      "category": "self_care",
+      "title": "Take a nap",
+      "steps": ["Set an alarm for 20–30 minutes", "Go to your bed or couch", "Lie down", "Close your eyes", "Relax your body", "Don't worry about falling asleep — just rest"]
+    },
+    {
+      "category": "self_care",
+      "title": "Do a hair care routine",
+      "steps": ["Brush or comb your hair gently", "Apply any products you use", "Style it however feels good", "Check the mirror", "Good enough is perfect!"]
+    },
+    {
+      "category": "self_care",
+      "title": "Trim your nails",
+      "steps": ["Find nail clippers", "Sit somewhere with good light", "Trim one fingernail at a time", "File any rough edges if you want", "Do your toenails if needed", "Wash your hands when done", "Put the clippers away"]
+    },
+    {
+      "category": "self_care",
+      "title": "Floss your teeth",
+      "steps": ["Get the floss", "Pull out about 18 inches", "Wrap around your fingers", "Slide between two teeth gently", "Move to the next gap", "Work through all your teeth", "Throw the floss away", "Rinse your mouth"]
+    },
+    {
+      "category": "self_care",
+      "title": "Put on comfortable clothes",
+      "steps": ["Take off what you're wearing", "Find your most comfortable outfit", "Put on soft pants or shorts", "Put on a cozy top", "Find warm socks if you want", "Take a breath — comfort matters"]
+    },
+    {
+      "category": "self_care",
+      "title": "Apply body lotion",
+      "steps": ["Get your lotion", "Squeeze some onto your hands", "Rub it on your arms", "Do your legs", "Do your elbows and knees", "Do your hands and feet", "Let it absorb"]
+    },
+    {
+      "category": "self_care",
+      "title": "Prepare for bed",
+      "steps": ["Turn off screens 30 minutes before bed", "Go to the bathroom", "Brush your teeth", "Wash your face", "Put on pajamas", "Get into bed", "Read or do something calming", "Lights off when ready"]
+    },
+    {
+      "category": "self_care",
+      "title": "Wake up gently",
+      "steps": ["Don't jump out of bed — take a moment", "Stretch your arms and legs while lying down", "Sit up slowly", "Put your feet on the floor", "Take 3 deep breaths", "Stand up when ready", "Go get some water"]
+    },
+    {
+      "category": "self_care",
+      "title": "Do 5 minutes of exercise",
+      "steps": ["Stand up", "Do 10 jumping jacks or march in place", "Do 5 squats", "Do 5 push-ups or wall push-ups", "Stretch for a moment", "Take a deep breath", "You moved your body — that counts!"]
+    },
+    {
+      "category": "self_care",
+      "title": "Journal for 5 minutes",
+      "steps": ["Find a notebook or open a notes app", "Write today's date", "Write one thing you're feeling right now", "Write one thing that happened today", "Write one thing you're grateful for", "Close the notebook", "That's it — well done"]
+    },
+    {
+      "category": "self_care",
+      "title": "Take a bath",
+      "steps": ["Go to the bathroom", "Plug the drain", "Turn on warm water", "Add bubbles or bath salt if you want", "Wait for it to fill up", "Get in carefully", "Relax for as long as you want", "Drain and dry off"]
+    },
+    {
+      "category": "self_care",
+      "title": "Do a breathing exercise",
+      "steps": ["Sit comfortably", "Close your eyes", "Breathe in for 4 counts", "Hold for 4 counts", "Breathe out for 4 counts", "Repeat 4 times", "Open your eyes when ready"]
+    },
+    {
+      "category": "self_care",
+      "title": "Put on sunscreen",
+      "steps": ["Find your sunscreen", "Squeeze a quarter-sized amount", "Apply to your face", "Apply to your neck", "Apply to your ears", "Apply to any exposed skin", "Rub it in gently"]
+    },
+    {
+      "category": "self_care",
+      "title": "Refill your water bottle",
+      "steps": ["Find your water bottle", "Walk to the kitchen", "Open the bottle", "Fill it with water", "Close the bottle", "Take it back with you", "Take a sip!"]
+    },
+    {
+      "category": "self_care",
+      "title": "Shave",
+      "steps": ["Get your shaving supplies", "Wet the area with warm water", "Apply shaving cream", "Shave in gentle strokes", "Rinse the razor between strokes", "Rinse your face or legs", "Apply aftershave or moisturizer"]
+    },
+    {
+      "category": "self_care",
+      "title": "Pack a lunch for tomorrow",
+      "steps": ["Open the fridge", "Decide on something simple", "Get a container", "Put the food in the container", "Add a snack if you want", "Close and put in the fridge", "Tomorrow you'll thank yourself"]
+    },
+    {
+      "category": "self_care",
+      "title": "Do a face mask",
+      "steps": ["Wash your face first", "Open the face mask", "Apply evenly to your face", "Set a timer for 10-15 minutes", "Relax while it works", "Rinse off gently", "Apply moisturizer"]
+    },
+    {
+      "category": "self_care",
+      "title": "Charge your devices",
+      "steps": ["Find your phone charger", "Plug in your phone", "Check if your headphones need charging", "Plug those in too", "Check your watch or tablet", "Plug in what needs charging", "Done — future you is grateful"]
+    },
+    {
+      "category": "self_care",
+      "title": "Set out clothes for tomorrow",
+      "steps": ["Think about what you're doing tomorrow", "Pick a top", "Pick bottoms", "Pick underwear and socks", "Lay everything out together", "Check the weather for a jacket", "Tomorrow will be easier now"]
+    },
+    {
+      "category": "self_care",
+      "title": "Use eye drops",
+      "steps": ["Find your eye drops", "Wash your hands", "Tilt your head back", "Pull your lower eyelid down gently", "Put one drop in each eye", "Blink a few times", "Close the bottle"]
+    },
+    {
+      "category": "self_care",
+      "title": "Do a gratitude check",
+      "steps": ["Pause what you're doing", "Think of one good thing that happened today", "Think of one person you appreciate", "Think of something about yourself you like", "Take a deep breath", "Carry that feeling with you"]
+    },
+    {
+      "category": "admin",
+      "title": "Pay a bill",
+      "steps": ["Find the bill or open your banking app", "Check the amount due", "Check the due date", "Enter the payment amount", "Confirm the payment", "Screenshot or save the confirmation", "Done! One less thing to worry about"]
+    },
+    {
+      "category": "admin",
+      "title": "Check your bank balance",
+      "steps": ["Open your banking app or website", "Log in", "Look at your checking account balance", "Note any pending charges", "Close the app", "You know where you stand now"]
+    },
+    {
+      "category": "admin",
+      "title": "Respond to one email",
+      "steps": ["Open your email inbox", "Find one email that needs a reply", "Read it once", "Write a short reply — 2-3 sentences is fine", "Read it over quickly", "Hit send", "Done! One down"]
+    },
+    {
+      "category": "admin",
+      "title": "Respond to one text message",
+      "steps": ["Open your messaging app", "Find the message you need to reply to", "Read it", "Type a response", "Hit send", "That's it — you stayed connected"]
+    },
+    {
+      "category": "admin",
+      "title": "File important papers",
+      "steps": ["Get the papers you need to file", "Find your filing system or a folder", "Sort papers by type", "Label folders if needed", "Put each paper in its folder", "Put the folders back"]
+    },
+    {
+      "category": "admin",
+      "title": "Make a phone call",
+      "steps": ["Decide who you need to call", "Look up the number if needed", "Write down what you want to say", "Take a deep breath", "Dial the number", "Talk — you're doing great", "Hang up and celebrate"]
+    },
+    {
+      "category": "admin",
+      "title": "Make a doctor appointment",
+      "steps": ["Find the doctor's phone number", "Call or go to their website", "Check your calendar for free days", "Schedule the appointment", "Write down the date and time", "Set a reminder on your phone", "Done!"]
+    },
+    {
+      "category": "admin",
+      "title": "Make a dentist appointment",
+      "steps": ["Find the dentist's number", "Call the office", "Ask for the next available appointment", "Give them your information", "Write down the date", "Set a reminder", "One less thing to put off!"]
+    },
+    {
+      "category": "admin",
+      "title": "Unsubscribe from spam emails",
+      "steps": ["Open your email inbox", "Find one spam email", "Scroll to the bottom", "Click the unsubscribe link", "Confirm if needed", "Delete the email", "Repeat for a few more", "Your inbox thanks you"]
+    },
+    {
+      "category": "admin",
+      "title": "Update your address somewhere",
+      "steps": ["Log into the website or app", "Find account settings", "Find the address section", "Enter your new address", "Save the changes", "Confirm if needed", "Done!"]
+    },
+    {
+      "category": "admin",
+      "title": "Review your subscriptions",
+      "steps": ["Open your banking app", "Look at recent charges", "Identify recurring subscriptions", "Decide which ones you actually use", "Cancel any you don't need", "Save the changes", "You just saved money!"]
+    },
+    {
+      "category": "admin",
+      "title": "Back up your phone",
+      "steps": ["Open your phone settings", "Find the backup section", "Check when the last backup was", "Start a new backup", "Wait for it to finish", "Close settings", "Your data is safe now"]
+    },
+    {
+      "category": "admin",
+      "title": "Update your phone apps",
+      "steps": ["Open the app store", "Go to the updates tab", "Tap update all", "Wait for updates to download", "Close the app store", "Done! Everything's up to date"]
+    },
+    {
+      "category": "admin",
+      "title": "Renew a prescription",
+      "steps": ["Check which medication needs renewing", "Open the pharmacy app or call them", "Request the refill", "Confirm your information", "Choose pickup or delivery", "Set a reminder to pick it up", "Done!"]
+    },
+    {
+      "category": "admin",
+      "title": "Change a password",
+      "steps": ["Go to the website or app", "Open account settings", "Find security or password section", "Enter your current password", "Create a new strong password", "Save it in your password manager", "Confirm the change"]
+    },
+    {
+      "category": "admin",
+      "title": "Fill out a form",
+      "steps": ["Find the form you need to fill out", "Read the instructions first", "Start with your name and basic info", "Work through one section at a time", "Don't overthink — just answer honestly", "Review quickly at the end", "Submit or save it"]
+    },
+    {
+      "category": "admin",
+      "title": "Check your mail",
+      "steps": ["Walk to the mailbox", "Open it", "Grab everything inside", "Walk back inside", "Sort: important vs. junk", "Recycle the junk", "Open the important ones"]
+    },
+    {
+      "category": "admin",
+      "title": "Return an item",
+      "steps": ["Find the item to return", "Find the receipt or order confirmation", "Check the return policy", "Pack the item", "Print or find the return label", "Drop it off at the shipping location", "Keep the tracking number"]
+    },
+    {
+      "category": "admin",
+      "title": "Schedule a vet appointment",
+      "steps": ["Find the vet's number", "Call the office", "Tell them your pet's name", "Ask for next available slot", "Write down the date and time", "Set a reminder", "Done!"]
+    },
+    {
+      "category": "admin",
+      "title": "Organize your digital files",
+      "steps": ["Open your file manager", "Pick one folder to organize", "Create subfolders if needed", "Move files into the right folders", "Delete anything you don't need", "Empty the trash", "One folder is enough for today"]
+    },
+    {
+      "category": "admin",
+      "title": "Create a grocery list",
+      "steps": ["Open a notes app or grab paper", "Check the fridge for what's low", "Check the pantry", "Write down essentials: milk, bread, etc.", "Think about meals for the next few days", "Add ingredients you'll need", "Keep the list on your phone"]
+    },
+    {
+      "category": "admin",
+      "title": "Set up automatic bill pay",
+      "steps": ["Log into your banking app", "Go to bill pay settings", "Select a bill to automate", "Enter the biller's information", "Set the payment amount", "Choose the payment date", "Confirm and save", "One less thing to remember each month"]
+    },
+    {
+      "category": "admin",
+      "title": "RSVP to an event",
+      "steps": ["Find the invitation", "Check the date and time", "Check your calendar", "Decide if you can go", "Respond yes or no — don't overthink it", "Add it to your calendar if yes"]
+    },
+    {
+      "category": "admin",
+      "title": "Write a thank-you message",
+      "steps": ["Think of someone to thank", "Open a card or message app", "Write who it's to", "Write one thing you're thankful for", "Keep it short and genuine", "Send it", "That was a kind thing to do"]
+    },
+    {
+      "category": "admin",
+      "title": "Check expiration dates in your wallet",
+      "steps": ["Get your wallet", "Take out your cards", "Check each card for expiration dates", "Note any that expire soon", "Put the cards back", "Request replacements for expired ones"]
+    },
+    {
+      "category": "admin",
+      "title": "Update your resume",
+      "steps": ["Open your resume file", "Check your current job title", "Update with recent experience", "Add any new skills", "Fix any typos", "Save the file", "Good to have it ready!"]
+    },
+    {
+      "category": "admin",
+      "title": "Cancel a subscription",
+      "steps": ["Log into the service's website", "Find account or billing settings", "Look for a cancel option", "Follow the cancellation steps", "Confirm the cancellation", "Screenshot the confirmation", "Check your bank later to verify"]
+    },
+    {
+      "category": "admin",
+      "title": "Set a calendar reminder",
+      "steps": ["Open your calendar app", "Tap the day you need", "Add the event title", "Set the time", "Add a reminder alert", "Save the event", "Now you won't forget"]
+    },
+    {
+      "category": "admin",
+      "title": "Check insurance coverage",
+      "steps": ["Find your insurance card", "Log into the insurer's website", "Look up your plan details", "Check what's covered", "Note any important numbers", "Log out", "Good to know where you stand"]
+    },
+    {
+      "category": "work",
+      "title": "Start a work report",
+      "steps": ["Open your document editor", "Create a new document", "Type the title and date", "Write one paragraph — just start anywhere", "Don't edit yet, just get words down", "Take a break if you need", "Come back and write one more paragraph", "Save the document"]
+    },
+    {
+      "category": "work",
+      "title": "Reply to work messages",
+      "steps": ["Open your work messaging app", "Find the most urgent message", "Read it once", "Type a quick response", "Send it", "Move to the next message", "Do 3-5 messages then stop", "Good progress!"]
+    },
+    {
+      "category": "work",
+      "title": "Organize your desk",
+      "steps": ["Clear everything off the desk", "Wipe the surface", "Put essentials back: computer, keyboard, mouse", "Stack papers neatly", "Put pens in a cup or drawer", "Throw away trash", "A clean desk = a clear mind"]
+    },
+    {
+      "category": "work",
+      "title": "Prepare a presentation",
+      "steps": ["Open your presentation tool", "Create a new blank presentation", "Type a title slide", "Write 3-5 bullet points of what to cover", "Create one slide per bullet point", "Add a few words to each slide", "Don't perfectionate — draft first", "Save it"]
+    },
+    {
+      "category": "work",
+      "title": "Review and send an email",
+      "steps": ["Open the email you drafted", "Read it once through", "Check the tone — is it clear?", "Fix any typos", "Check the recipient is correct", "Hit send", "Done!"]
+    },
+    {
+      "category": "work",
+      "title": "Clear your email inbox",
+      "steps": ["Open your inbox", "Start from the top", "Read and respond or archive each email", "If it takes less than 2 min, do it now", "If it takes longer, flag it for later", "Do 10 emails then take a break"]
+    },
+    {
+      "category": "work",
+      "title": "Write a to-do list for today",
+      "steps": ["Open a notebook or app", "Write today's date", "List 3 things you MUST do today", "Add 2 things that would be nice to do", "Pick the one you'll start with", "Circle it", "Now go do that one thing"]
+    },
+    {
+      "category": "work",
+      "title": "Prepare for a meeting",
+      "steps": ["Check the meeting time and location", "Read the agenda or invite", "Write down 1-2 things you want to say", "Gather any materials you need", "Get a glass of water", "Join 1 minute early", "You're prepared!"]
+    },
+    {
+      "category": "work",
+      "title": "Take meeting notes",
+      "steps": ["Open a notebook or notes app", "Write the meeting name and date", "Write down key decisions made", "Note any action items for you", "Note deadlines mentioned", "Review your notes quickly after", "Share if needed"]
+    },
+    {
+      "category": "work",
+      "title": "Start a difficult task",
+      "steps": ["Name the task out loud", "Open whatever tool you need", "Set a 10-minute timer", "Just START — imperfect is fine", "Keep going until the timer rings", "Take a breath", "Decide if you want to do 10 more minutes", "Any progress is great progress"]
+    },
+    {
+      "category": "work",
+      "title": "File work documents",
+      "steps": ["Open your documents folder", "Find the unfiled documents", "Create folders by project or date", "Move each document to the right folder", "Delete duplicates", "Empty the downloads folder", "Done!"]
+    },
+    {
+      "category": "work",
+      "title": "Update a spreadsheet",
+      "steps": ["Open the spreadsheet", "Find the cells that need updating", "Type in the new data", "Double-check the numbers", "Save the file", "Share if needed", "Done!"]
+    },
+    {
+      "category": "work",
+      "title": "Write a project update",
+      "steps": ["Open your document or email", "Write what you accomplished this week", "Write what's in progress", "Write any blockers", "Keep it brief — bullet points are fine", "Send it to the right people", "Done!"]
+    },
+    {
+      "category": "work",
+      "title": "Schedule a meeting",
+      "steps": ["Open your calendar", "Find a free time slot", "Create a new event", "Add the title and description", "Add attendees", "Set a reminder", "Send the invite"]
+    },
+    {
+      "category": "work",
+      "title": "Complete an online training",
+      "steps": ["Open the training platform", "Find the assigned course", "Watch or read one section", "Take any required quiz", "Move to the next section", "Don't rush — absorb what you can", "Complete the final assessment", "Download your certificate"]
+    },
+    {
+      "category": "work",
+      "title": "Set up your workspace",
+      "steps": ["Adjust your chair height", "Position your monitor at eye level", "Put your keyboard and mouse comfortably", "Get a glass of water", "Put your phone on silent", "Open the tools you need", "Ready to focus!"]
+    },
+    {
+      "category": "work",
+      "title": "Proofread a document",
+      "steps": ["Open the document", "Read it from the beginning", "Fix any spelling errors", "Check for grammar issues", "Make sure the tone is right", "Check formatting is consistent", "Save the corrected version"]
+    },
+    {
+      "category": "work",
+      "title": "Wrap up your workday",
+      "steps": ["Save all open documents", "Write down what you'll start with tomorrow", "Close unnecessary tabs", "Reply to any quick messages", "Shut down or sleep your computer", "Take a breath — you made it through the day"]
+    },
+    {
+      "category": "work",
+      "title": "Research a topic",
+      "steps": ["Write down exactly what you need to find out", "Open a search engine", "Search for your main question", "Open 3 relevant results", "Skim each one for key information", "Write down the main takeaways", "Save links for later reference"]
+    },
+    {
+      "category": "work",
+      "title": "Draft a proposal",
+      "steps": ["Open a new document", "Write the title and your name", "Write a brief introduction", "Outline the main sections", "Fill in each section with key points", "Don't edit yet — just get it down", "Save and take a break before reviewing"]
+    },
+    {
+      "category": "work",
+      "title": "Clean your computer desktop",
+      "steps": ["Look at your desktop", "Delete files you don't need", "Move documents to proper folders", "Sort remaining files by type", "Organize into folders if needed", "Empty the recycle bin", "Ah, look at that clean desktop"]
+    },
+    {
+      "category": "work",
+      "title": "Learn a new shortcut",
+      "steps": ["Pick one keyboard shortcut to learn", "Write it on a sticky note", "Try using it right now", "Use it 5 times to practice", "Stick the note near your screen", "Use it for the rest of the day"]
+    },
+    {
+      "category": "work",
+      "title": "Create a simple budget",
+      "steps": ["Open a spreadsheet", "List your monthly income", "List your fixed expenses", "List your variable expenses", "Add up the expenses", "Subtract from income", "See where you stand", "Save the file"]
+    },
+    {
+      "category": "work",
+      "title": "Follow up on a pending task",
+      "steps": ["Find the task you're waiting on", "Draft a brief follow-up message", "Keep it friendly and to the point", "Send it", "Set a reminder to check again in a few days"]
+    },
+    {
+      "category": "work",
+      "title": "Set weekly goals",
+      "steps": ["Open a notebook or planner", "Review last week quickly", "Write 3 goals for this week", "Make them specific and achievable", "Pick one to start today", "Write it where you'll see it"]
+    },
+    {
+      "category": "work",
+      "title": "Take a work break",
+      "steps": ["Step away from your computer", "Stand up and stretch", "Walk to get water or a snack", "Look out a window for a minute", "Take 5 deep breaths", "Go back when you feel ready"]
+    },
+    {
+      "category": "work",
+      "title": "Write a cover letter",
+      "steps": ["Open a new document", "Write the greeting", "State which job you're applying for", "Write why you're interested", "Mention 2-3 relevant skills", "End with a polite closing", "Proofread once", "Save it"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make coffee",
+      "steps": ["Walk to the kitchen", "Fill the kettle or coffee maker with water", "Turn it on", "Put coffee grounds or a pod in place", "Wait for it to brew", "Pour into your favorite mug", "Add milk or sugar if you like", "Enjoy!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make tea",
+      "steps": ["Fill the kettle with water", "Turn it on", "Pick a tea bag", "Put it in a mug", "Pour hot water over the tea bag", "Let it steep for 3-5 minutes", "Remove the tea bag", "Add honey or milk if you like"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make toast",
+      "steps": ["Get a slice of bread", "Put it in the toaster", "Push the lever down", "Wait for it to pop", "Put it on a plate", "Add butter, jam, or whatever you like", "Enjoy!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make a sandwich",
+      "steps": ["Get two slices of bread", "Find your fillings: meat, cheese, veggies", "Spread condiment on one slice", "Layer the fillings", "Put the other slice on top", "Cut in half if you want", "Eat and enjoy!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make scrambled eggs",
+      "steps": ["Get 2 eggs from the fridge", "Crack them into a bowl", "Add a splash of milk", "Whisk with a fork", "Heat a pan on medium with butter", "Pour the eggs in", "Stir gently as they cook", "Serve when fluffy"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make pasta",
+      "steps": ["Fill a pot with water", "Put it on the stove on high", "Wait for it to boil", "Add a pinch of salt", "Add the pasta", "Cook for the time on the package", "Drain in a colander", "Add sauce and stir"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make a salad",
+      "steps": ["Get a bowl", "Wash some lettuce or greens", "Tear or chop them into the bowl", "Add whatever toppings you have", "Drizzle with dressing", "Toss it together", "Eat and feel good about it!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make rice",
+      "steps": ["Measure 1 cup of rice", "Rinse it under water", "Put it in a pot with 2 cups water", "Bring to a boil", "Reduce heat to low", "Cover and cook for 15-18 minutes", "Turn off heat and let sit for 5 minutes", "Fluff with a fork"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make oatmeal",
+      "steps": ["Measure oats into a bowl or pot", "Add water or milk", "Microwave 2 min or cook on stove 5 min", "Stir", "Add toppings: fruit, honey, cinnamon", "Let it cool a moment", "Eat!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make a smoothie",
+      "steps": ["Get the blender", "Add a banana or fruit", "Add a handful of spinach if you want", "Pour in milk or juice", "Add yogurt or protein powder", "Blend until smooth", "Pour into a glass", "Rinse the blender right away"]
+    },
+    {
+      "category": "cooking",
+      "title": "Heat up leftovers",
+      "steps": ["Find the leftovers in the fridge", "Put them on a microwave-safe plate", "Cover with a damp paper towel", "Microwave for 1-2 minutes", "Check if it's hot enough", "Heat more if needed", "Eat!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make a grilled cheese",
+      "steps": ["Get bread, butter, and cheese", "Butter one side of each bread slice", "Put cheese between the unbuttered sides", "Heat a pan on medium", "Place the sandwich butter-side down", "Cook until golden on each side", "Cut in half and enjoy"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make a simple stir-fry",
+      "steps": ["Chop vegetables into small pieces", "Heat oil in a pan or wok", "Add the hardest veggies first", "Stir frequently", "Add softer veggies", "Add soy sauce or seasoning", "Cook for 2 more minutes", "Serve over rice or noodles"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make a bowl of cereal",
+      "steps": ["Get a bowl", "Get the cereal box", "Pour cereal into the bowl", "Get milk from the fridge", "Pour milk over the cereal", "Get a spoon", "Eat!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Prepare ingredients for cooking",
+      "steps": ["Read the recipe once", "Get all ingredients out", "Wash any produce", "Peel anything that needs peeling", "Chop everything into the right sizes", "Measure spices and liquids", "Line everything up — ready to cook!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Clean up after cooking",
+      "steps": ["Turn off the stove and oven", "Put leftover food in containers", "Put containers in the fridge", "Fill the sink with soapy water", "Wash the pots and pans", "Wipe down the counter", "Wipe the stovetop", "Done!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make a fruit snack plate",
+      "steps": ["Get a plate", "Wash 2-3 types of fruit", "Cut them into bite-size pieces", "Arrange on the plate", "Add yogurt or honey for dipping if you want", "Enjoy your colorful snack!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Boil an egg",
+      "steps": ["Put an egg in a pot", "Cover with water", "Put on the stove on high", "Wait for it to boil", "Reduce heat and cook 10 min for hard-boiled", "Move egg to cold water for 5 min", "Peel and eat!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make a quesadilla",
+      "steps": ["Get a tortilla and cheese", "Sprinkle cheese on half the tortilla", "Add any extra fillings you want", "Fold it in half", "Heat a pan on medium", "Cook each side for 2 minutes", "Cut into triangles", "Enjoy!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make avocado toast",
+      "steps": ["Toast a slice of bread", "Cut an avocado in half", "Scoop out the flesh", "Mash it with a fork", "Spread on the toast", "Add salt, pepper, and lemon juice", "Add any toppings you like"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make a wrap",
+      "steps": ["Get a tortilla or wrap", "Spread hummus or sauce on it", "Add protein: chicken, tofu, beans", "Add veggies: lettuce, tomato", "Fold the bottom up", "Roll from one side to the other", "Cut in half if you want", "Eat!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make overnight oats",
+      "steps": ["Get a jar or container", "Add half cup of oats", "Add half cup of milk", "Add a spoon of yogurt", "Add chia seeds if you have them", "Add sweetener or fruit", "Stir and put in the fridge", "Eat tomorrow morning!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make popcorn",
+      "steps": ["Get popcorn kernels or a microwave bag", "If using kernels, heat oil in a pot", "Add kernels and cover", "Wait for popping to slow down", "Pour into a bowl", "Add salt or seasoning", "Enjoy!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make a simple soup",
+      "steps": ["Chop an onion and some veggies", "Heat oil in a pot", "Cook the onion until soft", "Add the veggies", "Pour in broth", "Bring to a boil then simmer", "Cook until veggies are tender", "Season with salt and pepper"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make yogurt parfait",
+      "steps": ["Get a glass or bowl", "Add a layer of yogurt", "Add a layer of granola", "Add a layer of fruit", "Repeat the layers", "Top with a drizzle of honey", "Eat with a spoon!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make pancakes",
+      "steps": ["Mix pancake mix with water or milk", "Stir until just combined — lumps are OK", "Heat a pan on medium with butter", "Pour a scoop of batter", "Wait for bubbles on top", "Flip and cook 1 more minute", "Repeat for more pancakes", "Add syrup and enjoy!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Bake simple cookies",
+      "steps": ["Preheat oven to 350F/175C", "Mix butter and sugar", "Add an egg and vanilla", "Stir in flour and baking soda", "Scoop dough onto a baking sheet", "Bake for 10-12 minutes", "Let cool on the sheet", "Enjoy warm cookies!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Meal prep containers",
+      "steps": ["Decide on meals for the next few days", "Cook the main protein", "Cook the grain or starch", "Prep the vegetables", "Get your containers out", "Portion food into each container", "Seal and refrigerate", "Future meals are ready!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make fried rice",
+      "steps": ["Use leftover cold rice", "Heat oil in a large pan", "Scramble an egg in the pan", "Add the rice and stir", "Add frozen peas and carrots", "Pour in soy sauce", "Stir everything together", "Cook for 3 more minutes"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make a baked potato",
+      "steps": ["Wash a potato", "Poke holes in it with a fork", "Microwave for 5 min, flip, then 5 more", "Check if it's soft inside", "Cut it open", "Add butter, salt, cheese, whatever you like", "Eat!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make nachos",
+      "steps": ["Spread tortilla chips on a baking sheet", "Sprinkle shredded cheese all over", "Add toppings: beans, jalapenos, meat", "Broil in oven for 3-5 minutes", "Watch carefully so they don't burn", "Add salsa, sour cream, guacamole", "Eat directly from the sheet!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make garlic bread",
+      "steps": ["Slice a baguette in half lengthwise", "Mix butter with minced garlic", "Spread the garlic butter on the bread", "Sprinkle with parsley if you have it", "Broil for 3-4 minutes", "Watch so it doesn't burn", "Slice and enjoy!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make a protein shake",
+      "steps": ["Get your shaker bottle or blender", "Add one scoop of protein powder", "Add water or milk", "Add a banana if you want", "Shake or blend well", "Drink up!", "Rinse the bottle right away"]
+    },
+    {
+      "category": "social",
+      "title": "Text a friend",
+      "steps": ["Open your messaging app", "Pick a friend you haven't talked to", "Type something simple like 'Hey, thinking of you!'", "Don't overthink it", "Hit send", "Put the phone down", "You reached out — that's what matters"]
+    },
+    {
+      "category": "social",
+      "title": "Call a friend or family member",
+      "steps": ["Pick someone you want to talk to", "Find their number", "Take a deep breath", "Press the call button", "Say hello", "Talk for as long or short as you want", "Say goodbye", "Feel good about connecting"]
+    },
+    {
+      "category": "social",
+      "title": "Reply to a social media message",
+      "steps": ["Open the app", "Find the message", "Read it", "Type a short reply", "Don't stress about making it perfect", "Hit send", "Close the app if you want"]
+    },
+    {
+      "category": "social",
+      "title": "Prepare for a guest visit",
+      "steps": ["Do a quick tidy of the main room", "Clean the bathroom basics", "Put out clean hand towels", "Make sure there's something to drink", "Clear a spot for them to sit", "Take a breath — it doesn't have to be perfect"]
+    },
+    {
+      "category": "social",
+      "title": "Write a birthday message",
+      "steps": ["Open a card or message app", "Write 'Happy Birthday!'", "Add a personal sentence or memory", "Keep it genuine, not long", "Send it", "You made their day brighter!"]
+    },
+    {
+      "category": "social",
+      "title": "Plan a get-together",
+      "steps": ["Think of 2-3 people to invite", "Pick a date and time", "Choose a location: your place, a cafe, a park", "Send a message to each person", "Suggest an activity or leave it open", "Wait for replies", "Add it to your calendar"]
+    },
+    {
+      "category": "social",
+      "title": "Make small talk practice",
+      "steps": ["Think of 3 safe topics: weather, weekend, food", "Practice one opener: 'How's your week going?'", "Think of a follow-up question", "Practice saying it out loud", "That's enough prep — you'll do great in person"]
+    },
+    {
+      "category": "social",
+      "title": "Send a 'thinking of you' message",
+      "steps": ["Pick someone you care about", "Open your messaging app", "Type something like 'Just wanted you to know I'm thinking of you'", "Hit send", "That's it — small gestures matter"]
+    },
+    {
+      "category": "social",
+      "title": "Comment on a friend's post",
+      "steps": ["Open social media", "Find a friend's recent post", "Think of something nice or funny to say", "Type your comment", "Post it", "Close the app", "You stayed connected!"]
+    },
+    {
+      "category": "social",
+      "title": "Introduce yourself to someone new",
+      "steps": ["Make eye contact and smile", "Say 'Hi, I'm [your name]'", "Ask their name", "Ask one easy question: 'What do you do?'", "Listen to their answer", "Respond genuinely", "That's a great start!"]
+    },
+    {
+      "category": "social",
+      "title": "Accept or decline an invitation",
+      "steps": ["Read the invitation details", "Check your calendar", "Decide honestly: do you want to go?", "It's OK to say no — be honest and kind", "Send your response", "If yes, add it to your calendar"]
+    },
+    {
+      "category": "social",
+      "title": "Send a voice message",
+      "steps": ["Open your messaging app", "Pick the person to message", "Tap the microphone button", "Talk naturally — no need to script it", "Keep it under 30 seconds", "Send it", "Voice messages feel more personal!"]
+    },
+    {
+      "category": "social",
+      "title": "Share a photo with someone",
+      "steps": ["Find a nice photo on your phone", "Pick someone who'd enjoy it", "Open your messaging app", "Attach the photo", "Add a short caption if you want", "Send it", "Sharing memories keeps connections alive"]
+    },
+    {
+      "category": "social",
+      "title": "Plan a date night",
+      "steps": ["Think of something you both enjoy", "Pick a day this week", "Make a reservation or plan the activity", "Tell your partner about it", "Set a reminder", "Look forward to it!"]
+    },
+    {
+      "category": "social",
+      "title": "Write a letter",
+      "steps": ["Get paper and a pen", "Write 'Dear [name]'", "Tell them something you appreciate", "Share a little about your life", "End with something warm", "Sign it", "Put it in an envelope and mail it"]
+    },
+    {
+      "category": "social",
+      "title": "Apologize to someone",
+      "steps": ["Think about what happened", "Decide what you want to say", "Keep it simple and honest", "Say or write 'I'm sorry for...'", "Don't make excuses — own it", "Ask how you can make it right", "Give them space to respond"]
+    },
+    {
+      "category": "social",
+      "title": "Check in on a friend",
+      "steps": ["Think of a friend who might be going through something", "Send a message: 'Hey, how are you really doing?'", "If they respond, listen", "Don't try to fix — just be there", "That's being a good friend"]
+    },
+    {
+      "category": "social",
+      "title": "Ask for help",
+      "steps": ["Identify what you need help with", "Think of who could help", "Reach out to them", "Be specific about what you need", "Accept their answer gracefully", "Thank them regardless", "Asking for help is brave"]
+    },
+    {
+      "category": "social",
+      "title": "Set a social boundary",
+      "steps": ["Identify what's bothering you", "Think about what you need", "Use 'I' statements: 'I feel...'", "Be clear but kind", "Don't over-explain", "It's OK if they're uncomfortable", "Boundaries protect your energy"]
+    },
+    {
+      "category": "social",
+      "title": "Give someone a compliment",
+      "steps": ["Think of something genuine you admire about someone", "Make it specific: 'I love how you...'", "Say it to them in person, text, or call", "Watch them light up", "Giving kindness feels good too"]
+    },
+    {
+      "category": "social",
+      "title": "Join an online community",
+      "steps": ["Think of a hobby or interest", "Search for a related group or forum", "Read a few posts to get the vibe", "Create an account if needed", "Introduce yourself or comment on a post", "You just expanded your world a little!"]
+    },
+    {
+      "category": "social",
+      "title": "Organize a group chat",
+      "steps": ["Think of 3-5 friends to include", "Create a new group in your messaging app", "Name the group something fun", "Send a first message to kick it off", "Let the conversation flow"]
+    },
+    {
+      "category": "social",
+      "title": "Reconnect with an old friend",
+      "steps": ["Think of someone you've lost touch with", "Find their contact info", "Send a message: 'Hey! It's been a while'", "Mention a shared memory", "Ask how they've been", "Don't pressure a quick reply", "You planted a seed of reconnection"]
+    },
+    {
+      "category": "social",
+      "title": "Say thank you in person",
+      "steps": ["Think of someone who helped you recently", "Find a quiet moment", "Look them in the eye", "Say 'Thank you for...' and be specific", "Mean it", "That's it — simple and powerful"]
+    },
+    {
+      "category": "social",
+      "title": "Attend a social event",
+      "steps": ["Check the event details one more time", "Pick your outfit", "Have a plan for leaving if you need to", "Arrive — that's the hardest part", "Find one person to talk to", "Stay as long as feels comfortable", "Leave without guilt when you're done"]
+    },
+    {
+      "category": "self_care",
+      "title": "Take a digital detox break",
+      "steps": ["Put your phone in another room", "Set a timer for 30 minutes", "Do something offline: read, draw, walk", "Enjoy the quiet", "When the timer goes, check your phone if you want", "Notice how you feel"]
+    },
+    {
+      "category": "self_care",
+      "title": "Organize your medications",
+      "steps": ["Get all your medications together", "Check expiration dates", "Throw away expired ones", "Get a pill organizer if you don't have one", "Fill it for the week", "Put it somewhere you'll see it daily"]
+    },
+    {
+      "category": "self_care",
+      "title": "Do a 10-minute yoga session",
+      "steps": ["Find a spot on the floor", "Sit cross-legged and breathe", "Do cat-cow stretches on all fours", "Do downward dog", "Hold each pose for 30 seconds", "End in child's pose", "Sit up slowly and breathe"]
+    },
+    {
+      "category": "self_care",
+      "title": "Wash your hair",
+      "steps": ["Get in the shower", "Wet your hair thoroughly", "Apply shampoo", "Massage your scalp gently", "Rinse completely", "Apply conditioner to the ends", "Wait 1-2 minutes", "Rinse out"]
+    },
+    {
+      "category": "self_care",
+      "title": "Iron one outfit",
+      "steps": ["Get the iron and ironing board", "Fill the iron with water if it steams", "Turn it on and wait for it to heat", "Iron the shirt or top first", "Iron the pants or skirt", "Hang them up immediately", "Turn off and put away the iron"]
+    },
+    {
+      "category": "self_care",
+      "title": "Clean your ears",
+      "steps": ["Get a cotton swab or ear cleaner", "Gently clean the outer ear only", "Don't go inside the ear canal", "Do the other ear", "Dispose of the swab", "Done!"]
+    },
+    {
+      "category": "admin",
+      "title": "Declutter your phone home screen",
+      "steps": ["Look at your home screen", "Move apps you don't use daily to a folder", "Keep only essentials on the first page", "Delete apps you haven't used in months", "Rearrange by how often you use them", "Change the wallpaper if you want", "Enjoy the clean look!"]
+    },
+    {
+      "category": "admin",
+      "title": "Set up a reminder system",
+      "steps": ["Choose an app: calendar, reminders, or notes", "Add your most important recurring tasks", "Set alerts for 15 minutes before", "Add weekly reminders too", "Test one reminder to make sure it works", "Now you have a backup brain!"]
+    },
+    {
+      "category": "admin",
+      "title": "Review your calendar for the week",
+      "steps": ["Open your calendar app", "Look at Monday through Friday", "Note any appointments or deadlines", "Check if anything overlaps", "Add any missing events", "Plan one thing for the weekend", "You know what's coming now"]
+    },
+    {
+      "category": "work",
+      "title": "Clean up your bookmarks",
+      "steps": ["Open your browser", "Open the bookmarks manager", "Go through them one by one", "Delete ones you don't need", "Organize the rest into folders", "Name the folders clearly", "Close the manager"]
+    },
+    {
+      "category": "work",
+      "title": "Create a templates folder",
+      "steps": ["Open your file manager", "Create a new folder called 'Templates'", "Find documents you reuse often", "Copy them into the Templates folder", "Rename them clearly", "Next time you'll save so much time!"]
+    },
+    {
+      "category": "work",
+      "title": "Send an invoice",
+      "steps": ["Open your invoicing tool or template", "Fill in the client details", "List the services and amounts", "Double-check the total", "Add payment instructions", "Send the invoice", "Set a reminder for follow-up"]
+    },
+    {
+      "category": "work",
+      "title": "Brainstorm ideas",
+      "steps": ["Get paper or open a doc", "Set a 10-minute timer", "Write every idea that comes to mind", "No judging — everything counts", "Keep writing until the timer stops", "Circle the 3 best ideas", "Save your list for later"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make instant noodles",
+      "steps": ["Boil water in a kettle", "Open the noodle packet", "Put noodles in a bowl", "Add the seasoning packet", "Pour boiling water over", "Cover for 3 minutes", "Stir and eat!", "Add an egg or veggies if you want to level up"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make a cheese plate",
+      "steps": ["Get a cutting board or plate", "Cut 2-3 types of cheese into pieces", "Add crackers around the edges", "Add fruit: grapes, apple slices", "Add nuts if you have them", "Arrange it nicely", "Enjoy your fancy snack!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make hot chocolate",
+      "steps": ["Heat milk in a pot or microwave", "Add cocoa powder and sugar", "Stir until dissolved", "Pour into a mug", "Add marshmallows or whipped cream", "Sip and relax!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make a PB&J sandwich",
+      "steps": ["Get two slices of bread", "Spread peanut butter on one slice", "Spread jelly on the other", "Press them together", "Cut in half if you want", "Eat! Classic comfort food"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Vacuum the car",
+      "steps": ["Get a portable vacuum or go to a car wash", "Open all car doors", "Start with the driver's seat", "Vacuum the seat and under it", "Do the floor mats", "Move to the next seat", "Do the trunk last", "Close everything up"]
+    },
+    {
+      "category": "self_care",
+      "title": "Listen to calming music",
+      "steps": ["Find your music app", "Search for 'calming' or 'relaxing' playlist", "Put on headphones if you have them", "Press play", "Close your eyes for a moment", "Breathe slowly", "Enjoy for as long as you need"]
+    },
+    {
+      "category": "self_care",
+      "title": "Declutter your mind with a brain dump",
+      "steps": ["Get paper or open a notes app", "Set a timer for 5 minutes", "Write down everything on your mind", "Don't organize — just dump it all", "Keep going until the timer stops", "Take a deep breath", "You can sort through it later"]
+    },
+    {
+      "category": "self_care",
+      "title": "Apply lip balm",
+      "steps": ["Find your lip balm", "Open it", "Apply to your lips", "Close it", "Put it somewhere you'll find it again", "Your lips feel better already"]
+    },
+    {
+      "category": "self_care",
+      "title": "Do a quick face massage",
+      "steps": ["Wash your hands", "Apply a bit of moisturizer or oil", "Massage your forehead in circles", "Press gently around your eyes", "Massage your cheeks", "Work along your jawline", "You look refreshed!"]
+    },
+    {
+      "category": "self_care",
+      "title": "Read for 10 minutes",
+      "steps": ["Find your book or open a reading app", "Sit somewhere comfortable", "Set a 10-minute timer", "Start reading where you left off", "Don't worry about finishing chapters", "Stop when the timer goes off", "Mark your page", "You read today — that counts!"]
+    },
+    {
+      "category": "admin",
+      "title": "Clean up your email folders",
+      "steps": ["Open your email", "Go to your folder list", "Delete or merge unused folders", "Create new ones if needed", "Move misplaced emails to the right folders", "Empty the trash folder", "Unsubscribe from newsletters you never read"]
+    },
+    {
+      "category": "admin",
+      "title": "Review your phone's storage",
+      "steps": ["Open phone settings", "Go to storage", "Check what's taking up space", "Delete old photos or videos you don't need", "Clear app caches", "Remove unused apps", "Check how much space you freed up!"]
+    },
+    {
+      "category": "work",
+      "title": "Write a quick email",
+      "steps": ["Open your email", "Click compose", "Type the recipient", "Write a clear subject line", "Keep the body to 3-5 sentences", "Proofread once", "Hit send"]
+    },
+    {
+      "category": "work",
+      "title": "Organize your downloads folder",
+      "steps": ["Open your downloads folder", "Sort by date", "Delete anything older than 30 days you don't need", "Move important files to proper folders", "Delete duplicates", "Empty the trash"]
+    },
+    {
+      "category": "social",
+      "title": "Post a status update",
+      "steps": ["Think of something you'd like to share", "Open your social media app", "Type it out — keep it authentic", "Add a photo if you want", "Post it", "Close the app and move on"]
+    },
+    {
+      "category": "social",
+      "title": "Send a meme to a friend",
+      "steps": ["Find a funny meme or image", "Think of who'd appreciate it", "Open your chat with them", "Send it", "Wait for their reaction", "Laugh together!"]
+    },
+    {
+      "category": "work",
+      "title": "Prepare a daily standup update",
+      "steps": ["Open your notes", "Write what you did yesterday", "Write what you plan to do today", "Note any blockers", "Keep it to 3 sentences max", "Ready for standup!"]
+    },
+    {
+      "category": "work",
+      "title": "Review pull requests",
+      "steps": ["Open your code review tool", "Pick the oldest PR first", "Read the description", "Look at the changed files", "Leave constructive comments", "Approve or request changes", "Move to the next one"]
+    },
+    {
+      "category": "work",
+      "title": "Write a status report",
+      "steps": ["Open a new document", "Write the reporting period", "List completed items", "List in-progress items", "List blockers or risks", "Add next steps", "Send to your manager"]
+    },
+    {
+      "category": "work",
+      "title": "Organize your calendar",
+      "steps": ["Open your calendar", "Remove or decline outdated meetings", "Block focus time for deep work", "Add buffer time between meetings", "Check for double-bookings", "Save changes"]
+    },
+    {
+      "category": "work",
+      "title": "Write documentation",
+      "steps": ["Open the doc or wiki", "Write a clear title", "Start with the purpose section", "Add step-by-step instructions", "Include examples if helpful", "Review for clarity", "Save and share"]
+    },
+    {
+      "category": "work",
+      "title": "Mentor someone",
+      "steps": ["Schedule a time to chat", "Prepare 1-2 topics to discuss", "Ask them what they need help with", "Listen more than you talk", "Share one practical tip", "Follow up next week"]
+    },
+    {
+      "category": "work",
+      "title": "Prepare for a job interview",
+      "steps": ["Research the company", "Review the job description", "Prepare 3 stories about your experience", "Practice answering common questions", "Prepare questions to ask them", "Pick your outfit", "Get a good night's sleep"]
+    },
+    {
+      "category": "work",
+      "title": "Clean up old emails",
+      "steps": ["Open your inbox", "Sort by oldest first", "Select emails older than 3 months", "Scan for anything important to save", "Archive or delete the rest", "Empty the trash", "Feel lighter!"]
+    },
+    {
+      "category": "work",
+      "title": "Create a project plan",
+      "steps": ["Define the project goal", "List all major tasks", "Estimate time for each task", "Set deadlines", "Assign responsibilities", "Review the plan once", "Share with stakeholders"]
+    },
+    {
+      "category": "work",
+      "title": "Debug an issue",
+      "steps": ["Reproduce the problem", "Check the error message or logs", "Narrow down where it happens", "Make one small change", "Test if the change fixes it", "If not, revert and try another approach", "Document the fix when solved"]
+    },
+    {
+      "category": "work",
+      "title": "Give feedback to a colleague",
+      "steps": ["Think about what you want to say", "Use specific examples", "Start with something positive", "Share the constructive feedback", "Suggest an improvement", "End on an encouraging note"]
+    },
+    {
+      "category": "work",
+      "title": "Review your goals",
+      "steps": ["Open your goals document", "Read each goal", "Rate your progress: on track, behind, or done", "Adjust timelines if needed", "Pick one goal to focus on this week", "Write down your next action step"]
+    },
+    {
+      "category": "work",
+      "title": "Automate a repetitive task",
+      "steps": ["Identify a task you do repeatedly", "Think about what could be automated", "Research a tool or script to help", "Set it up step by step", "Test it with a small example", "Enjoy the time you just saved!"]
+    },
+    {
+      "category": "work",
+      "title": "Prepare a demo",
+      "steps": ["Decide what to demonstrate", "Write a brief script or outline", "Set up the demo environment", "Practice running through it once", "Time yourself", "Prepare for questions", "You're ready!"]
+    },
+    {
+      "category": "admin",
+      "title": "Gather documents for taxes",
+      "steps": ["Find last year's tax documents for reference", "Collect W-2s or 1099s", "Gather receipts for deductions", "Check for student loan or mortgage statements", "Put everything in one folder", "Schedule time to file or see an accountant"]
+    },
+    {
+      "category": "admin",
+      "title": "Register for something",
+      "steps": ["Find the registration website or office", "Fill in your personal information", "Upload any required documents", "Review the information", "Submit the registration", "Save the confirmation"]
+    },
+    {
+      "category": "admin",
+      "title": "Contact customer service",
+      "steps": ["Find the company's contact number or chat", "Write down your issue and account info", "Call or start the chat", "Explain your issue clearly", "Take notes on what they say", "Get a reference number", "Thank them and follow up if needed"]
+    },
+    {
+      "category": "admin",
+      "title": "Review your credit report",
+      "steps": ["Go to the official credit report website", "Verify your identity", "Request your report", "Review each section carefully", "Look for anything unfamiliar", "Dispute any errors you find", "Close the browser when done"]
+    },
+    {
+      "category": "admin",
+      "title": "Organize your wallet or purse",
+      "steps": ["Empty everything out", "Throw away old receipts", "Remove expired cards", "Organize cards by type", "Put cash in order", "Return everything neatly", "Feels better, right?"]
+    },
+    {
+      "category": "admin",
+      "title": "Set up two-factor authentication",
+      "steps": ["Pick your most important account", "Go to security settings", "Enable two-factor authentication", "Choose your method: app or text", "Complete the setup", "Save backup codes somewhere safe", "Repeat for other accounts"]
+    },
+    {
+      "category": "admin",
+      "title": "Plan a trip",
+      "steps": ["Decide on destination and dates", "Check your budget", "Look up flights or transportation", "Book accommodation", "Make a rough itinerary", "Set reminders for the trip dates", "Start a packing list"]
+    },
+    {
+      "category": "admin",
+      "title": "Write a complaint letter",
+      "steps": ["State who you're writing to", "Describe the issue clearly", "Include dates and details", "Say what resolution you want", "Keep the tone professional", "Proofread it", "Send it and save a copy"]
+    },
+    {
+      "category": "admin",
+      "title": "Compare prices for a purchase",
+      "steps": ["Decide what you need to buy", "Search for it on 3 different sites", "Compare prices and reviews", "Check for coupon codes", "Make your decision", "Save the best link for later or buy now"]
+    },
+    {
+      "category": "admin",
+      "title": "Update emergency contacts",
+      "steps": ["Open your phone contacts", "Check your ICE (emergency) contacts", "Update any outdated numbers", "Make sure your doctor is listed", "Update at your workplace too", "Done — safety first!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make a veggie omelet",
+      "steps": ["Crack 2-3 eggs into a bowl", "Whisk with a fork", "Chop some veggies: peppers, onions, spinach", "Heat butter in a pan", "Pour in the eggs", "Add veggies to one half", "Fold the omelet over", "Slide onto a plate"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make a fruit smoothie bowl",
+      "steps": ["Blend frozen fruit with a little liquid", "Keep it thick — less liquid than a regular smoothie", "Pour into a bowl", "Add toppings: granola, seeds, fresh fruit", "Drizzle honey on top", "Eat with a spoon!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make bruschetta",
+      "steps": ["Dice tomatoes", "Mix with olive oil, basil, and garlic", "Add salt and pepper", "Slice a baguette", "Toast the slices", "Top each slice with the tomato mix", "Serve immediately"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make a banana split",
+      "steps": ["Peel a banana and cut it in half lengthwise", "Place in a dish", "Add scoops of ice cream", "Drizzle with chocolate sauce", "Add whipped cream", "Top with a cherry", "Enjoy!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make lemonade",
+      "steps": ["Juice 4-5 lemons", "Add sugar to taste", "Add cold water", "Stir well", "Taste and adjust sweetness", "Add ice", "Pour into glasses"]
+    },
+    {
+      "category": "cooking",
+      "title": "Roast vegetables",
+      "steps": ["Preheat oven to 400F/200C", "Chop veggies into even pieces", "Toss with olive oil, salt, pepper", "Spread on a baking sheet", "Don't overcrowd — use two sheets if needed", "Roast for 25-30 minutes", "Flip halfway through", "Enjoy crispy roasted veggies!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make French toast",
+      "steps": ["Crack 2 eggs into a shallow bowl", "Add milk, cinnamon, and vanilla", "Whisk together", "Heat butter in a pan", "Dip bread slices in the egg mixture", "Cook each side until golden", "Serve with syrup or powdered sugar"]
+    },
+    {
+      "category": "social",
+      "title": "Host a movie night",
+      "steps": ["Pick a movie everyone might enjoy", "Set a date and time", "Invite friends over or set up a watch party", "Prepare snacks: popcorn, drinks", "Set up the viewing area", "Press play and enjoy together!"]
+    },
+    {
+      "category": "social",
+      "title": "Volunteer for something",
+      "steps": ["Think about causes you care about", "Search for local volunteer opportunities", "Pick one that fits your schedule", "Sign up or contact the organization", "Mark the date on your calendar", "Show up and make a difference!"]
+    },
+    {
+      "category": "social",
+      "title": "Catch up over coffee",
+      "steps": ["Think of someone you'd like to see", "Send them a message suggesting coffee", "Pick a cafe that works for both", "Show up and be present", "Put your phone away", "Enjoy the conversation"]
+    },
+    {
+      "category": "self_care",
+      "title": "Clean out your purse or bag",
+      "steps": ["Empty everything out", "Wipe the inside", "Throw away trash and old receipts", "Check for expired items", "Organize what goes back in", "Everything has a pocket now"]
+    },
+    {
+      "category": "self_care",
+      "title": "Do a 2-minute meditation",
+      "steps": ["Find a quiet spot", "Set a timer for 2 minutes", "Close your eyes", "Focus on your breathing", "When your mind wanders, gently come back", "Open your eyes when the timer goes off"]
+    },
+    {
+      "category": "self_care",
+      "title": "Plan your meals for tomorrow",
+      "steps": ["Think about breakfast — something simple", "Think about lunch — leftovers or prep ahead", "Think about dinner — one main + one side", "Check if you have the ingredients", "Write down anything you need to buy", "Tomorrow's meals are planned!"]
+    },
+    {
+      "category": "self_care",
+      "title": "Change your bed pillow position",
+      "steps": ["Fluff your pillows", "Try a different arrangement", "Test lying down", "Adjust until comfortable", "A small change can help you sleep better"]
+    },
+    {
+      "category": "self_care",
+      "title": "Do hand exercises",
+      "steps": ["Spread your fingers wide", "Hold for 5 seconds", "Make tight fists", "Hold for 5 seconds", "Rotate your wrists clockwise", "Then counter-clockwise", "Shake your hands loose"]
+    },
+    {
+      "category": "self_care",
+      "title": "Check your posture",
+      "steps": ["Notice how you're sitting right now", "Uncross your legs if they're crossed", "Roll your shoulders back", "Lift your chin slightly", "Plant your feet flat on the floor", "Take a deep breath", "Try to hold this for 5 minutes"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean the TV screen",
+      "steps": ["Turn off the TV", "Get a microfiber cloth", "Gently wipe in one direction", "Don't press too hard", "Get the corners", "Turn it back on and enjoy the clear picture"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Clean picture frames",
+      "steps": ["Get a soft cloth", "Dust the top of each frame", "Wipe the glass gently", "Check the back for dust too", "Straighten any crooked frames", "Done!"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Organize shoes by the door",
+      "steps": ["Gather all shoes near the entrance", "Line them up in pairs", "Put rarely-used ones in the closet", "Wipe down the shoe area", "Consider a shoe rack if you don't have one"]
+    },
+    {
+      "category": "admin",
+      "title": "Create a packing list",
+      "steps": ["Think about where you're going", "List clothes for each day", "Add toiletries", "Add electronics and chargers", "Add travel documents", "Add any medication", "Review the list once"]
+    },
+    {
+      "category": "admin",
+      "title": "Check loyalty program points",
+      "steps": ["Open your loyalty app or website", "Log in", "Check your points balance", "See if any are expiring soon", "Redeem anything worthwhile", "Close the app"]
+    },
+    {
+      "category": "admin",
+      "title": "Set up automatic savings",
+      "steps": ["Open your banking app", "Find the auto-transfer option", "Set a small weekly amount", "Choose your savings account", "Set the schedule", "Confirm and save", "Your future self thanks you!"]
+    },
+    {
+      "category": "work",
+      "title": "Negotiate a deadline",
+      "steps": ["Assess how much time you actually need", "Prepare your reasoning", "Contact the person who set the deadline", "Be honest about your situation", "Propose a new realistic date", "Confirm the new agreement"]
+    },
+    {
+      "category": "work",
+      "title": "Delegate a task",
+      "steps": ["Identify a task someone else can do", "Choose the right person", "Explain the task clearly", "Set expectations and deadline", "Offer to answer questions", "Trust them to do it their way"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make trail mix",
+      "steps": ["Get a bowl", "Add a handful of nuts", "Add raisins or dried fruit", "Add some chocolate chips", "Add pretzels or cereal", "Mix it all together", "Put in a bag for later!"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make cinnamon toast",
+      "steps": ["Toast a slice of bread", "Butter it while warm", "Mix cinnamon and sugar in a bowl", "Sprinkle the mix on the buttered toast", "Eat while warm!"]
+    },
+    {
+      "category": "social",
+      "title": "Leave a positive review",
+      "steps": ["Think of a business you enjoyed recently", "Find them on Google or Yelp", "Write what you liked specifically", "Rate them", "Submit the review", "You just helped a small business!"]
+    },
+    {
+      "category": "self_care",
+      "title": "Step outside for fresh air",
+      "steps": ["Put on shoes if needed", "Open the door and step outside", "Take 5 deep breaths", "Look up at the sky", "Notice something you haven't before", "Go back inside when ready", "Even 1 minute outside helps"]
+    },
+    {
+      "category": "self_care",
+      "title": "Smile at yourself in the mirror",
+      "steps": ["Walk to a mirror", "Look at yourself", "Smile — even if it feels silly", "Say one nice thing about yourself", "Take a breath", "Carry that energy with you"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Wipe kitchen cabinet fronts",
+      "steps": ["Get a damp cloth with mild cleaner", "Start with the upper cabinets", "Wipe each door front", "Move to lower cabinets", "Pay attention to handles", "Dry with a clean cloth"]
+    },
+    {
+      "category": "admin",
+      "title": "Write a shopping list",
+      "steps": ["Check what you're running low on", "Think about meals this week", "Write staples: bread, milk, eggs", "Add fruits and vegetables", "Add any special items", "Take the list with you"]
+    },
+    {
+      "category": "work",
+      "title": "Archive old projects",
+      "steps": ["Find projects you've completed", "Create an archive folder", "Move completed project files there", "Update any project trackers", "Delete duplicate files", "Your workspace is cleaner now"]
+    },
+    {
+      "category": "social",
+      "title": "Plan a picnic",
+      "steps": ["Pick a park or outdoor spot", "Invite 2-3 people", "Decide what food to bring", "Pack a blanket", "Bring drinks and snacks", "Enjoy the outdoors together!"]
+    },
+    {
+      "category": "self_care",
+      "title": "Drink herbal tea",
+      "steps": ["Boil water", "Pick a calming tea: chamomile, mint, lavender", "Steep for 5 minutes", "Sit somewhere quiet", "Sip slowly", "Enjoy the calm moment"]
+    },
+    {
+      "category": "cooking",
+      "title": "Make a simple dip",
+      "steps": ["Get cream cheese or yogurt", "Add spices: garlic powder, onion powder, herbs", "Mix well", "Taste and adjust", "Serve with chips or veggies", "Easy entertaining!"]
+    },
+    {
+      "category": "cleaning",
+      "title": "Wash reusable water bottles",
+      "steps": ["Gather all water bottles", "Fill sink with warm soapy water", "Scrub each bottle inside with a brush", "Clean the lids too", "Rinse everything thoroughly", "Let them air dry upside down"]
+    },
+    {
+      "category": "admin",
+      "title": "Review your privacy settings",
+      "steps": ["Pick one social media account", "Go to privacy settings", "Review who can see your posts", "Check your location sharing", "Update anything you're not comfortable with", "Repeat for other accounts later"]
+    },
+    {
+      "category": "work",
+      "title": "Update your LinkedIn profile",
+      "steps": ["Log into LinkedIn", "Update your current job title", "Refresh your summary", "Add any new skills", "Update your profile photo if needed", "Save changes"]
+    },
+    {
+      "category": "social",
+      "title": "Write a gratitude message to someone",
+      "steps": ["Think of someone who made your day better", "Open your messaging app", "Write why you're grateful for them", "Be specific and genuine", "Send it", "Spreading gratitude feels amazing"]
+    }
+  ]
+}
+
