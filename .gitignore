@@ -1,1 +1,5 @@
 node_modules/
+
+# Build artifacts
+hyperfocus_app/build/
+hyperfocus_app/build_ios/
