@@ -1,4 +1,4 @@
-package com.heldiglab.hyperfocus_app
+package com.heldiglab.hyperfocus
 
 import io.flutter.embedding.android.FlutterActivity
 

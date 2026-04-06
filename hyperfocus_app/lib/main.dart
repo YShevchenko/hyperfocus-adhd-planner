@@ -11,6 +11,7 @@ import 'services/iap_service.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
+
   // Initialize foreground task communication port (must be before runApp).
   ChimeForegroundService.init();
 

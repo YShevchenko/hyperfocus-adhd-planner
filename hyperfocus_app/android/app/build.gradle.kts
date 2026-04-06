@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.heldiglab.hyperfocus_app"
+    namespace = "com.heldiglab.hyperfocus"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -29,7 +29,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.heldiglab.hyperfocus_app"
+        applicationId = "com.heldiglab.hyperfocus"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
